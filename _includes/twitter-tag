@@ -1,0 +1,3 @@
+{% capture tag %}{{ include.tag }}{% endcapture %}
+
+<a href="https://twitter.com/search?q={{ tag }}">#{{ tag }}</a>

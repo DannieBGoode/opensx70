@@ -1,0 +1,4 @@
+{% capture tag %}{{ include.tag }}{% endcapture %}
+
+<a href="https://www.facebook.com/hashtag/{{ tag }}">#{{ tag }}</a>
+
