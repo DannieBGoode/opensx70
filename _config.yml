@@ -13,9 +13,9 @@ title                    : "Open SX70"
 title_separator          : "-"
 name                     : "Joaquín De Prada"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "http://opensx70.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+repository               : "DannieBGoode/opensx70"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -95,7 +95,7 @@ author:
   flickr           : "joaquindeprada/"
   facebook         : "groups/739071666267626/"
   foursquare       :
-  github           : "DannieBGoode/sx70.github.io"
+  github           : "DannieBGoode/opensx70.github.io"
   gitlab           :
   google_plus      :
   keybase          :
