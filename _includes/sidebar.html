@@ -1,23 +1,24 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src=
-        {% if s.image contains "://" %}
-          "{{ s.image }}"
-        {% else %}
-          "{{ s.image | absolute_url }}"
+<section class="sidebar col-md-5 col-sm-12" style='background-image: url({{"/img/" | append: page.feature_image | prepend: site.baseurl }}.jpg);'>
+
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div class="site-info">
+        <div class="primary-info">
+            <h1>{{ page.title }}</h1>
+            <p>{{ page.desc }}</p>
+
+        </div>
+
+        {% if page.include_cta_btn == true %}
+        <div class="secondary-info">
+            <p>
+                <a class="btn btn-primary" href="{{ page.cta_link | prepend: site.baseurl }}"><i class="fa {{ page.cta_icon }}"></i>{{page.cta_text}}</a>
+            </p>
+        </div>
         {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
-  </div>
-{% endif %}
+    </div>
+</section><!-- end sidebar -->
