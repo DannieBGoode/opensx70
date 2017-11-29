@@ -13,7 +13,7 @@ show_related_posts: false
 square_related: recommend-wolf
 permalink: /posts/2017/10/post-20171023/
 comments: true
-categories: opensx70
+categories: openSX70
 published: true
 ---
 
