@@ -1,16 +1,17 @@
 ---
 layout: post-sidebar
-date: 2015-02-10
-title: "Why React JS Will Change the World"
+date: {}
+title: Why React JS Will Change the World
 categories: coding js
-author_name : Dan Robberts
-author_url : /author/dan
+author_name: Dan Robberts
+author_url: /author/dan
 author_avatar: dan
-show_avatar : true
-read_time : 22
+show_avatar: true
+read_time: 22
 feature_image: feature-water
 show_related_posts: true
 square_related: recommend-spain
+published: false
 ---
 
 React components implement a `render()` method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by `render()` via `this.props`.
