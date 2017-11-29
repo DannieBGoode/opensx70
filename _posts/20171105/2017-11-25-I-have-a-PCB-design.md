@@ -1,7 +1,7 @@
 ---
 title: I have a PCB design!
 description: Status report of the OpenSX70 November 25th 2017
-date: 2017-11-25-10T00:00:00.000Z
+date: 2017-11-25T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
