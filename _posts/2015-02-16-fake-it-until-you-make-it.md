@@ -1,15 +1,16 @@
 ---
 layout: post-no-feature
-date: 2015-02-10
+date: {}
 categories: motivation
-author_name : Fred Smith
-author_url : /author/fred
+author_name: Fred Smith
+author_url: /author/fred
 author_avatar: fred
-show_avatar : true
-read_time : 22
+show_avatar: true
+read_time: 22
 feature_image: feature-water
 show_related_posts: false
 square_related: recommend-iceland
+published: false
 ---
 
 Don't listen to your critics, most people spend all day talking about what others are doing and no time doing anything themselves.
