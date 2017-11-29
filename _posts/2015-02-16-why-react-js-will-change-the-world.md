@@ -1,6 +1,6 @@
 ---
 layout: post-sidebar
-date: {}
+date: 2015-02-11T08:50:28.000Z
 title: Why React JS Will Change the World
 categories: coding js
 author_name: Dan Robberts

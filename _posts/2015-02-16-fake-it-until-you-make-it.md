@@ -1,6 +1,6 @@
 ---
 layout: post-no-feature
-date: {}
+date: 2015-02-11T08:50:28.000Z
 categories: motivation
 author_name: Fred Smith
 author_url: /author/fred
