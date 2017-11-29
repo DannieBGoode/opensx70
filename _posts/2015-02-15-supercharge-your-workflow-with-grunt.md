@@ -1,15 +1,16 @@
 ---
 layout: post
-date: 2015-02-11 08:50:28
-categories: coding js
-author_name : Dan Robberts
-author_url : /author/dan
+date: 2015-02-11T08:50:28.000Z
+categories: coding js hacks
+author_name: Dan Robberts
+author_url: /author/dan
 author_avatar: dan
-show_avatar : true
-read_time : 34
+show_avatar: true
+read_time: 34
 feature_image: feature-laptop
 show_related_posts: true
 square_related: recommend-laptop
+published: true
 ---
 
 The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort. If someone hasn't already built what you need, authoring and publishing your own Grunt plugin to npm is a breeze. See how to [get started](http://gruntjs.com/).
