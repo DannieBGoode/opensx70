@@ -22,7 +22,8 @@ published: true
  -
  -I have a lots of doubts as if the outline will be ok and fit the camera, and the "registration" hole to the left of the Atmega. We will see.
  -As for the software I think I will use the second switch as an option for additional mirror delay to avoid (bad) vibrations, maybe just a longer delay, maybe as if you have to press the red button two times, one to bring the mirror down, the next to actually take the picture and eject. Switch number is for double/multiple exposures as promised.
- -![Fire image]({{site.url}}/{{site.baseurl}}img/20171125/openSX70-layout-2-1_facebook.jpeg)
+ 
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/20171125/openSX70-layout-2-1_facebook.jpg)
  -
  -Concerning recent misunderstandings I want to stress that nothing is for sale, that I do all this as a personal challenge, that I was kind of hoping more people would participate.
  -And, please, keep in mind that, if you don't understand what is it that I am trying to accomplish, or what this group is about, maybe this group is not for you, also, before posting something disrespectful or impolite, send me a message and I will try to sort your doubts.
