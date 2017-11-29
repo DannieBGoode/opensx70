@@ -1,19 +1,22 @@
-----
- -published: true
- -description: I have a PCB design
- -date: 2017-11-25T00:00:00.000Z
- -layout: post
- -author_name: Joaquín de Prada
- -author_url: /author/joaquin
- -author_avatar: joaquin
- -show_avatar: true
- -read_time: 34
- -feature_image: SX70_images/openSX70-cameraporn-1
- -square_related: recommend-wolf
- -permalink: /posts/2017/11/25/
- -comments: true
- -categories: opensx70
- ----
+---
+title: I have a PCB design!
+description: Status report of the OpenSX70 November 25th 2017
+date: 2017-25-10T00:00:00.000Z
+layout: post
+author_name: Joaquín de Prada
+author_url: /author/joaquin
+author_avatar: joaquin
+show_avatar: true
+read_time: 34
+feature_image: SX70_images/openSX70-cameraporn-1
+show_related_posts: false
+square_related: recommend-wolf
+permalink: /posts/2017/11/post-20171127/
+comments: true
+categories: opensx70
+published: true
+---
+
  -I have made a PCB design decent enough to send it for manufacture. Usually the PCBs are 1.6mm, and optionally 0.8mm, but I feel I need a bit thinner. I have found a cheap manufacturer that does .6mm and .4mm. I have ordered 5 boards of each type. I am hoping that .6mm will do as it is 10x cheaper. I have also ordered a stencil to make it a bit easier to DIY assembly of the board.
  -See that the board has also components on the bottom side. There I have placed the optional BH1750 lightmeter and the also optional buzzer. I am hoping the the buzzer will fit in the cavity on the plastic of the camera. There is also an LED.
  -
