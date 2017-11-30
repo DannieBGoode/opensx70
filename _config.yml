@@ -9,16 +9,17 @@ url: "" # the base hostname & protocol for your site
 enable_retina: false
 permalink: :title
 nav_list:
-  Home : ['Home', '/', 'fa-home']
-  Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  Home : ['Home', '/', 'fa-camera']
+  #Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
+  #Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   About : ['About', '/about', 'fa-anchor']
   FAQ : ['FAQ', '/FAQ/', 'fa-question-circle']
-  Contact : ['Contact', '/contact', 'fa-plane']
+  Press : ['Press', '/contact', 'fa-newspaper-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
 single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
+#    Writer: ['Writer 2016', '/about']
     Writer: ['Writer 2016', '/about']
 
 
