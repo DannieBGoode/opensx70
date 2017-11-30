@@ -22,8 +22,7 @@ The UPCD comprises a rotary selector of 16 (or 10) positions, two switches, one 
 
 I was thinking aside from the usual B, T and usual speeds options (1sec, 1/15/, 1/30, 1/60, 1/125, 1/180, to have a “mirror position” in that position when you press the button the mirror comes down but doesn’t take the picture. You have to then choose a speed and press again. That way you could avoid vibrations in some situations. 
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/201710/DONGLE-A.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/201710/DONGLE-B.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/201710/Ugly_Dongle.jpg)
 
 I was thinking also a PC-flash option for 1/30 and another for 1/60, but I don’t know if this is going to be necessary, maybe just for f.8. I could understand that sometimes you might want the shutter to open at smaller apertures as in normal SX70 photography and sometimes you want full f.8 no matter what.
 
