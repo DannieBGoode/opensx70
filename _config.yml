@@ -1,9 +1,7 @@
 # Site settings
-title: Writer Theme
-email: help@writer-theme.com
-description: > # Writer Theme is a responsive template
- focussed on typography, minimal design and
-  quality photography built using the Jekyll platform.
+title: opensx70.com
+email: sx70@opensx70.com
+description: > # openSX70 is the home of the Arduino-based and open-sourced modification of the classic Polaroid SX70 camera.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 enable_retina: false
@@ -16,11 +14,11 @@ nav_list:
   FAQ : ['FAQ', '/FAQ/', 'fa-question-circle']
   Press : ['Press', '/contact', 'fa-newspaper-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
-single_footer: '<p>The writer community loves your content. Writer &copy; 2016 <a href="/">latest posts</a></p>'
+single_footer: '<p>Welcome to the openSX70 community &copy; 2017 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
 #    Writer: ['Writer 2016', '/about']
-    Writer: ['Writer 2016', '/about']
+    Writer: ['openSX70 2017', '/about']
 
 
 # Build settings
