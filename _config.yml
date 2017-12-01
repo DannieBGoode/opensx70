@@ -12,6 +12,7 @@ nav_list:
   #Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   About : ['About', '/about', 'fa-quote-left']
   FAQ : ['FAQ', '/FAQ', 'fa-question-circle']
+  Links : ['Links', '/Links', 'fa-external-link-square']
   Press : ['Press', '/contact', 'fa-newspaper-o']
   Files : ['Project files', '/files', 'fa-files-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
