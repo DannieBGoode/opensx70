@@ -29,7 +29,8 @@ In a nutshell: manual control of the camera:
 
 Our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
 
-But, hasn’t already this already been done?
++ ## **But, hasn’t already this already been done?**
+
 Yes… and no. There are at least two awesome commercial projects that accomplish something quite similar. I recommend them both. But this is the first open source project.
 
 + ## **So openSX70 is a product?**
@@ -37,10 +38,10 @@ Yes… and no. There are at least two awesome commercial projects that accomplis
 Again, yes and no, since it is an open project anyone will be able to make his own pcb (as long as it has no commercial purpose).
 Since we recognize that disassembling the SX70 and replacing the board is not for the faint of heart, we intent to set up a network of associates that will do it for you. That will help us gain economies of scale, and, cover operating cost. Once the pcb is in the camera you will be able to reprogram it as many times as you want.
 
-
-+ ## **Ok, I like it, where can I get one?**
++ ## **Ok, I like it, how can I get one?**
 
 Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under [Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"](https://creativecommons.org/licenses/by-nc/4.0/)
+Since the SX70 board replacement is not for everyone, and you can damage the camera in the process, parts as such will never be sold to general public.
 
 + ## **So then… how "far" ahead is the project now?**
 
@@ -52,11 +53,11 @@ We are also trying to replicate and make more affordable some of the special too
 + ## **Can I help?**
 
 YES! We need your help, join us!
-We want you to join us on the openSX70 project in any capacity that you wish, we need your help, we have to set up the openSX70 portal, we need arduino and microcontroller programmers, we need help designing the PCB, and above all, we need enthusiasts to join and propagate the project!
+We want **YOU** to join us on the openSX70 project in any capacity that you wish, we need your help, we have to set up the openSX70 portal, we need arduino and microcontroller programmers, we need help designing the PCB, and above all, we need enthusiasts to join and build a community to propagate the project!
 
-We want to encourage and support for similar commercial products and services and specially the dedicated people that repair these amazing cameras. All for the love of the SX70 camera.
+We want to encourage and support for similar commercial products and services already on the market, but specially the dedicated people that repair and improve these amazing cameras. All for the love of the SX70 camera.
 
-If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please contact us, if you want to keep it confidential. We will honor your wishes. You can also contact the openSX70 group on Facebook (and eventually the webpage).
+If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please [contact us](mailto:contribute@opensx70.com) as protocol), if you want to keep it confidential. We will honor your wishes. You can also contact the openSX70 group on Facebook (and eventually the webpage).
 
 + ## **What Open Source license do you use?**
 
