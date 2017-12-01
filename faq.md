@@ -7,7 +7,7 @@ feature_image: feature-book
 
 + ## **What is openSX70?**
 
-It is many things at once, but, in a nutshell, openSX70 is an open source (hardware and software) project that aims to take the SX70 beyond what is possible now in a cheap and non destructive way. 
+It is many things at once, but simply put, openSX70 is an open source (hardware and software) project that aims to take the SX70 beyond what is possible now in a cheap and non destructive way. 
 
 Its main project at the moment is to make an [Arduino](https://www.arduino.cc/)-based replacement PCB (ECM in Polaroid lingo, and corresponding Arduino code to gain manual camera control, allow for double exposures, Bluetooth control and much more.
 At the same time the project aims to be a hub of all things SX70 related, with documents concerning tips, repairs or hacks, like the electronic modification of your camera to accept 600-ISO film. There are other web pages about the SX70, but most seem to be abandoned. We would like to compile as many as possible resources.
