@@ -14,7 +14,7 @@ nav_list:
   FAQ : ['FAQ', '/FAQ', 'fa-question-circle']
   Links : ['Links', '/links', 'fa-external-link-square']
   Press : ['Press', '/contact', 'fa-newspaper-o']
-  Files : ['Project files', '/files', 'fa-files-o']
+  Files : ['Files', '/files', 'fa-files-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
 single_footer: '<p>Welcome to the openSX70 community &copy; 2017 <a href="/">latest posts</a></p>'
 footer_links:
