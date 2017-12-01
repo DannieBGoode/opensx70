@@ -29,7 +29,7 @@ This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "Ea
 
 + ## [**Eagle PCB openSX70 custom library**](https://github.com/openSX70/Eagle-library "go to files")
 
-This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "EagleCAD free download") library with custom design components and connectors some more specific than others to the project. **UNTESTED.**
+This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "EagleCAD free download") library with custom designed components and connectors some more specific than others to the project. **UNTESTED.**
 
 
 
