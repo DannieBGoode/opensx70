@@ -29,10 +29,10 @@ Since we recognize that disassembling the SX70 and replacing the board is not fo
 
 Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" https://creativecommons.org/licenses/by-nc/4.0/
 
-+ ## **So then… where are you now?**
++ ## **So then… how "far" ahead is the project now?**
 
-We are quite ahead in development. We have successfully replaced the ECM of an alpha camera with an external prototype board: the“FrankenSX70”. Now we have the
-
+We are quite ahead in development. We have successfully replaced the ECM of an alpha camera with an external prototype board: the“FrankenSX70”. Then we have prototyped the external control dongle. Now the electronic schematics of both the main circuit and the dongle are more or less finalised and also a preliminary design of the board has been done and some prototypes have been ordered.
+For a quick reference of the status check the project page.
 
 We are also trying to replicate and make more affordable some of the special tools needed to open and fix the SX70, and find replacements and alternatives of critical parts.
 
@@ -55,12 +55,13 @@ As a legal reminder please note that the code and files is under [Creative Commo
 
   - web: www.opensx70.com  
 
-  - Facebook (closed group): https://goo.gl/3qjne2   
+  - [Facebook (closed group)](https://goo.gl/3qjne2)
 
   - Twitter: @openSX70
 
   - instagram: openSX70
-  - github: https://goo.gl/1A1QbY
+  
+   - [Github:](https://goo.gl/1A1QbY)
 
 Tags: #openSX70 #SX70 #Polaroid #Arduino #TIP #ImpossibleProject #InstantFilm #DIY #OriginalPolaroids
 
