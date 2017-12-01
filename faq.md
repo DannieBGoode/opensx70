@@ -23,7 +23,7 @@ In a nutshell: manual control of the shutter speed. Within the limits of the des
   - PC flash connector.
   - f.8 (maximum aperture) flash operation.
   - Optional delayed mirror operation (to avoid vibrations).
-  - .Built-in optional light meter.
+  - Built-in optional light meter.
   - Built-in shutter delay (long press on red button).
 
 + ## **Where is openSX70?**
