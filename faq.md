@@ -16,15 +16,15 @@ At the same time the project aims to be a hub of all things SX70 related, with d
 
 In a nutshell: manual control of the camera:
  
-  - Manual shutter speed control. Within the limits of the camera (around 1/175th)
-  - Double/Multiple exposures.
-  - B (Bulb) mode.
-  - T mode.
-  - PC flash connector.
-  - f.8 (maximum aperture) flash operation.
-  - Optional delayed mirror operation (to avoid vibrations).
-  - Built-in optional light meter.
-  - Built-in shutter delay (long press on red button).
+   - Manual shutter speed control. Within the limits of the camera (around 1/175th)
+   - Double/Multiple exposures.
+   - B (Bulb) mode.
+   - T mode.
+   - PC flash connector.
+   - f.8 (maximum aperture) flash operation.
+   - Optional delayed mirror operation (to avoid vibrations).
+   - Built-in optional light meter.
+   - Built-in shutter delay (long press on red button).
 
 + ## **Where is openSX70?**
 
