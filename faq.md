@@ -5,7 +5,7 @@ permalink: /FAQ/
 feature_image: feature-book
 ---
 
-+ **What is openSX70?**
++ ## **What is openSX70?**
 
 It is many things at once, but, in a nutshell, openSX70 is an open source (hardware and software) project that aims to take the SX70 beyond what is possible now in a cheap and non destructive way. 
 
