@@ -25,6 +25,7 @@ In a nutshell: manual control of the camera:
    - Optional delayed mirror operation (to avoid vibrations).
    - Built-in optional light meter.
    - Built-in shutter delay (long press on red button).
+   
 
 + ## **Where is openSX70?**
 
