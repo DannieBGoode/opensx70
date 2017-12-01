@@ -23,8 +23,8 @@ In a nutshell: manual control of the camera:
 -  PC flash connector.
 -  f.8 (maximum aperture) flash operation.
 -  Optional delayed mirror operation (to avoid vibrations).
--  Built-in optional light meter.
 -  Built-in shutter delay (long press on red button).
+-  Built-in optional light meter.
 
 + ## **Where is openSX70?**
 
