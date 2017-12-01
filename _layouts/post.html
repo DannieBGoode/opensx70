@@ -25,8 +25,12 @@ layout: default
 
         </div><!-- main-content/col -->
     </div> <!--/row -->
-
+    {% if site.disqus && page.comments %}
+        {% include disqus.html %}
+    {% endif %}
 </main> <!-- /container -->
+
+
 
 <footer class="single">
     {% include footer-single.html %}

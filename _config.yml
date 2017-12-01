@@ -4,6 +4,7 @@ email: sx70@opensx70.com
 description: > # openSX70 is the home of the Arduino-based and open-sourced modification of the classic Polaroid SX70 camera.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
+disqus: opensx70-com
 enable_retina: false
 permalink: :title
 nav_list:
