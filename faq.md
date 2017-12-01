@@ -14,10 +14,10 @@ At the same time the project aims to be a hub of all things SX70 related, with d
 
 + **Where is openSX70?**
 
-Our webpage www.opensx70.com. We also have Facebook group. We are also on instagram and Twitter. The code and files are in Github.
+Our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
 
-But, hasn’t this already been done?
-Yes… and no. There are at least two awesome commercial projects that accomplish something quite similar. But this is the first open source project.
+But, hasn’t already this already been done?
+Yes… and no. There are at least two awesome commercial projects that accomplish something quite similar. I recommend them both. But this is the first open source project.
 
 + **So openSX70 is a product?**
 
@@ -27,7 +27,7 @@ Since we recognize that disassembling the SX70 and replacing the board is not fo
 
 + **Ok, I like it, where can I get one?**
 
-Please bear in mind that openSX70 is not a product, and will probably never be as such. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" https://creativecommons.org/licenses/by-nc/4.0/
+Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" https://creativecommons.org/licenses/by-nc/4.0/
 
 + **So then… where are you now?**
 
@@ -53,8 +53,16 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 + **How can I contact you?**
 
-Press contact: Joaquín de Prada (joaquin at deprada dot net)
-Facebook group (closed): https://goo.gl/3qjne2   
-web: www.opensx70.com  
+Press contact: opensx70 at opensx70 dot com
+
+ -web: www.opensx70.com  
+
+- Facebook (closed group): https://goo.gl/3qjne2   
+
+-Twitter: @openSX70
+
+-instagram: openSX70
 github: https://goo.gl/1A1QbY
-Tags: #openSX70 #SX70 #Polaroid #Arduino #TIP #ImpossibleProject #InstantFilm #DIY
+
+Tags: #openSX70 #SX70 #Polaroid #Arduino #TIP #ImpossibleProject #InstantFilm #DIY #OriginalPolaroids
+
