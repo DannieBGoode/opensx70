@@ -1,6 +1,6 @@
 ---
 layout: page
-title: files
+title: openSX70 project files
 permalink: /files/
 feature_image: feature-book
 ---
