@@ -26,3 +26,6 @@ footer_links:
 
 # Build settings
 # markdown: kramdown
+
+include:
+  - _pages
