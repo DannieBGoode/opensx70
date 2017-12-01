@@ -15,15 +15,16 @@ At the same time the project aims to be a hub of all things SX70 related, with d
 + ## **What does an openSX70 camera that a regular SX70 doesn't?**
 
 In a nutshell: manual control of the shutter speed. Within the limits of the design of the camera (around 1/175th of a second) you will be able to select the shutter speed. Here a short list of the planned improvements:
-    1 . Manual shutter speed control.
-    2 . Double/Multiple exposures.
-    3 . PC flash connector.
-    4 . f.8 (maximum aperture) flash operation.
-    5 . B (bulb) mode.
-    6 . T mode.
-    7 . Optional delayed mirror operation (to avoid vibrations).
-    8 . Built-in optional light meter.
-    8 . Built-in shutter delay (long press on red button).
+ 
+  - Manual shutter speed control.
+  - Double/Multiple exposures.
+  - B (bulb) mode.
+  - T mode.
+  - PC flash connector.
+  - f.8 (maximum aperture) flash operation.
+  - Optional delayed mirror operation (to avoid vibrations).
+  - .Built-in optional light meter.
+  - Built-in shutter delay (long press on red button).
 
 + ## **Where is openSX70?**
 
