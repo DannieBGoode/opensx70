@@ -9,6 +9,6 @@ feature_image: feature-book
 
 This is the main Arduino code, and then some tests. I have the Arduino code in several tabs to ease readability. Also most of the stuff is in functions to make loop more readable. This is **NOT WORKING NOW** as is still a work in progress.
 
-+ [**Eagle PCB and schematic for the main SX70 board](https://github.com/openSX70/openSX70-PCB "go to files")
++ [**Eagle PCB and schematic for the main SX70 board**](https://github.com/openSX70/openSX70-PCB "go to files")
 
 This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "EagleCAD free download") files for the main PCB design. For non commercial use.
