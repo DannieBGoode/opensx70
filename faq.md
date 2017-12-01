@@ -41,7 +41,7 @@ Since we recognize that disassembling the SX70 and replacing the board is not fo
 + ## **Ok, I like it, how can I get one?**
 
 Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under [Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"](https://creativecommons.org/licenses/by-nc/4.0/)
-Since the SX70 board replacement is not for everyone, and you can damage the camera in the process, parts as such will never be sold to general public.
+Since the process of replacement of the SX70 board is not trivial, you need special tools, and you can damage the camera in the process, parts as such will probably never be sold to general public. The board replacement is non-destructive but has to be done carefully. **See previous question about openSX70 as as product**.
 
 + ## **So then… how "far" ahead is the project now?**
 
@@ -55,7 +55,7 @@ We are also trying to replicate and make more affordable some of the special too
 YES! We need your help, join us!
 We want **YOU** to join us on the openSX70 project in any capacity that you wish, we need your help, we have to set up the openSX70 portal, we need arduino and microcontroller programmers, we need help designing the PCB, and above all, we need enthusiasts to join and build a community to propagate the project!
 
-We want to encourage and support for similar commercial products and services already on the market, but specially the dedicated people that repair and improve these amazing cameras. All for the love of the SX70 camera.
+We want to encourage and **support** for similar commercial products and services already on the market, but specially the dedicated people that repair and improve these amazing cameras. All for the love of the SX70 camera.
 
 If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please [contact us](mailto:help@opensx70.com), if you want to keep it confidential. We will honor your wishes, but keep in mind that we need to keep these cameras alive.
 
@@ -75,7 +75,7 @@ As a legal reminder please note that the code and files is under [Creative Commo
 
   - instagram: openSX70
   
-   - [Github:](https://goo.gl/1A1QbY)
+   - [Github project page](https://goo.gl/1A1QbY)
 
 Tags: #openSX70 #SX70 #Polaroid #Arduino #TIP #ImpossibleProject #InstantFilm #DIY #OriginalPolaroids
 
