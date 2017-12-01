@@ -27,16 +27,16 @@ In a nutshell: manual control of the camera:
  -  Built-in optional light meter.
 + ## **Where is openSX70?**
 
-Our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
+ This is our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
 
-+ ## **But, hasn’t already this already been done?**
++ ## **But, hasn’t this already been done?**
 
 Yes… and no. There are at least two awesome commercial projects that accomplish something quite similar. I recommend them both. But this is the first open source project.
 
 + ## **So openSX70 is a product?**
 
 Again, yes and no, since it is an open project anyone will be able to make his own pcb (as long as it has no commercial purpose).
-Since we recognize that disassembling the SX70 and replacing the board is not for the faint of heart, we intent to set up a network of associates that will do it for you. That will help us gain economies of scale, and, cover operating cost. Once the pcb is in the camera you will be able to reprogram it as many times as you want.
+Since we recognize that disassembling an SX70 and replacing the board is not for the faint of heart, if the project is successful and there is interest we might set up a network of associates that will do it for you. That would help us gain economies of scale, and, cover operating costs. Once the pcb is in the camera you will be able to reprogram it fairly easily as many times as you want.
 
 + ## **Ok, I like it, how can I get one?**
 
