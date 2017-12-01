@@ -12,6 +12,18 @@ It is many things at once, but, in a nutshell, openSX70 is an open source (hardw
 Its main project at the moment is to make an Arduino-based replacement PCB (ECM in Polaroid lingo, and corresponding Arduino code to gain manual camera control, allow for double exposures, Bluetooth control and much more.
 At the same time the project aims to be a hub of all things SX70 related, with documents concerning tips, repairs or hacks, like the electronic modification of your camera to accept 600-ISO film. There are other web pages about the SX70, but most seem to be abandoned. We would like to compile as many as possible resources.
 
++ ## **What does an openSX70 camera that a regular SX70 doesn't?**
+
+In a nutshell: manual control of the shutter speed. Within the limits of the design of the camera (around 1/175th of a second) you will be able to select the shutter speed. Here a short list of the planned improvements:
+  1. Manual shutter speed control.
+  2. PC flash connector.
+  3. f.8 (maximum aperture) flash operation.
+  3. B (bulb) mode.
+  4. T mode.
+  5. Optional delayed mirror operation (to avoid vibrations).
+  6. Built-in optional light meter.
+  7. Built-in shutter delay (long press on red button).
+
 + ## **Where is openSX70?**
 
 Our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
