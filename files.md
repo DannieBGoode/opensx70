@@ -27,7 +27,9 @@ This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "Ea
 
 This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "EagleCAD free download") files for the adapter from SX70 slot flash connector, it works with **ANY** SX70 or Sonar camera that has the flash slot connector. It is a version a bit different simpler that what is already on the web. **UNTESTED.**
 
++ ## [**Eagle PCB openSX70 custom library**](https://github.com/openSX70/Eagle-library "go to files")
 
+This is the [EagleCAD](https://www.autodesk.com/products/eagle/free-download "EagleCAD free download") library with custom design components and connectors some more specific than others to the project. **UNTESTED.**
 
 
 
