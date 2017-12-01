@@ -57,7 +57,7 @@ We want **YOU** to join us on the openSX70 project in any capacity that you wish
 
 We want to encourage and support for similar commercial products and services already on the market, but specially the dedicated people that repair and improve these amazing cameras. All for the love of the SX70 camera.
 
-If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please [contact us](mailto:contribute@opensx70.com) as protocol), if you want to keep it confidential. We will honor your wishes. You can also contact the openSX70 group on Facebook (and eventually the webpage).
+If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please [contact us](mailto:help@opensx70.com), if you want to keep it confidential. We will honor your wishes, but keep in mind that we need to keep these cameras alive.
 
 + ## **What Open Source license do you use?**
 
