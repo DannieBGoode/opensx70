@@ -36,16 +36,22 @@ We are quite ahead in development. We have successfully replaced the ECM of an a
 
 We are also trying to replicate and make more affordable some of the special tools needed to open and fix the SX70, and find replacements and alternatives of critical parts.
 
-We need help: join us!
++ **Can I help?**
+
+YES! We need your help, join us!
 We want you to join us on the openSX70 project in any capacity that you wish, we need your help, we have to set up the openSX70 portal, we need arduino and microcontroller programmers, we need help designing the PCB, and above all, we need enthusiasts to join and propagate the project!
 
-We want to encourage and support for similar commercial products and services and specially the dedicated people that repair these amazing cameras. All for the love of the SX70.
+We want to encourage and support for similar commercial products and services and specially the dedicated people that repair these amazing cameras. All for the love of the SX70 camera.
 
 If you have a skill, or maybe a repair manual, a tool, a picture of a tool, and, in general anything that might be of interest  related to the original Polaroid/SX70, and are willing to help please contact us, if you want to keep it confidential. We will honor your wishes. You can also contact the openSX70 group on Facebook (and eventually the webpage).
+
++ **What Open Source license do you use?**
 
 As a legal reminder please note that the code and files is under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" is free and open for hobbyist NON-COMMERCIAL USE.
 
 https://creativecommons.org/licenses/by-nc/4.0/
+
++ **How can I contact you?**
 
 Press contact: Joaquín de Prada (joaquin at deprada dot net)
 Facebook group (closed): https://goo.gl/3qjne2   
