@@ -5,27 +5,32 @@ permalink: /FAQ/
 feature_image: feature-book
 ---
 
-##What is openSX70?
++ **What is openSX70?**
+
 It is many things at once, but, in a nutshell, openSX70 is an open source (hardware and software) project that aims to take the SX70 beyond what is possible now in a cheap and non destructive way. 
 
-##Its main project at the moment is to make an Arduino-based replacement PCB (ECM in Polaroid lingo, and corresponding Arduino code to gain manual camera control, allow for double exposures, Bluetooth control and much more.
+Its main project at the moment is to make an Arduino-based replacement PCB (ECM in Polaroid lingo, and corresponding Arduino code to gain manual camera control, allow for double exposures, Bluetooth control and much more.
 At the same time the project aims to be a hub of all things SX70 related, with documents concerning tips, repairs or hacks, like the electronic modification of your camera to accept 600-ISO film. There are other web pages about the SX70, but most seem to be abandoned. We would like to compile as many as possible resources.
 
-##Where is openSX70?
++ **Where is openSX70?**
+
 Our webpage www.opensx70.com. We also have Facebook group. We are also on instagram and Twitter. The code and files are in Github.
 
 But, hasn’t this already been done?
 Yes… and no. There are at least two awesome commercial projects that accomplish something quite similar. But this is the first open source project.
 
-So openSX70 is a product?
++ **So openSX70 is a product?**
+
 Again, yes and no, since it is an open project anyone will be able to make his own pcb (as long as it has no commercial purpose).
 Since we recognize that disassembling the SX70 and replacing the board is not for the faint of heart, we intent to set up a network of associates that will do it for you. That will help us gain economies of scale, and, cover operating cost. Once the pcb is in the camera you will be able to reprogram it as many times as you want.
 
 
-Ok, I like it, where can I get one?
++ **Ok, I like it, where can I get one?**
+
 Please bear in mind that openSX70 is not a product, and will probably never be as such. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" https://creativecommons.org/licenses/by-nc/4.0/
 
-So then… where are you now?
++ **So then… where are you now?**
+
 We are quite ahead in development. We have successfully replaced the ECM of an alpha camera with an external prototype board: the“FrankenSX70”. Now we have the
 
 
