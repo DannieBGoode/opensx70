@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /Links/
+permalink: /links/
 feature_image: feature-book
 ---
 
