@@ -40,7 +40,7 @@ Since we recognize that disassembling the SX70 and replacing the board is not fo
 
 + ## **Ok, I like it, where can I get one?**
 
-Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" https://creativecommons.org/licenses/by-nc/4.0/
+Please bear in mind that openSX70 is not a product as such, and will probably never be. Think of it as an ever improving experimental platform. As an open project, it is basically free as long as you use for non commercial purposes under [Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)"](https://creativecommons.org/licenses/by-nc/4.0/)
 
 + ## **So then… how "far" ahead is the project now?**
 
