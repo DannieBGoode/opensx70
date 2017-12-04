@@ -2,7 +2,7 @@
 layout: page
 title: FAQ
 permalink: /FAQ/
-feature_image: feature-book
+feature_image: US4121233-2
 ---
 
 + ## **What is openSX70?**
