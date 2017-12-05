@@ -1,3 +1,22 @@
+---
+title: SX70 camera 125ASA to 600ASA conversion
+description: How to modify you SX70 to use 600ASA film
+date: 2017-12-05T00:00:00.000Z
+layout: post
+author_name: Joaquín de Prada
+author_url: /author/joaquin
+author_avatar: joaquin
+show_avatar: true
+read_time: 34
+feature_image: SX70_images/openSX70-cameraporn-7
+show_related_posts: false
+square_related: recommend-wolf
+permalink: /tutorials/100-600_conversion.md/
+comments: true
+categories: hacks,tutorials
+published: true
+---
+
 #SX-70 100-600 SWITCH INSTALLATION
 
 The scope of this text is to help you do a conversion similar to the one
