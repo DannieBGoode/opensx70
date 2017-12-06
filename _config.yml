@@ -34,7 +34,7 @@ include:
 prose:
   # Configurations ...
   rooturl: '_posts'
-  siteurl: "http://opensx70.com/"
+  siteurl: 'http://opensx70.com/'
   media: 'img'
   metadata:
   _posts:
@@ -48,10 +48,10 @@ prose:
         value: 'Write Title Here'
         label: 'Post Title'
         type: text
-    - name: 'description'
+    - name: description
       field:
-        element: 'text'
-        value: 'Write Description Here'
+        element: text
+        value: Write Description Here
     - name: 'date'
       field:
         value: '2017-10-23T00:00:00.000Z'
