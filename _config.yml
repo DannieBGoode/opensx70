@@ -142,14 +142,14 @@ prose:
           placeholder: Page Title
           label: Page Title
           value: PAGE TITLE
-        - name: feature_image
-          field:
-            element: text
-            label: Featured Image path
-            placeholder: For example SX70_images/openSX70-cameraporn-6
-            help: Write the path of the image you want to show on the header
-        - name: permalink
-          field:
-            element: text
-            label: Post permalink
-            placeholder: For example /posts/2017/12/post-20171204-flash/
+      - name: feature_image
+        field:
+          element: text
+          label: Featured Image path
+          placeholder: For example SX70_images/openSX70-cameraporn-6
+          help: Write the path of the image you want to show on the header
+      - name: permalink
+        field:
+          element: text
+          label: Post permalink
+          placeholder: For example /posts/2017/12/post-20171204-flash/
