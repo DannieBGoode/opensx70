@@ -42,7 +42,7 @@ prose:
         field:
           element: 'hidden'
           value: 'post'
-      - name: 'title'
+      - name: title
         field:
           element: text
           placeholder: Write Post Title Here
@@ -76,7 +76,7 @@ prose:
         field:
           element: hidden
           value: true
-      - name: 'comments'
+      - name: comments
         field:
           element: select
           label: comments
@@ -86,23 +86,49 @@ prose:
               value: true
             - name: No
               value: false
-      - name: 'published'
+      - name: published
         field:
           element: button
-          label: Publish?
-          on: Published
-          off: Unpublished
+          label: Publication?
+          help: Do you want the post published?
+          options:
+            - name: Yes
+              value: true
+            - name: No
+              value: false
       - name: categories
         field:
           element: text
           label: Post categories
-          placeholder: Write Post Categories Here
-          help: openSX70
+          placeholder: opensx70, ...
+          help: Write Post Categories Here
+      - name: feature_image
+        field:
+          element: text
+          label: Featured Image path
+          placeholder: For example SX70_images/openSX70-cameraporn-6
+          help: Write the path of the image you want to show on the header
       - name: permalink
         field:
           element: text
           label: Post permalink
           placeholder: For example /posts/2017/12/post-20171204-flash/
+      - name: read_time
+        field:
+          element: number
+          label: Read Time
+          type: number
+      - name: show_related_posts
+        field:
+          element: button
+          label: Related Posts displayed?
+          help: Do you want to show related posts?
+          options:
+            - name: Yes
+              value: true
+            - name: No
+              value: false
+
 
   _pages:
     - name: "layout"
