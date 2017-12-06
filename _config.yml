@@ -134,6 +134,8 @@ prose:
     _pages:
       - name: layout
         field:
+          label: Layout type
+          help: Layout types are page, post, author, category, contact, home, home-alt, home-alt-2, post-no-feature, post-sidebar, with-sidebar
           element: text
           value: page
       - name: title
