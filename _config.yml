@@ -38,38 +38,43 @@ prose:
   media: 'img'
   metadata:
     _posts:
-      - name: "category"
+      - name: 'layout'
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "layout"
+          element: 'hidden'
+          value: 'post'
+      - name: 'title'
         field:
-          element: "hidden"
-          value: "blog"
-      - name: "title"
+          element: 'text'
+          value: 'Write Title Here'
+          label: 'Post Title'
+          type: text
+      - name: description
         field:
-          element: "text"
-          label: "Title"
-          value: ""
-      - name: "splash"
+          element: text
+          value: Write Description Here
+      - name: 'date'
         field:
-          element: "text"
-          label: "Splash image"
-          value: ""
-      - name: "tags"
+          value: '2017-10-23T00:00:00.000Z'
+      - name: 'author_name'
         field:
-          element: "multiselect"
-          label: "Add Tags"
-          placeholder: "Choose Tags"
-          options:
-            - name: "Apples"
-              value: "apples"
-            - name: "Bananas"
-              value: "bananas"
-            - name: "Pears"
-              value: "pears"
-            - name: "Mangos"
-              value: "mangos"
+          value: 'Joaquín de Prada'
+      - name: 'author_url'
+        field:
+          value: '/author/joaquin'
+      - name: 'author_avatar'
+        field:
+          value: 'joaquin'
+      - name: 'show_avatar'
+        field:
+          value: 'true'
+      - name: 'comments'
+        field:
+          value: 'true'
+      - name: 'published'
+        field:
+          element: 'button'
+          on: 'true'
+          off: 'false'
 
   _pages:
     - name: "layout"
