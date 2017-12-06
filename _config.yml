@@ -88,7 +88,7 @@ prose:
               value: false
       - name: published
         field:
-          element: button
+          element: select
           label: Publication?
           help: Do you want the post published?
           options:
@@ -120,7 +120,7 @@ prose:
           type: number
       - name: show_related_posts
         field:
-          element: button
+          element: select
           label: Related Posts displayed?
           help: Do you want to show related posts?
           options:
