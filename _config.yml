@@ -77,26 +77,6 @@ prose:
         field:
           element: hidden
           value: true
-      - name: comments
-        field:
-          element: select
-          label: Comments
-          help: Are comments enabled?
-          options:
-            - name: Yes
-              value: true
-            - name: No
-              value: false
-      - name: published
-        field:
-          element: select
-          label: Publication?
-          help: Do you want the post published?
-          options:
-            - name: Yes
-              value: true
-            - name: No
-              value: false
       - name: categories
         field:
           element: text
@@ -121,10 +101,30 @@ prose:
           help: Number of minutes it takes to read this post. It must be a number.
           type: number
           value: 5
+      - name: comments
+        field:
+          element: select
+          label: Comments
+          help: Are comments enabled?
+          options:
+            - name: Yes
+              value: true
+            - name: No
+              value: false
+      - name: published
+        field:
+          element: select
+          label: Publication
+          help: Do you want the post published?
+          options:
+            - name: Yes
+              value: true
+            - name: No
+              value: false
       - name: show_related_posts
         field:
           element: select
-          label: Related Posts displayed?
+          label: Related Posts
           help: Do you want to show related posts?
           options:
             - name: Yes
