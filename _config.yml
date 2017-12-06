@@ -33,7 +33,7 @@ include:
  
 prose:
   # Configurations ...
-  rooturl: '_posts'
+  rooturl: ""
   siteurl: 'http://opensx70.com/'
   media: 'img'
   metadata:
