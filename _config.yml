@@ -34,14 +34,4 @@ include:
   prose:
     # Configurations ...
     siteurl: "http://opensx70.com"
-    metadata:
-    _posts:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "articles"
-    _posts/blog:
-      - name: "category"
-        field:
-          element: "hidden"
-          value: "blog"
+ 
