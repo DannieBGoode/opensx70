@@ -80,7 +80,7 @@ prose:
       - name: comments
         field:
           element: select
-          label: comments
+          label: Comments
           help: Are comments enabled?
           options:
             - name: Yes
@@ -101,7 +101,7 @@ prose:
         field:
           element: text
           label: Post categories
-          placeholder: For example opensx70, ...
+          value: opensx70
           help: Write Post Categories Here
       - name: feature_image
         field:
@@ -120,6 +120,7 @@ prose:
           label: Read Time
           help: Number of minutes it takes to read this post. It must be a number.
           type: number
+          value: 5
       - name: show_related_posts
         field:
           element: select
