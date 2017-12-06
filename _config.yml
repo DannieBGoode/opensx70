@@ -37,44 +37,39 @@ prose:
   siteurl: 'http://opensx70.com/'
   media: 'img'
   metadata:
-  _posts:
-    - name: 'layout'
-      field:
-        element: 'hidden'
-        value: 'post'
-    - name: 'title'
-      field:
-        element: 'text'
-        value: 'Write Title Here'
-        label: 'Post Title'
-        type: text
-    - name: description
-      field:
-        element: text
-        value: Write Description Here
-    - name: 'date'
-      field:
-        value: '2017-10-23T00:00:00.000Z'
-    - name: 'author_name'
-      field:
-        value: 'Joaquín de Prada'
-    - name: 'author_url'
-      field:
-        value: '/author/joaquin'
-    - name: 'author_avatar'
-      field:
-        value: 'joaquin'
-    - name: 'show_avatar'
-      field:
-        value: 'true'
-    - name: 'comments'
-      field:
-        value: 'true'
-    - name: 'published'
-      field:
-        element: 'button'
-        on: 'true'
-        off: 'false'
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "splash"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Apples"
+              value: "apples"
+            - name: "Bananas"
+              value: "bananas"
+            - name: "Pears"
+              value: "pears"
+            - name: "Mangos"
+              value: "mangos"
 
   _pages:
     - name: "layout"
