@@ -1,7 +1,7 @@
 ---
 title: SX70 camera 125ASA to 600ASA conversion
 description: How to modify you SX70 to use 600ASA film
-date: {}
+date: 2017-12-05T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
