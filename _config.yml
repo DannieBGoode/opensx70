@@ -30,8 +30,4 @@ footer_links:
 
 include:
   - _pages
-  
-  prose:
-    # Configurations ...
-    siteurl: "http://opensx70.com"
  
