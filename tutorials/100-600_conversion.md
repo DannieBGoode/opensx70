@@ -380,6 +380,7 @@ the most awesome (sorry for the word)  SX-70 ever.
 Finally here is a table with my results and some from the Internet to
 help you choose the value for your capacitor.
 
+
 +--------------+--------------+--------------+--------------+--------------+--------------+
 | serial       | type         | board type   | original cap | new cap      | Comment      |
 +--------------+--------------+--------------+--------------+--------------+--------------+
@@ -408,5 +409,4 @@ help you choose the value for your capacitor.
 | 5G843113652  | Sonar        | E735685A     | 950pF        | 150pF        | dual         |
 |              |              |              |              |              | conversion   |
 +--------------+--------------+--------------+--------------+--------------+--------------+
-
 
