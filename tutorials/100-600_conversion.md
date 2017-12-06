@@ -7,7 +7,7 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 show_avatar: true
-read_time: 34
+read_time: 20
 feature_image: SX70_images/openSX70-cameraporn-7
 show_related_posts: false
 square_related: recommend-wolf
@@ -51,7 +51,7 @@ recommend using a normal or phillips screwdriver since you are most
 certainly damage your screws, they are rather tight at least the first
 time you unscrew them.
 
-![FullSizeRender.jpg](img/tutorials/image12.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image12.jpg)
 
 I have found three options:
 
@@ -69,6 +69,7 @@ I have found three options:
     with it.
 
         ![](img/tutorials/image20.png)
+        ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image20.png)
 
 Of course you are also going to need some sort of drill tool and a 4mm
 drill bit. I used one for wood on an electric screwdriver. You can
@@ -93,7 +94,7 @@ the “black thing” used to “protect” the PCB makes it difficult to read
 the marks on the original component. I use PEAK atlas LCR model LCR40 as
 shown in this picture measuring my original capacitor.
 
-![](img/tutorials/image10.png)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image10.png)
 
 As for the switch, this might be a bit more difficult to source, since
 it has to be really small to fit inside the SX-70. I got mine from RS
@@ -112,7 +113,7 @@ on the sides of the switch and the other end of the capacitors together.
 The center pin of the connector goes to one of the original connections
 of the original cap, and the “common” of the caps to the other.
 
-![Switch-and-schematic.jpg](img/tutorials/image5.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image5.jpg)
 
 Here you can see some sort of schematic and the the “switch circuit
 combo” circuit ready for my Sonar. Keep in mind that the capacitor you
@@ -129,7 +130,7 @@ REMOVE THE SPREAD SYSTEM ASSEMBLY (FRONT COVER HINGE)
 I usually remove this first. It is the “door” you open to put the film
 pack. You simply push inwards on one side and pull it out.
 
-![IMG\_2703.JPG](img/tutorials/image33.jpg)![IMG\_2705.JPG](img/tutorials/image26.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image26.jpg)
 
 REMOVING THE UPPER HOUSING
 
@@ -137,26 +138,26 @@ I usually use a rubber band to retain the viewfinder cap. Then position
 the focus wheel to infinity and push the actuator button to its
 “automatic” position (making the wheel inaccesible).
 
-![IMG\_2700.JPG](img/tutorials/image13.jpg)![IMG\_2710.JPG](img/tutorials/image22.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image22.jpg)
 
 Using a prying tool I free first the tap on one side and then the other.
 Then you carefully push upwards to free the flash connector.
 
-![IMG\_2707.JPG](img/tutorials/image29.jpg) ![IMG\_2708.JPG](img/tutorials/image19.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image19.jpg)
 
-![IMG\_2714.JPG](img/tutorials/image9.jpg)![IMG\_2715.JPG](img/tutorials/image30.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image30.jpg)
 
 REMOVING SHUTTER FRONT HOUSING ASSEMBLY
 
 Then you have to remover the cover of the shutter front housing
 assembly. I do it carefully pulling outwards from the side:
 
-![IMG\_2718.JPG](img/tutorials/image27.jpg)![IMG\_2719.JPG](img/tutorials/image37.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image37.jpg)
 
 When you do that on Sonar be careful not to loose the retaining
 e-ring on the manual/automatic selector:
 
-![e-ring-warning.jpg](img/tutorials/image34.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image34.jpg)
 
 REMOVE THE SHUTTER ASSEMBLY RETAINING SCREWS
 
@@ -165,9 +166,9 @@ it is NOT advisable to use a normal (let’s say “any” kind of “normal”)
 screwdriver to remove those four screws (at least if they are of the 1mm
 x 1mm square special Polaroid kind).
 
-![SCREW-LOCATIONS.jpg](img/tutorials/image17.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image17.jpg)
 
-![IMG\_2732.JPG](img/tutorials/image4.jpg)![IMG\_2735.JPG](img/tutorials/image36.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image36.jpg)
 
 Store those screws in a safe location, these keep the light seal and you
 don’t want to have to mess with these on reassembly.
@@ -183,7 +184,7 @@ don’t want to break or desolder/force the flex circuit. This is a flat
 cable circuit or, on older machines flat cables. These keep the shutter
 assembly tethered to the body of the camera.
 
-![IMG\_2736.JPG](img/tutorials/image28.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image28.jpg)
 
 LET GET TO WORK!
 
@@ -192,7 +193,7 @@ PCB from the housing. I tried that (I have done so in the past) or you
 can try to work around that and pull (very carefully!) the PCB up from
 the left (first remove the plastic retainer “thing” on the left.
 
-![PCB LOCATIONS.jpg](img/tutorials/image7.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image7.jpg)
 
 If you want to “free” the PCB (more or less) you have to very carefully
 unsolder the tabs connected to S1 and S2, SOL \#1 and SOL \#2 and
@@ -206,7 +207,7 @@ What I did actually is (I think) simpler, but might mean that is more
 difficulty installing the capacitor or the switch. I simply (and again,
 very carefully) pull the PCB:
 
-![IMG\_2753.JPG](img/tutorials/image25.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image25.jpg)
 
 I then heat with the soldering iron the pins of the original capacitor
 and with a stick I pull it downwards loose. I heat with the iron
@@ -215,7 +216,7 @@ with a toothpick. Tests trying to remove the paint with solvent have
 been unsuccessful on my part. So I then end up with the original
 capacitor and measure it: 950pF:
 
-![IMG\_2765.JPG](img/tutorials/image16.jpg)![IMG\_2772.JPG](img/tutorials/image2.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image2.jpg)
 
 .
 
@@ -231,7 +232,7 @@ difficult to find a reason to shoot 100 if you can do 600 with an SX-70.
 In that case I usually put the new capacitor on the other side of the
 PCB, that makes it easier to change it for another value or whatever:
 
-![PCB\_726352\_F\_A217D\_B\_S10.jpg](img/tutorials/image8.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image8.jpg)
 
 This is an F Alpha board with the “new” capacitor
 
@@ -247,20 +248,20 @@ Again a warning: please make sure that the template corresponds to your
 particular model of the SX-70 before trying anything, specially drilling
 a hole:
 
-![template-100-600red-anchoA4.jpg](img/tutorials/image6.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image6.jpg)
 
 I cut the template (make sure the size is right) and put it on top of
 your SX-70:
 
-![cavity
-SX-70-text.jpg](img/tutorials/image21.jpg)![IMG\_2759.JPG](img/tutorials/image35.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image35.jpg)
 
 In the picture above in the right you can see from another SX70 the
 cavity where we intend to place the switch circuit combo. You have to
 drill at the right place up/down and left/right, and also that you can
 use the switch once the camera is fully assembled again.
 
-![camera-with-template.jpg](img/tutorials/image14.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image14.jpg)
+
 
 Then with a pin I mark the center of the (in the picture above the
 center of the red circle) and begin very very carefully. I clean the bit
@@ -268,13 +269,13 @@ very often to avoid dirt to enter the camera or the lens. Perhaps it is
 wise to tape close the camera hole to avoid also contamination. I use
 the blower for this purpose.
 
-        ![IMG\_2763.JPG](img/tutorials/image1.jpg)
+        ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image1.jpg)
 
 Once finished (take your time) clean the hole and any dirt that might be
 around or inside the cavity. This is very important for the camera to
 take nice sharp pictures.
 
-![IMG\_2764.JPG](img/tutorials/image11.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image11.jpg)
 
 INSERTING THE SWITCH AND SECURING IT
 
@@ -282,17 +283,18 @@ Now it is time to carefully insert the switch in the cavity and try to
 pass through the holes in the PCB the cables. This step was for me the
 most difficult, and finally got it with a lot of trial and error.
 
-![IMG\_2780.JPG](img/tutorials/image24.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image24.jpg)
+
 
 I ended up inserting the switch combo upside down as it played better
 considering the depth of the hole:
 
-![IMG\_2773.JPG](img/tutorials/image18.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image18.jpg)
 
 Once the cables went through the hole of the original capacitor, I
 tested he operation of the switch (600 position):
 
-![IMG\_2790.JPG](img/tutorials/image23.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image23.jpg)
 
 So once you are 100 sure you glue the switch just enough, in my case I
 used C9 (compound 9) knowing that if it didn’t work I could very easily
@@ -304,14 +306,14 @@ SOLDERING THE SWITCH
 Then finally you press down the PCB and solder both wires (and test
 again).
 
-![IMG\_2796.JPG](img/tutorials/image3.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image3.jpg)
 
 Just soldered, nice and shiny.
 
 Just to make sure these are the connections overlaid on the other side
 of the PCB (the switch goes underneath of the PCB):
 
-![Switch-and-LOCATION.jpg](img/tutorials/image32.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image32.jpg)
 
 Step 4: Reassembly
 
@@ -322,7 +324,7 @@ insert the flat circuit that connects to the body of the camera in the
 retainer tab, because once you have soldered it it is almost impossible
 to do so.
 
-![PCB LOCATIONS.jpg](img/tutorials/image7.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image7.jpg)
 
 Double check every step as an error here would set you back later,
 having to disassemble again.
@@ -341,7 +343,7 @@ notice there you can cut from there the indicator you need (depends on
 how you placed your capacitors). You can also make your own. This for me
 was the final touch.
 
-![IMG\_2802.JPG](img/tutorials/image15.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image15.jpg)
 
 Final thoughts: I am thinking now on how to improve the process. May a
 very small PCB with SMD capacitors and the switch be a better solution?
