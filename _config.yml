@@ -55,30 +55,41 @@ prose:
           placeholder: Write Description Here
       - name: date
         field:
+          element: text
           label: Post Date
           value: CURRENT_DATETIME
-      - name: 'author_name'
+      - name: author_name
         field:
           element: text
+          label: Author's Name
           value: Joaquín de Prada
-      - name: 'author_url'
+      - name: author_url
         field:
           element: text
+          label: Author's URL
           value: '/author/joaquin'
-      - name: 'author_avatar'
+      - name: author_avatar
         field:
-          value: 'joaquin'
+          element: text
+          label: Author's Avatar
+          value: joaquin
       - name: 'show_avatar'
         field:
-          value: 'true'
+          element: hidden
+          value: true
       - name: 'comments'
         field:
-          value: 'true'
+          element: select
+          label: Are comments enabled?
+          options:
+            - name: Yes
+              value: true
+            - name: No
+              value: false
       - name: 'published'
         field:
           element: button
           label: Publish?
-          help: On for published, Off for unpublished
           on: Published
           off: Unpublished
 
