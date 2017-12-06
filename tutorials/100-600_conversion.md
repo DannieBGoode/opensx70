@@ -1,7 +1,7 @@
 ---
 title: SX70 camera 125ASA to 600ASA conversion
 description: How to modify you SX70 to use 600ASA film
-date: 2017-12-05T00:00:00.000Z
+date: {}
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
@@ -13,7 +13,7 @@ show_related_posts: false
 square_related: recommend-wolf
 permalink: /tutorials/100-600_conversion.md/
 comments: true
-categories: hacks,tutorials
+categories: 'hacks,tutorials'
 published: true
 ---
 
@@ -38,7 +38,7 @@ names as in the original Repair Manual that is on the internet. That
 makes it easier to identify the parts I am referring to. Polaroid is
 trademark of the Polaroid Corporation.
 
-Step 1: the tools and materials
+## Step 1: the tools and materials
 
 You are going to need some “basic” tools: pliers, soldering iron with a
 fine tip, a prying tool, a rubber band, toothpicks, cotton swabs and a
@@ -119,7 +119,7 @@ combo” circuit ready for my Sonar. Keep in mind that the capacitor you
 are going to need for your camera can be different depending on your
 SX-70.
 
-Step 2: Disassembly
+## Step 2: Disassembly
 
 This basic SX-70 dissasembly, I am going to detail on a Sonar, if you
 don’t have a Sonar it is going to be easier.
@@ -174,7 +174,7 @@ don’t want to have to mess with these on reassembly.
 
 * * * * *
 
-Step 3: Modification
+## Step 3: Modification
 
 SECURE THE “OPERATIONS” THEATER
 
@@ -314,7 +314,7 @@ of the PCB (the switch goes underneath of the PCB):
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image32.jpg)
 
-Step 4: Reassembly
+## Step 4: Reassembly
 
 Now you are almost there, so a bit of patience. It is time to assemble
 the camera. If you took out the PCB make sure that you connect and
@@ -335,7 +335,7 @@ Make sure that the screws are reasonably tight to avoid light leaks, but
 don’t over do it at the ristk of damaging the camera, snug, but not too
 tight. No excessive force needed.
 
-Step 5: Finishing touches
+## Step 5: Finishing touches
 
 I printed the template for the hole on a piece of adhesive paper. If you
 notice there you can cut from there the indicator you need (depends on
@@ -380,6 +380,16 @@ the most awesome (sorry for the word)  SX-70 ever.
 Finally here is a table with my results and some from the Internet to
 help you choose the value for your capacitor.
 
+
++---+------------+-------------+
+|   |     A      |      B      |
++---+------------+-------------+
+| 1 | Type       | MySQL       |
+| 2 | Header     | Spreadsheet |
+| 3 | Auto Align | On          |
++---+------------+-------------+
+
+
 +--------------+--------------+--------------+--------------+--------------+--------------+
 | serial       | type         | board type   | original cap | new cap      | Comment      |
 +--------------+--------------+--------------+--------------+--------------+--------------+
@@ -408,4 +418,3 @@ help you choose the value for your capacitor.
 | 5G843113652  | Sonar        | E735685A     | 950pF        | 150pF        | dual         |
 |              |              |              |              |              | conversion   |
 +--------------+--------------+--------------+--------------+--------------+--------------+
-
