@@ -17,7 +17,7 @@ categories: hacks,tutorials
 published: true
 ---
 
-#SX-70 100-600 SWITCH INSTALLATION
+# SX-70 100-600 SWITCH INSTALLATION
 
 The scope of this text is to help you do a conversion similar to the one
 I have done. If you are successful you end up with a switch that lets
@@ -68,8 +68,7 @@ I have found three options:
     that I recommend the most. I have taken apart quite a few SX-70s
     with it.
 
-        ![](img/tutorials/image20.png)
-        ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image20.png)
+                ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image20.png)
 
 Of course you are also going to need some sort of drill tool and a 4mm
 drill bit. I used one for wood on an electric screwdriver. You can
