@@ -38,10 +38,13 @@ prose:
   media: 'img'
   metadata:
   _posts:
-    - name: "layout"
+    - name: 'layout'
       field:
-        element: "hidden"
-        value: "post"
+        element: 'hidden'
+        value: 'post'
+    - name: 'title'
+      field:
+        value: 'Write Title Here'
   _pages:
     - name: "layout"
       field:
