@@ -44,7 +44,10 @@ prose:
         value: 'post'
     - name: 'title'
       field:
+        element: 'text'
         value: 'Write Title Here'
+        label: 'Post Title'
+        type: text
     - name: 'description'
       field:
         value: 'Write Description Here'
