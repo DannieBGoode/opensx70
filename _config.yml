@@ -45,8 +45,9 @@ prose:
       - name: title
         field:
           element: text
-          placeholder: Write Post Title Here
+          placeholder: Post Title
           label: Post Title
+          value: POST TITLE
       - name: description
         field:
           element: text
@@ -100,7 +101,7 @@ prose:
         field:
           element: text
           label: Post categories
-          placeholder: opensx70, ...
+          placeholder: For example opensx70, ...
           help: Write Post Categories Here
       - name: feature_image
         field:
@@ -117,6 +118,7 @@ prose:
         field:
           element: number
           label: Read Time
+          help: Number of minutes it takes to read this post. It must be a number.
           type: number
       - name: show_related_posts
         field:
