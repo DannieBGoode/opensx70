@@ -47,7 +47,6 @@ prose:
           element: text
           placeholder: Write Post Title Here
           label: Post Title
-          type: text
       - name: description
         field:
           element: text
@@ -80,7 +79,8 @@ prose:
       - name: 'comments'
         field:
           element: select
-          label: Are comments enabled?
+          label: comments
+          help: Are comments enabled?
           options:
             - name: Yes
               value: true
@@ -92,6 +92,17 @@ prose:
           label: Publish?
           on: Published
           off: Unpublished
+      - name: categories
+        field:
+          element: text
+          label: Post categories
+          placeholder: Write Post Categories Here
+          help: openSX70
+      - name: permalink
+        field:
+          element: text
+          label: Post permalink
+          placeholder: For example /posts/2017/12/post-20171204-flash/
 
   _pages:
     - name: "layout"
