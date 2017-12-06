@@ -44,22 +44,26 @@ prose:
           value: 'post'
       - name: 'title'
         field:
-          element: 'text'
-          value: 'Write Title Here'
-          label: 'Post Title'
+          element: text
+          placeholder: Write Post Title Here
+          label: Post Title
           type: text
       - name: description
         field:
           element: text
-          value: Write Description Here
-      - name: 'date'
+          label: Post Description
+          placeholder: Write Description Here
+      - name: date
         field:
-          value: '2017-10-23T00:00:00.000Z'
+          label: Post Date
+          value: CURRENT_DATETIME
       - name: 'author_name'
         field:
-          value: 'Joaquín de Prada'
+          element: text
+          value: Joaquín de Prada
       - name: 'author_url'
         field:
+          element: text
           value: '/author/joaquin'
       - name: 'author_avatar'
         field:
@@ -72,9 +76,11 @@ prose:
           value: 'true'
       - name: 'published'
         field:
-          element: 'button'
-          on: 'true'
-          off: 'false'
+          element: button
+          label: Publish?
+          help: On for published, Off for unpublished
+          on: Published
+          off: Unpublished
 
   _pages:
     - name: "layout"
