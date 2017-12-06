@@ -45,6 +45,28 @@ prose:
     - name: 'title'
       field:
         value: 'Write Title Here'
+    - name: 'description'
+      field:
+        value: 'Write Description Here'
+    - name: 'date'
+      field:
+        value: '2017-10-23T00:00:00.000Z'
+    - name: 'author_name'
+      field:
+        value: 'Joaquín de Prada'
+    - name: 'author_url'
+      field:
+        value: '/author/joaquin'
+    - name: 'author_avatar'
+      field:
+        value: 'joaquin'
+    - name: 'show_avatar'
+      field:
+        value: 'true'
+    - name: 'comments'
+      field:
+        value: 'true'
+
   _pages:
     - name: "layout"
       field:
