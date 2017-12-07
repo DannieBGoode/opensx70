@@ -13,7 +13,7 @@ show_related_posts: false
 square_related: recommend-wolf
 permalink: /tutorials/100-600_conversion.md/
 comments: true
-categories: hacks'
+categories: hacks
 published: true
 ---
 
@@ -379,18 +379,6 @@ the most awesome (sorry for the word)  SX-70 ever.
 
 Finally here is a table with my results and some from the Internet to
 help you choose the value for your capacitor.
-
-
-{:.table.table-striped.table-bordered.table-hover}
-| # |     A      |      B      |
-|:-:|:----------:|:-----------:|
-| 1 | Type       | MySQL       |
-|---|------------|-------------|
-| 2 | Header     | Spreadsheet |
-|---|------------|-------------|
-| 3 | Auto Align | On          |
-|---|------------|-------------|
-
 
 {:.table.table-striped.table-bordered.table-hover}
 | Serial       | Type         | Board type   | Original Cap | New Cap      | Comment                                   |
