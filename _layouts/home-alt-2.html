@@ -15,13 +15,14 @@ layout: default
             </span>
 
             <div class="sub-nav">
-                <a href="#"> Latest Posts</a>
+                <a href="#"> Latest Tutorials</a>
             </div>
 
             <div class="animated fadeIn">
                 {% for post in site.posts %}
                     {% if forloop.index <= page.post_count %}
-                    <article class="post">
+                    #<article class="post">
+                    <article class="tutorials">
                         <div class="post-preview col-xs-10 no-gutter">
                             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
