@@ -3,6 +3,7 @@ layout: page
 published: false
 title: press material
 feature_image: /press/
+permalink: /press
 ---
 
 I recommend that you read the [about](http://opensx70.com/about/) page and the [faq](http://opensx70.com/FAQ/) to understand the project.
@@ -14,4 +15,3 @@ You can download all the material, please feel free to use, include in you pages
 - [openSX70 system graphic: teaching an old camera new tricks](https://github.com/openSX70/Press/raw/master/openSX70-modular_system.pdf)
 
 - [openSX70 teaser poster #1](https://github.com/openSX70/Press/raw/master/openSX70-poster-1.pdf)
-
