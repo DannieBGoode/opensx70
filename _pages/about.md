@@ -50,7 +50,7 @@ So I figured I could design the board myself (How hard can it be?) So I started 
 The openSX70 pcb as a work-in-progress in Fritzing.
 
 
-But then I found out that the professional EAGLE CAD could be used free so a switch to it and kept with design. 
+But then I found out that the professional [EAGLE CAD](https://www.autodesk.com/products/eagle/free-download) could be used free so a switch to it and kept with design. 
 Keep in mind that I had never used EAGLE nor design a PCB, also that the openSX70 was not a simple "my first board design":
 - custon outline that had to exactly fit in the camera
 - SMD components (where do I start?)
