@@ -84,7 +84,6 @@ Then I tested the full camera operation
 {% include video id="Ncl8JmikNtM" provider="youtube" class="full"%}
 https://youtu.be/Ncl8JmikNtM 
 
-{% include video id="W_ey8Kvrcyg" provider="youtube" class="full"%}
 
 The board has both an "optinal" piezzo buzzer and a BH1750 light meter:
 
