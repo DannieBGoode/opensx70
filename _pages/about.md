@@ -36,7 +36,7 @@ https://youtu.be/fh34zWHXtr0
 
 With that camera I was able to take my first picture & double exposures!
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-01.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-02.jpg)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-03.jpg)
 
 
