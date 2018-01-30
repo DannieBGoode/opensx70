@@ -13,6 +13,8 @@ That would allow to add "manual control" to the camera and many more cool things
 
 [Here](https://github.com/openSX70/Press/raw/master/openSX70%20press%20release%20(2018).pdf) is the FAQ/official press release pdf.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-camera-about.jpg)
+
 It was not something that had not being done before, at least two commercial projects existed. But nothing existed as open source and arduino-based.
 
 The project is open source for non commercial uses, under Creative Commons "[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)" is free and open for hobbyist NON-COMMERCIAL USE.
