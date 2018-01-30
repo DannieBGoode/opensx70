@@ -13,7 +13,7 @@ show_related_posts: false
 square_related: recommend-wolf
 permalink: /tutorials/100-600_conversion.md/
 comments: true
-categories: hacks
+categories: hacks,tutorials
 published: true
 ---
 
