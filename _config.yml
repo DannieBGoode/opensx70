@@ -10,10 +10,11 @@ permalink: :title
 nav_list:
   Home : ['Home', '/', 'fa-camera']
   #Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
-  Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
+  #Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   About : ['About', '/about', 'fa-quote-left']
   FAQ : ['FAQ', '/FAQ', 'fa-question-circle']
-  Tutorials : ['Tutorials', '/tutorials', 'fa-wrench']
+  #Tutorials : ['Tutorials', '/tutorials', 'fa-wrench']
+  Home_Alt_2 : ['Tutorials', '/tutorials', 'fa-wrench']
   Links : ['Links', '/links', 'fa-external-link-square']
   Press : ['Press', '/press', 'fa-newspaper-o']
   Files : ['Files', '/files', 'fa-files-o']
