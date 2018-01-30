@@ -1,7 +1,11 @@
 ---
-layout: page
-published: true
-title: PAGE TITLE
+layout: author
+title: Author
+permalink: author/joaquin/
+feature_image: feature-sea
+author_avatar: joaquin
+author_name: Joaquin de Prada
+title: Joaquin de Prada
 ---
 
 # Joaquín de Prada

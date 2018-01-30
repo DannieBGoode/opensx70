@@ -31,7 +31,13 @@ footer_links:
 
 include:
   - _pages
+  - _tutorials
  
+collections:
+  tutorials:
+    output: true
+    permalink: /:tutorials/:path/
+
 prose:
   # Configurations ...
   rooturl: ""
