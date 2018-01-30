@@ -15,7 +15,7 @@ nav_list:
   FAQ : ['FAQ', '/FAQ', 'fa-question-circle']
   Tutorials : ['Tutorials', '/tutorials', 'fa-wrench']
   Links : ['Links', '/links', 'fa-external-link-square']
-  Press : ['Press', '/press', 'fa-newspaper-o']
+  Press : ['press', '/press', 'fa-newspaper-o']
   Files : ['Files', '/files', 'fa-files-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
 single_footer: '<p>Welcome to the openSX70 community &copy; 2017 <a href="/">latest posts</a></p>'
