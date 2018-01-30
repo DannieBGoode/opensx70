@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-feature_image: feature-book
+feature_image: /img/about/openSX70-about-banner.jpg
 published: true
 ---
 ## About the project: quick up-to-date
