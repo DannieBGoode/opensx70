@@ -22,7 +22,7 @@ single_footer: '<p>Welcome to the openSX70 community &copy; 2017 <a href="/">lat
 footer_links:
     About: ['About', '/about']
 #    Writer: ['Writer 2016', '/about']
-    Writer: ['openSX70 2017', '/about']
+    Writer: ['openSX70 2018', '/about']
 
 
 # Build settings
