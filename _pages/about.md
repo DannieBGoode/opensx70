@@ -44,10 +44,10 @@ With that camera I was able to take my first picture & double exposures!
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-03.jpg)
 
 
-So I figured I could design the board myself (How hard can it be?) So I started with the great Fritzing software
+So I figured I could design the board myself (How hard can it be?) So I started with the great [Fritzing software](http://fritzing.org/home/)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/Fritzing_openSX70.jpg)
-
+The openSX70 pcb as a work-in-progress in Fritzing.
 
 
 But then I found out that the professional EAGLE CAD could be used free so a switch to it and kept with design. 
