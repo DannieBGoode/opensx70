@@ -11,7 +11,11 @@ In early 2017 I created the openSX70 closed group in Facebook.
 I wanted to replace the Apollo-era PCB "brain" on the SX70 Polaroid camera with a modern Arduino-based easy to program PCB.
 That would allow to add "manual control" to the camera and many more cool things.
 
-It was not something that had not being, at least two commercial projects existed. But nothing existed as open source and arduino-based.
+It was not something that had not being done before, at least two commercial projects existed. But nothing existed as open source and arduino-based.
+
+The project is open source for non commercial uses, under Creative Commons "[Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)" is free and open for hobbyist NON-COMMERCIAL USE.
+
+
 My plan was that, it would create a "community effect" and that many people would volunteer to help, sharing their skills. 
 Specially electronics, and coding. It has not really happened (yet!).
 
