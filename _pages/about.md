@@ -3,9 +3,104 @@ layout: page
 title: About
 permalink: /about/
 feature_image: feature-book
+published: true
 ---
+## About the project: quick up-to-date
 
-Welcome to the openSX70 website!
+In early 2017 I created the openSX70 closed group in Facebook.
+I wanted to replace the Apollo-era PCB "brain" on the SX70 Polaroid camera with a modern Arduino-based easy to program PCB.
+That would allow to add "manual control" to the camera and many more cool things.
+
+It was not something that had not being, at least two commercial projects existed. But nothing existed as open source and arduino-based.
+My plan was that, it would create a "community effect" and that many people would volunteer to help, sharing their skills. 
+Specially electronics, and coding. It has not really happened (yet!).
+
+So I got all the Repair Manuals I could find on the camera, trying to understand how it works. Fortunately it is quite simple: a couple of switches mechanically activated, a motor, and two solenoids.
+
+{% include video id="wtaUpBm4dGA" provider="youtube" class="full"%}
+https://youtu.be/wtaUpBm4dGA
+(basic camera operation in slow motion controlled by arduino)
+
+So from there I tried, using of the shelf components and arduino boards to "make" a camera. That first camera I knicknamed FrankenSX70
+
+{% include video id="fh34zWHXtr0" provider="youtube" class="full"%}
+https://youtu.be/fh34zWHXtr0
+(simple shutter test)
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70_camera.jpg)
+
+
+With that camera I was able to take my first double exposure pictures!
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-01.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-03.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/FrankenSX70-pics-03.jpg)
+
+
+So I figured I could design the board myself (How hard can it be?) So I started with the great Fritzing software
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/Fritzing_openSX70.jpg)
+
+
+
+But then I found out that the professional EAGLE CAD could be used free so a switch to it and kept with design. 
+Keep in mind that I had never used EAGLE nor design a PCB, also that the openSX70 was not a simple "my first board design":
+- custon outline that had to exactly fit in the camera
+- SMD components (where do I start?)
+- Very limited real state
+
+For me, the initial openSX70 design would be a two part thing. 
+The "main" PCB inside the camera. And the "control" dongle that you connected through the camera flash socket.
+The flash was a challenge: the way it was originally design to use the flashbars only three cables ran straigt from the PCB to the socket.
+So I had to:
+
+- be able to operate flashbars and electronic flash
+- control de "manual" options of the camera
+- fire an external flash via a PC-compatible socket
+- have a information LED
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-dongle-protoboard.jpg)
+(Dongle prototype)
+
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-dongle-early-PCB.jpg)
+(early dongle PCB)
+
+GitHub repository: https://github.com/openSX70/openSX70-dongle-PCB
+
+
+The main part of the project is the main SX70 PCB.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-board-evolution.jpg)
+
+GitHub repository: https://github.com/openSX70/openSX70-PCB
+
+As of today the red main PCB "chocolate" is working although with some flaws.
+First I ran "Blink" to test the board as an arduino.
+
+{% include video id="W_ey8Kvrcyg" provider="youtube" class="full"%}
+https://youtu.be/W_ey8Kvrcyg
+
+Then I tested the full camera operation
+{% include video id="Ncl8JmikNtM" provider="youtube" class="full"%}
+https://youtu.be/Ncl8JmikNtM 
+
+{% include video id="W_ey8Kvrcyg" provider="youtube" class="full"%}
+
+The board has both an "optinal" piezzo buzzer and a BH1750 light meter:
+
+{% include video id="UIXy1mgVUgY" provider="youtube" class="full"%}
+https://youtu.be/UIXy1mgVUgY
+
+I started with a 3.3V regulator, to run the Atmega328p, initially at 16Mhz, then at 8mhz. Finally I run at 2.5V.
+The next generation board "Aladdin" and "Aladdin-FPC" are on the way this will hope will allow me to finally make my first working openSX70 camera!
+Aladin Gerber file: https://jlcpcb.com/quote/gerberview/384a1219-f09c-47bd-b12d-b0953c882ebe_1_0_2.html
+
+
+
+
+
+
+## About openSX70 website!
 This intends to be your home for all things SX70 and the home of all sorts of modifications and hacks on the SX70, but more specifically the home of the openSX70 project.
 
 It doesn't have to be all technical mumbo-jumbo, you can post about your new skin, your new accessory or how you use your camera to take better pictures...
