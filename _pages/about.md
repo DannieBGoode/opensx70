@@ -8,7 +8,7 @@ published: true
 ## About the project: quick up-to-date
 
 In early 2017 I created the openSX70 closed group in Facebook.
-I wanted to replace the Apollo-era PCB "brain" on the SX70 Polaroid camera with a modern Arduino-based easy to program PCB.
+I wanted to replace the Apollo-era PCB "brain" on the [SX70 Polaroid camera](https://en.wikipedia.org/wiki/Polaroid_SX-70) with a modern Arduino-based easy to program PCB.
 That would allow to add "manual control" to the camera and many more cool things.
 
 [Here](https://github.com/openSX70/Press/raw/master/openSX70%20press%20release%20(2018).pdf) is the FAQ/official press release pdf.
