@@ -1,20 +1,19 @@
 ---
 show_avatar: true
 layout: post
-date: '2018-01-31 12:06 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 categories: opensx70
 read_time: 5
 comments: 'true'
-published: true
 show_related_posts: 'true'
-title: "Aladdin" PCBs have arrived!!!
+title: Aladdin PCBs have arrived!!!
 description: The new "Aladdin" PCBs have arrived
 feature_image: SX70_images/openSX70-cameraporn-1
 permalink: /posts/2018/01/aladdin-is-here
 ---
+
 One day ahead of the scheduled date the new boards from JLCPCB have landed.
 Of course I have to test them. 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/01/the-boards-are-here-01.jpg)
