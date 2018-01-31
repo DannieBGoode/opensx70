@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: "Aladdin" PCBs are here!!!
+title: "Aladdin" PCBs have arrived!!!
 description: The new "Aladdin" PCBs have arrived
 feature_image: SX70_images/openSX70-cameraporn-1
 permalink: /posts/2018/01/aladdin-is-here
