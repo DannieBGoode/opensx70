@@ -25,7 +25,7 @@ Of course I have to test them.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/01/the-boards-are-here-04.JPG)
 The new "Aladdin-FPC" blue boards look stunning. I only hope they work!
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/01/the-boards-are-here-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/01/the-boards-are-here-05.JPG)
 I have also done a custom adapter to be able to program the bootloader into the arduino with the minipro programmer.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/01/the-boards-are-here-06.JPG)
