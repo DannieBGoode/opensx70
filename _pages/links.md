@@ -7,9 +7,9 @@ feature_image: feature-book
 
 [Georg Holderied's Hacker's Guide to the SX70, the original SX70 page](http://www.chemie.unibas.ch/~holder/SX70.html)
 
-[2ndShot's Matt has the best reputation. He defines himself as an astist](https://www.2ndshotsx70.com/)
+[2ndShot](https://www.2ndshotsx70.com/)
 
-[2ndShot's blog, always interesting](http://2ndshotsx70.blogspot.com/)
+[2ndShot's blog, very interesting](http://2ndshotsx70.blogspot.com/)
 
 [http://www.brooklynfilmcamera.com](http://www.brooklynfilmcamera.com/)
 
@@ -27,6 +27,8 @@ feature_image: feature-book
 
 [https://www.facebook.com/groups/739071666267626/](https://www.facebook.com/groups/739071666267626/)
 
-http://www.technologizer.com/2011/06/08/polaroid/
+[http://www.technologizer.com/2011/06/08/polaroid/](http://www.technologizer.com/2011/06/08/polaroid/)
 
-http://www.polaroidland.net/
+[http://www.polaroidland.net/](http://www.polaroidland.net/)
+
+If you have or know of an interested web please contact us: opensx70 at opensx70 dot com.
