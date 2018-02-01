@@ -76,7 +76,7 @@ So I had to:
 GitHub repository: https://github.com/openSX70/openSX70-dongle-PCB
 
 
-The main part of the project is the main SX70 PCB.
+The central part of the project is the main SX70 PCB.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-board-evolution.jpg)
 
