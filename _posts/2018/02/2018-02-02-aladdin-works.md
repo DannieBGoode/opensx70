@@ -13,7 +13,7 @@ show_related_posts: 'true'
 title: "Aladdin" works, but soldering SMD is a pain !!!
 description: The new "Aladdin" PCBs Blink, but trouble soldering the components.
 feature_image: SX70_images/openSX70-cameraporn-2
-permalink: /posts/2018/01/aladdin-works
+permalink: /posts/2018/02/aladdin-works
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-01.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-02.jpg)
