@@ -15,11 +15,10 @@ feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/02/aladdin-works
 description: '"Aladdin" works, but soldering SMD is a pain !!!'
 ---
-
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-2.jpg)
 
-So I finally got the time to start testing Aladdin. 
+Finally got the time to start testing Aladdin. 
 
 Soldering the FPC is **A ROYAL PAIN** I could do it (sort of) on my second trial. But then I couldn't solder the light meter cheap.
 The conclusion is that .5mm pitch SMD electronic components are not at a human scale.
@@ -31,7 +30,7 @@ My adapter to program to the Atmega with the custom 2.8V/8Mhz bootloader was a t
 That is needed because the Minipro programmer only supports the 28-pin DIP Atmegas328p, and my adapter was a TQFP "universal" pin-to-pin adapter.
 So I made a board to map the 32-pin Atmega to the 28-pin DIP Atmega.
 
-So finally I tested with Blink, and, after double-checking the FPC connector it loaded and worked!!
+As always I started by testing by uploading Blink, and, after double-checking the FPC connector it loaded and worked!!
 
 {% include video id="h3YENcGoehY" provider="youtube" class="full"%} 
 
