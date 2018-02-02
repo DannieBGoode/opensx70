@@ -73,14 +73,14 @@ So I had to:
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-dongle-early-PCB.jpg)
 (early dongle PCB)
 
-GitHub repository: https://github.com/openSX70/openSX70-dongle-PCB
+[GitHub repository](https://github.com/openSX70/openSX70-dongle-PCB)
 
 
 The central part of the project is the main SX70 PCB.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-board-evolution.jpg)
 
-GitHub repository: https://github.com/openSX70/openSX70-PCB
+[GitHub repository](https://github.com/openSX70/openSX70-PCB)
 
 As of today the red main PCB "chocolate" is working although with some flaws.
 First I ran "Blink" to test the board as an arduino.
@@ -102,8 +102,10 @@ I started with a 3.3V regulator, to run the Atmega328p, initially at 16Mhz, then
 The next generation board "Aladdin" and "Aladdin-FPC" are on the way this will hope will allow me to finally make my first working openSX70 camera!
 Aladin Gerber file: https://jlcpcb.com/quote/gerberview/384a1219-f09c-47bd-b12d-b0953c882ebe_1_0_2.html
 
+Testing the Aladdin board: blink.
 
-
+{% include video id="h3YENcGoehY" provider="youtube" class="full"%}
+https://youtu.be/h3YENcGoehY
 
 
 
