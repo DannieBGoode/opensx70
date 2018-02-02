@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: POST TITLE
+title: First tests with Aladdin!
 feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/02/aladdin-works
 description: '"Aladdin" works, but soldering SMD is a pain !!!'
