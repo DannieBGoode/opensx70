@@ -1,12 +1,12 @@
 ---
 show_avatar: true
 layout: post
-date: '2018-02-02 12:06 +0100'
+date: '2018-02-02 12:00 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 categories: opensx70
-read_time: 5
+read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
@@ -15,6 +15,7 @@ description: The new "Aladdin" PCBs Blink, but trouble soldering the components.
 feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2018/02/aladdin-works
 ---
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-01.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-02.jpg)
 
