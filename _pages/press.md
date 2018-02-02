@@ -3,7 +3,7 @@ layout: page
 published: true
 title: press material
 permalink: /press/
-feature_image: openSX70-fun.jpg
+feature_image: /img/openSX70-fun.jpg
 ---
 
 I recommend that you read the [about](http://opensx70.com/about/) page and the [faq](http://opensx70.com/FAQ/) to understand the project.
