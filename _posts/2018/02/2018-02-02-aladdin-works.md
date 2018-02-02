@@ -16,16 +16,16 @@ permalink: /posts/2018/02/aladdin-works
 description: '"Aladdin" works, but soldering SMD is a pain !!!'
 ---
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-01.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-02.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-1.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-2.jpg)
 
 So I finally got the time to start testing Aladdin. 
 
 Soldering the FPC is **A ROYAL PAIN** I could do it (sort of) on my second trial. But then I couldn't solder the light meter cheap.
 The conclusion is that .5mm pitch SMD electronic components are not at a human scale.
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-03.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-04.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-3.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-4.jpg)
 
 My adapter to program to the Atmega with the custom 2.8V/8Mhz bootloader was a total success. 
 That is needed because the Minipro programmer only supports the 28-pin DIP Atmegas328p, and my adapter was a TQFP "universal" pin-to-pin adapter.
@@ -37,10 +37,13 @@ So finally I tested with Blink, and, after double-checking the FPC connector it 
 
 Here is the complete board with the cable, and the FTDI. 
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-05.JPG)
 
 When I build the openSX70, while testing and debugging the software the FPC will show through the camera, so I can easily connect the FTDI and upload some new software.
 
 Finally I have been able to re-work the dongle to include the regulator to bring the power down to 2.8V as previously reported. It is not nice, but I hope it works!
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-6.jpg)
+
 
 I hope tomorrow I can do much more software and hardware tests.
