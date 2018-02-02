@@ -1,19 +1,19 @@
 ---
 show_avatar: true
 layout: post
-date: '2018-02-02 12:00 +0100'
+date: '2018-02-02 23:40 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 categories: opensx70
-read_time: 6
+read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: "Aladdin" works, but soldering SMD is a pain !!!
-description: The new "Aladdin" PCBs Blink, but trouble soldering the components.
-feature_image: SX70_images/openSX70-cameraporn-2
+title: POST TITLE
+feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/02/aladdin-works
+description: '"Aladdin" works, but soldering SMD is a pain !!!'
 ---
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-01.jpg)
@@ -44,5 +44,3 @@ When I build the openSX70, while testing and debugging the software the FPC will
 Finally I have been able to re-work the dongle to include the regulator to bring the power down to 2.8V as previously reported. It is not nice, but I hope it works!
 
 I hope tomorrow I can do much more software and hardware tests.
-
-
