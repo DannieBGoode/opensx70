@@ -36,7 +36,7 @@ As always I started by testing by uploading Blink, and, after double-checking th
 
 Here is the complete board with the cable, and the FTDI. 
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-5.jpg)
 
 When I build the openSX70, while testing and debugging the software the FPC will show through the camera, so I can easily connect the FTDI and upload some new software.
 
