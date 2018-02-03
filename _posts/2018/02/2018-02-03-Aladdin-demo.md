@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: POST TITLE
+title: Aladdin Demo video
 description: Aladdin PCB demo video
 feature_image: SX70_images/openSX70-cameraporn-7
 permalink: /posts/2018/02/aladdin-demo
