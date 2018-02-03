@@ -15,8 +15,10 @@ description: Aladdin PCB demo video
 feature_image: SX70_images/openSX70-cameraporn-7
 permalink: /posts/2018/02/aladdin-demo
 ---
-{% include video id="MU2MqRjvjZs" provider="youtube" class="full"%}
+{% include video id="8JmWiM2eW5M" provider="youtube" class="full"%}
+
 I have added captions explaining what I do on the video!
+
 Basically all works. I cannot test the light meter because I couldn't solder the damned chip! 
 Will try to make a few other prototypes and hopefully a camera next week.
 
