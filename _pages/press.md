@@ -14,4 +14,6 @@ You can download all the material, please feel free to use, include in you pages
 
 - [openSX70 system graphic: teaching an old camera new tricks](https://github.com/openSX70/Press/raw/master/openSX70-modular_system.pdf)
 
-- [openSX70 teaser poster #1](https://github.com/openSX70/Press/raw/master/openSX70-poster-1.pdf)
+- [openSX70 teaser poster #1 (pdf)](https://github.com/openSX70/Press/raw/master/openSX70-poster-1.pdf)
+
+- [They had fun poster teaser poster #2 (pdf)](https://github.com/openSX70/Press/raw/master/openSX70-fun.pdf)
