@@ -20,8 +20,8 @@ description: '"Aladdin" works, but soldering SMD is a pain !!!'
 
 Finally got the time to start testing Aladdin. 
 
-Soldering the FPC is **A ROYAL PAIN** I could do it (sort of) on my second trial. But then I couldn't solder the light meter cheap.
-The conclusion is that .5mm pitch SMD electronic components are not at a human scale.
+Soldering the FPC is **A ROYAL PAIN** I could do it (sort of) on my second trial. But then I couldn't solder the light meter chip.
+The conclusion is that .5mm pitch SMD electronic components are not at a human scale. Or maybe I am just too old for this shit.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-3.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/aladdin-blink-4.jpg)
