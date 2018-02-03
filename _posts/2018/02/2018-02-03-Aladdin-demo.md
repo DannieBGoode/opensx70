@@ -1,3 +1,20 @@
+---
+show_avatar: true
+layout: post
+date: '2018-02-03 21:33 +0100'
+author_name: Joaquín de Prada
+author_url: /author/joaquin
+author_avatar: joaquin
+categories: opensx70
+read_time: 5
+comments: 'true'
+published: true
+show_related_posts: 'true'
+title: POST TITLE
+description: Aladdin PCB demo video
+feature_image: SX70_images/openSX70-cameraporn-7
+permalink: /posts/2018/02/aladdin-demo
+---
 {% include video id="MU2MqRjvjZs" provider="youtube" class="full"%}
 I have added captions explaining what I do on the video!
 Basically all works. I cannot test the light meter because I couldn't solder the damned chip! 
