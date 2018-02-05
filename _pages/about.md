@@ -100,10 +100,9 @@ I started with a 3.3V regulator, to run the Atmega328p, initially at 16Mhz, then
 The next generation board "Aladdin" and "Aladdin-FPC" are on the way this will hope will allow me to finally make my first working openSX70 camera!
 [Aladin Gerber file](https://jlcpcb.com/quote/gerberview/384a1219-f09c-47bd-b12d-b0953c882ebe_1_0_2.html)
 
-Testing the Aladdin board: blink.
+Full test of the Aladdin board:
 
-{% include video id="h3YENcGoehY" provider="youtube" class="full"%}
-
+{% include video id="8JmWiM2eW5M" provider="youtube" class="full"%}
 
 
 
