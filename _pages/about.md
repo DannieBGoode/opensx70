@@ -8,6 +8,9 @@ published: true
 ## About the project (constantly updated): quick up-to-date
 
 In early 2017 I created the openSX70 closed group in Facebook.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/opensx70-early-prototype.jpg)
+
 I wanted to replace the Apollo-era PCB "brain" on the [SX70 Polaroid camera](https://en.wikipedia.org/wiki/Polaroid_SX-70) with a modern Arduino-based easy to program PCB.
 That would allow to add "manual control" to the camera and many more cool things.
 
@@ -100,6 +103,7 @@ The next generation board "Aladdin" and "Aladdin-FPC" are on the way this will h
 Testing the Aladdin board: blink.
 
 {% include video id="h3YENcGoehY" provider="youtube" class="full"%}
+
 
 
 
