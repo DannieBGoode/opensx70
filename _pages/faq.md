@@ -27,7 +27,7 @@ In a nutshell: manual control of the camera:
  -  Built-in optional light meter.
 + ## **Where is openSX70?**
 
- This is our [main webpage and repository of files](www.opensx70.com). We also have [Facebook group](https://www.facebook.com/groups/739071666267626/ "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
+ This is our [main webpage and repository of files](https://github.com/openSX70?tab=repositories). We also have [Facebook group](<a href="https://www.facebook.com/groups/739071666267626/" target="_blank">example</a> "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
 
 + ## **But, hasn’t this already been done?**
 
