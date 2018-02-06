@@ -25,9 +25,10 @@ In a nutshell: manual control of the camera:
  -  Optional delayed mirror operation (to avoid vibrations).
  -  Built-in shutter delay (long press on red button).
  -  Built-in optional light meter.
+ 
 + ## **Where is openSX70?**
 
- This is our [main webpage and repository of files](https://github.com/openSX70?tab=repositories). We also have [Facebook group](<a href="https://www.facebook.com/groups/739071666267626/" target="_blank">example</a> "Facebook openSX70 group"). We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
+ This is our [main webpage and repository of files](https://github.com/openSX70?tab=repositories). We also have (<a href="https://www.facebook.com/groups/739071666267626/" target="_blank">Facebook group</a> ". We are also on instagram and Twitter. The code and files are in [Github](https://github.com/openSX70).
 
 + ## **But, hasn’t this already been done?**
 
