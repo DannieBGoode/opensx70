@@ -1,0 +1,53 @@
+---
+show_avatar: true
+layout: post
+date: '2018-02-17 10:00 +0100'
+author_name: Joaquín de Prada
+author_url: /author/joaquin
+author_avatar: joaquin
+categories: opensx70
+read_time: 5
+comments: 'true'
+published: true
+show_related_posts: 'true'
+title: ''
+permalink: posts/2018/02/setbacks/
+description: Setbacks building my first camera
+feature_image: SX70_images/openSX70-cameraporn-3
+---
+## Setbacks
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-03.jpg)
+
+Just a quick update. I have been trying to build my first OpenSX70 camera but I have failed for now.
+
+One I don’t seem to be able to solder the light meter BH1750 chip. This isn’t really critical since initially I just wanted to test the dongle/camera functionality, but it would have been nice and allowed me to start working on auto exposure. 
+
+The second thing is that I have come to appreciate how delicate is the FFA, the flash firing assembly, I seen to have killed it on two of my alphas. 
+Oh well.
+
+Recapping on what might have happened I have come the conclusion that the culprit is that my soldering iron temperature was set way to high.
+
+Now I am trying to salvage the FFA of an early camera (metal frame) and try to fit in an alpha. By the way on an earlier similar experiment I tried to replace the rivets, but have finally opted for screws.
+
+If you desolder tge FFA flat cable be very careful or you end up desoldering the chip and the tracks. 
+
+On a positive note, I think that my very narrow FPC cable works the way I intended, but keep in mind that I only use it for development purposes.
+
+Also I am happy to report that the components layout seems to be ok, sort of, I can solder the flat cable from the camera, the board and the holes match up. Maybe the atmega is a bit too close to the flat cable. 
+
+It is only bittersweet to have killed two cameras. Cristina is helping me getting a couple more. Please remember if you have a non working alpha think about donating it for the project.
+
+Speaking of the flash, ever since I started using 2.5V I have not tested flash operation, so now I have doubts if that voltage is going to be enough to trigger flash operation. Hopefully I can test it soon. 
+
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-01.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-02.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-04.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-06.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-07.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-08.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-08.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-10.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/building-opensx70-camera-11.jpg)
