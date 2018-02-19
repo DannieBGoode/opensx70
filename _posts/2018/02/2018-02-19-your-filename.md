@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: ''
+title: setbacks
 permalink: posts/2018/02/setbacks/
 description: Setbacks building my first camera
 feature_image: SX70_images/openSX70-cameraporn-3
