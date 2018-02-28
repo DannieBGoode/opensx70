@@ -15,8 +15,6 @@ feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2018/02/lens-and-bellows
 description: 'LENS AND BELLOWS'
 ---
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-17.jpg)
-
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-02.jpg)
 
 I have to admit that hate the lightmeter "SOB" BH1750 chip. It is a bitch to solder correctly. 
@@ -75,3 +73,7 @@ So first the PCBs, test that all is ok, and then manufacture 10 boards. I hope I
 
 I am also happy to report that one fellow member of the group has offered to design a (lets say "not-ugly-dongle") 3D printable enclosure.
 The idea is to have something as low-profile or intrusive as possible, and trying to be inspired by an "original" look. That is still in its early stages, but the first rendering look amazing.
+
+This are the changes from Aladdin to Len's and Bellows!
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-17.jpg)
