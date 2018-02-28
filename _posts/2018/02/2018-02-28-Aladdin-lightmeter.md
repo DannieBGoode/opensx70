@@ -11,9 +11,9 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: Aladdin Light Meter video
-description: Aladdin Light meter demo video
-feature_image: SX70_images/openSX70-cameraporn-8
+feature_image: SX70_images/openSX70-cameraporn-4
 permalink: /posts/2018/02/aladdin-lightmeter-demo
+description: Aladdin Light meter demo video
 ---
 {% include video id="2XzNxWBJKX8" provider="youtube" class="full"%}
 
