@@ -16,6 +16,7 @@ permalink: /posts/2018/02/lens-and-bellows
 description: 'New "Len's & Bellows" PCB: ready for PCBA !!!'
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-17.jpg)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-02.jpg)
 
 I have to admit that hate the lightmeter "SOB" BH1750 chip. It is a bitch to solder correctly. 
