@@ -13,7 +13,7 @@ show_related_posts: 'true'
 title: Len's and Bellows' unit!
 feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2018/02/lens-and-bellows
-description: 'New "Len's & Bellows" PCB: ready for PCBA !!!'
+description: 'New Len's & Bellows PCB: ready for PCBA !!!'
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/02/lens-and-bellows-17.jpg)
 
