@@ -2,7 +2,7 @@
 show_avatar: true
 layout: post
 date: '2018-03-01 22:00 +0100'
-author_name: Joaqu?n de Prada
+author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 categories: opensx70
@@ -25,7 +25,7 @@ So please check http://maquinasdeoutrostempos.com/?lang=en.
 
 I am amazed with his work, modifying cameras with all lenses, and new backs.
 
-Oh, and one more thing, I am pretty sure that Aladdin triggers the flash at 2.5V, so I will probably go ahead with the production of Len�s & Bellows, and then a short manufacture run.
+Oh, and one more thing, I am pretty sure that Aladdin triggers the flash at 2.5V, so I will probably go ahead with the production of Len’s & Bellows, and then a short manufacture run.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/maquinas-de-outros-tempos-02.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/maquinas-de-outros-tempos-03.jpg)
