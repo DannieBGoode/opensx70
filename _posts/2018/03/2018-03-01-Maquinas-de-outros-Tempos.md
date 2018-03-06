@@ -1,7 +1,7 @@
---
+---
 show_avatar: true
 layout: post
-date: '2018-03-01 22:00 +0100'
+date: '2018-03-0º 21:33 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
@@ -10,11 +10,12 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Len's and Bellows' unit!
+title: Maquinas de Outros Tempos
+description: Awesome gift fro Pedro Viterbo
 feature_image: SX70_images/openSX70-cameraporn-1
 permalink: /posts/2018/03/maquinas-de-outros-tempos
-description: 'MAQUINAS DE OUTROS TEMPOS'
 ---
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/maquinas-de-outros-tempos-01.jpg)
 
 I got an awesome gift on the mail today, four awesome SX70s to experiment that have been donated to the project by Pedro Viterbo od Maquinas de outros Tempos in Portugal. It is nice to brick and mortar stores that sell film and cameras.
