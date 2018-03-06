@@ -18,7 +18,7 @@ permalink: /posts/2018/03/maquinas-de-outros-tempos
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/maquinas-de-outros-tempos-01.jpg)
 
-I got an awesome gift on the mail today, four awesome SX70s to experiment that have been donated to the project by Pedro Viterbo od Maquinas de outros Tempos in Portugal. It is nice to brick and mortar stores that sell film and cameras.
+I got an awesome gift on the mail today, four awesome SX70s to experiment that have been donated to the project by Pedro Viterbo od Maquinas de outros Tempos in Portugal. It is nice to brick and mortar store that sell film and cameras. They also develop film and scan on their own.
 
 I also must admit that I had sin and bought from Pedro a couple of Belair Instax backs. It is a while that I have been looking to modify a Land camera, making it manual and adapting an Instax wide back. But that is another story altogether.
 
