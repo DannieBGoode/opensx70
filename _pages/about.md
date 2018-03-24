@@ -80,8 +80,9 @@ So I had to:
 The central part of the project is the main SX70 PCB.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-board-evolution.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/20180318_Lens_and_Bellows_PCB-01.jpg)
 
-[GitHub repository](https://github.com/openSX70/openSX70-PCB)
+**[GitHub repository](https://github.com/openSX70/openSX70-PCB)**
 
 As of today the red main PCB "chocolate" is working although with some flaws.
 First I ran "Blink" to test the board as an arduino.
@@ -103,6 +104,14 @@ The next generation board "Aladdin" and "Aladdin-FPC" are on the way this will h
 Full test of the Aladdin board:
 
 {% include video id="8JmWiM2eW5M" provider="youtube" class="full"%}
+
+The Aladdin Prototype #1 camera tests:
+
+{% include video id="Musl6fOJ3OI" provider="youtube" class="full"%}
+
+The new pre-industrial production 5.2 "Len's and Bellow's" PCB fully assembled prototype ready camera Prototype #2:
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/about/20180318_Lens_and_Bellows_assembled_PCB_600DPI.jpg)
 
 
 
