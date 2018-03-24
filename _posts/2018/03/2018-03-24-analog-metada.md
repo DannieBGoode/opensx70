@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: Analog Metadata
-feature_image: SX70_images/openSX70-cameraporn-13
+feature_image: SX70_images/openSX70-cameraporn-10
 permalink: /posts/2018/03/analog-metadata
 description: 'Analog Metadata, the new Arduino Software'
 ---
