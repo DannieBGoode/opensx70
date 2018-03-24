@@ -115,6 +115,8 @@ The new pre-industrial production 5.2 "Len's and Bellow's" PCB fully assembled p
 
 
 
+
+
 ## About openSX70 website!
 This intends to be your home for all things SX70 and the home of all sorts of modifications and hacks on the SX70, but more specifically the home of the openSX70 project.
 
