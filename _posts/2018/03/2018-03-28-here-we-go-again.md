@@ -15,10 +15,9 @@ feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/03/here-we-go-again
 description: Up to date on the openSX70
 ---
-#{% include video id="MU2MqRjvjZs" provider="youtube" class="full"%}
-I have a new board and camera prototype #2. This is my pre-production board since I intent to do a mini manufacturing run at SeeedFusion PCBA. This new board is more or less the same as Aladdin with a few cosmetic changes and an ICSP header. 
-
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/20180318_Lens_and_Bellows_assembled_PCB_600DPI.jpg)
+
+I have a new board and camera prototype #2. This is my pre-production board since I intent to do a mini manufacturing run at SeeedFusion PCBA. This new board is more or less the same as Aladdin with a few cosmetic changes and an ICSP header. 
 
 Now I normally use the FTDI USB connection to program the camera. But to do that I neew to have the bootloader on the Atmega328p chip. Since I am hand-building the boards I can easily do that with an adapter.
 
