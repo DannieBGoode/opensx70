@@ -16,8 +16,13 @@ permalink: /posts/2018/03/flash
 description: Up to date on the flash operation of the openSX70 Camera
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/20180328_Flash_tests_04.jpg)
+(the regular MiNT bar without the dongle of course)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/20180328_Flash_tests_03.jpg)
+(external flash Canon EZ300, with Solenoid#2 engaged)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/20180328_Flash_tests_01.jpg)
+(external flash WITHOUT solenoid#2 engaged, full f.8 aperture, no distance compensation)
 
 Testing flash operation for the first time with the OpenSX70 camera.
 
