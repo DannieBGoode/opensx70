@@ -13,8 +13,11 @@ show_related_posts: 'true'
 title: Consistent results
 feature_image: SX70_images/openSX70-cameraporn-11
 permalink: /posts/2018/05/consistent-results
-description: 'Len's and Bellows: consistent results'
+description: 'Lens and Bellows: consistent results'
+s and Bellows: consistent results'
 ---
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-consistent-results-1.jpg)
 
 I have been procrastinating posting in the this website. Many new on FB, but in short, I have manufactured 10 boards with SeeedStudio Fusion and (for the moment) it has been a mess. The most difficult chip to hand-solder, the BH1750 is placed upside-down. SeeedStudio has not replied to me yet with a solution: but I don't see a solution as such, other than some sort of compensation. No compensation can fix this. We will see.
 
@@ -22,10 +25,8 @@ On the bright side, I am getting consistent results with the timings, in, at lea
 
 I intend to send a (very few) "kits" without the light sensor of course. I also hope to borrow a camera to one of my favourite photographers: all this gives me creeps as I don't really know what will happen.
 
+I hope you like the images!
 
-
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-consistent-results-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-consistent-results-2.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-consistent-results-3.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-consistent-results-4.jpg)
