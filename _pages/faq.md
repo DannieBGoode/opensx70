@@ -46,8 +46,11 @@ Since the process of replacement of the SX70 board is not trivial, you need spec
 
 + ## **So then… how "far" ahead is the project now?**
 
-We are quite ahead in development. We have successfully replaced the ECM of an alpha camera with an external prototype board: the“FrankenSX70”. Then we have prototyped the external control dongle. Now the electronic schematics of both the main circuit and the dongle are more or less finalised and also a preliminary design of the board has been done and some prototypes have been ordered.
-For a quick reference of the status check the project page.
+We are quite ahead in development. We have successfully designed and manufactured several iteractions SX70-sized PCB that works (well not at first). These prototypes, nicknamed "Chocolate", "Aladdin", "Len's & Bellows" have PCBs professionally manufactured, and I hand build and tested. Then Len's & Bellows was professionally assembled by SeeedStudio Fusion PCBA. Unfortunatelly there was a mistake in the assembly. 
+Now thanks to SeeedStudio we will manufacture again a new design "Pathfinder" soon. The test PCBs are on the way.
+Once we test the new PCB we will manufacture ten test boards professionally assembled.
+This had led to a few prototype cameras that work great (except for the light sensor).
+Few selected are receiving kits to test the openSX70 on their cameras!
 
 We are also trying to replicate and make more affordable some of the special tools needed to open and fix the SX70, and find replacements and alternatives of critical parts.
 
