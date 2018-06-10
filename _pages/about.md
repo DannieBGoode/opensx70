@@ -113,6 +113,11 @@ The new pre-industrial production 5.2 "Len's and Bellow's" PCB fully assembled p
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/20180318_Lens_and_Bellows_assembled_PCB_600DPI.jpg)
 
+After a mishap with the SEEEDFUSION PCBA service where they placed the BH1750 upside down I got a coupon from them to rebuild the boards. Nevertheless I have build a prototype (3.5) and it seems to work ok. Now I have designed a new board "Pathfinder". I have corrected a few errors that I had detected in "Len's & Bellows" particularly the BH1750 placement.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-pathfinder-02.jpg)
+
+Now I have got the prototype boards from SEEEDFUSION (I always test before comiting to PCBA)
 
 
 
