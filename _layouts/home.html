@@ -17,6 +17,8 @@ layout: with-sidebar
 
             {{ post.excerpt | truncatewords: 28 }}
 
+            <p class="read-more"><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn">Read More</button></a></p>
+
             <p class="meta">
                 <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name }}</a> 
                 in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a> 
