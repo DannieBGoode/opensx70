@@ -4,10 +4,10 @@ layout: with-sidebar
 
 <section class="row">
     <div class="col-sm-12">
-        <h2 class="favorites">Favorite posts</h2>
+        <h2 class="favorites">Latest Tutorials</h2>
     </div>
 
-    {% for post in site.posts %}
+    {% for post in site.tutorials %}
         {% if forloop.index <= 4 %}
         <article class="post-favorite col-xs-12 col-sm-6 ">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>

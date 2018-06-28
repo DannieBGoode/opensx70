@@ -1,5 +1,5 @@
 ---
-layout: home-alt-2
+layout: home-alt
 title: Tutorials
 permalink: /tutorials/
 bodyclass: alt-home
