@@ -5,7 +5,7 @@ date: '2018-03-29 28:00 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
-categories: opensx70
+categories: openSX70
 read_time: 3
 comments: 'true'
 published: true

@@ -4,7 +4,7 @@ layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
-categories: opensx70
+categories: openSX70
 read_time: 5
 comments: 'true'
 show_related_posts: 'true'
