@@ -30,7 +30,9 @@ I have also designed (should I say copied) a new USB adapter (technically an  FT
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-04.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-05.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-06.jpg)
+(the new FT232RL, there is a smaller version of the chip that would fit in the main PCB)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-06.JPG)
+(the new and the old adapter, that was a pain to hand-build!)
 
 
 So now I am waiting for the [SeeedStudio Fusion PCBA](https://www.seeedstudio.io/fusion_pcb.html?gclid=CjwKCAjw-8nbBRBnEiwAqWt1zb2orzd40EwAcPHtnMeq8YB7A6jVtEwk_yOW9iN8oRn-xeKNQSU8ORoCMJ8QAvD_BwE) boards to come from China, fingers crossed this time, although the circuit is simple enough and there should be no problems...
