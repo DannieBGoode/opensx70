@@ -30,8 +30,10 @@ I have also designed (should I say copied) a new USB adapter (technically an  FT
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-04.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-05.jpg)
+
 (the new FT232RL, there is a smaller version of the chip that would fit in the main PCB)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-06.JPG)
+
 (the new and the old adapter, that was a pain to hand-build!)
 
 
