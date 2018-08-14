@@ -26,7 +26,7 @@ SeeedStudio made a 10-PCBs manufacturing run of the new “Pathfinder” layout 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-02.JPG)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-03.JPG)
 
-I have also designed (should I say copied) a new USB adapter (technically an  FTDI) based on [Sparkfun’s Basic Breakout 3.3V ](https://www.sparkfun.com/products/9873) but with the openSX70 FPC cable connector,and the components from [SeeedStudio OPL library] (https://www.seeedstudio.com/opl.html). As I always do, I have done a PCB run, then hand assembled a few prototypes. Works perfectly and it is way easier to build. Maybe the board could have been a tad smaller (By the way, this makes me think that **maybe** it is feasible to have the FTDI built-in in the main PCB? Where would you put the microUSB connector?)
+I have also designed (should I say copied) a new USB adapter (technically an  FTDI) based on [Sparkfun’s Basic Breakout 3.3V ](https://www.sparkfun.com/products/9873) but with the openSX70 FPC cable connector,and the components from [SeeedStudio OPL library](https://www.seeedstudio.com/opl.html). As I always do, I have done a PCB run, then hand assembled a few prototypes. Works perfectly and it is way easier to build. Maybe the board could have been a tad smaller (By the way, this makes me think that **maybe** it is feasible to have the FTDI built-in in the main PCB? Where would you put the microUSB connector?)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-04.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-05.jpg)
