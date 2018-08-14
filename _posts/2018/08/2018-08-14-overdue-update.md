@@ -15,9 +15,7 @@ feature_image: SX70_images/openSX70-cameraporn-7
 permalink: /posts/2018/08/update
 description: Spreading the openSX70 word and building community
 ---
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-04.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-03.jpg)
-
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-01.JPG)
 
 This is a long overdue update.
 
@@ -25,10 +23,14 @@ First of all, the hard(ware) facts.
 
 SeeedStudio made a 10-PCBs manufacturing run of the new “Pathfinder” layout v5.5. They look awesome and seen to be in perfect working conditions. I have still to make a camera based on this boards, but “Pathfinder” itself has already been tested on a hand built board and sits happily in prototype #6. 
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-02.JPG)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-03.JPG)
+
 I have also designed (should I say copied) a new USB adapter (technically an  FTDI) based on [Sparkfun’s Basic Breakout 3.3V ](https://www.sparkfun.com/products/9873) but with the openSX70 FPC cable connector,and the components from [SeeedStudio OPL library] (https://www.seeedstudio.com/opl.html). As I always do, I have done a PCB run, then hand assembled a few prototypes. Works perfectly and it is way easier to build. Maybe the board could have been a tad smaller (By the way, this makes me think that **maybe** it is feasible to have the FTDI built-in in the main PCB? Where would you put the microUSB connector?)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-01.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-02.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-04.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-06.jpg)
 
 
 So now I am waiting for the [SeeedStudio Fusion PCBA](https://www.seeedstudio.io/fusion_pcb.html?gclid=CjwKCAjw-8nbBRBnEiwAqWt1zb2orzd40EwAcPHtnMeq8YB7A6jVtEwk_yOW9iN8oRn-xeKNQSU8ORoCMJ8QAvD_BwE) boards to come from China, fingers crossed this time, although the circuit is simple enough and there should be no problems...
@@ -56,7 +58,7 @@ That was nice, it only worries that someone else might take advange of the openn
 
 So what now? As I have said "customer support" is just not my thing. But again I can understand that some people would like to "play" with openSX70. I don't totally discard making DIY kits for "enthusiasts" even in this early phase (Pioneer kit??) but in the end I feel that the openSX70 has to be built by someone that knows what they are doing, that makes things easier for all of us. I intend to keep my pledge to be as reasonable priced as possible, it all depends on how many PCBs I order, and it changes with quantity a LOT. But that is only the main PCB, then whoever fits them, fixes the camera, should make a living as usual, and we should nurture these wonderful people. Maybe there is a bussiness model in the design of the Dongle? I don't know and I take it easy...
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-05.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-07.jpg)
 
 
 It feels alone here sometimes... but maybe, just maybe there will be amazing news soon... keep tuning to this channel!
