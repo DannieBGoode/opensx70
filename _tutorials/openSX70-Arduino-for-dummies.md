@@ -1,5 +1,5 @@
 ---
-title: SOPEN SX70-ARDUINO FOR DUMMIES
+title: OPEN SX70-ARDUINO FOR DUMMIES
 description: How I fake my way into the openSX70 electronics
 date: 2017-12-05T00:00:00.000Z
 layout: post
