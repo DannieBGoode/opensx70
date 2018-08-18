@@ -1,4 +1,3 @@
-
 ---
 title: SOPEN SX70-ARDUINO FOR DUMMIES
 description: How I fake my way into the openSX70 electronics
