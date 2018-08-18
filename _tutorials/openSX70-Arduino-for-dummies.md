@@ -1,6 +1,6 @@
 ---
-title: OPEN SX70-ARDUINO FOR DUMMIES
-description: How I fake my way into the openSX70 electronics
+title: OPEN SX70-ARDUINO FOR DUMMIES (part 1)
+description: How I faked my way into the openSX70 electronics
 date: 2017-12-05T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
@@ -73,9 +73,7 @@ I will try to explain a bit why we need 2.5V to run the Arduino. Why do we have 
 
 One basic rule when you have a circuit dealing with different voltages is that the GND or negative is always interconnected. This is important. Then you have your positive 6V and your positive 2.5V. But all the GND is the same! This is important and has its consequences later.
 
-Think of pipes
-
-Here is the problem, think of the circuit as pipes and think of the stuff you do with that current as, lets say, wheels that spin by the water on those pipes. We need the wheels to always have movement. If they stop the camera resets or whatever goes wrong. But sometimes we need to be doing quite a lot of stuff at the same time: moving the rollers, taking the pictures (solenoid #1) firing the flash... whatever, AND at the same time the arduino microcontroller needs enough power to keep or running. That is why the smaller are the pipes the more "pressure" will have the water, thus never dropping pressure.
+Think of pipes: the higher the voltage the wider the pipe. Might be easier to understand if you think of the circuit as pipes and think of the stuff you do with that current as, lets say, wheels that spin by the water on those pipes. We need the wheels to always have movement. If they stop the camera resets or whatever goes wrong. But sometimes we need to be doing quite a lot of stuff at the same time: moving the rollers, taking the pictures (solenoid #1) firing the flash... whatever, AND at the same time the arduino microcontroller needs enough power to keep or running. That is why the smaller are the pipes the more "pressure" will have the water, thus never dropping pressure.
 
 That is why after quite some experimentation and the help from my friend Peter (he really knows his electronics) we run the arduino at the measly 2.5V. That, of course, means that the wheel cannot run very fast, instead of the "optimal" 16mhz the microcontroller can handle, we run at 8mhz, which, mind you, is more that enough for the SX70: the important part is that the "show" never stops, or, in other words, the microcontroller never resets.
 
@@ -118,7 +116,7 @@ The picture comes from [here](http://thebitwiserebellion.com/blog/category/ardui
 
 I finally settled for the TQFP package, not the (even smaller) VQFN or MLF, in part because if what I want is to have the PCB manufactured but hand-building the prototype, that kind of packages is almos impossible to do by hand (maybe on the reflow oven, but I don't use it that much).
 
-**What makes an Arduino an Arduino?**
+## What makes an Arduino an Arduino?
 
 That is a good question.
 
