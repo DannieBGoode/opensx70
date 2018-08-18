@@ -7,7 +7,7 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 show_avatar: true
-read_time: 20
+read_time: 10
 feature_image: SX70_images/openSX70-cameraporn-4
 show_related_posts: false
 square_related: recommend-wolf
