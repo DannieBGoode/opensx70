@@ -17,7 +17,7 @@ categories: tutorials
 published: true
 ---
 
-<!-- # OPEN SX70-ARDUINO FOR DUMMIES**: Part one, the circuit, power and Arduino -->
+<!-- # openSX70-Arduino for dummies**: Part one, the circuit, power and Arduino -->
 
 ## Introduction
 
