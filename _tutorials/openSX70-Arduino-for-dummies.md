@@ -1,5 +1,5 @@
 ---
-title: OPEN SX70-ARDUINO FOR DUMMIES (part 1)
+title: OpenSX70/Arduino for Dummies (part 1)
 description: How I faked my way into the openSX70 electronics
 date: 2017-12-05T00:00:00.000Z
 layout: post
@@ -21,10 +21,15 @@ published: true
 
 ## Introduction
 
-Some people think that I know electronics, well, the hard "truth" is that I actually don't. So everything I say from here on is probably "wrong" you have been warned.
+Some people think that I know electronics, well, the truth is that I actually don't. I studied law in college. So everything I say from here on is probably "wrong" you have been warned.
+
 Nevertheless I am going to try to explain to you the basic principles of how I have been able to fake my way in the openSX70 project. Most of it is copying and pasting!
 
 I mostly Google stuff that I want to figure out, but there are two book (they are also in PDF) that have been essential to me, one for hardware and another for software.
+
+That doesn't mean any disrespect for the electrical and the electronic engineers, on the contrary: I truly hope I could have studied to be an engineer!
+
+I have used basically two books:
 
 [ABC Arduino basic connections](https://box.glgprograms.it/CorsoArduino2016/didattica/Arduino-BC.pdf) by Alberto Piganti, I actually got the original physical book, it is like a bible for me, but at the same time it reminds the kids ABC books: very simple. I bought it at the [original campaign](https://www.indiegogo.com/projects/arduino-basic-connections-the-book#/) he goes by PighiXXX and there seems to be a much better [new version](https://www.indiegogo.com/projects/abc-basic-connections-reference-book-for-makers-arduino#/) this is the website http://www.pighixxx.net.
 
@@ -33,9 +38,12 @@ I mostly Google stuff that I want to figure out, but there are two book (they ar
 
 The second book is about software for the Arduino. It is ["Arduino Programming Notebook"](http://playground.arduino.cc/uploads/Main/arduino_notebook_v1-1.pdf) by Brian W. Evans. It is the same concept, very simple and hands-on.
 
-It is also important to note, that there are many companies like [Sparkfun] and [Adafruit] have all their amazing design as open hardware, so you can not only download the schematic PDF but the EagleCAD files that you can open and edit and modify. I have used this for the FTDI only, the arduino part I did from scratch, although there were probably a few examples that I could have used. For the uDongle I had to do it from the datasheet of the [Dallas Semiconductor DS2408](https://datasheets.maximintegrated.com/en/ds/DS2408.pdf) chip, and that is indeed the final source of amazing and free information: the datasheets of the electronic parts. Some seem a bit daunting, but, if you stick to what you actually need and prescind of all the rest you will be fine. Mostly I use them for the "reference designs" examples or whatever they call them. This is an example, and although maybe is not exactly what you need, it is close enough and easy to adapt.
+It is also important to note, that there are many companies like [Sparkfun](https://www.sparkfun.com/) and [Adafruit](https://www.adafruit.com/) (and probably many more) that have all their amazing design as open hardware, so you can not only download the schematic PDF but the [EagleCAD](https://www.autodesk.com/products/eagle/free-download) files that you can open and edit and modify. I have used this for the FTDI only, the arduino part I did from scratch, although there were probably a few examples that I could have used. For the uDongle I had to do it from the datasheet of the [Dallas Semiconductor DS2408](https://datasheets.maximintegrated.com/en/ds/DS2408.pdf) chip, and that is indeed the final source of amazing and free information: the datasheets of the electronic parts. Some seem a bit daunting, but, if you stick to what you actually need and prescind of all the rest you will be fine. Mostly I use them for the "reference designs" examples or whatever they call them. This is an example, and although maybe is not exactly what you need, it is close enough and easy to adapt.
 
-Speaking of electronic components, since I have no idea of what I do, it is hard for me to find the "right" component. So many times I end up buying a few different ones, and then test the better suited. I guess there are two very important things regarding electronic components: first you want something "current" in the sense that you don't want to use a component that is a)obsolete and thus b)expensive and hard to find. Second I guess that you want to choose the cheaper component, sometimes the components have stricter tolerances or whatnot and that makes them more expensive. I really don't care much about that right now. Some chips like the FT232RL are quite expensive, and, what is really troublesome there are a counterfeit chips that don't work!
+Speaking of electronic components (since I have mostly no idea of what I do) it is hard for me to find the "right" component. So many times I end up buying a few different ones, and then testing the better suited. 
+I usually get my components from [Farnell](https://www.farnell.com/) or [RS Components](https://uk.rs-online.com/web/), although I find myself lately buying some of the components in [EBAY](https://www.ebay.com/).
+
+I guess there are two very important things regarding electronic components: first you want something "current" in the sense that you don't want to use a component that is a)obsolete and thus b)expensive and hard to find. Second I guess that you want to choose the cheaper component, sometimes the components have stricter tolerances or whatnot and that makes them more expensive. I really don't care much about that right now. Some chips like the FT232RL are quite expensive, and, what is really troublesome there are a counterfeit chips that don't work!
 
 Also, when you want to have your stuff professionally manufacture, like I do with [SeeedStudio Fusion](https://www.seeedstudio.com/fusion.html) and their PCBA (PCB assembly service) you want to use the parts that they either already have (they have a list called [OPL](https://www.seeedstudio.com/opl.html) or that they can get). This service is so amazing that you just upload the gerber files (those are like the PDF files of the printed circuit boards world) and what is called the BOM (Bill of Materials), you pay them and (hopefully) in less than a month you have your circuits: Amazing!
 
@@ -121,6 +129,8 @@ I finally settled for the TQFP package, not the (even smaller) VQFN or MLF, in p
 That is a good question.
 
 You are probably better reading some of the answers in the internet, like [Sparkfuns](https://learn.sparkfun.com/tutorials/what-is-an-arduino), but in the end we basically all agree that is physical computing, thus, we make things happen, turn on motors, solenoid, and get information from switches. It is open source, it uses the Arduino IDE development enviroment. It is very easy to program via USB, you don't need, in principle any special programmer or anything. That is because the arduino has pre-loaded a small program that facilitates all that: the bootloader. One could say that the bootloader is somehow openSX70s "secret sauce", it might be, it has been custom made for me by my friend Peter and has some special characteristics that make it reliable and suitable. Not rocket science, but very important. It is based on the optiBoot bootloader.
+
+Of course the other essential component of an Arduino is more part of the microcontroller: a bunch on general input output ports (GPIOS) to interact with the physical world.
 
 In the next part I will explain about the SX70-specific circuitry and how I implemented and tested that in the FrankenSX70 camera.
 
