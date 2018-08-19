@@ -25,11 +25,10 @@ Some people think that I know electronics, well, the truth is that I actually do
 
 Nevertheless I am going to try to explain to you the basic principles of how I have been able to fake my way in the openSX70 project. Most of it is copying and pasting!
 
-I mostly Google stuff that I want to figure out, but there are two book (they are also in PDF) that have been essential to me, one for hardware and another for software.
+That doesn't mean any disrespect for the electrical and the electronic engineers, on the contrary: I truly wish I could have studied to be an engineer!
 
-That doesn't mean any disrespect for the electrical and the electronic engineers, on the contrary: I truly hope I could have studied to be an engineer!
 
-I have used basically two books:
+I mostly Google stuff that I want to figure out, but there are two book (they are also in PDF) that have been essential to me, one for hardware and another for software:
 
 [ABC Arduino basic connections](https://box.glgprograms.it/CorsoArduino2016/didattica/Arduino-BC.pdf) by Alberto Piganti, I actually got the original physical book, it is like a bible for me, but at the same time it reminds the kids ABC books: very simple. I bought it at the [original campaign](https://www.indiegogo.com/projects/arduino-basic-connections-the-book#/) he goes by PighiXXX and there seems to be a much better [new version](https://www.indiegogo.com/projects/abc-basic-connections-reference-book-for-makers-arduino#/) this is the website http://www.pighixxx.net.
 
