@@ -10,7 +10,7 @@ read_time: 9
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Prototype #7 & Seeed!
+title: Prototype#7 & Seeed!
 feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/08/prototype7	
 description: SeeedStudio does it again.
