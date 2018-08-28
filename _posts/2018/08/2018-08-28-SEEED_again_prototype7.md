@@ -70,7 +70,7 @@ I am not going to say what I think (!!!!!), let only be known that it shouldn't 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/open_SX70-PCBA_Mosfet-09.jpg)
 
 
-Now that I have complained to them, lets see what they have to say.
+Now that I have complained to them, lets see what they have to say. TBC...
 
 #openSX70 #SX70 #press #Polaroid #PolaroidOriginals #OriginalPolaroids #Arduino #DIY #FilmIsNotDead #InstantPhotography #ImpossibleProject #Analog #TIP #cameraHacks #manualSX70 #SX70 #SeedStudio #SeedStudioFusion #SeedStudioPCBA #EagleCAD #Fantasia
 
