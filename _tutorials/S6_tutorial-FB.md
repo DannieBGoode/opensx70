@@ -98,6 +98,9 @@ You just then remove the cover with great care.
 7. Switch S6
 Switch S6 performs an interlock function. It disconnects the battery from the camera circuitry when the camera is closed. Like any other electrical switch, the contacts of switch S6 are subject to the accumulation of dirt and corrosion. Over a period of use, the contacts become subject to fatigue and breakage.  In addition, a contact that has become loose on the housing can cause camera malfunctions of both intermittent and continuous nature.  If any of the aforementioned causes result in a camera malfunction, the contacts must be either tightened on their mount or replaced. The following paragraphs describe the removal and replacement procedures for the switch.  For removal/installation of the S6 actuator, see paragraph C of this section.
 Removal
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/S6-repair-tutorial-13.jpg)
+
 a. Unsolder and disconnect the two S6 contacts (Figure 4-93) from the flex circuit. (These contacts are also identified in Figure 4-88.)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/S6-repair-tutorial-4.jpg)
