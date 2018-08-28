@@ -1,7 +1,7 @@
 ---
 title: SX70 camera S6 switch repair
 description: How to fix your SX70 camera when does not turn on
-date: 2018-08-027T00:00:00.000Z
+date: 2018-08-27T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
