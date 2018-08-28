@@ -39,7 +39,7 @@ So first thing I do on returning is troubleshoot prototype#7. I power solenoid#1
 
 Next I should replace the mosFET chip in the PCB by the specified one.
 
-I had indicated in the BOM file (Bill of Materials) that the mosFET apropriate for the solenoids (both) is [AO3404](http://www.aosmd.com/pdfs/datasheet/AO3404.pdf). Nothing fancy really.
+I had indicated in the BOM file (Bill of Materials) that the mosFET apropriate for the solenoids (both) is [AO3404](http://www.aosmd.com/pdfs/datasheet/AO3404.pdf). Nothing fancy really. Marked "A09T".
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/open_SX70-PCBA_Mosfet-01.jpg)
 
