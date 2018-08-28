@@ -13,7 +13,7 @@ show_related_posts: 'true'
 title: (Long) overdue update
 feature_image: SX70_images/openSX70-cameraporn-7
 permalink: /posts/2018/08/update
-description: Spreading the openSX70 word and building community
+description: an update for many stuff that has happened!
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/openSX70-overdue-01.JPG)
 
