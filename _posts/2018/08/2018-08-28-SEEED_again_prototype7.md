@@ -17,7 +17,7 @@ description: SeeedStudio does it again.
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/08/open_SX70-PCBA_Mosfet-05.jpg)
 
-So finally I have prototype#7 working!!
+So finally I have prototype#7 working!! This is the first picture I have taken, EV10 (it was really late, but the mirror delay really helps keeping slow shots steady). 
 
 When I had the new PCBs from SeedStudioFusion, I tested all that I could test before assembling the camera: and it worked.
 
