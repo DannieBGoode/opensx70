@@ -79,8 +79,6 @@ You also need some really small screws. I used [this from Ebay](https://l.facebo
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/S6-repair-tutorial-3.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/S6-repair-tutorial-2.jpg)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/image10.png)
-
 
 ## Step 2: Disassembly
 
