@@ -1,4 +1,3 @@
-
 ---
 title: SX70 FOR DUMMIES: THE WONDER OF "MECHANICAL ELECTRONICS"
 description: How the SX70 works for dummies
