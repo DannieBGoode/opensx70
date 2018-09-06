@@ -1,5 +1,5 @@
 ---
-title: SX70 FOR DUMMIES: THE WONDER OF "MECHANICAL ELECTRONICS"
+title: SX70 FOR DUMMIES: THE WONDER OF MECHANICAL ELECTRONICS
 description: How the SX70 works for dummies
 date: 2018-09-05T00:00:00.000Z
 layout: post
@@ -17,7 +17,7 @@ categories: tutorials
 published: true
 ---
 
-<!-- # OPEN SX70-ARDUINO FOR DUMMIES**: Part two, SX70 the "Mechanical electronics" worder -->
+<!-- # OPEN SX70-ARDUINO FOR DUMMIES**: Part two, SX70 the "Clockwork electronics" worder -->
 
 ## Introduction
 
