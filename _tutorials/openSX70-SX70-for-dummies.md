@@ -1,6 +1,6 @@
 ---
 title: SX70 FOR DUMMIES: The wonder of clockwork electronics.
-description: How the SX70 works for dummies
+description: How the SX70 works for dummies part 2
 date: 2018-09-05T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
@@ -33,4 +33,3 @@ The camera consists on a bunch of gears that move the mirror up and down, and pu
 
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
