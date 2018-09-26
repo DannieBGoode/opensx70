@@ -21,8 +21,6 @@ We used it quite a lot, took it on trips and enjoyed it a lot. And then we forgo
 ![Fire image]({{site.url}}/{{site.baseurl}}img/joaco-cambados-1982.jpg)
 
 
-[MAKE A DONATION](https://paypal.me/opensx70)
-
 
 Then came the Impossible Project. I remember thinking that the camera was broken, had some sort of light leak, since all pictures came out overexposed, almost white. Ever since then we have been partners so to speak with Impossible y road to reinvent the ancient formula of instant photography. 
 We started to read books about the story of Polaroid and the genius behind. Of all these things, the most amazing for me is holding an SX70 in my hand, opening and closing it, shooting pictures, the sound of the print coming out…
