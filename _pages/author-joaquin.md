@@ -10,7 +10,7 @@ title: Joaquin de Prada
 
 # Joaquín de Prada
 
-Although I studied and became a lawyer, I always liked to tinker with things.
+Although I studied and became a lawyer, but deep down I always liked to tinker with things.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/joaquin-solder.jpg)
 
