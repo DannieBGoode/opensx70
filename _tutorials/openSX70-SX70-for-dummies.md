@@ -1,5 +1,5 @@
 ---
-title: SX70 FOR DUMMIES: The wonder of clockwork electronics.
+title: SX70 FOR DUMMIES - The wonder of clockwork electronics.
 description: How the SX70 works for dummies part 2
 date: 2018-09-05T00:00:00.000Z
 layout: post
@@ -14,7 +14,6 @@ square_related: recommend-wolf
 permalink: /tutorials/openSX70-for-dummies-2/
 comments: true
 categories: tutorials
-published: true
 ---
 
 <!-- # OPEN SX70-ARDUINO FOR DUMMIES: Part two, SX70 the Clockwork electronics worder -->

@@ -19,6 +19,7 @@ nav_list:
   Press : ['Press', '/press', 'fa-newspaper-o']
   Files : ['Files', '/files', 'fa-files-o']
   Author : ['Author', '/author/joaquin', 'fa-user']
+  Donate : ['Donate', 'https://paypal.me/opensx70', 'fa-money']
 single_footer: '<p>Welcome to the openSX70 community &copy; 2018 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']

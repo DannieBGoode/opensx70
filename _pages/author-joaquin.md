@@ -26,4 +26,4 @@ Then came the Impossible Project. I remember thinking that the camera was broken
 We started to read books about the story of Polaroid and the genius behind. Of all these things, the most amazing for me is holding an SX70 in my hand, opening and closing it, shooting pictures, the sound of the print coming out…
 
 
-(https://paypal.me/opensx70)
+[Donate!](https://paypal.me/opensx70)
