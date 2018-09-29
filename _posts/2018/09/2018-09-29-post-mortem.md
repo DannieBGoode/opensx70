@@ -55,6 +55,10 @@ I don't know if I have to program "high power" in a different way, or remain (if
 
 That is a problem that I have when something goes wrong (whatever): Have I done something wrong in my design? or simply is the camera broken...
 
+
+{% include video id="cJJe4Ods" provider="youtube" class="full"%}
+
+
 So talking about S4 brings me to the idea of a sort of "universal" PCB that would work with (most) SX70 (well I have not seen cameras with more that 7 lines), but I would to use S4, have S2 in all the different places I have seen, and, of course, incorporate the sonar header:
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-08.jpg)
@@ -65,7 +69,7 @@ Finally I would like to move the LED to the place it sits on the sonar ECM (and 
 
 I want to make a plea, for someone/anyone that has any kind of technical information, repair manual, schematics or whatever: I am willing to pay for it, trade it for a openSX70 "kit". I can keep it to myself or share publicly. Even if it is a document already public, if you have a "cleaner" or original version please contact me (I just want a good scan). I am also looking in information on original SX70 tools, or just pictures of original tools so I can try do build my own. SO PLEASE PLEASE CONTACT ME (IF YOU DON'T DO IT FOR ME, DO IT FOR DUYEN)!
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-09.jpg) 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-09.JPG) 
 
 Do you see the LED????
 
