@@ -10,16 +10,18 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Model 2 post mortem
+title: Duyen's Model 2 post mortem
 feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2018/09/post-mortem
 description: Whatever happenned to Duyen's Model 2 SX70?
 ---
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-04.jpg)
+
+
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-03.jpg)
 
-Earlier in the summer I figured I try to upgrade not an Alpha, but an earlier Model 2 SX70 camera. Some of you know that this camera is an evolution of the original, but not quite an Alpha.
 
 So I had this camera labeled with DYMO (I love it) that probably used to belong to a dude named DUYEN.
 
