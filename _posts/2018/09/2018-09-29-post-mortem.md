@@ -32,7 +32,7 @@ As far as I know it does not have tripod hole or fixture for the strap, but it a
 
 It is important to know that the creators of the original circuit had a lot of trouble with noise and power peaks, actually there was a battle between Fairchild Semiconductor and Texas Instruments for the designed and the implementation of the circuit (read ["The battle for the SX70", by Tekla S. Perry IEEE Spectrum, May 1989](https://ieeexplore.ieee.org/document/30763) and ["Behind the lens of the SX-70" by Geral Lapidus IEEE Spectrum December 1973](https://dl.acm.org/citation.cfm?id=2241330&picked=prox&preflayout=flat), both really interesting articles)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-07.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-07.JPG)
 
 They had to squeeze more than 400 transistors in the small ECM and that was a feat in 1973!
 
