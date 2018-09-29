@@ -18,6 +18,7 @@ description: Whatever happenned to Duyen's Model 2 SX70?
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-04.jpg)
 
+Earlier in the summer I figured I try to upgrade not an Alpha, but an earlier Model 2 SX70 camera. Some of you know that this camera is an evolution of the original, but not quite an Alpha.
 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-03.jpg)
