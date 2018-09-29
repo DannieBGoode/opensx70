@@ -20,9 +20,13 @@ The other day Marco of [AnalogThings](https://www.youtube.com/channel/UC_1Wc6fdI
 
 Of course I was there to try to help, but what can I say... no words.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/acceptable_joints.jpg)
+
+
 In the end all went well and the camera seemed to work, and the (can we call it a one day build?) included the need to replace some pesky mosfets that were used by the manufacturer...
 
 So I want to encourage all to see Marco's videos on [his YouTube Channel](https://www.youtube.com/channel/UC_1Wc6fdIxr3wctK2bDTLkw) and join us all in the community at [Discord](https://discord.gg/bRYWQM)
+
 
 I am happy because the openSX70 revolution is gaining momemtum!
 
