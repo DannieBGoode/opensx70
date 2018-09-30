@@ -56,7 +56,7 @@ I don't know if I have to program "high power" in a different way, or remain (if
 That is a problem that I have when something goes wrong (whatever): Have I done something wrong in my design? or simply is the camera broken...
 
 
-{% include video id="cJJe4Ods" provider="youtube" class="full"%}
+{% include video id="L107bpZXJ5o" provider="youtube" class="full"%}
 
 
 So talking about S4 brings me to the idea of a sort of "universal" PCB that would work with (most) SX70 (well I have not seen cameras with more that 7 lines), but I would to use S4, have S2 in all the different places I have seen, and, of course, incorporate the sonar header:
