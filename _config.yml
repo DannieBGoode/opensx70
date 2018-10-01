@@ -26,6 +26,8 @@ footer_links:
 #    Writer: ['Writer 2016', '/about']
     Writer: ['openSX70 2018', '/about']
 
+analytics:
+  google                 : "UA-126751298-1"
 
 # Build settings
 # markdown: kramdown
