@@ -69,17 +69,17 @@ As a legal reminder please note that the code and files is under [Creative Commo
 
 + ## **How can I contact you?**
 
-  - Press contact: opensx70 at opensx70 dot com
+  - Press contact: opensx70@opensx70.com
 
   - web: www.opensx70.com  
 
   - [Facebook (closed group)](https://goo.gl/3qjne2)
 
-  - Twitter: @openSX70
+  - Twitter: [@openSX70](https://twitter.com/opensx70)
 
-  - instagram: openSX70
+  - instagram: [openSX70](https://www.instagram.com/opensx70/)
   
-   - [Github project page](https://goo.gl/1A1QbY)
+  - [Github project page](https://goo.gl/1A1QbY)
 
 Tags: #openSX70 #SX70 #Polaroid #Arduino #TIP #ImpossibleProject #InstantFilm #DIY #OriginalPolaroids
 

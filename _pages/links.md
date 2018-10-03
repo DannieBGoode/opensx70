@@ -31,4 +31,4 @@ feature_image: feature-book
 
 [http://www.polaroidland.net/](http://www.polaroidland.net/)
 
-If you have or know of an interested web please contact us: opensx70 at opensx70 dot com.
+If you have or know of an interested web please contact us: opensx70@opensx70.com.
