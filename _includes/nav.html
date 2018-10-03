@@ -4,7 +4,7 @@
             <li>
             	<i class="fa {{ page[1][2] }}"></i>
             	<a href="{{ page[1][1] | prepend: site.baseurl }}" 
-            	{% if page[1][2] == 'blank' %} 
+            	{% if page[1][3] == 'blank' %} 
             	target="_blank"
             	{% endif %}>{{ page[1][0] }}</a></li>
         {% endfor %}
