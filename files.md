@@ -2,7 +2,7 @@
 layout: page
 title: openSX70 project files
 permalink: /files/
-feature_image: feature-book
+feature_image: openSX70-boards.jpg-1
 ---
 
 + ## [**main arduino project**](https://github.com/openSX70/openSX70-Arduino-main "go to files")
