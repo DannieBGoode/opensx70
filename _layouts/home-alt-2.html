@@ -22,7 +22,7 @@ layout: default
                 {% for post in site.tutorials %}
                     {% if forloop.index <= page.post_count %}
                     <!-- <article class="post"> -->
-                    <article class="tutorials">
+                    <article class="tutorials post">
                         <div class="post-preview col-xs-10 no-gutter">
                             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
