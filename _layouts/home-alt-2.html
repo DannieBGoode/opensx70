@@ -67,8 +67,8 @@ layout: default
                     <section>
                     {% for post in site.tutorials %}
                         <div class="category-preview col-xs-12 col-sm-6 ">
-                            <h2>{{ post.title }}</h2>
-                            <a href="{{ post.author_url | prepend: site.baseurl }}">
+                            <a href="{{ post.url | prepend: site.baseurl }}">
+                                <h2>{{ post.title }}</h2>
                                 <img src='{{ site.baseurl }}/img/{{post.feature_image}}.jpg' alt="category-image">
                             </a>
                         </div>
