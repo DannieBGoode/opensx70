@@ -13,6 +13,7 @@ show_related_posts: false
 square_related: recommend-wolf
 permalink: /tutorials/openSX70-for-dummies-2/
 comments: true
+published: false
 categories: tutorials
 ---
 
