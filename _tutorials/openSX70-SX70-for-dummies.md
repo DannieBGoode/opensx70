@@ -1,7 +1,7 @@
 ---
 title: SX70 FOR DUMMIES - The wonder of clockwork electronics.
 description: How the SX70 works for dummies part 2
-date: 2018-09-05T00:00:00.000Z
+date: 2018-11-05T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
