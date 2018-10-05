@@ -41,12 +41,12 @@ layout: default
         <section class="col-md-6 col-sm-12 col-md-offset-6 alt-main">
 
             <div class="sub-nav">
-                <a href="#" >Categories</a>
+                <a href="#" >Tutorials</a>
             </div>
 
 
 
-            <div class="home-page-categories animated fadeIn ">
+            <!-- <div class="home-page-categories animated fadeIn ">
                 <div class="category row">
                     <section>
                         {% for category in site.categories %}
@@ -61,7 +61,24 @@ layout: default
 
                     </section>
                 </div>
+            </div> -->
+            <div>
+                Welcome to the tutorials section.
             </div>
+            <div class="home-page-categories animated fadeIn ">
+                <div class="category row">
+                    <section>
+                    {% for post in site.tutorials %}
+                        <div class="category-preview col-xs-6 col-sm-4 ">
+                            <h2>{{ post.title }}</h2>
+                            <a href="{{ post.author_url | prepend: site.baseurl }}">
+                                <img src='{{ site.baseurl }}/img/{{page.feature_image}}.jpg' alt="category-image">
+                            </a>
+                        </div>
+                    {% endfor %}
+                    </section>
+                </div>
+            </div>  
 
             {% include mini-footer.html %}
 
