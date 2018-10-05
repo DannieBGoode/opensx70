@@ -28,7 +28,7 @@ The camera consists on a bunch of gears that move the mirror up and down, and pu
 
 
 
-![Fire image]({{site.url}}/{{site.baseurl}}_tutorials/img/DUMMIES-2-SX70.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/DUMMIES-2-SX70.jpg)
 
 
 
