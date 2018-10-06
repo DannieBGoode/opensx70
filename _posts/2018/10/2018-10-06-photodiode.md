@@ -10,8 +10,8 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: new light sensor
-feature_image: SX70_images/openSX70-cameraporn-2
+title: Looking for a new light sensor
+feature_image: SX70_images/openSX70-cameraporn-12
 permalink: /posts/2018/10/photodiode
 description: Making openSX70 camera automatic!
 ---
