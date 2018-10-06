@@ -34,15 +34,16 @@ So I needed something else, something faster, something simpler, and something w
 
 So I have ordered a bunch of photodiodes from Mouser like [Vishay's VBPW34S](https://www2.mouser.com/datasheet/2/427/vbpw34s-244735.pdf) and will start to make tests as soon I get them and find the time. I also ordered some from Osram with the same package. 
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-vishay.JPG)
 
 
 
 They all have a large sensor, similar to SX70's orginal.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-dimensions-OSRAM.jpg)
+(Osram's dimmensions)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-dimensions.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-dimensions.JPG)
+(Vishay's dimmensions)
 
 As a quick update, I am working in part two of my OpenSX70/Arduino for Dummies. I will try to explain in layman's words how **I understand** that the camera works. 
 I am also seeking help in manufacturing the boards, maybe closer to home, don't know. I also think that I have found someone that can help/teach me, about the project, and electronics in general. I hope I can afford that.
