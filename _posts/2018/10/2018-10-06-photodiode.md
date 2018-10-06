@@ -56,7 +56,7 @@ That will have the new light sensor (the photodiode) if my tests are successful,
 
 I call it transitional just because I have this (crazy) goal of a universal PCB that works on early cameras up to sonars. BUT THAT IS A LONG WAY OFF, so don't ask. For the moment I only "officially" "support" Alphas non Sonar.
 
-Finally "ALPHA" will probably have the possibility of an LED like it is placed in some sonars for low light indication.
+Finally "ALPHA" will probably have the possibility of placing a LED like it is placed in some sonars for low light indication. That way a "hybrid" camera (alpha but with the sonar VF) could be theorically made. So I can send turn it on and off from the Arduino code. Maybe a dual LED, say red and green.
 
 As I always say, if you have any technical documentation or paper about the camera that I DON'T HAVE, or repair manual, or tool or whatever, I am willing to trade for goodies.
 If you can help with my "AUTO" endevour please contact me.
