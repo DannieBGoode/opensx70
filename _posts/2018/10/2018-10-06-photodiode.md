@@ -8,7 +8,7 @@ author_avatar: joaquin
 categories: openSX70
 read_time: 6
 comments: 'true'
-published: false
+published: true
 show_related_posts: 'true'
 title: new light sensor
 feature_image: SX70_images/openSX70-cameraporn-2
@@ -32,13 +32,16 @@ So I needed something else, something faster, something simpler, and something w
 
 
 So I have ordered a bunch of photodiodes from Mouser like [Vishay's VBPW34S](https://www2.mouser.com/datasheet/2/427/vbpw34s-244735.pdf) and will start to make tests as soon I get them and find the time. I also ordered some from Osram with the same package. 
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-vishay.jpg)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-osram.jpg)
 
 
 They all have a large sensor, similar to SX70's orginal.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-dimensions-OSRAM.jpg)
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-dimensions.jpg)
 
 As a quick update, I am working in part two of my OpenSX70/Arduino for Dummies. I will try to explain in layman's words how **I understand** that the camera works. 
@@ -46,9 +49,14 @@ I am also seeking help in manufacturing the boards, maybe closer to home, don't 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/alpha-pcb.jpg)
 
-Work is underway in the new (transitional) PCB that I have nicknamed "ALPHA" (layout 6 evolution of Pathfinder). That will have the new light sensor (the photodiode) if my tests are successful, and also will have an extra connection to the flat cable that goes to the USB adapter: 1-wire. That means that a dongle NOT CONNECTED to the flash would be a possibility (My I am getting ahead of myself, this is going to be a full in-depth review of all the possible dongle designs that are in progress).
+Work is underway in the new (transitional) PCB that I have nicknamed "ALPHA" (layout 6 evolution of Pathfinder). 
+
+That will have the new light sensor (the photodiode) if my tests are successful, and also will have an extra connection to the flat cable that goes to the USB adapter: 1-wire. That means that a dongle NOT CONNECTED to the flash would be a possibility (My I am getting ahead of myself, this is going to be a full in-depth review of all the possible dongle designs that are in progress).
+
 I call it transitional just because I have this (crazy) goal of a universal PCB that works on early cameras up to sonars. BUT THAT IS A LONG WAY OFF, so don't ask. For the moment I only "officially" "support" Alphas non Sonar.
+
 Finally "ALPHA" will probably have the possibility of an LED like it is placed in some sonars for low light indication.
+
 As I always say, if you have any technical documentation or paper about the camera that I DON'T HAVE, or repair manual, or tool or whatever, I am willing to trade for goodies.
 If you can help with my "AUTO" endevour please contact me.
 I have been getting some mails of people asking for help, or for me to repair their camera, or thinking that the openSX70 PCB might be a fix for their camera: PLEASE DON'T DO THAT. If you have a broken camera, part or whatever, consider donating it to the project. I support all the expenses of the project and any help is greatly appreciated.
