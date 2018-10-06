@@ -15,6 +15,7 @@ feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2018/10/photodiode
 description: Making openSX70 camera automatic!
 ---
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-osram.JPG)
 From the very beginning I have been [stating all the characteristics](https://opensx70.com/FAQ/) that (reallistically) I would like the openSX70 SX70 camera to have. And yes, one of theres has always been "AUTO" mode, actually dongleless auto mode. That means that the camera would work as a "normal" SX70 but with a deep secret inside. Also, I suspect that a modern sensor would make this auto mode much better, and, of, course, it would be either 600 or 100 ISO.
 
 Of course, that are not the only ones. There are a few more, but those are not realistic.
@@ -33,9 +34,8 @@ So I needed something else, something faster, something simpler, and something w
 
 So I have ordered a bunch of photodiodes from Mouser like [Vishay's VBPW34S](https://www2.mouser.com/datasheet/2/427/vbpw34s-244735.pdf) and will start to make tests as soon I get them and find the time. I also ordered some from Osram with the same package. 
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-vishay.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-vishay.JPG)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/new-light-meter-osram.jpg)
 
 
 They all have a large sensor, similar to SX70's orginal.
