@@ -31,6 +31,7 @@ But the main problem has nothing to do with all of that. The main problems are a
 
 So I needed something else, something faster, something simpler, and something with a much larger sensor to pick up light, something close to the original sensor.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/original-pcb-bottom.jpg)
 
 So I have ordered a bunch of photodiodes from Mouser like [Vishay's VBPW34S](https://www2.mouser.com/datasheet/2/427/vbpw34s-244735.pdf) and will start to make tests as soon I get them and find the time. I also ordered some from Osram with the same package. 
 
