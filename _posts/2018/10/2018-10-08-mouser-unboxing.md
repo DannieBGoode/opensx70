@@ -17,7 +17,7 @@ description: New sensors from Mouser are here!
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-08-mouser-unboxing-1.jpg)
 
-This is not what I wound consider an "interesting" post but I wanted to share my joy for getting the goodies: YES, today I got the package from [Mouser Electronics](https://www.mouser.com/) way ahead of the expected date.
+This is not what I wound consider an "interesting" post but I wanted to share my joy for getting the goodies: YES, today I got the package from [Mouser Electronics](https://www.mouser.com/) way ahead of the expected date. As I said in my [previous post](https://opensx70.com/posts/2018/10/photodiode) I am looking for a replacement light sensor, that is both faster and also has a form factor similar to the one found in the original SX70 ECMs.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-08-mouser-unboxing-2.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-08-mouser-unboxing-3.jpg)
