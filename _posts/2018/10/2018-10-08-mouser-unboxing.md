@@ -6,11 +6,11 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin
 categories: openSX70
-read_time: 6
+read_time: 3
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Looking for a new light sensor
+title: The new sensors are here!
 feature_image: SX70_images/openSX70-cameraporn-13
 permalink: /posts/2018/10/mouser
 description: New sensors from Mouser are here!
