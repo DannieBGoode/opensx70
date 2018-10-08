@@ -10,7 +10,7 @@ I recommend that you read the [about](http://opensx70.com/about/) page and the [
 
 You can download all the material, please feel free to use, include in you pages or do whatever you want, but please link to the www.opensx70.com webpage and give proper credit.
 
-- [Official Press release](https://docs.google.com/document/d/1gqvltGxiFymVwjfPhQWtjdwAMcpHsCY-FdSCoCL-W4k/edit?usp=sharing).
+- [Official Press release](https://docs.google.com/document/export?format=pdf&id=1gqvltGxiFymVwjfPhQWtjdwAMcpHsCY-FdSCoCL-W4k&token=AC4w5Vh3HhCdliCDrdsCdLnXNTzL9TaDcA%3A1538991021398&includes_info_params=true).
 
 - [openSX70 system graphic: teaching an old camera new tricks](https://github.com/openSX70/Press/raw/master/openSX70-modular_system.pdf)
 
