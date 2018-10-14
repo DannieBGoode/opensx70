@@ -34,6 +34,7 @@ So when Clément proposed to design a case for the dongle I was very happy.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-skype.jpg)
 
 
+
 There are a few initiatives on right now on a dongle design, I don't think there has to be "the one" dongle, but, on the contrary, the beauty of an open project is that many people can collaborate, and they are.
 
 But by far the most advanced project at this moment in time is Clément's. He has designed a case for the uDongle, and has manufactured it with 3D print. And the result so far is great.
