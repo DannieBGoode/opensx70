@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: The dongle case & the Polaroid Festival
+title: The new dongle case & the Polaroid Festival
 feature_image: SX70_images/openSX70-cameraporn-12
 permalink: /posts/2018/10/dongle1
 description: Clément's dongle enclosure!
@@ -30,7 +30,9 @@ So when Clément proposed to design a case for the dongle I was very happy.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/red-3-3-dongle.jpg)
 
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-presentation.jpg)
+
 
 There are a few initiatives on right now on a dongle design, I don't think there has to be "the one" dongle, but, on the contrary, the beauty of an open project is that many people can collaborate, and they are.
 
