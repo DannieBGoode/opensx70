@@ -20,7 +20,7 @@ description: Clément's dongle enclosure!
 One of the perks of running the openSX70 project is that I get to meet these amazing people. Like [Clément Grosjean](http://clementgrosjean.fr/). He is a photographer and the organizer of the incredible [Polaroid Festival](http://polaroidfestival.com/). This is a huge pillar of the Polaroid community. 
 The openSX70 project was a proud [partner of the Festival](http://polaroidfestival.com/partenaires), and unfortunately I could not attend in person (only via video conference). 
 
-I am sorry for not going to Paris because it was the world unveiling (in late June 2018) of the project to the world, and that is a big deal. It was really really nice to make the presentation with Clément tough.	
+I am sorry for not going to Paris because it was the world unveiling (in late June 2018) of the project to the world, and that is a big deal. It was really really nice to make the presentation with Clément though.	
 
 {% include video id="VMkCRT-FEKo" provider="youtube" class="full"%}
 
