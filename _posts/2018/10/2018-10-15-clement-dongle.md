@@ -24,14 +24,14 @@ The openSX70 project was a proud [partner of the Festival](http://polaroidfestiv
 
 I can not say enough about the work and effort (not to say money!) that goes into organizing such an event.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/pres.jpg)
+
 On the other hand you all know how I feel about the uDongle (UGLY dongle!) and my wish to design a "proper" dongle with a nice case and selection wheel.
 So when Clément proposed to design a case for the dongle I was very happy.
 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/red-3-3-dongle.jpg)
 
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/pres.jpg)
 
 There are a few initiatives on right now on a dongle design, I don't think there has to be "the one" dongle, but, on the contrary, the beauty of an open project is that many people can collaborate, and they are.
 
