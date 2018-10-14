@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: The new dongle case & the Polaroid Festival
-feature_image: SX70_images/openSX70-cameraporn-12
+feature_image: SX70_images/openSX70-cameraporn-15
 permalink: /posts/2018/10/dongle1
 description: Clément's dongle enclosure!
 ---
