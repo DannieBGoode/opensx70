@@ -35,4 +35,4 @@ feature_image: flexcable
 
 
 
-If you have or know of an interested web please contact us: opensx70@opensx70.com.
+If you have or know of an interesting web please contact us: opensx70@opensx70.com.
