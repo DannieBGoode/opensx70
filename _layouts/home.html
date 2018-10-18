@@ -15,9 +15,9 @@ layout: with-sidebar
         <div class="post-preview col-xs-10  no-gutter">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <span style="font-size:13px">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-            {{ post.excerpt | truncatewords: 28 }}
-
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.content | truncatewords: 28 }}
+            </a>
             <p class="read-more"><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn">Read More</button></a></p>
 
             <p class="meta">
