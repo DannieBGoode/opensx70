@@ -11,7 +11,7 @@ read_time: 20
 feature_image: SX70_images/openSX70-cameraporn-7
 show_related_posts: false
 square_related: recommend-wolf
-permalink: /tutorials/100-600_conversion.md/
+permalink: /tutorials/100-600-conversion/
 comments: true
 categories: tutorials
 published: true

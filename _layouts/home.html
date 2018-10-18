@@ -4,7 +4,7 @@ layout: with-sidebar
 
 <div class="sub-nav">
     <a href="#" class="select-posts active">Posts</a>
-    <a href="#" class="select-categories">Categories</a>
+    <a href="#" class="select-categories">Tutorials</a>
 </div>
 
 <div class="home-page-posts animated fadeIn ">
@@ -61,11 +61,19 @@ layout: with-sidebar
 <div class="home-page-categories hide animated fadeIn ">
     <div class="category row">
         <section>
-            {% for category in site.categories %}
-
-                <div class="category-preview col-xs-6 col-sm-4 ">
-                    <h2>{{ category | first | capitalize }}</h2>
-                    <a href='{{ "/category/" | append: category.first | prepend: site.baseurl }}'><img src='{{ "/img/" | append: category.first | prepend: site.baseurl }}-thumbnail.jpg' alt="category-image"></a>
+            {% for tutorial in site.tutorials %}
+                {% capture modulo %}{{ forloop.index | minus:1 | modulo:3 }}{% endcapture %}
+                {% if modulo == '0' %}
+                <div class="category-preview col-xs-12 col-sm-12 ">
+                {% else %}
+                <div class="category-preview col-xs-12 col-sm-6 ">
+                {% endif %}
+                    {{ modulo }}
+                    <h2>{{ tutorial.title | first | capitalize }}</h2>
+                    <a href="{{ tutorial.url | prepend: site.baseurl }}">
+                        <h2>{{ tutorial.title }}</h2>
+                        <img src='{{ site.baseurl }}/img/{{tutorial.feature_image}}.jpg' alt="category-image">
+                    </a>
                 </div>
             {% endfor %}
         </section>
