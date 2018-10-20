@@ -8,7 +8,7 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 5
 comments: 'true'
-published: true
+published: 'true'
 show_related_posts: 'true'
 title: PolaStand
 feature_image: SX70_images/openSX70-cameraporn-2
