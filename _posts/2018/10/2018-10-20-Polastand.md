@@ -41,9 +41,12 @@ I like tha PS: burned into the wood, I know it stands for PolaStand, but for me 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-6.jpg)
 
-So, thank you!
+So, thank you PolaStand!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-7.jpg)
+
+I like the way the documentation emulates the old Polaroid instructions manual.
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-8.jpg)
 
 So head to the PolaStand website: [www.polastand.com](https://www.polastand.com/shop/)
