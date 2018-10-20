@@ -6,7 +6,7 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin2
 categories: openSX70
-read_time: 6
+read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
@@ -15,10 +15,11 @@ feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2018/10/polastand
 description: PolaStand: building community
 ---
-
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-9.jpg)
 
 Earlier this summer I met with Ali and his wife Ayse in the wonderful town of Haarlem in Holland.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-0.jpg)
 
 He is part of an active community of SX70 enthusiasts from all over the world. He told me about his idea, [PolaStand](https://www.polastand.com/) of recycling the film packs to do a nice stand for pictures out of wood. 
 I couldn't wait!
