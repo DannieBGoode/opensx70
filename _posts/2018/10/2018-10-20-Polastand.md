@@ -45,3 +45,5 @@ So, thank you!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-7.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-8.jpg)
+
+So head to the PolaStand website: [www.polastand.com](https://www.polastand.com/shop/)
