@@ -19,11 +19,11 @@ description: PolaStand building community
 
 Earlier this summer I met with Ali and his wife Ayse in the wonderful town of Haarlem in Holland.
 
+He is part of an active community of SX70 enthusiasts from all over the world. He told me about his idea, [PolaStand](https://www.polastand.com/) of recycling the film packs to do a nice stand for pictures out of wood. 
+I couldn't wait!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-0.jpg)
 
-He is part of an active community of SX70 enthusiasts from all over the world. He told me about his idea, [PolaStand](https://www.polastand.com/) of recycling the film packs to do a nice stand for pictures out of wood. 
-I couldn't wait!
 
 So I was thrilled when I got this package in the mail as a gift.
 
