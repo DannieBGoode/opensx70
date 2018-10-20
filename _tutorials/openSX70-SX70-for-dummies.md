@@ -33,3 +33,4 @@ The camera consists on a bunch of gears that move the mirror up and down, and pu
 
 
 
+#openSX70 #sx70 #Polaroid #ImpossibleProject #TIP #Arduino #DIY #analogPhotography #manualshutterspeed #PolaroidOriginals #OriginalPolaroids #film #instantphotography #PCB #flash #pcflash #jack #uDongle #analogPhotography #analogcommunity #prototype6

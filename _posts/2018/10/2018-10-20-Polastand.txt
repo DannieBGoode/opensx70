@@ -1,0 +1,19 @@
+In the arduino world a program is called a sketch. The equivalent to a "Hello World" program is Blink.
+
+Blink is a very simple program that turns on and off an LED.
+
+Fortunately I have built an LED into the openSX70 board.
+
+I had doubts that the PCB would work, but, after meassuaring volts and continuity, I came to conclusion that it should work, or at least, Blink.
+
+https://youtu.be/W_ey8Kvrcyg
+
+Well, I am happy to say that I have finally been able to load a sketch, BLINK, and the PCB seems to work!!!
+
+I have also soldered all the rest of the components to the board. I have tested the BH1750 light meter. Well, it also works,
+
+https://youtu.be/UIXy1mgVUgY
+
+Since I don't want to jump into mounting the board without a lot of testing, I will now solder cables to all  the main stuff (S1, S2, flash, and solenoid 1 and solenoid 2). Then later I will test motor operation and the incoming switches from the "back" of the camera (S3, S5, S8 and S9).
+
+I want to thank my friend Peter for his patience in helping me debug the problem, and also Phyvine Tong for his help and support.
