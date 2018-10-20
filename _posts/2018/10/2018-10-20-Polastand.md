@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: PolaStand
-feature_image: SX70_images/openSX70-cameraporn-9
+feature_image: SX70_images/openSX70-cameraporn-3
 permalink: /posts/2018/10/polastand
 description: PolaStand building community
 ---
@@ -47,6 +47,6 @@ So, thank you PolaStand!
 
 I like the way the documentation emulates the old Polaroid instructions manual.
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-8.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-8.jpg	)
 
 So head to the PolaStand website: [www.polastand.com](https://www.polastand.com/shop/)
