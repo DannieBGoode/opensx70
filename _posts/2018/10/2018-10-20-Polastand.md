@@ -13,7 +13,7 @@ show_related_posts: 'true'
 title: PolaStand
 feature_image: SX70_images/openSX70-cameraporn-9
 permalink: /posts/2018/10/polastand
-description: PolaStand: building community
+description: PolaStand building community
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-9.jpg)
 
