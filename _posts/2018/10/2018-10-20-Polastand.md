@@ -6,9 +6,9 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin2
 categories: openSX70
-read_time: 5
+read_time: 4
 comments: 'true'
-published: 'true'
+published: true
 show_related_posts: 'true'
 title: PolaStand
 feature_image: SX70_images/openSX70-cameraporn-2
@@ -18,6 +18,7 @@ description: PolaStand: building community
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-9.jpg)
 
 Earlier this summer I met with Ali and his wife Ayse in the wonderful town of Haarlem in Holland.
+
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/2018-10-20-Polastand-0.jpg)
 
