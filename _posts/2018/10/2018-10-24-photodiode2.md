@@ -70,7 +70,7 @@ But soon realized that I needed an professional, so to speak, light meter that g
 
 So now I have started to do some "systematic" tests.
 
-<iframe width="1372" height="600" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnNIiVsXyOoSa0Ry48K5Z2HXiGQFoCyWRNSfykkjGQKLSZFSFCm9xF4py3Boj9-oWJKaxFYEu9C3l6/pubchart?oid=562815799&amp;format=interactive"></iframe>
+<iframe width="1372" height="700" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnNIiVsXyOoSa0Ry48K5Z2HXiGQFoCyWRNSfykkjGQKLSZFSFCm9xF4py3Boj9-oWJKaxFYEu9C3l6/pubchart?oid=562815799&amp;format=interactive"></iframe>
 The dotted lines are the meassurements "outside" the camera, the thick lines are the readings from the camera, and the thin lines are "projections". 
 I made meassurements with different resistors: 1M, 470K, 330K, 100K and 10K. 
 Turns out that depending on the value of the resistor you use, you get sensitivity in low-light or when there is a lot of light, like in sunlight, like EV17 and such.
