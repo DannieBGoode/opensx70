@@ -18,7 +18,7 @@ description: Working on implementing the best auto mode for any SX70 camera
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/light-meter-tests-08.jpg)
 
 Most of you know my "struggle" so to speak with the light meter on the openSX70 camera.
-I chose to use the so-to-speak [advanced BH1750](https://opensx70.com/posts/2018/02/aladdin-lightmeter-demo), it as a very small chip that gives me via an i2C bus the value of light it "sees".
+I chose to use the so-to-speak "advanced" [BH1750](https://opensx70.com/posts/2018/02/aladdin-lightmeter-demo), it as a very small chip that gives me via an i2C bus the value of light it "sees".
 I had a bunch of problems with that, to mention a few, I misplaced it on the PCB, not exactly where the light "window" is, the chip has a .5mm pitch and is a bitch to hand solder for the prototypes, an when I manufactured a few board with [SeeedFusion service](https://www.seeedstudio.io/prototype-pcb-assembly.html?gclid=Cj0KCQjwsMDeBRDMARIsAKrOP7EcVVMIP6kW2ImJX65pji9F4KchNQ1wog94thQ8FvV0CL3aWyXcdY4aAr5_EALw_wcB) they basically placed the sensor upside-down.
 But when all this was well, I still noticed two things: that the light reading were "faint" so to speak, that is because there is so much "stuff" in front of it, all the light dark filters, the lollypop lens, etc... and secondly and more crucial, the sensor for my purposes is too slow (yes, yes, milliseconds-range slow, but, slow).
 
@@ -35,16 +35,16 @@ These are a bunch of photodiodes, from Osram and Vishay,
 
 In an interesting turn of events, I was reading [Edwin H. Land's Essays—Volune I](https://www.amazon.com/Edwin-H-Lands-Essays-Set/dp/0892081708) and in an article by Dr. Land about one-step photography I found this:
  
-*"In available light photography the system operates in the integrating mode, using as light sensor a
+*In available light photography the system operates in the integrating mode, using as light sensor a
 tiny photodiode. The surface area of the photodiode is less than .006 in.2 (4 mmz), and it generates extremely
 small currents (1042 to 10'9 amp). During exposure, light sensed by the photodiode generates a current
 which charges a capacitor to a predetermined level. When the capacitor reaches that level it discharges and
 its circuit instructs the solenoid to close the shutter blades, thus terminating the exposure. If the light level
-is too low to charge the capacitor sufficiently, the shutter is closed automatically after approximately 20 sec."*
+is too low to charge the capacitor sufficiently, the shutter is closed automatically after approximately 20 sec.*
 
 I was blown away...
 
-So I wanted to run the tests (quite franly, yet not very scientific) so I made it so I placed the photodiode (in this case SFH2430) in an discarded openSX70 PCB.
+So I wanted to run the tests (quite franly, yet not very scientific) and I made it so I placed the photodiode (in this case SFH2430) more or less (hope it's more than less) in the proper position in an discarded openSX70 PCB.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/light-meter-tests-04.jpg)
 
@@ -60,13 +60,13 @@ Close-up of the original photodiode!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/light-meter-tests-05.jpg)
 
-Detail of the test jig before mounting on the camera.
+Detail of the test jig before mounting on the camera. The PCB with the SFH2430 is placed in the front of a camera so the test take all the camera hardware when meassuring the light. As you can see in the graphic below, there is a big difference!
 
 First I started with a Sekonic photography light meter,
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/light-meter-tests-06.jpg)
 
-But soon realized that I needed an professional, so to speak, light meter that gave me a value in lux, fortunately I had one that was gifted to me from my friend Leo.
+But soon realized that I needed a "professional", so to speak, light meter that gave me a value in lux, fortunately I had one that was gifted to me from my friend Leo. I guess you can do the [conversion from EV to lux](https://www.sekonic.com/united-states/support/evluxfootcandleconversionchart.aspx) anyway.
 
 So now I have started to do some "systematic" tests.
 
