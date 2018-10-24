@@ -36,7 +36,7 @@ These are a bunch of photodiodes, from Osram and Vishay,
 In an interesting turn of events, I was reading [Edwin H. Land's Essays—Volune I](https://www.amazon.com/Edwin-H-Lands-Essays-Set/dp/0892081708) and in an article by Dr. Land about one-step photography I found this:
  
 *In available light photography the system operates in the integrating mode, using as light sensor a
-tiny photodiode. The surface area of the photodiode is less than .006 in.2 (4 mmz), and it generates extremely
+tiny photodiode. The surface area of the photodiode is less than .006 inch (4 mm2), and it generates extremely
 small currents (1042 to 10'9 amp). During exposure, light sensed by the photodiode generates a current
 which charges a capacitor to a predetermined level. When the capacitor reaches that level it discharges and
 its circuit instructs the solenoid to close the shutter blades, thus terminating the exposure. If the light level
