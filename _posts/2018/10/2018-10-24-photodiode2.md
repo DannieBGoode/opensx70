@@ -70,7 +70,7 @@ But soon realized that I needed an professional, so to speak, light meter that g
 
 So now I have started to do some "systematic" tests.
 
-<iframe width="1372" height="899" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnNIiVsXyOoSa0Ry48K5Z2HXiGQFoCyWRNSfykkjGQKLSZFSFCm9xF4py3Boj9-oWJKaxFYEu9C3l6/pubchart?oid=562815799&amp;format=interactive"></iframe>
+<iframe width="1372" height="600" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRnNIiVsXyOoSa0Ry48K5Z2HXiGQFoCyWRNSfykkjGQKLSZFSFCm9xF4py3Boj9-oWJKaxFYEu9C3l6/pubchart?oid=562815799&amp;format=interactive"></iframe>
 The dotted lines are the meassurements "outside" the camera, the thick lines are the readings from the camera, and the thin lines are "projections". 
 I made meassurements with different resistors: 1M, 470K, 330K, 100K and 10K. 
 Turns out that depending on the value of the resistor you use, you get sensitivity in low-light or when there is a lot of light, like in sunlight, like EV17 and such.
@@ -85,7 +85,9 @@ All of them have the same form factor and package (and also sensor area, very, v
 I feel also happy, that I have "connected" (in a way) with the original electronics that I admire.
 
 This also means that I have a few "only-manual" PCBs here (Pathfinder and Lens and Bellows), so I decided to give away one to a lucky person. I will make a random draw among the website subscribers in november. 
-All you have to do is comment this posted indicating why you feel you can use NOW the kit, the model camera you have, the [soldering skills](https://youtu.be/3Fl2U9cJ5ew) and, of course your willingness to sacrifice your precious camera!
+All you have to do is comment this post (here in the website, not in the FB group) indicating why you feel you can use the kit NOW, the model camera you have (has to be a non-sonar Alpha or Alpha model 2), 
+your [soldering skills](https://youtu.be/3Fl2U9cJ5ew) and, of course your express willingness to sacrifice your precious camera! (Bear in mind that I might not be able to give you support on the build, that you are on your own). Also the kit if your the exclusive use of the winner and cannot be sold.
+
 This will also give me assurances that at least someone reads my posts! 
 Also if you subscribe you will be able to participate in surveys I might do in the future to shape the project.
 
