@@ -12,7 +12,7 @@ published: true
 show_related_posts: 'true'
 title: My lightmeter struggle
 feature_image: SX70_images/openSX70-cameraporn-5
-permalink: /posts/2018/09/post
+permalink: /posts/2018/09/lightmeter-struggle
 description: Working on implementing the best auto mode for any SX70 camera
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/light-meter-tests-08.jpg)
