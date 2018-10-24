@@ -86,6 +86,9 @@ I feel also happy, that I have "connected" (in a way) with the original electron
 
 This also means that I have a few "only-manual" PCBs here (Pathfinder and Lens and Bellows), so I decided to give away one to a lucky person. I will make a random draw among the website subscribers in november. 
 All you have to do is comment this posted indicating why you feel you can use NOW the kit, the model camera you have, the [soldering skills](https://youtu.be/3Fl2U9cJ5ew) and, of course your willingness to sacrifice your precious camera!
+This will also give me assurances that at least someone reads my posts! 
+Also if you subscribe you will be able to participate in surveys I might do in the future to shape the project.
+
 I will also be sending a few of the extra boards to people that I wish they test the system, or that have asked me for it. I have already sent a few kits with more or less luck, to Julien at [Brooklyn Film Cameras](http://www.brooklynfilmcamera.com/cameras/), Matt Widmann of [2ndShotSX70 service](http://2ndshotsx70.blogspot.com/), Kendar Chen of [Rezivot](https://www.rezivot.com/) and of course to Marco from [AnalogThings](https://opensx70.com/posts/2018/09/live-build).
 
 If you are interested in reviewing the openSX70 camera/project as it is now, you think you can help the project expand and propagate, please contact me opensx70 at openSX70 dot com and we can arrange something. 
