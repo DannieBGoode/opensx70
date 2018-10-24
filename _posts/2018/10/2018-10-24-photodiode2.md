@@ -75,7 +75,7 @@ The dotted lines are the meassurements "outside" the camera, the thick lines are
 I made meassurements with different resistors: 1M, 470K, 330K, 100K and 10K. 
 Turns out that depending on the value of the resistor you use, you get sensitivity in low-light or when there is a lot of light, like in sunlight, like EV17 and such.
 
-What I have to do now, is run some test with the other photodiodes, also try to come with a more "stable" jig, so the meassurements are more consistent when in-camera (the only ones important for my research). Maybe by setting up a white light box and the camera inside...
+What I have to do now, is run some test with the other photodiodes, also try to come with a more "stable" aproach, so the meassurements are more consistent when in-camera (the only ones important for my research). Maybe by setting up a white light box and the camera inside...
 Up until now I was just moving a lamp on top of both the light meter and the camera assembly. Not very scientific, singularly at close distances there is a parallax problem.
 I think that readings in camera should be as "lineal" and nice as the ones outside of camera... will keep you posted.
 
@@ -91,7 +91,7 @@ your [soldering skills](https://youtu.be/3Fl2U9cJ5ew) and, of course your expres
 This will also give me assurances that at least someone reads my posts! 
 Also if you subscribe you will be able to participate in surveys I might do in the future to shape the project.
 
-I will also be sending a few of the extra boards to people that I wish they test the system, or that have asked me for it. I have already sent a few kits with more or less luck, to Julien at [Brooklyn Film Cameras](http://www.brooklynfilmcamera.com/cameras/), Matt Widmann of [2ndShotSX70 service](http://2ndshotsx70.blogspot.com/), Kendar Chen of [Rezivot](https://www.rezivot.com/) and of course to Marco from [AnalogThings](https://opensx70.com/posts/2018/09/live-build).
+I will also be sending a few of the extra boards to people that I wish they test the system, or that have asked me for it. I have already sent a few kits with more or less luck, to Julien at [Brooklyn Film Cameras](http://www.brooklynfilmcamera.com/cameras/), Matt Widmann of [2ndShotSX70 service](http://2ndshotsx70.blogspot.com/), Kendar Chen of [Rezivot](https://www.rezivot.com/) and of course to Marco from [AnalogThings](https://opensx70.com/posts/2018/09/live-build). And of course, one of the first kits I sent was to [Supersense](https://the.supersense.com/collections/instant-cameras-accessories)... never heard again from them. I guess they are busy bringing back packfilm.
 
 If you are interested in reviewing the openSX70 camera/project as it is now, you think you can help the project expand and propagate, please contact me opensx70 at openSX70 dot com and we can arrange something. 
 Please all keep in mind that at this moment in time the project is almost a one man orchestra, and that I have limited resources. Also no product is on sale at this moment, so if you would like to purchase one please be patient.
