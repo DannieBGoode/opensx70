@@ -1,5 +1,5 @@
 ---
-title: openSX70 user instrucctions 	
+title: openSX70 user manual	
 description: How to operate your openSX70-converted camera
 date: 2018-10-25T10:00:00.000Z
 layout: post
