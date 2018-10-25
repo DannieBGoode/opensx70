@@ -1,5 +1,5 @@
 ---
-title: openSX70 camera operation instrucctions 	
+title: openSX70 user instrucctions 	
 description: How to operate your openSX70-converted camera
 date: 2018-10-25T10:00:00.000Z
 layout: post
@@ -7,7 +7,7 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin2
 author_avatar: joaquin
 show_avatar: true
-read_time: 20
+read_time: 14
 feature_image: SX70_images/openSX70-cameraporn-3
 show_related_posts: false
 square_related: recommend-wolf
