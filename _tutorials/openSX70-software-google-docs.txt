@@ -16,4 +16,4 @@ comments: true
 categories: tutorials
 published: true
 ---
-<iframe width="1372" height="3000" seamless frameborder="0" scrolling="no" src="https://docs.google.com/document/d/e/2PACX-1vSapDn6qrWQEdi6SvRuLw0PJt-VW-NdzU-rDpQ_-R3s-OSS9MuzhB-B0W-lruIV4phMH9UgAe4MuWZ5/pub?embedded=true"></iframe>
+<iframe width="1372" height="2000" seamless frameborder="0" scrolling="no" src="https://docs.google.com/document/d/e/2PACX-1vSapDn6qrWQEdi6SvRuLw0PJt-VW-NdzU-rDpQ_-R3s-OSS9MuzhB-B0W-lruIV4phMH9UgAe4MuWZ5/pub?embedded=true"></iframe>
