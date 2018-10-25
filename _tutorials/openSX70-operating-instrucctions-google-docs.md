@@ -8,7 +8,7 @@ author_url: /author/joaquin2
 author_avatar: joaquin
 show_avatar: true
 read_time: 14
-feature_image: SX70_images/openSX70-cameraporn-3
+feature_image: SX70_images/openSX70-cameraporn-15	
 show_related_posts: false
 square_related: recommend-wolf
 permalink: /tutorials/instructions/
