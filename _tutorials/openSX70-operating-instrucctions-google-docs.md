@@ -1,6 +1,6 @@
 ---
 title: openSX70 camera operation instrucctions 	
-description: How to fix your SX70 camera when does not turn on
+description: How to operate your openSX70-converted camera
 date: 2018-10-25T10:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
