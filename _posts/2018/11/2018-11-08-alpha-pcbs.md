@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: New Alpha PCBs and more
-feature_image: SX70_images/openSX70-cameraporn-13
+feature_image: SX70_images/openSX70-cameraporn-12
 permalink: /posts/2018/11/alpha
 description: making new PCBs, codename Alpha, and much more
 ---
