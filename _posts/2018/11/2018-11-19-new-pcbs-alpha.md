@@ -41,36 +41,79 @@ Material Details: FR4-Standard Tg 140C
 
 Panel By JLCPCB: No
 
-
+**STATUS: UNTESTED**
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-alpha-622.jpg)
 
+Gerber file: openSX70_ALPHA_V6-2-2-20181103_2018-11-04_Y2
+
+Build Time: 72 hours
+
+Layers: 2
+
+Dimension: 96mm*28mm
+
+PCB Qty: 10
+
+PCB Thickness: 0.6
+
+PCB Color: Green
+
+Surface Finish: HASL(with lead)
+
+Copper Weight: 1
+
+Gold Fingers: No
+
+Material Details: FR4-Standard Tg 140C
+
+Panel By JLCPCB: No
+
+**STATUS: UNTESTED**
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-uDongle-38.jpg)
 
+Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9
+
+Build Time: 72 hours
+
+Layers: 2
+
+Dimension: 47mm*26mm
+
+PCB Qty: 10
+
+PCB Thickness: 0.8
+
+PCB Color: Black
+
+Surface Finish: ENIG-RoHS
+
+Copper Weight: 1
+
+Gold Fingers: No
+
+Material Details: FR4-Standard Tg 140C
+
+Panel By JLCPCB: No
+
+**STATUS: UNTESTED**
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Udongle-37-HASL-2.jpg)
 
 
+**STATUS: UNTESTED**
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-universal-bench-21.jpg)
 
+**STATUS: UNTESTED**
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-dongle-USB.jpg)
 
+**STATUS: UNTESTED**
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-udongle-33-remake.jpg)
 
+**STATUS: UNTESTED**
 
-
-
-
-{% include video id="L107bpZXJ5o" provider="youtube" class="full"%}
-
-VIDEO
-
-text [LINK TEXT](http://www.opensx70.com)
-
-
-
-#openSX70 #SX70 #press #Polaroid #PolaroidOriginals #OriginalPolaroids #Arduino #DIY #FilmIsNotDead #InstantPhotography #ImpossibleProject #Analog #TIP #cameraHacks #manualSX70 #SX70 #SeedStudio #SeedStudioFusion #SeedStudioPCBA #EagleCAD #Sonar #Duyen #model2 #SX70model2 #postmortem
 
