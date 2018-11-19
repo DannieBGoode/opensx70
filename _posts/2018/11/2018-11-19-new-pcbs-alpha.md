@@ -17,8 +17,8 @@ description: New boards, Alpha, uDongle and more.
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Alpha-blue623.jpg)
 
-**TECHNICAL INFO**
-Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
+**TECHNICAL INFO: **
+*Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
 Build Time: 72 hours
 Layers: 2
 Dimension: 96mm*28mm / 
@@ -29,11 +29,11 @@ Surface Finish: ENIG-RoHS /
 Copper Weight: 1 / 
 Gold Fingers: No / 
 Material Details: FR4-Standard Tg 140C / 
-Panel By JLCPCB: No  
+Panel By JLCPCB: No  *
 
-**COST: 25,37€ + SHIPPING + DUTIES
+**COST:** 25,37€ + SHIPPING + DUTIES
 
-**STATUS: UNTESTED**
+**STATUS:** UNTESTED
 
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. I wonder how hard is going to be soldering on ENIG (gold).
