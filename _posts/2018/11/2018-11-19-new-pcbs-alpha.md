@@ -8,7 +8,7 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 3
 comments: 'true'
-published: false
+published: true
 show_related_posts: 'true'
 title: New PCBs status
 feature_image: SX70_images/openSX70-cameraporn-14
