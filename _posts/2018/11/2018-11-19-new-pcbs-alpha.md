@@ -38,6 +38,7 @@ Panel By JLCPCB: No*
 
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. I wonder how hard is going to be soldering on ENIG (gold).
+Photodiode footprint looks spot-on.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-alpha-622.jpg)
 
