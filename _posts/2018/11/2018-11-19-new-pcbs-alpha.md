@@ -44,7 +44,7 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 **TECHNICAL INFO:** (JLCPCB)
 
 *Gerber file: openSX70_ALPHA_V6-2-2-20181103_2018-11-04_Y2 / 
-Build Time: 72 hours / Layers: 2 / Dimension: 96mm*28mm / PCB Qty: 10 / PCB Thickness: 0.6 / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C Panel By JLCPCB: No*
+Build Time: 72 hours / Layers: 2 / Dimension: 96mm*28mm / *PCB Qty: 10 / PCB Thickness: 0.6 / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C Panel By JLCPCB: No*
 
 **COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
@@ -57,30 +57,64 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 
 **TECHNICAL INFO:** (JLCPCB)
 
-*Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9 / Build Time: 72 hours / Layers: 2 / Dimension: 47mm*26mm / PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Black / Surface Finish: ENIG-RoHS / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+*Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9 / Build Time: 72 hours / Layers: 2 / Dimension: 47mm*26mm / *PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Black / Surface Finish: ENIG-RoHS / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+
+**COST:** 28,87€ + SHIPPING + EU IMPORT DUTIES
 
 **STATUS: UNTESTED**
+
+**COMMENTS:** 
+ENIG and black but I'm not so sure about this one!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Udongle-37-HASL-2.jpg)
 
-**TECHNICAL INFO**
+**TECHNICAL INFO:** (JLCPCB)
+
+*Gerber file: openSX70-dongle_v3-8_2018-11-06_Y10 / Build Time: 72 hours / Layers: 2 / Dimension: 47mm*26mm / *PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+
+**COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
 **STATUS: UNTESTED**
+
+**COMMENTS:** 
+Same as before but in HASL. I'm not so sure about this one!
+
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-universal-bench-21.jpg)
 
-**TECHNICAL INFO**
+**TECHNICAL INFO:** (JLCPCB)
+
+*Gerber file: openSX70-bench-new-v2-1_2018-11-07_Y12 / Build Time: 48 hours / Layers: 2 / Dimension: 99mm*100mm / *PCB Qty: 10 / PCB Thickness: 1.6v / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+
+**COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
 **STATUS: UNTESTED**
+
+**COMMENTS:** 
+This a jig to test all kind of pcbs. I need a 3D printed bench.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-dongle-USB.jpg)
 
-**TECHNICAL INFO**
+**TECHNICAL INFO:** (JLCPCB)
+
+*Gerber file: openSX70-dongle-USB-V1-1_2018-11-07_Y14 / Build Time: 72 hours / Layers: 2 / Dimension: 29mm*45mm / *PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+
+**COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
 **STATUS: UNTESTED**
+
+**COMMENTS:** 
+Long shot done in a hurry for a unified USB-dongle connected via FPC. Credit to Marco.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-udongle-33-remake.jpg)
 
-**TECHNICAL INFO**
+**TECHNICAL INFO:** (JLCPCB)
+
+*Gerber file: openSX70-dongle_v3-3_Y5 / Build Time: 72 hours / Layers: 2 / Dimension: 47mm*25mm / PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Red / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
+
+**COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
 **STATUS: UNTESTED**
+
+**COMMENTS:** 
+Just a remake to have uDongles in case the new ones are a flop!
