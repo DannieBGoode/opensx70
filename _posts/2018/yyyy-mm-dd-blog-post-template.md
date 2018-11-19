@@ -1,7 +1,7 @@
 ---
 show_avatar: true
 layout: post
-date: '2018-10-20 10:00 +0100'
+date: '2018-11-20 10:00 +0100'
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin2
@@ -29,5 +29,4 @@ text [LINK TEXT](http://www.opensx70.com)
 
 
 
-#openSX70 #SX70 #press #Polaroid #PolaroidOriginals #OriginalPolaroids #Arduino #DIY #FilmIsNotDead #InstantPhotography #ImpossibleProject #Analog #TIP #cameraHacks #manualSX70 #SX70 #SeedStudio #SeedStudioFusion #SeedStudioPCBA #EagleCAD #Sonar #Duyen #model2 #SX70model2 #postmortem
 
