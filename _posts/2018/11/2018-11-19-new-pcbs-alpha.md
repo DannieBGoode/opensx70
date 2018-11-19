@@ -44,17 +44,7 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 **TECHNICAL INFO:** (JLCPCB)
 
 *Gerber file: openSX70_ALPHA_V6-2-2-20181103_2018-11-04_Y2 / 
-Build Time: 72 hours / 
-Layers: 2 / 
-Dimension: 96mm*28mm / 
-PCB Qty: 10 / 
-PCB Thickness: 0.6 / 
-PCB Color: Green / 
-Surface Finish: HASL(with lead) / 
-Copper Weight: 1 / 
-Gold Fingers: No / 
-Material Details: FR4-Standard Tg 140C / 
-Panel By JLCPCB: No*
+Build Time: 72 hours / Layers: 2 / Dimension: 96mm*28mm / PCB Qty: 10 / PCB Thickness: 0.6 / PCB Color: Green / Surface Finish: HASL(with lead) / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C Panel By JLCPCB: No*
 
 **COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
@@ -67,42 +57,7 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 
 **TECHNICAL INFO:** (JLCPCB)
 
-*Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9
-
-Build Time: 72 hours
-
-Layers: 2
-
-Dimension: 47mm*26mm
-
-PCB Qty: 10
-
-PCB Thickness: 0.8
-
-PCB Color: Black
-
-Surface Finish: ENIG-RoHS
-
-Copper Weight: 1
-
-Gold Fingers: No
-
-Material Details: FR4-Standard Tg 140C
-
-Panel By JLCPCB: No*
-
-Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9 / 
-Build Time: 72 hours / 
-Layers: 2 / 
-Dimension: 47mm*26mm / 
-PCB Qty: 10 / 
-PCB Thickness: 0.8 / 
-PCB Color: Black / 
-Surface Finish: ENIG-RoHS / 
-Copper Weight: 1 / 
-Gold Fingers: No / 
-Material Details: FR4-Standard Tg 140C / 
-Panel By JLCPCB: No 
+*Gerber file: openSX70-dongle_v3-8_2018-11-06_Y9 / Build Time: 72 hours / Layers: 2 / Dimension: 47mm*26mm / PCB Qty: 10 / PCB Thickness: 0.8 / PCB Color: Black / Surface Finish: ENIG-RoHS / Copper Weight: 1 / Gold Fingers: No / Material Details: FR4-Standard Tg 140C / Panel By JLCPCB: No*
 
 **STATUS: UNTESTED**
 
