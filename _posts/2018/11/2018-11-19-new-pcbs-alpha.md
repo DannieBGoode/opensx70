@@ -15,6 +15,8 @@ feature_image: SX70_images/openSX70-cameraporn-14
 permalink: /posts/2018/11/alpha-pcbs
 description: New boards, Alpha, uDongle and more.
 ---
+
+**ALPHA 6.2.3**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Alpha-blue623.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -40,6 +42,7 @@ Panel By JLCPCB: No*
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. I wonder how hard is going to be soldering on ENIG (gold).
 Photodiode footprint looks spot-on.
 
+**ALPHA 6.2.2**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-alpha-622.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -54,6 +57,7 @@ Build Time: 72 hours / Layers: 2 / Dimension: 96mm*28mm / *PCB Qty: 10 / PCB Thi
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. HASL looks definitely easier to solder. And way cheaper.
 
+**uDongle v3.8 ENIG black (case friendly)**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-uDongle-38.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -67,6 +71,7 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 **COMMENTS:** 
 ENIG and black but I'm not so sure about this one!
 
+**uDongle v3.8 HASL green (case friendly)**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Udongle-37-HASL-2.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -81,6 +86,7 @@ ENIG and black but I'm not so sure about this one!
 Same as before but in HASL. I'm not so sure about this one!
 
 
+**Universal test gig experimentel 2.1**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-universal-bench-21.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -94,6 +100,7 @@ Same as before but in HASL. I'm not so sure about this one!
 **COMMENTS:** 
 This a jig to test all kind of pcbs. I need a 3D printed bench.
 
+*Experimental USB-dongle no flash**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-dongle-USB.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
@@ -107,6 +114,7 @@ This a jig to test all kind of pcbs. I need a 3D printed bench.
 **COMMENTS:** 
 Long shot done in a hurry for a unified USB-dongle connected via FPC. Credit to Marco.
 
+**uDongle V3.3 remake**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-udongle-33-remake.jpg)
 
 **TECHNICAL INFO:** (JLCPCB)
