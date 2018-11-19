@@ -17,7 +17,7 @@ description: New boards, Alpha, uDongle and more.
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Alpha-blue623.jpg)
 
-**TECHNICAL INFO (JLCPCB):**
+**TECHNICAL INFO:** (JLCPCB)
 
 *Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
 *Build Time: 72 hours
@@ -30,7 +30,7 @@ description: New boards, Alpha, uDongle and more.
 *Copper Weight: 1 / 
 *Gold Fingers: No / 
 *Material Details: FR4-Standard Tg 140C / 
-*	Panel By JLCPCB: No*
+*Panel By JLCPCB: No
 
 **COST:** 25,37€ + SHIPPING + EU IMPORT DUTIES
 
