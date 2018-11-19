@@ -15,30 +15,19 @@ feature_image: SX70_images/openSX70-cameraporn-14
 permalink: /posts/2018/11/alpha-pcbs
 description: New boards, Alpha, uDongle and more.
 ---
-![Fire image]({{site.url}}/{{site.baseurl}}img/2018/1120181119-new-PCBs-Alpha-blue623.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Alpha-blue623.jpg)
 
 Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
-
 Build Time: 72 hours
-
 Layers: 2
-
 Dimension: 96mm*28mm
-
 PCB Qty: 10
-
 PCB Thickness: 0.6
-
 PCB Color: Blue
-
 Surface Finish: ENIG-RoHS
-
 Copper Weight: 1
-
 Gold Fingers: No
-
 Material Details: FR4-Standard Tg 140C
-
 Panel By JLCPCB: No
 
 **STATUS: UNTESTED**
