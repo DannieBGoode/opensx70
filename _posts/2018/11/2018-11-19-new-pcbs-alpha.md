@@ -17,7 +17,8 @@ description: New boards, Alpha, uDongle and more.
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Alpha-blue623.jpg)
 
-**TECHNICAL INFO: **
+**TECHNICAL INFO:**
+
 *Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
 Build Time: 72 hours
 Layers: 2
@@ -29,7 +30,7 @@ Surface Finish: ENIG-RoHS /
 Copper Weight: 1 / 
 Gold Fingers: No / 
 Material Details: FR4-Standard Tg 140C / 
-Panel By JLCPCB: No  *
+Panel By JLCPCB: No*
 
 **COST:** 25,37€ + SHIPPING + DUTIES
 
@@ -40,9 +41,9 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-alpha-622.jpg)
 
-**TECHNICAL INFO**
+**TECHNICAL INFO:**
 
-Gerber file: openSX70_ALPHA_V6-2-2-20181103_2018-11-04_Y2 / 
+*Gerber file: openSX70_ALPHA_V6-2-2-20181103_2018-11-04_Y2 / 
 Build Time: 72 hours / 
 Layers: 2 / 
 Dimension: 96mm*28mm / 
@@ -53,11 +54,11 @@ Surface Finish: HASL(with lead) /
 Copper Weight: 1 / 
 Gold Fingers: No / 
 Material Details: FR4-Standard Tg 140C / 
-Panel By JLCPCB: No  
+Panel By JLCPCB: No*
 
-**COST: 4,37€ + SHIPPING + DUTIES
+**COST:** 4,37€ + SHIPPING + DUTIES
 
-**STATUS: UNTESTED**
+**STATUS:** UNTESTED
 
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. HASL looks definitely easier to solder. And way cheaper.
