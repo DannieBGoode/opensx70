@@ -19,18 +19,18 @@ description: New boards, Alpha, uDongle and more.
 
 **TECHNICAL INFO (JLCPCB):**
 
-*  Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
-*  Build Time: 72 hours
-*  Layers: 2
-  Dimension: 96mm*28mm
-  PCB Qty: 10
-  PCB Thickness: 0.6
-  PCB Color: Blue
-  Surface Finish: ENIG-RoHS / 
-  Copper Weight: 1 / 
-  Gold Fingers: No / 
-  Material Details: FR4-Standard Tg 140C / 
-  Panel By JLCPCB: No*
+*Gerber file: openSX70_ALPHA_V6-2-3-20181104_2018-11-06_Y3
+*Build Time: 72 hours
+*Layers: 2
+*Dimension: 96mm*28mm
+*PCB Qty: 10
+*PCB Thickness: 0.6
+*PCB Color: Blue
+*Surface Finish: ENIG-RoHS / 
+*Copper Weight: 1 / 
+*Gold Fingers: No / 
+*Material Details: FR4-Standard Tg 140C / 
+*	Panel By JLCPCB: No*
 
 **COST:** 25,37€ + SHIPPING + EU IMPORT DUTIES
 
