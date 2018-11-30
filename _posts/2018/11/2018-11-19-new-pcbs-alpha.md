@@ -10,7 +10,7 @@ read_time: 3
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: New PCBs status
+title: New PCBs status (UPDATED 20181130)
 feature_image: SX70_images/openSX70-cameraporn-14
 permalink: /posts/2018/11/alpha-pcbs
 description: New boards, Alpha, uDongle and more.
@@ -36,11 +36,13 @@ Panel By JLCPCB: No*
 
 **COST:** 25,37€ + SHIPPING + EU IMPORT DUTIES
 
-**STATUS:** UNTESTED
+**STATUS:** 20181130:I have tested and "blinks" in two colours. Have to test "camera operation" but I am quite sure it will work. 
+LED footprint is wrong and I have fixed it for the next batch. Still I can solder with difficulty and make it work. Already fixed it for the next batch 6.2.4 Alpha. The "gold" [ENIG](https://en.wikipedia.org/wiki/Electroless_nickel_immersion_gold) finish is nice and easy to solder. Not sure it is worth the 5X price increase.
 
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. I wonder how hard is going to be soldering on ENIG (gold).
 Photodiode footprint looks spot-on.
+20181130: I have to test with a camera in the VF to see if the magic happens. Hope it does or it can be easily fix in the next batch.
 
 **ALPHA 6.2.2**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-alpha-622.jpg)
@@ -52,7 +54,9 @@ Build Time: 72 hours / Layers: 2 / Dimension: 96mm*28mm / *PCB Qty: 10 / PCB Thi
 
 **COST:** 4,37€ + SHIPPING + EU IMPORT DUTIES
 
-**STATUS:** UNTESTED
+**STATUS:** 20181130:I have tested and "blinks" in two colours. Have to test "camera operation" but I am quite sure it will work. 
+LED footprint is wrong and I have fixed it for the next batch. Still I can solder with difficulty and make it work. Already fixed it for the next batch 6.2.4 Alpha. 
+The [HASL](https://en.wikipedia.org/wiki/Hot_air_solder_leveling) finish is OK, but doesn't look as nice.
 
 **COMMENTS:** 
 Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline fits perfectly. HASL looks definitely easier to solder. And way cheaper.
@@ -66,10 +70,11 @@ Looks nice, LED footprint perhaps is too small or hard to hand solder. Outline f
 
 **COST:** 28,87€ + SHIPPING + EU IMPORT DUTIES
 
-**STATUS: UNTESTED**
+**STATUS:** 20181130 Build one and sent it to Clément. Seems to work but I don't like it: footprint of switches (was a catch all) is not good. Holes are too small. Have to rethink it.
 
 **COMMENTS:** 
 ENIG and black but I'm not so sure about this one!
+20181130: Maybe it could be smaller? Not sure. 
 
 **uDongle v3.8 HASL green (case friendly)**
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-Udongle-37-HASL-2.jpg)
