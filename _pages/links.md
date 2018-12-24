@@ -41,6 +41,6 @@ feature_image: flexcable
 
 [Paul Giambarba](https://giam.typepad.com/portfolio/2016/06/d-e-s-i-g-n-product-identity.html)
 
-[William T. Plummer](http://www.wtpoptics.com/about.html)
+[William T. Plummer](http://www.wtpoptics.com/Publications.html)
 
 If you have or know of an interesting web please contact us: opensx70@opensx70.com.
