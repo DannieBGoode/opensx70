@@ -47,6 +47,12 @@ I want to find out mainly:
  * user interface feedback
 
  * features: what features you fancy the most... what stuff is useless and nobody needs that?
+ 
+ * the selector wheel, has 16 slots, what are the better options there? EV or shutter speed at F8? B? T? ????
+ 
+ * everything flash/strobes "front" curtain back curtain? shutter speed???
+ 
+ * ?????????
 
 If you already have an openSX70 please also "join" the program. I think that toguether we can do the most amazing SX70 camera ever (and if we don't we'll at least have a lot of fun in the process!)
 
