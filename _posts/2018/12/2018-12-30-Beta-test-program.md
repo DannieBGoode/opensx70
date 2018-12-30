@@ -62,7 +62,7 @@ Please read ALL the previous posts and the GOOGLE docs:
 
 [software upgrade](https://docs.google.com/document/d/1T6CblpqR6lJp2c8rYj9HKU2SYuAUMXcZzxQYi2WTeYM)
 
-And remember I post stuff now mainly here (I only announce on [Instagram](https://www.instagram.com/opensx70/?hl=en) and [Facebook](https://www.facebook.com/groups/opensx70/)
+And remember I post stuff now mainly [here](https://opensx70.com/) (I only announce on [Instagram](https://www.instagram.com/opensx70/?hl=en) and [Facebook](https://www.facebook.com/groups/opensx70/)
 
 Oh, and happy new year 2019 to all, 2019 it's going to be openSX70 year!!!
 
