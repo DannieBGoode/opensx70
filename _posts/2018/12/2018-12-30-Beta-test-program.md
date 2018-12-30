@@ -41,8 +41,11 @@ I am looking for people interested in the project, but I also want to set a few 
 I want to find out mainly:
 
  * consistency across cameras. Are some cameras/shutters faster/slower? Do some shutters need more "power" to operate?
+ 
  * test with time sequences and Exposure Values, different light conditions etc...
+
  * user interface feedback
+
  * features: what features you fancy the most... what stuff is useless and nobody needs that?
 
 If you already have an openSX70 please also "join" the program. I think that toguether we can do the most amazing SX70 camera ever (and if we don't we'll at least have a lot of fun in the process!)
@@ -54,7 +57,9 @@ If I see that any of the candidates can help with the new PCBs calibrating the l
 Please read ALL the previous posts and the GOOGLE docs:
 
 [camera operation](https://docs.google.com/document/d/1TnC51uTfky0JhySty0oG02JZn2nBN-3xTkvg4KMKXlw)
+
 [board installation](https://docs.google.com/document/d/14rmLisqLQVZw1geXh8mKx_AVkoZlMeiPiUtI20Hwy-E)
+
 [software upgrade](https://docs.google.com/document/d/1T6CblpqR6lJp2c8rYj9HKU2SYuAUMXcZzxQYi2WTeYM)
 
 And remember I post stuff now mainly here (I only announce on [Instagram](https://www.instagram.com/opensx70/?hl=en) and [Facebook](https://www.facebook.com/groups/opensx70/)
