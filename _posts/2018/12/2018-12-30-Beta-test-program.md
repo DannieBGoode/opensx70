@@ -10,7 +10,7 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Beta Tester
+title: Beta Testers wanted!
 feature_image: SX70_images/openSX70-cameraporn-3
 permalink: /posts/2018/12/beta
 description: Looking for comited beta testers	
@@ -26,7 +26,7 @@ I am very happy with the result of the [giveaway](https://opensx70.com/posts/201
 
 I am looking for people interested in the project, but I also want to set a few requisites:
 
- * You must have a suitable camera (alpha, alpha model 2) Sonars or earlier models are NOT suitable, please don't ask.
+ * You must have a suitable camera (alpha, alpha model 2) Sonars or earlier models are NOT suitable, please don't ask. It has to be in fully working condition.
 
  * You don't necesarily need to have the soldering skills but only be commited to install it through whatever means (your, friend, a repair shop, whatever) nevertheless it is of course better if you have the skills.
 
@@ -41,7 +41,7 @@ I am looking for people interested in the project, but I also want to set a few 
 
 I want to find out mainly:
 
-consistency across cameras, specially in shutter operation
+consistency across cameras, specially in shutter operation, exposure values, 
 user interface feedback
 what features you fancy the most
 ...
@@ -50,6 +50,7 @@ If you already have an openSX70 please also "join" the program. I think we can d
 
 If you want to join and have the qualifications please join the [mailchimp list](https://opensx70.us19.list-manage.com/subscribe?u=806a32d4f5ebbeef65c4a0661&id=92126a4933) and place a comment down below with your qualifications. If I see that any of the candidates can help with the new PCBs calibrating the light meter, I might even send a kit with one of those!
 
+And happy new year 2019 to all!!!
 
 
 
