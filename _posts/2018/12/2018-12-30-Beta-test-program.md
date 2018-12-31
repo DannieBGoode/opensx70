@@ -34,7 +34,7 @@ I am looking for people interested in the project, but I also want to set a few 
 
  * Finally and also very important, you need to have the reasonable amount of time to dedicate to the project, and also film to (probably) literally waste.
 
- * It will consider a plus if you have wizzards/strobes (to test flash/studio lights functionality) and of course phototography experience (but I guess we can take that for granted!)
+ * I will consider a plus if you have wizzards/strobes (to test flash/studio lights functionality) and of course phototography experience (but I guess we can take that for granted!)
 
  * In case you are selected you will get: the "kit" (screwdriver optional, only if you need it) and access to a beta-testers-users forum (that I have to set up) to share information.
 
