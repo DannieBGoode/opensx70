@@ -53,8 +53,11 @@ The openSX70 pcb as a work-in-progress in Fritzing.
 
 But then I found out that the professional [EAGLE CAD](https://www.autodesk.com/products/eagle/free-download) could be used free so a switch to it and kept with design. 
 Keep in mind that I had never used EAGLE nor design a PCB, also that the openSX70 was not a simple "my first board design":
+
 - custon outline that had to exactly fit in the camera
+
 - SMD components (where do I start?)
+
 - Very limited real state
 
 For me, the initial openSX70 design would be a two part thing. 
@@ -63,8 +66,11 @@ The flash was a challenge: the way it was originally design to use the flashbars
 So I had to:
 
 - be able to operate flashbars and electronic flash
+
 - control de "manual" options of the camera
+
 - fire an external flash via a PC-compatible socket
+
 - have a information LED
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/about/openSX70-dongle-protoboard.jpg)
@@ -117,9 +123,13 @@ After a mishap with the SEEEDFUSION PCBA service where they placed the BH1750 up
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/05/opensx70-pathfinder-02.jpg)
 
-Now I have got the prototype boards from SEEEDFUSION (I always test before comiting to PCBA)
+The second try of the PCBA service from SeeedStudio was also a disaster, they replaced the mosfet for a part that did not work properly on the camera. Thankfully they refunded us.
 
+The latest PCB design codenamed ALPHA uses a totally new component as a light sensor, the Osram SFH2430 photodiode. This will hopefully allow us to build the first openSX70 camera with AUTO exposure mode. 
 
+As an easter egg it has a dual led placed in a location that makes it visible in a sonar viewfinder.
+
+In early 2019 a beta program was started.
 
 
 ## About openSX70 website!
