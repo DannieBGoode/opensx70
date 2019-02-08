@@ -54,6 +54,7 @@ The 7-way flexcable connector is the way the PCB connects to the rear of the cam
 It has of course power VCC coming in at 6V, GND, and then one output to turn on the motor. This is not connected directly, but I use a small resistor to protect the atmega. Then the motor has what is called the MCC, which is probably some sort of Mosfet.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-MCC.jpg)
+(this is the original chip next to the motor)
 
 Then switches S3 and S5 this are the switches that are in the gears. They are on or off depending on the possition of the gears. So we know where is the mirror. This is what I like to call mechanical electronics.
 
@@ -176,5 +177,5 @@ When you explain this to people "in the know" and say phrases like "clever solut
 
 This is the camera sequence from the camera repair manual:
 
-<iframe width="500" height="1100" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
+<iframe width="600" height="1200" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
 
