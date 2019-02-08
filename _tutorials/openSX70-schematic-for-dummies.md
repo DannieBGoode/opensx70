@@ -101,9 +101,11 @@ Thus far we have seen information coming from the camera, letting the "brain" kn
 
 Now we need to "turn things on" and there are basically three things in the camera. The motor. We just say to the arduino "turn it on" and wham! the motor is on. 
 
-This picture will help you understand all the connections on the SX70 camera. The graphic on the left by [Phyvine](https://www.flickr.com/photos/12061439@N04/albums/72157651300921876).
+This picture will help you understand all the connections on the SX70 camera. The graphic by [Phyvine](https://www.flickr.com/photos/12061439@N04/albums/72157651300921876).
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/sx70-grand-scheme.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/sx70-grand-schemeA.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/sx70-grand-schemeB.jpg)
+
 
 This is so simple because there is already in the camera a mosfet.
 
