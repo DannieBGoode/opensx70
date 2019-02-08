@@ -1,7 +1,7 @@
 ---
-title: OpenSX70/Arduino for Dummies (part 2)
+title: OpenSX70 for Dummies (part 2)
 description: How I faked my way into the openSX70 electronics and then tried to explain it
-date: 2017-12-05T00:00:00.000Z
+date: 2019-02-08T00:00:00.000Z
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin
@@ -177,5 +177,5 @@ When you explain this to people "in the know" and say phrases like "clever solut
 
 This is the camera sequence from the camera repair manual:
 
-<iframe width="600" height="1200" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
+<iframe width="660" height="1400" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
 
