@@ -176,5 +176,5 @@ When you explain this to people "in the know" and say phrases like "clever solut
 
 This is the camera sequence from the camera repair manual:
 
-<iframe width="1372" height="550" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
+<iframe width="800" height="1500" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
 
