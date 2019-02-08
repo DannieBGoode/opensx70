@@ -69,6 +69,14 @@ This is at least in part another starndard arduino bit, the LED, there is (norma
 
 This switches (S3 and S5) are just like the switches on the wall, the close a circuit. In this case to ground (makes it easier for me) so I (the arduino actually) knows when to turn on the motor and such.
 
+This is sample code to turn on the motor:
+
+
+```
+  digitalWrite(Motor, HIGH);
+
+```
+
 
 But wait, there's more switches: 
 
