@@ -21,14 +21,13 @@ published: true
 
 ## Introduction
 
-Disclaimer: Some people think that I know electronics, well, the truth is that I actually don't. I studied law in college. So everything I say from here on is probably "wrong" you have been warned.
+Disclaimer: Some people might think that I know electronics, well, the truth is that I actually don't. I studied law in college. But I try hard. So everything I say from here on is probably "wrong" you have been warned.
 
-This is the full schematic of the alpha-2 board. I am goint to break it into parts:
+This is the full schematic of the alpha-2 board. I am goint to break it into parts (keep in mind that where you read 3.3V it is actually 2.5V):
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/openSX70-alpha-2-schematic.jpg)
 
-This is the arduino. Just like any arduino.
-
+This is the arduino. Just like any arduino. It is what I found to be a "bare minimum" arduino circuit. It needs a capacitor and a resistor for reset/dtr line, and an external crystal (actually a resonator: one 8mhz crystal and two capacitors)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-arduino.jpg)
 
@@ -37,46 +36,50 @@ It is powered by 2.5V comming form and LD1117-25 regulator. This is the default 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-regulator.jpg)
 
-Then, as also "standard" Arduino blocks are the ICSP, the ICSP is a in-circuit way of programming the microcontroller, it is different from the (user-friendly) FTDI in the sense that you program the bootloader (which arguably makes the arduino an arduino). In my case I need that when I have the boards professionally manufactured and need to load the bootloader to the microcontroller. I use a custom pin with six pogo-pins. You can see the jig in [this blogpost](https://opensx70.com/posts/2018/03/here-we-go-again). 
+Then, as also "standard" Arduino blocks are the ICSP, the ICSP is a in-circuit way of programming the microcontroller, it is different from the (user-friendlier) FTDI in the sense that you can program the bootloader with the ICSP (which arguably makes the arduino an arduino). In my case I need that when I have the boards professionally manufactured and need to load the bootloader to the microcontroller.
+
+Normally I programm the Atmega328P with an adapter and MiniPro programmmer, and once programmed with the bootloader, I put them in the PCB.
+
+This of course I cannot do when the PCBs are manufactured in China, so I use a custom pin with six pogo-pins. You can see the jig in [this blogpost](https://opensx70.com/posts/2018/03/here-we-go-again). 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-ICSP.jpg)
 
-And the FTDI
+And the FTDI is the "user friendly" way to upload programs (sketches in arduino lingo) via a simple USB cable and a computer.
+
+There are a few things odd in our FTDI: First it is connected to an external board with small (and flimsy) flat cable (6way .5mm type "B") But if you look closely I have use one of the 6 wires to connect my 1-wire communication.
+
+This means that a control circuit (dongle) could be connected to the flat cable, without neet to use the flash socket. I am experimenting with such idea. The original idea comes from [Marco of AnalogThings.](https://www.youtube.com/channel/UC_1Wc6fdIxr3wctK2bDTLkw). It is an amazing channel that I highly recommend. He even has a [video on installing the openSX70 PCB](https://www.youtube.com/watch?v=3Fl2U9cJ5ew). Thank you Marco!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-FTDI.jpg)
 
-Both are means of programming and communicating with the Arduino/microcontroller. The FTDI is the flat cable (6-way) connection, the actual FTDI 232RL is in a different small board. Only needed when you have to debug (serial monitor) or reprogram the camera. You can reprogram the camera with the Arduino IDE or with the much simpler Xloader. This is like uploading a new firmware to a device.
+Both (ICSP and FTDI) are means of programming and communicating with the Arduino/microcontroller. The FTDI is the flat cable (6-way) connection, the actual FTDI 232RL is in a different small board. 
+
+Not only you can reprogram the arduino you can also use it to debug (serial monitor) that is, the camera or arduino printing on a terminal screen debug information about your program. 
+You can reprogram the camera (USB) with the Arduino IDE or with the much simpler Xloader. This is like uploading a new firmware to a device.
 
 The 7-way flexcable connector is the way the PCB connects to the rear of the camera.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-flexcable.jpg)
 
-It has of course power VCC coming in at 6V, GND, and then one output to turn on the motor. This is not connected directly, but I use a small resistor to protect the atmega. Then the motor has what is called the MCC, which is probably some sort of Mosfet.
+It has of course power VCC coming in at 6V, GND, and then one output to turn on the motor (MOTOR+). This is not connected directly, but I use a small resistor to protect the atmega. Then the motor has what is called the MCC, which is probably some sort of Mosfet.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-MCC.jpg)
-(this is the original chip next to the motor)
+(this is the original chip next to the motor by TI)
 
 Then switches S3 and S5 this are the switches that are in the gears. They are on or off depending on the possition of the gears. So we know where is the mirror. This is what I like to call mechanical electronics.
 
-S5 controls the motor turning it on and off and S3 starts the so-called Y-delay. This delay is a small amount of time that the camera waits when the mirror jumps up to avoid vibrations. It is called Y (as in WHY?) because when designing the ASICs (the chips) both Fairchild and Texas Instruments engineers didn't know much of the details of the camera operation, and kept asking the reason for the delay. You have to think that for the time, late sixties and early seventies, the level of electronic integration was unheard of. So the Polaroid engineers were very secretive about it...
+S5 controls the motor turning it on and off and S3 starts the so-called Y-delay. This delay is a small amount of time that the camera waits when the mirror jumps up to avoid vibrations. It is called Y (as in WHY?) because when designing the ASICs (the chips) both Fairchild and Texas Instruments engineers didn't know much of the details of the camera operation, and kept asking the reason for the delay. You have to think that for the time, late sixties and early seventies, the level of electronic integration was unheard of. So the Polaroid engineers were very secretive about it... I recommend reading "The Battle for the SX-70" (electronics) by Tekla S. Perry, pusblished on the IEEE Spectrum Magazine in May 1989. Fascinating read.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/09/20180929-Duyen-06.jpg)	
 
 You can appreciate the level of integration from this picture of the original breadboard, equivalent to the actual circuit in the camera but with discrete components.
 
-This is at least in part another starndard arduino bit, the LED, there is (normally) an LED built-in in input 13. I have another one so it is a two-colours LED. I think it is placed upside down. Ooops.
+This is at least in part another starndard arduino bit, the LED, there is (normally) an LED built-in in port 13. I have another one so it is a two-colours LED. I think it is placed upside down. Ooops.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-LEDs.jpg)
 
 This switches (S3 and S5) are just like the switches on the wall, the close a circuit. In this case to ground (makes it easier for me) so I (the arduino actually) knows when to turn on the motor and such.
 
-This is sample code to turn on the motor:
-
-
-```
-  digitalWrite(Motor, HIGH);
-
-```
 
 
 But wait, there's more switches: 
@@ -110,19 +113,36 @@ Thus far we have seen information coming from the camera, letting the "brain" kn
 
 Now we need to "turn things on" and there are basically three things in the camera. The motor. We just say to the arduino "turn it on" and wham! the motor is on. 
 
+
+This is sample code to turn on the motor:
+
+
+```
+  digitalWrite(Motor, HIGH);
+
+```
+
+
+
 This picture will help you understand all the connections on the SX70 camera. The graphic by [Phyvine](https://www.flickr.com/photos/12061439@N04/albums/72157651300921876).
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/sx70-grand-schemeA.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/sx70-grand-schemeB.jpg)
 
 
-This is so simple because there is already in the camera a mosfet.
+Continuing with motor operation, this is so simple because there is already in the camera a mosfet (in the back close to the motor).
 
 [The mosfet is basically a switch](https://www.electronics-tutorials.ws/transistor/tran_7.html). If you imagine an output on the arduino as faucet, sometimes we need much more water than it can deliver. So we use this.
 
+You can see here three more "S" switches on the picture: S6, S7 and S4: S6 and S7 are easy, they are the way to turn on the camera (there is no ON/OFF switch). So S6 gives power to the camera when the camera is up or erect. But you also need S7 "ON" and that happens when the door or the latch with the rollers is closed. You need both engaged.
+
+Then there's S4. That is not so easy (correct me if I am wrong) this is phisically engaged with the Solenoid 1 (shutter operation) and acts like a sort or relay with two positions AC and BC. I think this was used in early cameras (pre-ALPHAS) to "know" when the solenoid was engaged all the way and so switch to LOW POWER mode. Maybe they used a simple resistor...
+It was vital for the engineers designing the camera to avoid noise and interference and save power. That is why they used all the juice they got to "move" the shutter into position, but once its there, there is no need to waste resources so they turned to LOW POWER.
+
+
 But we also need to move two powerful magnets: the one that closes and opens the shutter blades, and the one for the flash, that limits the aperture. These are Solenoid 1 and Solenoid 2.
 
-Here there is no mosfet in the camera, so I have to probide one for each: 
+Here there is no mosfet in the camera, so I have to provide one for each: 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-solenoid1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-solenoid2.jpg)
@@ -138,6 +158,7 @@ Many people think: great! we have an 8-way physical interface with the camera. T
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/alpha-schematic-flash.jpg)
 
 So there is F+ F- this only power the flash, VCC or 6V and Ground. Then there is FF. This signals the flash to actually flash. Then the ICs hidden under the socket select which of the five shots on the flash bar should fire. 
+There is also a FF line, that I have no idea what it does. If you do please let me know! Also, please be very carefull when desoldering and solderind this wires.
 
 So now what...? wait, there is more we have S2+ and S2-. This is a switch like S3 and S5, and only thing it does on a regular camera is to inform the brain that a flash is inserted. If you have a flash for the SX70 (any flash, a flashbar or electronic) you can see that of all the eight "pad" that there are, the two on the right are connected, shorted. This way the camera know that there is a flash. Great.
 
@@ -147,7 +168,7 @@ Yes! the chip on the dongle is the [DS2408](http://www.sal.wisc.edu/st5000/datas
 
 So the dongle has (as of now) 6 inputs and 2 outs. So the Selector needs 4 inputs to let the microcontroller know the position (the shutter speed selection or whatever), then the actual switches S1 and S2 use a port each, and finally now as outputs we have the dongle LED and the flash optocoupler.
 
-Various spur thoughts: we have eight but we could have any combination, say 2 LEDs and only one switch. Another though, a few people see no use for the second switch, a see it more as blotch on the user interface. Making the user inferface more confusing. Dunno, maybe. My final thought is... maybe using one of the "precious" DS2408 ports to trigger the flash is a waste. Maybe it can be done as "normal" flash. Maybe.
+Various spur thoughts: we have eight but we could have any combination, say 2 LEDs and only one switch. Another though, a few people see no use for the second switch, a see it more as blotch on the user interface. Making the user inferface more confusing. Dunno, maybe. My final thought is... maybe using one of the "precious" DS2408 ports to trigger the flash is a waste. Maybe it can be done as "normal" flash. Maybe. By the way, we use another regulator to bring the power in the dongle (for the DS2408) to 2.8V, that is within the range that the chip operates.
 
 My comment in the user interface. Maybe not a switch, but perhaps a pushbutton to set options.
 
