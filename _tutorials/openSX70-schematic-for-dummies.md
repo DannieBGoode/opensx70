@@ -196,7 +196,7 @@ When you explain this to people "in the know" and say phrases like "clever solut
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/tutorials/opensx70-alpha-2-lightmeter.jpg)
 
-This is the camera sequence from the camera repair manual:
+This is the camera sequence from the camera repair manual it has on the information needed to program the software (I transcribed it from the original Repair Manual):
 
 <iframe width="640" height="1350" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV-Ee3efzA0lo_n106m7z1x3jGKH8-cNA8Q5_hbkvul55AtE74mNwu4-cJqEpIbjizb1l4ryva4Ibf/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>	
 
