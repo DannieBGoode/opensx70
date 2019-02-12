@@ -15,14 +15,15 @@ feature_image: SX70_images/openSX70-cameraporn-12
 permalink: /posts/2019/02/meet-the-beta-testers
 description: the team of beta testers
 ---
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/workbench.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/pieter_opensx70.jpg)
 
 I have said this all along, the project has turned up to be not exactly what I expected: that “community effect” that I had envisioned, but has turned out to be -in many senses- a much more gratifying personal journey that has led me to places I never thought I could reach. 
 
 I a few words: it’s been a blast.
 
 For the moment costs are reasonable, and the fun is inmense. I run at my own pace (I have a regular job) and you know what? there might be a pot of gold at the end of the rainbow or not but that doesn’t worry me one bit, we will see, and yes, I hope to at least cover my expenses.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/workbench.jpg)
 
 So in time, I felt that I needed to share with others, and I did: I have sent quite a few kits and cameras to all continents, from Taiwan and Japan, and of course to the US and europe. I expect nothing in return (certainly monetary) but otherwise. I am sincerely grateful when people share their experiences, their feedback or both on building the openSX70 or shooting with it, or simply share their pictures taken with an openSX70 camera. Thank you to all.
 
@@ -39,8 +40,6 @@ Then there’s [Sébatien Hivart](https://www.facebook.com/sebastien.hivart) fro
 One thing that I have found in my journey is that photographers don’t want to mess with electronics or soldering irons, software upgrades and things like that. I totally understand specially in this new analog 2.0 era. And that is why [Jens Vosage](http://www.jvoto.de) is my next beta tester, he fears no Arduinos nor soldering iron. He is a professional photographer in Hannover Germany. He can supply the professional photographers point of view, and that is really important.
 
 Pieter and his brother Jan have already built their camera and modified the software. Great work good team.
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/pieter_opensx70.jpg)
 
 
 And then we have [Kendar from Rezivot](https://www.rezivot.com/) in Taiwan, Jan de Paepe and of course [Marco from AnalogThings](https://www.youtube.com/watch?v=3Fl2U9cJ5ew), and many more.
