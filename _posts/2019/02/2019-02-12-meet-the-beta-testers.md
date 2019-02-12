@@ -8,7 +8,7 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 6
 comments: 'true'
-published: false
+published: true
 show_related_posts: 'true'
 title: meet the beta testers
 feature_image: SX70_images/openSX70-cameraporn-12
@@ -16,7 +16,7 @@ permalink: /posts/2019/02/meet-the-beta-testers
 description: the team of beta testers
 ---
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/pieter_opensx70.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/workbench.jpg)
 
 I have said this all along, the project is not exactly what I expected, that “community effect” that I envisioned, but has turned out as a -in many senses- a much more gratifying personal journey that has led me to places I never thought I could reach. I a few words: it’s been a blast.
 For the moment costs are very reasonable, and the fun is inmense. I run at my own pace (I have a regular job) and you know what? there might be a pot of gold at the end of the rainbow or not, that doesn’t worry me, we will see, and yes, I hope to at least cover my expenses.
@@ -39,13 +39,17 @@ Pieter and his brother Jan have already built their camera and modified the soft
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/pieter_opensx70.jpg)
 
-And then we have Kendar from Rezivot in Taiwan, Jan de Paepe and of course [Marco from AnalogThings](https://www.youtube.com/watch?v=3Fl2U9cJ5ew), and many more.
 
-If you are not chosen don’t despair! Due to my results, and possibly confirmed by Dave, the design of the lightmeter circuitry is not really working as I expect it to. So there’s probably going to a new iteration of the PCBs.
+And then we have [Kendar from Rezivot](https://www.rezivot.com/) in Taiwan, Jan de Paepe and of course [Marco from AnalogThings](https://www.youtube.com/watch?v=3Fl2U9cJ5ew), and many more.
 
+If you are not chosen don’t despair! Due to my results, and possibly confirmed by Dave, the design of the lightmeter circuitry is not really working as I expect it to. So there’s probably going to a new iteration of the PCBs. You probably want one of those!
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/giveaway.jpg)
 
+By the way, one of my crazy ideas is to try to use a different spring on the Solenoid 1 to make the shutter faster. 
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/solenoid-1-spring.jpg)
 
+A mechanical engineer would be a nice addition to our beta-testers, but for the time being I am trying to locate a spring manufacturer that can make for me similar springs but that make the solenoid faster (I am assuming that the spring now is 20gr). It is totally a bet, since we don’t know if the solenoid will be able to pull a spring that is stronger... we will see.
 
-
+The fun never ends!	
