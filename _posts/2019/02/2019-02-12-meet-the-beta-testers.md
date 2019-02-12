@@ -18,12 +18,15 @@ description: the team of beta testers
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/workbench.jpg)
 
-I have said this all along, the project is not exactly what I expected, that “community effect” that I envisioned, but has turned out as a -in many senses- a much more gratifying personal journey that has led me to places I never thought I could reach. I a few words: it’s been a blast.
-For the moment costs are very reasonable, and the fun is inmense. I run at my own pace (I have a regular job) and you know what? there might be a pot of gold at the end of the rainbow or not, that doesn’t worry me, we will see, and yes, I hope to at least cover my expenses.
+I have said this all along, the project has turned up to be not exactly what I expected: that “community effect” that I had envisioned, but has turned out to be -in many senses- a much more gratifying personal journey that has led me to places I never thought I could reach. 
+
+I a few words: it’s been a blast.
+
+For the moment costs are reasonable, and the fun is inmense. I run at my own pace (I have a regular job) and you know what? there might be a pot of gold at the end of the rainbow or not but that doesn’t worry me one bit, we will see, and yes, I hope to at least cover my expenses.
 
 So in time, I felt that I needed to share with others, and I did: I have sent quite a few kits and cameras to all continents, from Taiwan and Japan, and of course to the US and europe. I expect nothing in return (certainly monetary) but otherwise. I am sincerely grateful when people share their experiences, their feedback or both on building the openSX70 or shooting with it, or simply share their pictures taken with an openSX70 camera. Thank you to all.
 
-Even though most days at openSX70 central are bright days, there are also darker days, when nothing seems to work, when things simply go wrong: it’s a journey. All I can say is that I stand committed to the project. I was watching a YouTube video yesterday about having a (non BS) mission statement for whatever you do. Mine would be to understand the SX70 and it’s engineering as much as possible, and sharing it (the understanding). That means of course in a sense trying to get an affordable product available to DIYers, but also building the most amazing SX70 bar none assembled by the best... but in time.
+Even though most days at openSX70 central are bright, there are also darker days, when nothing seems to work, when things simply go wrong: it’s a journey. All I can say is that in the long run I stand committed to the project. I was watching a YouTube video yesterday about having a (non BS) mission statement for whatever you do. Mine would be to understand the SX70 and it’s engineering as much as possible, and sharing it (the understanding). That means of course in a sense trying to get an affordable product available to DIYers, but also building the most amazing SX70 bar none assembled by the best... but in time.
 
 That is why I am very very happy with the team of beta testers that is joining the openSX70 project, I intend to consolidate and set them up, and then, hopefully, grow up from there.
 
@@ -31,7 +34,7 @@ I think the team is diverse and that is exactly by design and I mention them in 
 
 Dave Walker is a electronics design engineer nowadays working as an R&D manager. He is from the UK. He is already finding faults with my design: I think he thinks that the light meter bit is all wrong. But the best part is that he knows how to fix it! Also, he likes the SFH2430 that I selected so not all is lost! Thank you David for your support and enthusiasm!
 
-Then there’s [Sébatien Hivart](https://www.facebook.com/sebastien.hivart). He belongs to the exclusive club of people that not only love these cameras but also know how fix them. He has crucial understanding of the camera operation. Funny thing that happens to me is that many people assume that I fix cameras: I only wish! I sincerely hope to learn one day from one of the masters! In the meantime I can only say that I admire what Sebastien does and that I think he can supply a lot to the project. He also is a specialist in 3D design that might come in handy.
+Then there’s [Sébatien Hivart](https://www.facebook.com/sebastien.hivart) from France. He belongs to the exclusive club of people that not only love these cameras but also know how fix them. He has crucial understanding of the camera operation. Funny thing that happens to me is that many people assume that I fix cameras: I only wish! I sincerely hope to learn one day from one of the masters! In the meantime I can only say that I admire what Sebastien does and that I think he can supply a lot to the project. He also is a specialist in 3D design that might come in handy.
 
 One thing that I have found in my journey is that photographers don’t want to mess with electronics or soldering irons, software upgrades and things like that. I totally understand specially in this new analog 2.0 era. And that is why [Jens Vosage](http://www.jvoto.de) is my next beta tester, he fears no Arduinos nor soldering iron. He is a professional photographer in Hannover Germany. He can supply the professional photographers point of view, and that is really important.
 
