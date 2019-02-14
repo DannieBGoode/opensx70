@@ -60,6 +60,6 @@ By the way, one of my crazy ideas is to try to use a different spring on the Sol
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/solenoid-1-spring.jpg)
 
-A mechanical engineer would be a nice addition to our beta-testers, but for the time being I am trying to locate a spring manufacturer that can make for me similar springs but that make the solenoid faster (I am assuming that the spring now is 20gr). It is totally a bet, since we don’t know if the solenoid will be able to pull a spring that is stronger... we will see.
+A mechanical engineer would be a nice addition to our beta-testers, but for the time being I am trying to locate a [spring manufacturer](http://www.ramgues.com/English/ramgues_company.htm) that can make for me similar springs but that make the solenoid faster (I am assuming that the spring now is 20gr). It is totally a bet, since we don’t know if the solenoid will be able to pull a spring that is stronger... we will see.
 
 The fun never ends!	
