@@ -10,10 +10,10 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: meet the beta testers
+title: Meet the beta testers (updated!)
 feature_image: SX70_images/openSX70-cameraporn-12
 permalink: /posts/2019/02/meet-the-beta-testers
-description: the team of beta testers
+description: the team of beta testers (updated=
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/pieter_opensx70.jpg)
 
