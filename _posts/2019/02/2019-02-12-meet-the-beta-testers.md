@@ -44,6 +44,8 @@ Pieter and his brother Jan have already built their camera and modified the soft
 
 And then we have [Kendar from Rezivot](https://www.rezivot.com/) in Taiwan, he does amazing work, please check his website. 
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/Rezivot-kendar.jpg)
+
 And [Jan de Paepe](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Forion1615%2F%3Ffbclid%3DIwAR1O4STjvHRMUPCu__cXh5wVy3asu18_OuNKdxiotkKOxvvq3abUH6ZAUJc&h=AT21bVd1tHri9DpwjE_Mk-Mq-8UI4gSHnKOBFEjPx2IVjdsL3N0cNyNsRl0KJy1rE8APYI5hwoJUNebpNrhIz5872xJyBB-IWXAQUVBuU7YJpiW6Olpbu39XPGbOVA4KbA), he is a mechanical engineer that is working on projects for space, optics, robotics and injection moulding. He came up with the idea of the ultra-minimalistic dongle! 
 This is his latest designs based on the [origami](https://opensx70.com/posts/2019/01/origami) You can [download the origami 3D files](https://a360.co/2Fh2kz5).
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami3.jpg)
