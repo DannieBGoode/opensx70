@@ -42,7 +42,9 @@ One thing that I have found in my journey is that photographers don’t want to 
 Pieter and his brother Jan have already built their camera and modified the software. Great work good team.
 
 
-And then we have [Kendar from Rezivot](https://www.rezivot.com/) in Taiwan, Jan de Paepe and of course [Marco from AnalogThings](https://www.youtube.com/watch?v=3Fl2U9cJ5ew), and many more.
+And then we have [Kendar from Rezivot](https://www.rezivot.com/) in Taiwan, Jan de Paepe, he is a mechanical engineer that is working on projects for space, optics, robotics and injection moulding. He came up with the idea of the ultra-minimalistic dongle! 
+
+And of course [Marco from AnalogThings](https://www.youtube.com/watch?v=3Fl2U9cJ5ew), and many more.
 
 If you are not chosen don’t despair! Due to my results, and possibly confirmed by Dave, the design of the lightmeter circuitry is not really working as I expect it to. So there’s probably going to a new iteration of the PCBs. You probably want one of those!
 
