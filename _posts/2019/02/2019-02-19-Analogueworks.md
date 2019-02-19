@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: AnalogueWorks Dongle
-feature_image: SX70_images/openSX70-cameraporn-09
+feature_image: SX70_images/openSX70-cameraporn-9
 permalink: /posts/2019/03/analogueworks
 description: Renders of AnalogueWorks Dongle
 ---
