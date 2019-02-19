@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: AnalogueWorks Dongle
-feature_image: SX70_images/openSX70-cameraporn-10
+feature_image: SX70_images/openSX70-cameraporn-09
 permalink: /posts/2019/03/analogueworks
 description: Renders of AnalogueWorks Dongle
 ---
@@ -26,7 +26,7 @@ He makes these amazing over-engineered pinhole cameras.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-08.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-09.jpg)
 
-His designs are not only beautiful, but really nicely constructed and thought out. Please check his website.
+His designs are not only beautiful, but really nicely constructed and thought out. Please check [his website](http://analogueworks.wixsite.com/analogueworks/copia-de-instant-film-type-100).
 
 He has also been a faithful supporter of the openSX70 project. So we started talking... and talking... I was really happy when he told me he was thinking on designing a dongle for the project. What a treat.
 
@@ -36,7 +36,7 @@ I never cease to amaze at the ideas people bring to project. All sorts of ideas.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/santi-1.jpg)
 
-So when he told me he had something to show me... 
+So when he told me he had something to show me... I was really happy.
 
 So here you have them, even though it is a first draft, I really really like the design, and the ideas that he brings to project. 
 Our approach here is to make the design from outside, so I will try to fit the electronics once the design is more or less settled.
@@ -46,3 +46,6 @@ Our approach here is to make the design from outside, so I will try to fit the e
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-04.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-03.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-02.jpg)
+
+Please remember that I consider the project dongle-agnostic. We welcome all sorts of designs and open ideas. There is no "one" dongle, but, starting with the uDongle I hope that there are many...
+
