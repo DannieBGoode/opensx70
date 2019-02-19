@@ -33,6 +33,7 @@ He has also been a faithful supporter of the openSX70 project. So we started tal
 I never cease to amaze at the ideas people bring to project. All sorts of ideas...
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/santi-2.jpg)
+(shot with openSX70 prototype#7 and MiNT electronic flashbar, the best modern accessory for the SX70)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/santi-1.jpg)
 
