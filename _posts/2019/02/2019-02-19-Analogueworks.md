@@ -39,7 +39,7 @@ I never cease to amaze at the ideas people bring to project. All sorts of ideas.
 
 So when he told me he had something to show me... I was really happy.
 
-So here you have them, even though it is a first draft, I really really like the design, and the ideas that he brings to project. 
+Here you have them, in all its beauty even though it is only a first draft, I really really like the design, and the ideas that he brings to project. 
 Our approach here is to make the design from outside, so I will try to fit the electronics once the design is more or less settled.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-06.jpg)
