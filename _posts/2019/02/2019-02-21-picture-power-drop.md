@@ -15,6 +15,8 @@ feature_image: SX70_images/openSX70-cameraporn-6
 permalink: /posts/2019/02/powerdrop
 description: The SX70 picture as a power drop
 ---
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/2019-02-20-trace-that-picture-01.jpg)
+
 So Dave was thinking we should go back to 3.3V from 2.5V (and he seems to be right).
 So we measured the power drop from the battery on an original camera. This means in layman's words how much power is consumed by the camera during operation.
 We had run these tests in the past but with a major flaw. We used then wires that were both too long and to thin.
@@ -25,8 +27,7 @@ So here we are again repeating them (sorry for the vertical video):
 What amazed me from the oscilloscope trace is that you could clearly see all the differents operations (see the sequeence at the bottom of this post) of the camera from the power consumption.
 Let me try to explain to you with pictures.
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/2019-02-20-trace-that-picture-01.jpg)
-In this image we see traces of two picture-taking operations, so you see the idle state and in the yellow box the actual picture taking.
+In the first image we see traces of two picture-taking operations, so you see the idle state and in the yellow box the actual picture taking.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/2019-02-20-trace-that-picture-02.jpg)
 The line traces time horizontally. We see no power drain when idle, and things happening when we press the red button. The lower the trace the more power consumption there is.
