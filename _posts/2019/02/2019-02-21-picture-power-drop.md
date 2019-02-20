@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: the picture as a power drop
+title: the picture as a voltage drop
 feature_image: SX70_images/openSX70-cameraporn-6
 permalink: /posts/2019/02/powerdrop
 description: The SX70 picture as a voltage drop
