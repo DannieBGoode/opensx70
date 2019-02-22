@@ -17,14 +17,14 @@ description: The SX70 motor story
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/Motor_SX70_website.jpg)
 
-You probably read or heard the story: the
-
-The motor was specially designed to meet requirements for rapid acceleration, low power consumption, and small size. And Polaroid has *HO-gauge, electric train motors* to thank for meeting these specifications.
-Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value t'or this type of motor), and reliability has been raised to thousands of operations.
-("Behind the lens of the SX-70"
+You probably read or heard the story: this is from ("Behind the lens of the SX-70"
 Gerald Lapidus
 IEEE Spectrum December 1973.
-page 78.)
+page 78.):
+
+"The motor was specially designed to meet requirements for rapid acceleration, low power consumption, and small size. And Polaroid has *HO-gauge, electric train motors* to thank for meeting these specifications.
+Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value t'or this type of motor), and reliability has been raised to thousands of operations."
+
 
 This is probably true, and I find fascinating the fact that slot-car motors (Scalectrix in Spain) were "unsatisfactory" and they used HO-gauge trains motors. I still have the HO trains my father bouth to me. I love them. They are all in a box waiting for me to build that amazing track that is only on my mind. They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
 In that era, trains were either Fleischmann (and similar-compatible) or [Maerklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge didn't exist.
