@@ -26,7 +26,7 @@ page 78.):
 Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value for this type of motor), and reliability has been raised to thousands of operations."
 
 
-This is probably true, and I find fascinating the fact that slot-car (Scalectrix in Spain) motors were "unsatisfactory" and they used HO-gauge trains motors. 
+This is probably true, and I find fascinating the fact that slot-car ([Scalectrix](https://scalextric.es/) in Spain) motors were "unsatisfactory" and they used HO-gauge trains motors. 
 I still have the HO trains my father bought for me. 
 I love them. They are all in a box waiting for me to build that amazing track with mountains, tunnels, stations and people that is only on my mind. 
 They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
