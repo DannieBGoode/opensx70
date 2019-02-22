@@ -30,15 +30,15 @@ This is probably true, and I find fascinating the fact that slot-car ([Scalextri
 (I still have the HO trains my father bought for me. 
 I love them. They are all in a box waiting for me to build that amazing track with mountains, tunnels, stations and people that is only on my mind. 
 They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
-In that era, trains were either Fleischmann and similar or [Märklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge and smaller scales didn't exist back then).
+In that era, trains were either Fleischmann and similar or [Märklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge and smaller sizes didn't exist back then).
 
 One more disgression, 
 if you searched for something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
 There is plenty of [videos](https://www.youtube.com/watch?v=zUlww59IZq4) and [info about that](http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html).
 
-Anyway, I want to talk about the motor and trying to replace it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement.
+Anyway, I want to talk about the motor and me trying to find a modern replacement for it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement (I really didn't need it, but I guess that is the way I am).
 
-So I started to look for a replacement. On the surface it looks like a hobby motor, a type 130 motor. So I bought one right away. It is not really adecuate.
+So I started to look for a replacement. Doing all sorts of weird searches on Google, image searches... You know, on the surface it looks like a hobby motor, a [type 130 motor](https://www.google.com/search?q=type+130+dc-motor&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjYv8jihNDgAhUm0IMKHWQxCoMQ_AUIDigB&biw=1920&bih=1058). So I bought one right away. It is not really adecuate.
 
 Keep in mind that the motor comprises, the actual motor with its odd contact placement. The plastic bushing on the front and the back and the coupler *drive spring*.
 
