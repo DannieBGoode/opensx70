@@ -36,7 +36,7 @@ One more disgression,
 if you searched for something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
 There is plenty of [videos](https://www.youtube.com/watch?v=zUlww59IZq4) and [info about that](http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html).
 
-Anyway, I want to talk about the motor and me trying to find a modern replacement for it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement (I really didn't need it, but I guess that is the way I am).
+Anyway, I want to talk about the motor and me trying to find a modern replacement for it. You probably have heard one of those SX70 that sound like they are agonizing, begging for a motor replacement (I really didn't need it, but I guess that is the way I am).
 
 So I started to look for a replacement. Doing all sorts of weird searches on Google, (and finding [very interesting but useless articles](https://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/) and also image searches... You know, on the surface it looks like just a regular hobby motor, a [type 130 motor](https://www.google.com/search?q=type+130+dc-motor&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjYv8jihNDgAhUm0IMKHWQxCoMQ_AUIDigB&biw=1920&bih=1058). So I bought one right away and no, it is not really compatible.
 
