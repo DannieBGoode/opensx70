@@ -33,7 +33,7 @@ They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
 In that era, trains were either Fleischmann (and similar-compatible) or [Maerklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge didn't exist.
 
 One more disgression, 
-if you search something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
+if you searched for something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
 There is plenty of videos and [info about that](http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html).
 
 Anyway, I want to talk about the motor and trying to replace it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement.
