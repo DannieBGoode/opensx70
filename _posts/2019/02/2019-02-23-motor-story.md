@@ -17,7 +17,7 @@ description: The SX70 motor story
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/Motor_SX70_website.jpg)
 
-You probably read or heard the story: this is from ("Behind the lens of the SX-70"
+You probably read or heard the story (this is from *Behind the lens of the SX-70*
 Gerald Lapidus
 IEEE Spectrum December 1973.
 page 78.):
