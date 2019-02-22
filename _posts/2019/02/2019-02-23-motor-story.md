@@ -30,7 +30,7 @@ This is probably true, and I find fascinating the fact that slot-car motors (Sca
 I still have the HO trains my father bought for me. 
 I love them. They are all in a box waiting for me to build that amazing track with mountains, tunnels, stations and people that is only on my mind. 
 They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
-In that era, trains were either Fleischmann (and similar-compatible) or [Maerklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge didn't exist.
+In that era, trains were either Fleischmann (and similar-compatible) or [Märklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge didn't exist.
 
 One more disgression, 
 if you searched for something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
