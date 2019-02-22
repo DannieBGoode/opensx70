@@ -86,4 +86,4 @@ Detail on the microscope of the drive spring, the shaft and the bushing on an or
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-5.jpg)
 
-No, I cannot reveal the specifics of the new motor out of respect of the person who helped me find it!
+And NO, I cannot reveal the specifics of the new motor out of respect of the person who helped me find it and how scarce and almost impossible to find are!
