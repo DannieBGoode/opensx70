@@ -42,6 +42,10 @@ So I started to look for a replacement. On the surface it looks like a hobby mot
 
 Keep in mind that the motor comprises, the actual motor with its odd contact placement. The plastic bushing on the front and the back and the coupler *drive spring*.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/coupling.jpg)
+The *motor pinion shaft* and the *drive spring* on the microscope.
+
+
 In early cameras there was a plastic coupler, that be seen in this graphic from the repair manual: (spoiler: this has to be removed to fix the "motor keeps running" error).
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002B.jpg)
