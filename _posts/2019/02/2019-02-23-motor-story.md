@@ -38,7 +38,7 @@ There is plenty of [videos](https://www.youtube.com/watch?v=zUlww59IZq4) and [in
 
 Anyway, I want to talk about the motor and me trying to find a modern replacement for it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement (I really didn't need it, but I guess that is the way I am).
 
-So I started to look for a replacement. Doing all sorts of weird searches on Google, (and finding [very interesting but useless articles](https://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/) alsoimage searches... You know, on the surface it looks like a hobby motor, a [type 130 motor](https://www.google.com/search?q=type+130+dc-motor&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjYv8jihNDgAhUm0IMKHWQxCoMQ_AUIDigB&biw=1920&bih=1058). So I bought one right away. It is not really adecuate.
+So I started to look for a replacement. Doing all sorts of weird searches on Google, (and finding [very interesting but useless articles](https://hackaday.com/2016/10/17/the-little-things-i-didnt-know-about-small-dc-motors/) and also image searches... You know, on the surface it looks like just a regular hobby motor, a [type 130 motor](https://www.google.com/search?q=type+130+dc-motor&safe=off&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjYv8jihNDgAhUm0IMKHWQxCoMQ_AUIDigB&biw=1920&bih=1058). So I bought one right away and no, it is not really compatible.
 
 Keep in mind that the motor comprises, the actual motor with its odd contact placement. The plastic bushing on the front and the back and the coupler *drive spring*.
 
