@@ -26,3 +26,8 @@ Gerald Lapidus
 IEEE Spectrum December 1973.
 page 78.)
 
+http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html
+
+polaroid sx-70 motor
+
+"polaroid sx-70 motor keeps running"
