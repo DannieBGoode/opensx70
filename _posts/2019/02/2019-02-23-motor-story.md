@@ -31,3 +31,21 @@ http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html
 polaroid sx-70 motor
 
 "polaroid sx-70 motor keeps running"
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-008.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-005.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-006.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-007.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-7.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-6.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-5.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-4.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-1.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-3.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-2.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002B.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-003.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-001.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/coupling2.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/coupling.jpg)
