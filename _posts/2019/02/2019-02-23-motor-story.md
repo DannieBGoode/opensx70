@@ -8,44 +8,75 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 6
 comments: 'true'
-published: false
+published: true
 show_related_posts: 'true'
 title: Motor story
 feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2019/02/motor
 description: The SX70 motor story
 ---
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/Motor_SX70_website.jpg)
+
 You probably read or heard the story: the
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/2019-02-20-trace-that-picture-01.jpg)
 The motor was specially designed to meet requirements for rapid acceleration, low power consumption, and small size. And Polaroid has *HO-gauge, electric train motors* to thank for meeting these specifications.
 Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value t'or this type of motor), and reliability has been raised to thousands of operations.
-
 ("Behind the lens of the SX-70"
 Gerald Lapidus
 IEEE Spectrum December 1973.
 page 78.)
 
-http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html
+This is probably true, and I find fascinating the fact that slot-car motors (Scalectrix in Spain) were "unsatisfactory" and they used HO-gauge trains motors. I still have the HO trains my father bouth to me. I love them. They are all in a box waiting for me to build that amazing track that is only on my mind. They are mostly [Fleischmann](https://www.fleischmann.de/en/home/index.html).
+In that era, trains were either Fleischmann (and similar-compatible) or [Maerklin](https://www.maerklin.de/en/) that had a dotted connection on the tracks. N-gauge didn't exist.
 
-polaroid sx-70 motor
+One more disgression, 
+if you search something like *polaroid sx-70 motor* it autocompletes to *polaroid sx-70 motor keeps running*. I am not taking about this.
+There is plenty of videos and [info about that](http://2ndshotsx70.blogspot.com/2015/07/the-motor-coupler-you-dont-need-it.html).
 
-"polaroid sx-70 motor keeps running"
+Anyway, I want to talk about the motor and trying to replace it. You probably have heard one of those SX70 that sound like they are agonizing, beggin for a motor replacement.
+
+So I started to look for a replacement. On the surface it looks like a hobby motor, a type 130 motor. So I bought one right away. It is not really adecuate.
+
+Keep in mind that the motor comprises, the actual motor with its odd contact placement. The plastic bushing on the front and the back and the coupler *drive spring*.
+
+In early cameras there was a plastic coupler, that be seen in this graphic from the repair manual: (spoiler: this has to be removed to fix the "motor keeps running" error).
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002B.jpg)
+
+It turns out that the motor is not quite type 130. Finally (with a little help from my friends) I found modern replacements but unfortunately are old-new stock and hard to find.
+
+You can see the original in different versions (golden) and the new (chrome) at the bottom:
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-005.jpg)
+
+The new motor is basically the equivalent to the original, in perfomance and such. It has the same polarity of the contacts, but these are placed slightly different.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-001.jpg)
+
+You have to use the bushings (those are removable) from the original (or I guess you could 3D print new ones or make a silicon mold to copy them, I want to try that).
+
+And the diameter of the shaft is a bit smaller than the original, so you need to crimp the spring to put it.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-006B.jpg)
+
+Here you can see a type 130 on the left and the my new SX70-compatible motors on the center and right. In the center I have inserted the spring and bushings.
+
+This is my SX70 motor treasure box!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-008.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-005.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-006.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-007.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-7.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-6.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-5.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-4.jpg)
+
+So finally here is the original and the new one ready to bring back from the dead a camera!
+
+Detail of the *drive spring*
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-1.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-3.jpg)
+
+The different width of the shaft original be .2mm wider.
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-2.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002B.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-003.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-002.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-story-001.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/coupling2.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/coupling.jpg)
+
+Detail on the microscope of the drive spring, the shaft and the bushing on an original motor.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/motor-microscope-5.jpg)
+
+No, I cannot reveal the specifics of the new motor out of respect of the person who helped me find it!
