@@ -23,7 +23,7 @@ IEEE Spectrum December 1973.
 page 78.):
 
 >"The motor was specially designed to meet requirements for rapid acceleration, low power consumption, and small size. And Polaroid has *HO-gauge, electric train motors* to thank for meeting these specifications.
-Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value t'or this type of motor), and reliability has been raised to thousands of operations."
+Slot-car motors were also tried, but they were unsatisfactory. Since then, motor efficiency has been raised above 50 percent at normal operating speed (a high value for this type of motor), and reliability has been raised to thousands of operations."
 
 
 This is probably true, and I find fascinating the fact that slot-car motors (Scalectrix in Spain) were "unsatisfactory" and they used HO-gauge trains motors. 
