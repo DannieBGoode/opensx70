@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: Thomas Zamolo
-feature_image: SX70_images/openSX70-cameraporn-7
+feature_image: SX70_images/openSX70-cameraporn-18
 permalink: /posts/2019/02/thomaszamolo
 description: Flash photography with Thomas Zamolo
 ---
