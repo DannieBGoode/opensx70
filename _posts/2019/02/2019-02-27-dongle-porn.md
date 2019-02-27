@@ -16,6 +16,7 @@ permalink: /posts/2019/02/motor
 description: Pure and unadulterated dongle porn
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami3.jpg)
+(see-through rendering of Jan's dongle based on Origami)
 
 As you all know openSX70 is a new PCB for the SX70 camera. So the only visible part is the control module, that I call dongle.
 
@@ -37,14 +38,17 @@ The next iteraction of the dongle was the uDongle (as un UGLY dongle). It is jus
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/03/2018-03-28-here-we-go-again-09.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/11/20181119-new-PCBs-uDongle-38.jpg)
 
-It was not thought as something that could be used in an enclosure. But I was wrong. Clement Grosjean was able to build a 3D printed enclosure, and it looks really really nice!
+It was not thought as something that could be used in an enclosure. 
+But I was wrong. 
+[Clément Grosjean](http://clementgrosjean.fr/) a photographer and the organizer of the incredible [Polaroid Festival](http://polaroidfestival.com/).  was able to build a 3D printed enclosure, and it looks really really nice!
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/dongle-clement-2.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/dongle-clement-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-drawing.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-rendering.jpg)
 
-Some people wanted to do something minimalistic, trying to alter the camera the lesser the better. Like Jan de Paepe. He came up with the idea for this:
+Some people wanted to do something minimalistic, trying to alter the camera the lesser the better. Like [Jan de Paepe](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Forion1615%2F%3Ffbclid%3DIwAR1O4STjvHRMUPCu__cXh5wVy3asu18_OuNKdxiotkKOxvvq3abUH6ZAUJc&h=AT21bVd1tHri9DpwjE_Mk-Mq-8UI4gSHnKOBFEjPx2IVjdsL3N0cNyNsRl0KJy1rE8APYI5hwoJUNebpNrhIz5872xJyBB-IWXAQUVBuU7YJpiW6Olpbu39XPGbOVA4KbA), he is a mechanical engineer that is working on projects for space, optics, robotics and injection moulding.
+. He came up with the idea for this:
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/01/2019-01-09-dongles-update-14.jpg)
 
@@ -88,8 +92,6 @@ There is also other radical designs, like the following based on Marco's idea. H
 With Santi the idea was to built something completely new from the outside. That means that based on his designs in time I will do the corresponding PCBs. I am very excited about this one.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-06.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-05.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-04.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-03.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-02.jpg)
 
