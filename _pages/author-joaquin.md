@@ -39,4 +39,4 @@ We started to read books about the story of Polaroid and the genius behind. Of a
 
 [Donate money!](https://paypal.me/opensx70)
 
-If you want to donate a camera even if it's broken just contact me.
+If you want to donate a camera even if it's broken just contact me. The email of the project is opensx70 at opensx70 dot com.
