@@ -10,10 +10,10 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Dongle porn
+title: Dongle-porn
 feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2019/02/dongle-porn
-description: Pure and unadulterated dongle porn
+description: Pure and unadulterated dongle-porn
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami3.jpg)
 (see-through rendering of Jan's dongle based on Origami)
