@@ -77,6 +77,12 @@ I was also thrilled to see that Jan was building en enclosure based on origami!
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami2.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami1.jpg)
 
+With Santi the idea was to built something completely new from the outside. That means that based on his designs in time I will do the corresponding PCBs. I am very excited about this one.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-06.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-03.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-02.jpg)
+
 There is also other radical designs, like the following based on Marco's idea. Here the dongle is connected via the flat cable, and has built-in USB.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/about-a-dongle-01.jpg)
@@ -88,11 +94,5 @@ There is also other radical designs, like the following based on Marco's idea. H
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/01/2019-01-09-dongles-update-5.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/01/2019-01-09-dongles-update-4.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/01/2019-01-09-dongles-update-3.jpg)
-
-With Santi the idea was to built something completely new from the outside. That means that based on his designs in time I will do the corresponding PCBs. I am very excited about this one.
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-06.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-03.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-02.jpg)
 
 Please remember that openSX70 is dongle-agnostic. Please comment and let us know what you think!
