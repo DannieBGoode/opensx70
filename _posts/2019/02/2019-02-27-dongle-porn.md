@@ -10,10 +10,10 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Dongle porn
+title: Dongle-porn
 feature_image: SX70_images/openSX70-cameraporn-5
 permalink: /posts/2019/02/dongle-porn
-description: Pure and unadulterated dongle porn
+description: Pure and unadulterated dongle-porn
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami3.jpg)
 (see-through rendering of Jan's dongle based on Origami)
@@ -46,6 +46,10 @@ But I was wrong.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/dongle-clement-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-drawing.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-rendering.jpg)
+
+We have many promises, but Clement is the only one that has an actual enclosure. Good work!
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/clement-dongle.jpg)
 
 Some people wanted to do something minimalistic, trying to alter the camera the lesser the better. Like [Jan de Paepe](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Forion1615%2F%3Ffbclid%3DIwAR1O4STjvHRMUPCu__cXh5wVy3asu18_OuNKdxiotkKOxvvq3abUH6ZAUJc&h=AT21bVd1tHri9DpwjE_Mk-Mq-8UI4gSHnKOBFEjPx2IVjdsL3N0cNyNsRl0KJy1rE8APYI5hwoJUNebpNrhIz5872xJyBB-IWXAQUVBuU7YJpiW6Olpbu39XPGbOVA4KbA), he is a mechanical engineer that is working on projects for space, optics, robotics and injection moulding.
 . He came up with the idea for this:
