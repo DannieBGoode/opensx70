@@ -129,8 +129,30 @@ The latest PCB design codenamed ALPHA uses a totally new component as a light se
 
 As an easter egg it has a dual led placed in a location that makes it visible in a sonar viewfinder.
 
-In early 2019 a beta program was started.
+There are good news in the dongle industrial design, we have people like 
+[Jan de Paepe](https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Forion1615%2F%3Ffbclid%3DIwAR1O4STjvHRMUPCu__cXh5wVy3asu18_OuNKdxiotkKOxvvq3abUH6ZAUJc&h=AT21bVd1tHri9DpwjE_Mk-Mq-8UI4gSHnKOBFEjPx2IVjdsL3N0cNyNsRl0KJy1rE8APYI5hwoJUNebpNrhIz5872xJyBB-IWXAQUVBuU7YJpiW6Olpbu39XPGbOVA4KbA), he is a mechanical engineer that is working on projects for space, optics, robotics and injection moulding. He came up with the idea of the ultra-minimalistic dongle! 
+This is his latest designs based on the [origami](https://opensx70.com/posts/2019/01/origami) You can [download the origami 3D files](https://a360.co/2Fh2kz5).
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/jans-origami3.jpg)
 
+Also the awesome Santi. He is the person behind [AnalogueWorks](http://analogueworks.wixsite.com/analogueworks/copia-de-instant-film-type-100).
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/santi-0.jpg)
+
+He has crafted this mock-ups:
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-04.jpg)
+
+In early 2019 a beta program was started. Some quite talented people came into the project. With the help of the talented Dave Walker, one of [the beta-testers](https://opensx70.com/posts/2019/02/meet-the-beta-testers), a electronics design engineer, we are beginning to take "AUTO" shots in both 600 and SX70 film.
+
+This is by means of "reworked" PCBs using the [TSL235](https://ams.com/documents/20143/36005/TSL235R_DS000120_3-00.pdf) light to frequency chip. Please read the [full post about the "magic number" and integration](https://opensx70.com/posts/2019/04/autoexposure).
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/04/20190404_auto_rework-08.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/04/20190404_auto_rework-09.jpg)
+
+And the results are encouraging.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/04/20190404_auto_rework-16.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/04/20190404_auto_rework-17.jpg)
 
 ## About openSX70 website!
 This intends to be your home for all things SX70 and the home of all sorts of modifications and hacks on the SX70, but more specifically the home of the openSX70 project.
