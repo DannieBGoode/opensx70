@@ -19,7 +19,7 @@ I want to say something up-front, I love PolaroidOriginals, I appreciate that th
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/05/film-evolution2.jpg)
 
-  ## History
+## History
 
 As I say over over and over again, I have admired the SX70 from day one, and have been a user since 1979 aproximately: the SX70 was awesome, the film was awesome, fast and stable.
 Then one day, for whatever reason we stopped using it, might be digital, might be stuff that happens in your life.
@@ -28,7 +28,7 @@ It was a process, as it turns out you have to shield the film. If you come to th
 For me, and I guess for most people, it was like a contract: we will buy your "artistic" film, because I know I am funding your R&D, new emulsions, colour, faster developing time, better opacifier agent.
 Also for me it was very transparent, and quite open, I remember the beta packs. Those were amazing and made me feel I was part of the process...
 
-  ## PolaroidOriginals
+## PolaroidOriginals
 
 Then ownership in TIP changed, and then planets aligned (or whatever) so the brand Polaroid could replace that of the ImpossibleProject.
 
@@ -46,7 +46,7 @@ Some of my conclusions are:
 -Transparency is lost, in the pretension that the experimentation phase is over. *I* was asked to remove a FB post on the beta 3 film, just before the brand name.
 -"mojo" is lost (What?? we no longer call it "frog tongue"? c'mon people)
 
-  ## Why Polaroid can never be back
+## Why Polaroid can never be back
 
 When one of the mightiest corporations in America disappeared it didn't happen overnight: I mean, they went to chapter 11 not once but twice. 
 Many books relate how Polaroid stopped being the leader and just started to brand someone else's inventions, like videotape...
@@ -61,7 +61,7 @@ So they had the machinery to put the film together but they had nothing, no nega
 That makes you think that what they did is monumental. It is probably true, that scaling the ImpossibleProject to PolaroidOriginals levels is a major undertaking, but, most of the work is done. It might also be true that ImpossibleProject
 was not a viable business and *something* had to happen. I don't know.
 
-  ## the cameras: StrangerThings
+## the cameras: StrangerThings
 
 One thing is clear: cameras like the SX70 or SLR680 are never coming back. Period. Even if (hypothetically) they made something similar it would not be the same. Never. Never in a million years.
 
@@ -81,7 +81,7 @@ They had my admiration. Many people that say it is too expensive really don't un
 
 Right now, other that FF and PO MiNT is the major player in the instant photography world. Lets see what happens with [Doc's one-Instant, the efford to save packfilm cameras](https://supersense.com/oneinstant/).
 
-  ## Social Media
+## Social Media
 
 Nowdays everything is social media. I know. I am ok with that. 
 
@@ -92,7 +92,7 @@ It is awesome that they have contacted you, and I hope it is worth your while, b
 The other thing about social media is the name calling. Really, do we need that? Some of the comments I have seen in [Ernie Santa Ana](https://www.facebook.com/ernie.santaana) posts are totally unnecessary and rude.
 
 
-  ## Conspiracy theories
+## Conspiracy theories
 
 But wait, there's more. The conspiracy theories.
 
@@ -104,7 +104,7 @@ Another conspiracy theory might be that PolaroidOriginals is spending less in fi
 
 Even the thought of anything done today has anything whatsoever to do with what Polaroid was turning out its factories in 1985 is ludicrous.
 
-  ## Reflexions on I-type
+## Reflexions on I-type
 
 I don't know that I-type is any different that 600 film as of quality. I am not talking about borders and special versions.
 
@@ -112,6 +112,6 @@ I give merit to the idea that maybe, just maybe its not good for the planet to p
 
 But here's my thought, if the new material is thicker (for whatever reason, I don't mean to say that it doesn't have to be this way) I understand that only 8 pictures fit. BUT... I-type doesn't have a battery WHY NOT 10 pictures??
 
-  ## Final thoughts
+## Final thoughts
 
 PolaroidOriginals I love you.
