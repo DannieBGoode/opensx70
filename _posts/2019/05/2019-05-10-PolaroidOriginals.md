@@ -90,7 +90,10 @@ Right now, other that FF and PO MiNT is the major player in the instant photogra
 
 Nowdays everything is social media. I know. I am ok with that. 
 
-**BUT** I think we need FULL DISCLOSURE. If someone, lets say a photographer, that usually posts in the usual groups, has signed a thick stack of papers and now de facto works for PolaroidOriginals I think it is only fair that the fact is disclosed.
+**BUT** I think we need FULL DISCLOSURE:
+
+If someone, lets say a photographer, that usually posts in the usual groups, has signed a thick stack of papers conforming an NDA and now de facto works for PolaroidOriginals I think it is only fair that the fact is disclosed. 
+Unfortunately those *are* the papers that prohibit him disclosing the fact. 
 
 It is awesome that they have contacted you, and I hope it is worth your while, but I feel I deserve to know. I feel strongly about this.
 
@@ -101,7 +104,7 @@ The other thing about social media is the name calling. Really, do we need that?
 
 But wait, there's more. The conspiracy theories.
 
-PolaroidOriginals has two standards and they make "better" film for the I-type cartridges. Or maybe they just choose the better packs for their cameras. This has been outlined almost like that " It’s our opinion that I-type film packs/chemistry currently have better quality for everyday standard use." in [Matt Widmann words](http://2ndshotsx70.blogspot.com/2018/12/goodbye-2018-few-faqs.html).
+It goes like this: PolaroidOriginals has "two quality standards" and they make "better" film for the I-type cartridges. Or maybe they just choose the better packs for their cameras. This has been outlined almost like that " It’s our opinion that I-type film packs/chemistry currently have better quality for everyday standard use." in [Matt Widmann words](http://2ndshotsx70.blogspot.com/2018/12/goodbye-2018-few-faqs.html).
 I myself don't think that this is the case. `[BUT I think we have try to use I-type](https://www.2ndshotsx70.com/i-type-conversion) film and retrofit (at least some of our cameras) to use that film.
 
 Another conspiracy theory might be that PolaroidOriginals is spending less in film R&D, say distracted by camera manufacturing. That might be the case, but It could also be argued that this is a necessary evil to keep the format alive.
@@ -119,4 +122,5 @@ But here's my thought, if the new material is thicker (for whatever reason, I do
 
 ## Final thoughts
 
-PolaroidOriginals I love you.
+PolaroidOriginals I love you, but maybe is the Stockhom syndrome!
+
