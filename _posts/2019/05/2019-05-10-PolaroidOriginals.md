@@ -37,7 +37,7 @@ Here I could say that I liked the ImpossibleProject better and things like that.
 
 - the original Polaroid was a mighty corporation, and American icon.
 	
-- the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
+- the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject efforts.
 	
 - the operation has to be scaled up for the new "mass-market"
 	
