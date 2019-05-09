@@ -20,6 +20,7 @@ I want to say something up-front, I love PolaroidOriginals, I appreciate that th
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/05/film-evolution2.jpg)
 
 ##History
+
 As I say over over and over again, I have admired the SX70 from day one, and have been a user since 1979 aproximately: the SX70 was awesome, the film was awesome, fast and stable.
 Then one day, for whatever reason we stopped using it, might be digital, might be stuff that happens in your life.
 And as often happens, when things you took for granted suddenly dissapear you miss them: I remember when I started using the ImpossibleProject material (I think from a Kickstarter) I thought my camera had a light leak: 
@@ -28,15 +29,16 @@ For me, and I guess for most people, it was like a contract: we will buy your "a
 Also for me it was very transparent, and quite open, I remember the beta packs. Those were amazing and made me feel I was part of the process...
 
 ##PolaroidOriginals
+
 Then ownership in TIP changed, and then planets aligned (or whatever) so the brand Polaroid could replace that of the ImpossibleProject.
 
 Here I could say that I liked TIP better and things like that... but lets see what actually happened:
 
-	-the original Polaroid was a mighty corporation, and american icon.
-	-the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
-	-the operation has to be scaled up for the new "mass-market"
-	-instant photography becomes a "hot market"
-	-PolaroidOriginals starts manufacturing cameras.
+	--the original Polaroid was a mighty corporation, and american icon.
+	--the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
+	--the operation has to be scaled up for the new "mass-market"
+	--instant photography becomes a "hot market"
+	--PolaroidOriginals starts manufacturing cameras.
 	
 Some of my conclusions are:
 
@@ -45,6 +47,7 @@ Some of my conclusions are:
 -"mojo" is lost (What?? we no longer call it "frog tongue"? c'mon people)
 
 ##Why Polaroid can never be back
+
 When one of the mightiest corporations in America disappeared it didn't happen overnight: I mean, they went to chapter 11 not once but twice. 
 Many books relate how Polaroid stopped being the leader and just started to brand someone else's inventions, like videotape...
 
