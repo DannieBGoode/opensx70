@@ -30,14 +30,18 @@ Also for me it was very transparent, and quite open, I remember the beta packs. 
 
 ## PolaroidOriginals
 
-Then ownership in TIP changed, and then planets aligned (or whatever) so the brand Polaroid could replace that of the ImpossibleProject.
+Then ownership in the ImpossibleProject changed, and then planets aligned (or whatever) so the brand Polaroid could replace that of the ImpossibleProject.
 
-Here I could say that I liked TIP better and things like that... but lets see what actually happened:
+Here I could say that I liked the ImpossibleProject better and things like that... but lets see what actually happened:
 
-	*the original Polaroid was a mighty corporation, and american icon.
+	*the original Polaroid was a mighty corporation, and American icon.
+	
 	*the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
+	
 	*the operation has to be scaled up for the new "mass-market"
+	
 	*instant photography becomes a "hot market"
+	
 	*PolaroidOriginals starts manufacturing cameras.
 	
 Some of my conclusions are:
