@@ -18,6 +18,7 @@ description: my personal take on PolaroidOriginals
 I want to say something up-front, I love PolaroidOriginals, I appreciate that they let me use my SX70 cameras, full stop. Please feel my love.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/05/film-evolution2.jpg)
+*(we are all hostages)*
 
 ## History
 
@@ -34,15 +35,15 @@ Then ownership in the ImpossibleProject changed, and then planets aligned (or wh
 
 Here I could say that I liked the ImpossibleProject better and things like that... but lets see what actually happened:
 
-	- the original Polaroid was a mighty corporation, and American icon.
+- the original Polaroid was a mighty corporation, and American icon.
 	
-	- the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
+- the aperance that "Polaroid is back" is created. That is totally false: Polaroid Originals is a mere continuation of the ImpossibleProject effords.
 	
-	- the operation has to be scaled up for the new "mass-market"
+- the operation has to be scaled up for the new "mass-market"
 	
-	- instant photography becomes a "hot market"
+- instant photography becomes a "hot market"
 	
-	- PolaroidOriginals starts manufacturing cameras.
+- PolaroidOriginals starts manufacturing cameras.
 	
 Some of my conclusions are:
 
