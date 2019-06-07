@@ -47,10 +47,12 @@ But there's also that "other" thing of course. On the one side I know that there
 But many people measure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using anon-commercial license. [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Having a *product* and selling stuff has always been a second thought for me, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources: networking with awesome people, being on the radar so to speak.
-Franlkly, I would be happy just to pay my expenses, and believe me you, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive.
+Franlkly, I would be happy just to pay my expenses, and believe me you, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive. And of course the test cameras. 
+I keep buying and *breaking* cameras. 
+
 Now I am trying to set up the business end, in a cheap but professional maner. And **that** also takes time, and resources.
 
-On the other hand I feel that many people want to test, to have a camera, and I think this has to be done right.
+On the other hand I feel that many people want to test, to have a camera, and I think this has to be done right. I have decided that I will probably manufacture locally. At least the first batches.
 
 People wanted to build their own pcbs I keep saying what I have always said: the **project is not ready, it is still experimental crap**. Don't even think about it: it's not there yet.
 If you are in Barcelona, you can come and pick up a set of blank pcbs. **I DON'T INTEND TO GIVE SUPPORT** to anyone trying to replicate what I do. 
@@ -64,6 +66,8 @@ So all that being said, I feel I have to move to a commercial distribution of th
 - There will always have to be a "reasonably cheap" kit option for DIY sold by someone that can give SOME support (I do not recommend DIY on your SX70)
 
 - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
+
+- Modified special-edition early, and then not so special will be manufactured by the best in the business. That is the *shrink-wrapped-nice-dongle-cool-leather-refurbed* camera. That, we hope, will be the best SX70 so far.
 
 - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
  
@@ -79,5 +83,8 @@ So all that being said, I feel I have to move to a commercial distribution of th
  
  And there's more, definitely sonar, test on having aperture (up to F.8). More dongle configurations. Do a modern flexcable (maybe with dongle information). I-type stuff...
  
- As always, if you want to chip-in, please contact me at openSX70 at openSX70 dot com.
+I am no *mad scientist* (thank you Susan & Stan) but I am definitely *MAD*, I mean compulsively testing and trying to find out how stuff works, why it is like this, how to improve it being *true* to the camera and to Dr. Land.
+I am not set up to come up with a product, and sell it, *that* is byproduct of my obssesion: mad is too nice a word, I am crazy.
+
+ As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com.
 
