@@ -75,8 +75,9 @@ So all that being said, I feel I have to move to a commercial distribution of th
 
 - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
  
- I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I feel if you want to attempt this you are going to need some support (not by me!)
- The dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with design, cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
+ I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I think that if you want to attempt this you are going to need some support (not by me!) 
+ 
+ The "nice" dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with industrial design and cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
  
  But keep in mind that there's so much more about an open-source project: 
  You can do minor tweaks without even knowing how to program, say, the shutter speeds, say the magic number, and many many things. 
