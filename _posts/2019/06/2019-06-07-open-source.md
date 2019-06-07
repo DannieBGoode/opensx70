@@ -71,7 +71,7 @@ So all that being said, I feel I have to move to a commercial distribution of th
 
 - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
 
-- A *ready to use* complete camera: Can be modified early-special-edition, and then some, of course these will be manufactured by the best in the business. That is the *shrink-wrapped-nice-dongle-cool-leather-refurbed-fully-warrantied* camera. That, we hope, will be the best SX70 so far.
+- A *ready to use* complete camera: maybe at the beginning early-special-edition, and then some, of course these will be manufactured by the best in the business. That is the *shrink-wrapped-nice-dongle-cool-leather-refurbed-fully-warrantied* camera. That, we hope, will be the best SX70 so far. Of course you will also have the option to send your own for an upgrade.
 
 - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
  
