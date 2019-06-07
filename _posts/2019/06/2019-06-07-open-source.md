@@ -10,7 +10,7 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: the *truth* about open source
+title: the "truth" about open source
 feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2019/06/open-source
 description: My opinion, the awful truth about open source
@@ -100,5 +100,5 @@ So all that being said, I feel I have to move to a commercial distribution of th
 I am no *mad scientist* (thank you [Susan](https://www.instagram.com/themillineryguild/) & [Stan](https://www.instagram.com/stankieffer/)) but I am definitely **mad**, I mean, really, compulsively testing and trying to find out how stuff works, why it is like this, how to improve it being *true* to the camera and to Dr. Land.
 I start to come up with a product, and sell it, *that* is only byproduct of my obssesion: mad is too nice a word, I am crazy.
 
- As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com.
+ As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com. Please do.
 
