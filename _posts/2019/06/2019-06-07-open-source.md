@@ -50,8 +50,9 @@ But this has always been always a second thought, for me its been about the SX70
 
 On the other hand I feel that many people want to test, to have a camera, and I think this has to be done right.
 
-People wanted to build their own pcbs I keep saying what I have always said: it is not ready, it is still experimental crap. Don't even think about. 
-If you are in Barcelona, you can come and pick up a set of blank pcbs. **I DON'T INTEND TO GIVE SUPPORT** to anyone trying to replicate what I do. Don't even ask what to do: I have enough to do with the web updates, designing the PCBs and improving the software.
+People wanted to build their own pcbs I keep saying what I have always said: the **project is not ready, it is still experimental crap**. Don't even think about it: it's not there yet.
+If you are in Barcelona, you can come and pick up a set of blank pcbs. **I DON'T INTEND TO GIVE SUPPORT** to anyone trying to replicate what I do. 
+Don't even ask what to do: I have enough to do with the web updates, designing the PCBs and improving the software.
 
 I also want to say, as I always have said, no matter what, that I admire other commercial products that are basically considered the *gold standard*: I don't like to be compared, it is not fair. 
 But that being said, I now feel confident enough to consider openSX70 moving towards being the new standard.
