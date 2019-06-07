@@ -26,7 +26,7 @@ For me it is much more: openSX70 has always been an open source project. In the 
 
 There are [three pillars of open source](https://opensource.com/principles): transparency, participation and collaboration.
 
-I think we can all agree that transparency has been accomplished, I have share all my failures and struggles.
+I think we can all agree that transparency has been accomplished, I have share all my [failures](https://opensx70.com/posts/2018/09/post-mortem) and [struggles](https://opensx70.com/posts/2018/09/lightmeter-struggle).
 
 Second participation. We got that too: many folks have commented and shared opinions. Amazing. Thank you.
 
