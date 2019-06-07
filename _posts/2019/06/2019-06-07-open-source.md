@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: the "truth" about open source
-feature_image: SX70_images/openSX70-cameraporn-02
+feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2019/06/open-source
 description: My opinions on open source stuff
 ---
