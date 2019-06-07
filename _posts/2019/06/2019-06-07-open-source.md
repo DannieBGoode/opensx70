@@ -58,9 +58,9 @@ But that being said, I now feel confident enough to consider openSX70 moving tow
 
 So all that being said, I feel I have to move to a commercial distribution of the openSX70 hardware with this considerations:
 
- - There’s always have to be a "reasonably cheap" kit option for DIY sold by someone that can give SOME support (I do not recommend DIY on your SX70)
- - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
- - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
+ * There’s always have to be a "reasonably cheap" kit option for DIY sold by someone that can give SOME support (I do not recommend DIY on your SX70)
+ * There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
+ * It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
  
  I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I feel if you want to attempt this you are going to need some support (not by me!)
  The dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with design, cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
