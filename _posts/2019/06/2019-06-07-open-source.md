@@ -48,7 +48,7 @@ But many people measure success in dollars. I tried to protect myself against th
 
 Having a *product* and selling stuff has always been a second thought for me, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources: networking with awesome people, being on the radar so to speak.
 Franlkly, I would be happy just to pay my expenses, and believe me you, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive. And of course the test cameras. 
-I keep buying and *breaking* cameras. 
+I keep buying and *killing* cameras. Think of, better, picture me, as [Sid](https://pixar.fandom.com/wiki/Sid_Phillips) the neighbor of Woody in [Toy Story](https://en.wikipedia.org/wiki/Toy_Story): *Oh, no, not Sid!*
 
 Now I am trying to set up the business end, in a cheap but professional maner. And **that** also takes time, and resources.
 
