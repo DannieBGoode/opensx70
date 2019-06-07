@@ -32,13 +32,15 @@ Collaboration: that is definitively what I am struggling with: first of all, mos
 
 Of course there are notable exceptions. Other times people want to help, but for whatever reason they don't have the time.
 
-But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you Dave!). I remember I lent the camera to a photographer. He took flash pictures, he made a video. Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
+But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you [Dave!](https://www.instagram.com/davethewalker80/)). 
+I remember I lent the camera to a photographer. [He took flash pictures, he made a video](https://opensx70.com/posts/2019/02/thomaszamolo). Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
 
 Let me explain I came up with this feature of having a self-timer built in the camera. If you pressed the red button for a short period it would take a picture, but if you did a *long press* you ended up with a flashing led and a 10 seconds delay. Cool isn't it?
 
 Well, not quite, the original camera just takes the picture if you do a long press, so many people *expected* the openSX70 camera to do that. AND THEY WHERE RIGHT.
 
 So I fixed that. Now you have to do a quick double press to do the self-timer. Otherwise I pretend to operate as the original camera.
+So the bottomline here is, that you don't have to be nice with me! I expect nothing but the truth, that is the way to help me.
 
 And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it not a Chinese obscure microcontroller, it is your will to share and improve.
 
