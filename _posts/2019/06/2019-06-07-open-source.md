@@ -82,7 +82,7 @@ So all that being said, I feel I have to move to a commercial distribution of th
  The "nice" dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with industrial design and cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
  That doesn't mean that I will not support [other dongle initiatives](https://opensx70.com/posts/2019/02/dongle-porn). Absolutely not, on the contrary, I am very grateful to Clément Grosjean, that is doing an amazing case based on the uDongle, or Jan's original design, on which I based my origami design. I intend to support then all as much as I can!
  
- ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/dongle-clement-2.jpg)
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-drawing.jpg)
  
  But keep in mind that there's so much more about an open-source project: 
  You can do minor tweaks without even knowing how to program, say, the shutter speeds, say the magic number, and many many things. 
