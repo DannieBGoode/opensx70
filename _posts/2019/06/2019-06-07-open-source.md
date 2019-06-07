@@ -32,7 +32,7 @@ Collaboration: that is definitively what I am struggling with: first of all, mos
 
 Of course there are notable exceptions. Other times people want to help, but for whatever reason they don't have the time.
 
-But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you Dave!). I remember I borrowed the camera to a photographer. He took flash pictures, he made a video. Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
+But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you Dave!). I remember I lent the camera to a photographer. He took flash pictures, he made a video. Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
 
 Let me explain I came up with this feature of having a self-timer built in the camera. If you pressed the red button for a short period it would take a picture, but if you did a *long press* you ended up with a flashing led and a 10 seconds delay. Cool isn't it?
 
@@ -47,7 +47,7 @@ But there's also that "other" thing of course. On the one side I know that there
 But many people measure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using anon-commercial license. [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 Having a *product* and selling stuff has always been a second thought for me, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources: networking with awesome people, being on the radar so to speak.
-Franlkly, I would be happy just to pay my expenses, and believe me you, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive. And of course the test cameras. 
+Franlkly, I would be happy just to pay my expenses, and believe me, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive. And of course the test cameras. 
 I keep buying and *killing* cameras. Think of, better, picture me, as [Sid](https://pixar.fandom.com/wiki/Sid_Phillips) the neighbor of Woody in [Toy Story](https://en.wikipedia.org/wiki/Toy_Story): *Oh, no, not Sid!*
 
 Now I am trying to set up the business end, in a cheap but professional maner. And **that** also takes time, and resources.
