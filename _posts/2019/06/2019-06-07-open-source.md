@@ -65,7 +65,7 @@ But that being said, I now feel confident enough to consider openSX70 moving tow
 
 So all that being said, I feel I have to move to a commercial distribution of the openSX70 hardware with this considerations:
 
-- There will always have to be a "reasonably cheap" [kit option for DIY](https://www.youtube.com/watch?v=3Fl2U9cJ5ew) sold by someone that can give SOME support (I do not recommend DIY on your SX70). You could also send the your camera to be modified.
+- There will always have to be a "reasonably cheap" [kit option for DIY](https://www.youtube.com/watch?v=3Fl2U9cJ5ew) sold by someone that can give SOME support (I do not recommend DIY on your SX70). You could also send your camera to be modified.
 
 - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
 
