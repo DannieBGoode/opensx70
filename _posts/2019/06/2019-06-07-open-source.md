@@ -13,14 +13,16 @@ show_related_posts: 'true'
 title: the "truth" about open source
 feature_image: SX70_images/openSX70-cameraporn-2
 permalink: /posts/2019/06/open-source
-description: My opinions on open source stuff
+description: My opinion, the awful truth about open source
 ---
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/PCB-led-location.jpg)
 
 Here's my humble take about open source. Keep in mind that it's just my opinion.
 
-For me openSX70 it's been always an open source project: In the beginning I was trying to kick start an elusive collaboration, later I just wanted to share in a "show and tell" sort of way.
+These days open-source is too many times a *good vibe*, maybe a marketing strategy, it *looks* good.
+
+For me it is much more: openSX70 has always been an open source project. In the beginning I was trying to kick start an elusive collaboration, later I just wanted to share in a "show and tell" sort of way.
 
 There are [three pillars of open source](https://opensource.com/principles): transparency, participation and collaboration.
 
