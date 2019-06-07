@@ -35,7 +35,7 @@ Collaboration: that is definitively what I am struggling with: first of all, mos
 Of course there are notable exceptions. Other times people want to help, but for whatever reason they don't have the time.
 
 But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you [Dave!](https://www.instagram.com/davethewalker80/)). 
-I remember I lent the camera to a photographer. [He took flash pictures, he made a video](https://opensx70.com/posts/2019/02/thomaszamolo). Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
+I remember I lent the camera to a photographer. [He took flash pictures, he made a video](https://opensx70.com/posts/2019/02/thomaszamolo). Really nice, and I appreciate that he took the time. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
 
 Let me explain I came up with this feature of having a self-timer built in the camera. If you pressed the red button for a short period it would take a picture, but if you did a *long press* you ended up with a flashing led and a 10 seconds delay. Cool isn't it?
 
