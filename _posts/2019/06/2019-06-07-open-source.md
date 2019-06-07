@@ -84,7 +84,7 @@ So all that being said, I feel I have to move to a commercial distribution of th
  
  And there's more coming in the future, definitely sonar, test on having aperture (up to F.8). More dongle configurations. Do a modern flexcable (maybe with dongle information). I-type stuff...
  
-I am no *mad scientist* (thank you Susan & Stan) but I am definitely **mad**, I mean, really, compulsively testing and trying to find out how stuff works, why it is like this, how to improve it being *true* to the camera and to Dr. Land.
+I am no *mad scientist* (thank you [Susan](https://www.instagram.com/themillineryguild/) & [Stan](https://www.instagram.com/stankieffer/)) but I am definitely **mad**, I mean, really, compulsively testing and trying to find out how stuff works, why it is like this, how to improve it being *true* to the camera and to Dr. Land.
 I start to come up with a product, and sell it, *that* is only byproduct of my obssesion: mad is too nice a word, I am crazy.
 
  As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com.
