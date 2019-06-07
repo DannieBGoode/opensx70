@@ -20,7 +20,7 @@ description: My opinion, the awful truth about open source
 
 Here's my humble take about open source. Keep in mind that it's just my opinion.
 
-These days open-source is too many times a *good vibe*, maybe a marketing strategy, it *looks* good.
+These days open-source is too many times just a *good vibe*, maybe a marketing strategy, it *looks* good.
 
 For me it is much more: openSX70 has always been an open source project. In the beginning I was trying to kick start an elusive collaboration, later I just wanted to share in a "show and tell" sort of way.
 
