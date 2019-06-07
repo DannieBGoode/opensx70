@@ -8,7 +8,7 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 6
 comments: 'true'
-published: false
+published: true
 show_related_posts: 'true'
 title: the truth about open source
 feature_image: SX70_images/openSX70-cameraporn-02
@@ -16,7 +16,7 @@ permalink: /posts/2019/06/open-source
 description: My opinions on open source stuff
 ---
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/pieter_opensx70.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/PCB-led-location.jpg)
 
 Here's my humble take about open source. Keep in mind that it's just my opinion.
 
