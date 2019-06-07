@@ -10,7 +10,7 @@ read_time: 6
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: the truth about open source
+title: the "truth" about open source
 feature_image: SX70_images/openSX70-cameraporn-02
 permalink: /posts/2019/06/open-source
 description: My opinions on open source stuff
@@ -59,7 +59,9 @@ But that being said, I now feel confident enough to consider openSX70 moving tow
 So all that being said, I feel I have to move to a commercial distribution of the openSX70 hardware with this considerations:
 
 - There’s always have to be a "reasonably cheap" kit option for DIY sold by someone that can give SOME support (I do not recommend DIY on your SX70)
+
 - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
+
 - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
  
  I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I feel if you want to attempt this you are going to need some support (not by me!)
