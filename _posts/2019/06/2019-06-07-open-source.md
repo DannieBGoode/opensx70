@@ -44,9 +44,11 @@ And this is is the gist of the open-source thing, improving based on a collectiv
 
 But there's also that "other" thing of course. On the one side I know that there is no rocket-science, that almost anyone can rip-off the idea, even if I didn't share the files. Really, they copy much more complex stuff. There is no really interest, no volume.
 
-But many people measure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+But many people measure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using anon-commercial license. [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
-But this has always been always a second thought, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources. 
+Having a *product* and selling stuff has always been a second thought for me, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources: networking with awesome people, being on the radar so to speak.
+Franlkly, I would be happy just to pay my expenses, and believe me you, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive.
+Now I am trying to set up the business end, in a cheap but professional maner. And **that** also takes time, and resources.
 
 On the other hand I feel that many people want to test, to have a camera, and I think this has to be done right.
 
