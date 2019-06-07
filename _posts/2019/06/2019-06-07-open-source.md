@@ -20,7 +20,7 @@ description: My opinions on open source stuff
 
 Here's my humble take about open source. Keep in mind that it's just my opinion.
 
-For me openSX70 it's been always an open source project: In the beginning I was trying to kickstart an elusive collaboration, later I just wanted to share in a "show and tell" sort of way.
+For me openSX70 it's been always an open source project: In the beginning I was trying to kick start an elusive collaboration, later I just wanted to share in a "show and tell" sort of way.
 
 There are [three pillars of open source](https://opensource.com/principles): transparency, participation and collaboration.
 
@@ -28,7 +28,7 @@ I think we can all agree that transparency has been accomplished, I have share a
 
 Second participation. We got that too: many folks have commented and shared opinions. Amazing. Thank you.
 
-Collaboration: that is definititely what I am struggling with: first of all, most people interested in the project are photographers. Stop. They don't have the skills to help. And when I have pressed for "photographic" technical questions, they shy away. 
+Collaboration: that is definitively what I am struggling with: first of all, most people interested in the project are photographers. Stop. They don't have the skills to help. And when I have pressed for "photographic" technical questions, they shy away. 
 
 Of course there are notable exceptions. Other times people want to help, but for whatever reason they don't have the time.
 
@@ -38,18 +38,41 @@ Let me explain I came up with this feature of having a self-timer built in the c
 
 Well, not quite, the original camera just takes the picture if you do a long press, so many people *expected* the openSX70 camera to do that. AND THEY WHERE RIGHT.
 
-So I fixed that. Now you have to do a quick double press to do the self timer. Otherwise I pretend to operate as the original camera.
+So I fixed that. Now you have to do a quick double press to do the self-timer. Otherwise I pretend to operate as the original camera.
 
-And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it not a chinese obscure microcontroller, it is your will to share and improve.
+And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it not a Chinese obscure microcontroller, it is your will to share and improve.
 
 But there's also that "other" thing of course. On the one side I know that there is no rocket-science, that almost anyone can rip-off the idea, even if I didn't share the files. Really, they copy much more complex stuff. There is no really interest, no volume.
 
-But many people meassure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+But many people measure success in dollars. I tried to protect myself against the obvious (someone manufacturing and selling my stuff) by using [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
 But this has always been always a second thought, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources. 
 
 On the other hand I feel that many people want to test, to have a camera, and I think this has to be done right.
 
-People wanted to build their own pcbs I keep saying what I have always said: it is not ready, it is still experimental crap. Don't even think about. If you are in Barcelona, you can come and pick up a set of blank pcbs. **I DON'T INTEND TO GIVE SUPPORT** to anyone trying to replicate what I do. Don't even ask what to do: I have enough to do with the web updates, designing the PCBs and improving the software.
+People wanted to build their own pcbs I keep saying what I have always said: it is not ready, it is still experimental crap. Don't even think about. 
+If you are in Barcelona, you can come and pick up a set of blank pcbs. **I DON'T INTEND TO GIVE SUPPORT** to anyone trying to replicate what I do. Don't even ask what to do: I have enough to do with the web updates, designing the PCBs and improving the software.
 
-I also want to say, as I always have said, no matter what, that I admire other commercial products that are basically considered the *gold standard*: I don't like to be compared, it is not fair. But that being said, I now feel confident enough to consider openSX70 moving towards being the new standard.
+I also want to say, as I always have said, no matter what, that I admire other commercial products that are basically considered the *gold standard*: I don't like to be compared, it is not fair. 
+But that being said, I now feel confident enough to consider openSX70 moving towards being the new standard.
+
+So all that being said, I feel I have to move to a commercial distribution of the openSX70 hardware with this considerations:
+
+ - There’s always have to be a "reasonably cheap" kit option for DIY sold by someone that can give SOME support (I do not recommend DIY on your SX70)
+ - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
+ - It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
+ 
+ I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I feel if you want to attempt this you are going to need some support (not by me!)
+ The dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with design, cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
+ 
+ But keep in mind that there's so much more about an open-source project: 
+ You can do minor tweaks without even knowing how to program, say, the shutter speeds, say the magic number, and many many things. I want to make a post on how you can tweak the software. And of course you can always make your own.
+ Open source is not only the shrink wrapped project, there are many many small pieces that amount to a lot, the PCB dimensions, the footprint of many parts, the information about the camera's most intimate inner workings:
+ You don't have to go down the rabbit hole that I went, but you can take advantage of it!
+ 
+ So now my priority is having *something* that not only works amazingly but looks awesome. Remember we were the first with a dongle-flash, with true fast manual speeds (I will write a post about that).
+ 
+ And there's more, definitely sonar, test on having aperture (up to F.8). More dongle configurations. Do a modern flexcable (maybe with dongle information). I-type stuff...
+ 
+ As always, if you want to chip-in, please contact me at openSX70 at openSX70 dot com.
+
