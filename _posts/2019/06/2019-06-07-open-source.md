@@ -80,7 +80,7 @@ So all that being said, I feel I have to move to a commercial distribution of th
  I feel this way everybody is happy, first and foremost my base of want-to-be-diyers. I think that if you want to attempt this you are going to need some support (not by me!) 
  
  The "nice" dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with industrial design and cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
- That doesn't mean that I will not support [other dongle initiatives](https://opensx70.com/posts/2019/02/dongle-porn). Absolutely not, on the contrary, I am very grateful to Clément Grosjean, that is doing an amazing case based on the uDongle, or Jan's original design, on which I based my origami design. I intend to support then all as much as I can!
+ That doesn't mean that I will not support [other dongle initiatives](https://opensx70.com/posts/2019/02/dongle-porn). Absolutely not, on the contrary, I am very grateful to [Clément Grosjean](https://www.facebook.com/CLEMENT.GROSJEAN.POLAROID/?eid=ARC4QnmKJ_DWRRHbYqCSZoeyOY0nkxXMJYg6YQaRDVndgvoLkqNlA2WStiKGR0sMqaxw27hp20ItiO5I&timeline_context_item_type=intro_card_work&timeline_context_item_source=1603376618&fref=tag), that is doing an amazing case based on the uDongle, or Jan's original design, on which I based my origami design. I intend to support then all as much as I can!
  
  ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-drawing.jpg)
  
