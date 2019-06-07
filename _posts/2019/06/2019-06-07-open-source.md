@@ -44,7 +44,7 @@ Well, not quite, the original camera just takes the picture if you do a long pre
 So I fixed that. Now you have to do a quick double press to do the self-timer. Otherwise I pretend to operate as the original camera.
 So the bottomline here is, that you don't have to be nice with me! I expect nothing but the truth, that is the way to help me.
 
-And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it not a Chinese obscure microcontroller, it is your will to share and improve.
+And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it is *not* a Chinese obscure microcontroller, it is your will to share and improve.
 
 But there's also that "other" thing of course. On the one side I know that there is no rocket-science, that almost anyone can rip-off the idea, even if I didn't share the files. Really, they copy much more complex stuff. There is no really interest, no volume.
 
