@@ -51,9 +51,12 @@ the actual physical space representation of Dr. Landls greatest dream.*
  Fierstein even says 
  *For years, this led to the inside joke around the camera design team that the most important person in the whole project was Land’s tailor.*
 
+ But following on his recollection of the unveiling of the camera he goes on saying:
+ 
 *For the second act of his two-year drama, Land orchestrated a double-barreled back-to-back scenario. First, he decided to debut his new revelatory product to 3,000 Polaroid enthusiasts at the April 25, 1972, Polaroid shareholders meeting.*
 
-*The 1972 shareholders meeting was held in another “cavernous” Polaroid warehouse, this time in the Boston suburb of Needham, Massachusetts. Land and his assistants had rehearsed this performance extensively over the previous weekend, and many of the props, including the film units that were to be used, were only completed at the last moment. After braving a massive traffic jam coming into the facility, and then passing through “elaborate” security measures that required them to leave their cameras at the door, the Polaroid faithful gathered with great expectation. Land was impatient for the normal business portion of the meeting to conclude so that he could start his demonstration. *
+*The 1972 shareholders meeting was held in another “cavernous” Polaroid warehouse, this time in the Boston suburb of Needham, Massachusetts. Land and his assistants had rehearsed this performance extensively over the previous weekend, and many of the props, including the film units that were to be used, were only completed at the last moment.*
+ *After braving a massive traffic jam coming into the facility, and then passing through “elaborate” security measures that required them to leave their cameras at the door, the Polaroid faithful gathered with great expectation. Land was impatient for the normal business portion of the meeting to conclude so that he could start his demonstration.*
 
 *After Land’s demonstration, the attendees were able to wander among twelve octagonal platforms set up in the warehouse to watch Polaroid employees use the camera in different applications. Twelve thousand tulips had been flown in from Holland and arranged around the platforms, each housing its own scene including love ducks splashing in a pond, some children playing at a party, and a painter working at her easel.*
 
