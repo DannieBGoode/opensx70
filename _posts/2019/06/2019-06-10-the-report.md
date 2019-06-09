@@ -32,6 +32,11 @@ But ever since I read [this article](https://eprints.kingston.ac.uk/35071/1/Buse
 
 (if you just want to download the report, please skip to the end of the post)
 
+Compare the "high quality printed" rose vs the original print rose on the report:
+
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-06.jpg)
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-07.jpg)
+
 So I did what I always do: search online trying to find something, maybe a good scan, maybe a bad scan.
 
 And there was **NOTHING** only [this request](http://www.polaroidland.net/2012/06/13/an-annual-report-request/) by [Christopher Bonanos](https://www.linkedin.com/in/christopher-bonanos-22651a24), the author of [Instant: The story of Polaroid](https://www.amazon.com/Instant-Story-Polaroid-Christopher-Bonanos/dp/1616890851)
