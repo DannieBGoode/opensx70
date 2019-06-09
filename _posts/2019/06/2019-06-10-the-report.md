@@ -76,7 +76,9 @@ So you can imagine my awe, when was able to purchase one complete original repor
 
 It amazes me, the quality of the picture, how well colours have held. I feel fortunate to have it in my possesion. And I have scanned at high resolution.
 
-It consists in two parts. First is *President's Letter*, it is a letter by Dr. Land addressed to the shareholders. It simulates typewriting, and Land's signature. This is the one with the rose.
+It consists in two parts. First is *President's Letter*, it is a letter by Dr. Land addressed to the shareholders. It simulates typewriting, and Land's signature. This is the one with the rose. I assumed that the signature was not -could not be- original, but I was hoping it was made with [Autopen](https://en.wikipedia.org/wiki/Autopen) unfortunately that is not the case as it is clearly printed.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-05.jpg)
 
 [Polaroid Corporation Annual Report for 1972 - Part I: President's Letter](https://github.com/openSX70/Documentation/blob/master/specifications/reports/PCAR-1972-part-I-letter.pdf)
 
