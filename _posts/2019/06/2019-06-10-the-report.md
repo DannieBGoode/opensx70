@@ -22,9 +22,9 @@ There are many books and [articles](https://www.technologizer.com/2011/06/08/pol
 
 It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him to accomplish amazing things. He also disregarded market resarch.
 
-But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in many ways. It rymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
+But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in many ways. It rhymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
 
-He knew what he wanted, and he new how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
+He knew what he wanted, and he knew how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
 
 I had read all the stories about fleeting an airplane to bring it full of a special kind of tulip from Holland, just because they were of the right color. To showcase the camera and the film.
 
@@ -69,13 +69,13 @@ the actual physical space representation of Dr. Landls greatest dream.*
 
 *To trumpet the retail launch of his “dream” system, Land once again orchestrated a big and dramatic event, gathering 1,200 camera dealers at the Fontainebleau Hotel in the Miami Beach on October 26, 1972. Searchlights crossed the Miami evening sky while an airplane trailed an SX-70 banner along the beach.*
 
-I have been fortunate enough to have stayed in the Fontainebleau Hotel a long time ago, and can only imagine the spectacle. Of course then came 1973 Shareholder's meeting. By
+I have been fortunate enough to have stayed in the Fontainebleau Hotel a long time ago, and can only imagine the spectacle. Of course then came 1973 Shareholder's meeting.
 
 Shareholder's meeting were *a big deal* not only for the company but for the attendees. It is difficult to find pictures of those ocasions, but I have found a [PDF, "Stories from behind the curtain at Polaroid’s Shareholders Meetings" by John and Mary McCann](http://www.mccannimaging.com/Retinex/Talks_files/PRAf2%20Slides%20copy.pdf). I tried to contact the McCanns to get a permit to use those pictures, but never got a reply. I highly recommend you look at it. By the way, John McCann was reponsible of the 20x24 camera. Enough said. I highly recommend that document it has very nice not often seen pictures.
 
 So the Shareholders meeting that year was going to be the first time shareholders could *play* with the SX70. Previous demostrations where highly controlled, to avoid spies from Kodak. Mr Fierstein says that in a technical demostration, at the end all pictures were punched and secured. But Kodak *spies* took the punch holes to analyse. It was war.
 
-So you can imagine my awe, when was able to purchase one complete original report. Yes, with the rose.
+So you can imagine my awe, when I was able to purchase one complete original report. Yes, in mint condition and with the rose.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-03.jpg)
 
