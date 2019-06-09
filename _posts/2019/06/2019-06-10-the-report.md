@@ -19,22 +19,35 @@ description: the Polaroid Shareholder's report for 1972.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-01.jpg)
 
 There are many books and [articles](https://www.technologizer.com/2011/06/08/polaroid/) comparing the late Steve Jobs with Dr. Land, drawing parallelisms. And I understand.
-It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him accomplish amazing things.
+It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him accomplish amazing things. He also disregarded market resarch.
+But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in may ways. It rymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
 
-An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
+He knew what he wanted, and he new how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
 
-And I had read all the stories, like fleeting an airplane to bring it full of a special kind of tulip from Holland, just because they were of the right color.
+I had read all the stories about fleeting an airplane to bring it full of a special kind of tulip from Holland, just because they were of the right color. To showcase the camera and the film.
 
-But ever since I read [this article](https://eprints.kingston.ac.uk/35071/1/Buse-P-35071-AAM.pdf) by Prof. [Peter Buse](https://www.liverpool.ac.uk/arts/staff/peter-buse/), for me there was one that was legendary: the shareholder's meeting held the 23rd of April 1973. 
+But ever since I read [this article](https://eprints.kingston.ac.uk/35071/1/Buse-P-35071-AAM.pdf) by Prof. [Peter Buse](https://www.liverpool.ac.uk/arts/staff/peter-buse/), for me there was one that was legendary: the shareholder's meeting held on March 22nd 1973. 
 
 So I did what I always do: search online trying to find something, maybe a good scan, maybe a bad scan.
 
-And there was **NOTHING** only [this request]http://www.polaroidland.net/2012/06/13/an-annual-report-request/ by [Christopher Bonanos](https://www.linkedin.com/in/christopher-bonanos-22651a24), the author of [Instant: The story of Polaroid](https://www.amazon.com/Instant-Story-Polaroid-Christopher-Bonanos/dp/1616890851)
+And there was **NOTHING** only [this request](http://www.polaroidland.net/2012/06/13/an-annual-report-request/) by [Christopher Bonanos](https://www.linkedin.com/in/christopher-bonanos-22651a24), the author of [Instant: The story of Polaroid](https://www.amazon.com/Instant-Story-Polaroid-Christopher-Bonanos/dp/1616890851)
 
 
 But I am getting ahead of myself, let me write a few quotes from [A Triumph of Genius: Edwin Land, Polaroid, and the Kodak Patent War](https://www.amazon.com/Triumph-Genius-Edwin-Polaroid-Patent/dp/1627227695), Although this book is about the patent war, it has a lot of information about Polaroid. Ronald K. Fierstein is very meticulous, he talks about the unveiling of Aladdin (SX70):
 
 *Act One of Land’s presentation was a tease. The performance occurred on April 27, 1971, when he surprised the Polaroid faithful and the assembled media at the company’s shareholders meeting with an unannounced and unofficial glimpse of the future. The event was staged in a massive, as yet unoccupied, factory Polaroid had built in the Boston suburb of Norwood to manufacture its new and mysterious camera.* 
+
+It is now known that the camera he teased that year was just a block of wood, a mock-up. There are many references of such a mockup, in *"THE BIRTH OF THE SX-70" RECOLECTIONS BY ONE DESIGN ENGINEER* a typed paper signed by "WPLANE" and dated 9/18/80 he starts:
+
+*In the beginning there was a black block of wood. Dr. Land
+had in his left hand a black, rectangular block of wood. It was
+about 7 inches long, about 4 inches wide and about l inch in thickness. He unbuttoned his suit jacket and deftly slipped the wooden
+block into his right inside jacket pocket and then re-buttoned the coat. The block disappeared into-the jacket not to be seen
+until removed from its place of hiding to spring into action as the SX~TO camera. That small, smooth, black block of wood was
+the actual physical space representation of Dr. Landls greatest dream.*
+
+ Fierstein even says 
+ *For years, this led to the inside joke around the camera design team that the most important person in the whole project was Land’s tailor.*
 
 *For the second act of his two-year drama, Land orchestrated a double-barreled back-to-back scenario. First, he decided to debut his new revelatory product to 3,000 Polaroid enthusiasts at the April 25, 1972, Polaroid shareholders meeting.*
 
@@ -64,8 +77,24 @@ Part two is the actual report. Beyond the -now- meaningless numbers, it amazes m
 
 [Polaroid Corporation Annual Report for 1972 - Part II](https://github.com/openSX70/Documentation/blob/master/specifications/reports/PCAR-1972-part-II-Report.pdf)
 
-
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-04.jpg)
+
+I just want to point out what for me is the obvious, and what SX70 meant for the company.
+
+- he bet the farm on a new product a dream: some say it cost more than half a billion dollars of the era.
+
+- new technologies had to be invented that didn't exist.
+
+- Polaroid had already a successful product.
+
+- All those wonderful new inventions (they set up to build a reflex camera when they didn't know if the film could made) had to be mass produced. I cannot enphasize enough that is soo difficult.
+
+-At that time Kodak was no longer an asset-collaborator, many of the "parts" to the process that Kodak provided had to be manufactured in-house, to even higher precision.
+
+-one of the crown archivements in the film side was "*Aspirin" the opacifier that permited the camera to exist. BUT that came late when camera development was way ahead *assuming* such goal would be accomplished.
+
+-on the camera side, many many breakthroughs had to me made by Dr. Baker and Dr. Plummer. Many times the problem was mass production.
+
 
 I hope you enjoy the report as much as I did!
 
