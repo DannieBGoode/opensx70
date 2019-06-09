@@ -19,8 +19,10 @@ description: the Polaroid Shareholder's report for 1972.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-01.jpg)
 
 There are many books and [articles](https://www.technologizer.com/2011/06/08/polaroid/) comparing the late Steve Jobs with Dr. Land, drawing parallelisms. And I understand.
-It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him accomplish amazing things. He also disregarded market resarch.
-But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in may ways. It rymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
+
+It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him to accomplish amazing things. He also disregarded market resarch.
+
+But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in many ways. It rymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
 
 He knew what he wanted, and he new how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
 
