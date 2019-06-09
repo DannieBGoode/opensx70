@@ -80,11 +80,11 @@ It consists in two parts. First is *President's Letter*, it is a letter by Dr. L
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-05.jpg)
 
-[Polaroid Corporation Annual Report for 1972 - Part I: President's Letter](https://github.com/openSX70/Documentation/blob/master/specifications/reports/PCAR-1972-part-I-letter.pdf)
+[Polaroid Corporation Annual Report for 1972 - Part I: President's Letter](https://github.com/openSX70/Documentation/raw/master/specifications/reports/PCAR-1972-part-I-letter.pdf)
 
 Part two is the actual report. Beyond the -now- meaningless numbers, it amazes me the quality of the graphic design. It looks so modern, even today.
 
-[Polaroid Corporation Annual Report for 1972 - Part II](https://github.com/openSX70/Documentation/blob/master/specifications/reports/PCAR-1972-part-II-Report.pdf)
+[Polaroid Corporation Annual Report for 1972 - Part II](https://github.com/openSX70/Documentation/raw/master/specifications/reports/PCAR-1972-part-II-Report.pdf)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-10-the-report-04.jpg)
 
@@ -100,7 +100,7 @@ I just want to point out what for me is the obvious, and what SX70 meant for the
 
 -At that time Kodak was no longer an asset-collaborator, many of the "parts" to the process that Kodak provided had to be manufactured in-house, to even higher precision.
 
--one of the crown archivements in the film side was "*Aspirin" the opacifier that permited the camera to exist. BUT that came late when camera development was way ahead *assuming* such goal would be accomplished.
+-one of the crown archivements in the film side was "*Aspirin*" the opacifier that permited the camera to exist. BUT that came late when camera development was way ahead *assuming* such goal would be accomplished. Newer film does not even come close to that level of excellence.
 
 -on the camera side, many many breakthroughs had to me made by Dr. Baker and Dr. Plummer. Many times the problem was mass production.
 
