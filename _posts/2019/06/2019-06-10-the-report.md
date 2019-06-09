@@ -22,9 +22,9 @@ There are many books and [articles](https://www.technologizer.com/2011/06/08/pol
 
 It is hard now for us to [imagine Dr. Land as a showman](http://www.polaroidland.net/2013/01/27/instant-artifact-the-long-walk/), but he was. He not only was a talented scientist and entrepreneur, always insisting in the impossible. One of those persons that act as a catalyst for people around him to accomplish amazing things. He also disregarded market resarch.
 
-But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in many ways. It rymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
+But the thing that amazes me the most about what he called *absolute one-step photography* is the way he envisions such a camera as an everyday tool, as an aid to memory, and, what he is doing there is giving us a glympse of the future. Modern smartphone photography is just that in many ways. It rhymes in such an armonious way with what Dr. Land had envisioned, the pocket-size, the intended use, the parallels with a phone...
 
-He knew what he wanted, and he new how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
+He knew what he wanted, and he knew how to get it. An he had the stage he deserved in the Polaroid Corporation shareholder's meeting every year. 
 
 I had read all the stories about fleeting an airplane to bring it full of a special kind of tulip from Holland, just because they were of the right color. To showcase the camera and the film.
 
