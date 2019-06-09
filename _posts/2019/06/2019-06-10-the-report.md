@@ -30,6 +30,8 @@ I had read all the stories about fleeting an airplane to bring it full of a spec
 
 But ever since I read [this article](https://eprints.kingston.ac.uk/35071/1/Buse-P-35071-AAM.pdf) by Prof. [Peter Buse](https://www.liverpool.ac.uk/arts/staff/peter-buse/), for me there was one that was legendary: the shareholder's meeting held on March 22nd 1973. 
 
+(if you just want to download the report, please skip to the end of the post)
+
 So I did what I always do: search online trying to find something, maybe a good scan, maybe a bad scan.
 
 And there was **NOTHING** only [this request](http://www.polaroidland.net/2012/06/13/an-annual-report-request/) by [Christopher Bonanos](https://www.linkedin.com/in/christopher-bonanos-22651a24), the author of [Instant: The story of Polaroid](https://www.amazon.com/Instant-Story-Polaroid-Christopher-Bonanos/dp/1616890851)
@@ -64,7 +66,7 @@ the actual physical space representation of Dr. Landls greatest dream.*
 
 I have been fortunate enough to have stayed in the Fontainebleau Hotel a long time ago, and can only imagine the spectacle. Of course then came 1973 Shareholder's meeting. By
 
-Shareholder's meeting were *a big deal* not only for the company but for the attendees. It is difficult to find pictures of those ocasions, but I have found a [PDF by John and Mary McCann](http://www.mccannimaging.com/Retinex/Talks_files/PRAf2%20Slides%20copy.pdf). I tried to contact the McCanns to get a permit to use those pictures, but never got a reply. I highly recommend you look at it. By the way, John McCann was reponsible of the 20x24 camera. Enough said.
+Shareholder's meeting were *a big deal* not only for the company but for the attendees. It is difficult to find pictures of those ocasions, but I have found a [PDF, "Stories from behind the curtain at Polaroid’s Shareholders Meetings" by John and Mary McCann](http://www.mccannimaging.com/Retinex/Talks_files/PRAf2%20Slides%20copy.pdf). I tried to contact the McCanns to get a permit to use those pictures, but never got a reply. I highly recommend you look at it. By the way, John McCann was reponsible of the 20x24 camera. Enough said. I highly recommend that document it has very nice not often seen pictures.
 
 So the Shareholders meeting that year was going to be the first time shareholders could *play* with the SX70. Previous demostrations where highly controlled, to avoid spies from Kodak. Mr Fierstein says that in a technical demostration, at the end all pictures were punched and secured. But Kodak *spies* took the punch holes to analyse. It was war.
 
