@@ -12,7 +12,7 @@ published: true
 show_related_posts: 'true'
 title: the report
 feature_image: SX70_images/openSX70-cameraporn
-permalink: /posts/2019/06/the-report
+permalink: /posts/2016/06/the-report
 description: the Polaroid Shareholder's report for 1972.
 ---
 
