@@ -107,7 +107,7 @@ I just want to point out what for me is the obvious, and what SX70 meant for the
 
 -one of the crown archivements in the film side was "*Aspirin*" the opacifier that permited the camera to exist. BUT that came late when camera development was way ahead *assuming* such goal would be accomplished. Newer film does not even come close to that level of excellence.
 
--on the camera side, many many breakthroughs had to me made by Dr. Baker and Dr. Plummer. Many times the problem was mass production.
+-on the camera side, many many breakthroughs had to me made specially in optics by Dr. Baker and [Dr. William Plummer](http://www.wtpoptics.com/about.html) Many times the problem was mass production.
 
 
 I hope you enjoy the report as much as I did!
