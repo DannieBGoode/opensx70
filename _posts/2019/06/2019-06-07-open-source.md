@@ -35,16 +35,16 @@ Collaboration: that is definitively what I am struggling with: first of all, mos
 Of course there are notable exceptions. Other times people want to help, but for whatever reason they don't have the time.
 
 But every little helps. Help is not only pointing to me that my circuit lacks a bunch of capacitors (thank you [Dave!](https://www.instagram.com/davethewalker80/)). 
-I remember I lent the camera to a photographer. [He took flash pictures, he made a video](https://opensx70.com/posts/2019/02/thomaszamolo). Really nice, and I appreciate. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
+I remember I lent the camera to a photographer. [He took flash pictures, he made a video](https://opensx70.com/posts/2019/02/thomaszamolo). Really nice, and I appreciate that he took the time. He didn't say anything or comment anything about the camera. But watching the video I could see that he was struggling, he was somehow "working against the camera".
 
-Let me explain I came up with this feature of having a self-timer built in the camera. If you pressed the red button for a short period it would take a picture, but if you did a *long press* you ended up with a flashing led and a 10 seconds delay. Cool isn't it?
+Let me explain: I came up with this feature of having a self-timer built in the camera. If you pressed the red button for a short period it would take a picture, but if you did a *long press* you ended up with a flashing led and a 10 seconds delay. Cool isn't it?
 
 Well, not quite, the original camera just takes the picture if you do a long press, so many people *expected* the openSX70 camera to do that. AND THEY WHERE RIGHT.
 
 So I fixed that. Now you have to do a quick double press to do the self-timer. Otherwise I pretend to operate as the original camera.
 So the bottomline here is, that you don't have to be nice with me! I expect nothing but the truth, that is the way to help me.
 
-And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it not a Chinese obscure microcontroller, it is your will to share and improve.
+And this is is the gist of the open-source thing, improving based on a collective experience: it is also a state of mind, it is *not* a Chinese obscure microcontroller, it is your will to share and improve.
 
 But there's also that "other" thing of course. On the one side I know that there is no rocket-science, that almost anyone can rip-off the idea, even if I didn't share the files. Really, they copy much more complex stuff. There is no really interest, no volume.
 
@@ -52,7 +52,9 @@ But many people measure success in dollars. I tried to protect myself against th
 
 Having a *product* and selling stuff has always been a second thought for me, for me its been about the SX70, and the process to figure out how it all works. Maybe going back to the sources: networking with awesome people, being on the radar so to speak.
 Franlkly, I would be happy just to pay my expenses, and believe me, **there are expenses**, power supplies, electronic components, manufacturing, testing... and **FILM** that **IS** expensive. And of course the test cameras. 
-I keep buying and *killing* cameras. Think of, better, picture me, as [Sid](https://pixar.fandom.com/wiki/Sid_Phillips) the neighbor of Woody in [Toy Story](https://en.wikipedia.org/wiki/Toy_Story): *Oh, no, not Sid!*
+I keep buying and *killing* cameras. Think of, better, picture me, as [Sid](https://pixar.fandom.com/wiki/Sid_Phillips) the neighbor of Woody in [Toy Story](https://en.wikipedia.org/wiki/Toy_Story): 
+
+*Oh, no, not Sid!*
 
 And here I am, trying to set up the business end of things, in a cheap but professional maner. And **that** also takes time, and resources.
 
@@ -71,12 +73,19 @@ So all that being said, I feel I have to move to a commercial distribution of th
 
 - There has to be a cool dongle, in the end the project is judged by the looks, so looks are very important.
 
-- A *ready to use* complete camera: Can be modified early-special-edition, and then some, of course these will be manufactured by the best in the business. That is the *shrink-wrapped-nice-dongle-cool-leather-refurbed-fully-warrantied* camera. That, we hope, will be the best SX70 so far.
+- A *ready to use* complete camera: maybe at the beginning early-special-edition, and then some, of course these will be manufactured by the best in the business. That is the *shrink-wrapped-nice-dongle-cool-leather-refurbed-fully-warrantied* camera. That, we hope, will be the best SX70 so far. Of course you will also have the option to send your own for an upgrade.
 
-- It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera. I also consider the project as reasonable more reliable "spare" PCB.
+- It is my opinion *now* that manual exposure at high speeds is not maybe the best idea due to mechanical tolerances of the camera, but it will be there. I also consider the PCB as reasonable and more reliable "spare part" to fix SX70s.
  
- I feel this way everybody is happy, first and foremost my base of want-to-be-diy. I feel if you want to attempt this you are going to need some support (not by me!)
- The dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with design, cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
+ I feel this way everybody is happy, first and foremost my base of want-to-be-diyers. I think that if you want to attempt this you are going to need some support (not by me!) 
+ 
+ The "nice" dongle is a must, it's what I want, it is the ticket to be considered a "big boy" but also it is a great opportunity to play with industrial design and cooperate with [Santi Pladellorens from AnalogueWorks](https://analogueworks.wixsite.com/analogueworks) on a "designed in Barcelona" cool dongle.
+ 
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/02/analogueworks-02.jpg)
+ 
+ That doesn't mean **at all** that I will not support [other dongle initiatives](https://opensx70.com/posts/2019/02/dongle-porn). Absolutely not, on the contrary, I am very grateful to [Clément Grosjean](https://www.facebook.com/CLEMENT.GROSJEAN.POLAROID/?eid=ARC4QnmKJ_DWRRHbYqCSZoeyOY0nkxXMJYg6YQaRDVndgvoLkqNlA2WStiKGR0sMqaxw27hp20ItiO5I&timeline_context_item_type=intro_card_work&timeline_context_item_source=1603376618&fref=tag), that is doing an amazing case based on the uDongle, or Jan's original design, on which I based my origami design. I intend to support then all as much as I can!
+ 
+ ![Fire image]({{site.url}}/{{site.baseurl}}img/2018/10/clem-drawing.jpg)
  
  But keep in mind that there's so much more about an open-source project: 
  You can do minor tweaks without even knowing how to program, say, the shutter speeds, say the magic number, and many many things. 
@@ -91,5 +100,5 @@ So all that being said, I feel I have to move to a commercial distribution of th
 I am no *mad scientist* (thank you [Susan](https://www.instagram.com/themillineryguild/) & [Stan](https://www.instagram.com/stankieffer/)) but I am definitely **mad**, I mean, really, compulsively testing and trying to find out how stuff works, why it is like this, how to improve it being *true* to the camera and to Dr. Land.
 I start to come up with a product, and sell it, *that* is only byproduct of my obssesion: mad is too nice a word, I am crazy.
 
- As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com.
+ As always, if you want to chip-in, have some secret document that want to share, some tool, whatever SX70-related, please, please contact me at openSX70 at openSX70 dot com. Please do.
 
