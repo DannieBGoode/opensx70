@@ -92,3 +92,5 @@ Finally some sample pictures:
 (another auto shot same number)
 
 So now the priority is building a working nice-looking practical dongle. And let me tell you, what is coming along is very very cool.
+
+[Meroë user manual](https://github.com/openSX70/Documentation/raw/master/openSX70-manuals/openSX70%20operating%20instructions%2020190624A.pdf)
