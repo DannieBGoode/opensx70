@@ -89,6 +89,7 @@ Finally some sample pictures:
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-22-meroe-test-9.jpg)
 (manual exposure, meassured EV10.4 close to the cactus)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-22-meroe-test-10.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/06/2019-06-22-meroe-test-13.jpg)
 (another auto shot same number)
 
 So now the priority is building a working nice-looking practical dongle. And let me tell you, what is coming along is very very cool.
