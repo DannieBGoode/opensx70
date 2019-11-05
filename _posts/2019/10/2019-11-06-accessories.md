@@ -8,7 +8,7 @@ author_avatar: joaquin2
 categories: openSX70
 read_time: 5
 comments: 'true'
-published: true
+published: false
 show_related_posts: 'true'
 title: Fancy a new accessory
 feature_image: SX70_images/openSX70-cameraporn-3
@@ -25,6 +25,7 @@ FLASH ADAPTER AND ELECTRONICS
 
 <a href="https://patentimages.storage.googleapis.com/a3/e6/bc/5cf8df647627c5/US3942076.pdf" target="_blank">flasbar slave</a>
 
+<a href="https://patents.google.com/patent/US3860809A/en?q=(flash)&q=(SX-70)&oq=(flash)+(SX-70)+&page=5" target="_blank">multiflash units by Philips</a>
 
 [flashbar](https://patentimages.storage.googleapis.com/b6/f7/68/8220622b445dcd/US3757643.pdf)
 
@@ -87,9 +88,13 @@ ACCESSORIES
 
 <a href="https://patentimages.storage.googleapis.com/32/c9/fa/4a46c58236c0b3/US3961349.pdf" target="_blank">accessory mounting adaptor no flash socket</a>
 
+<a href="https://patentimages.storage.googleapis.com/f1/5f/f6/655c1e7e7c42b9/US4182559.pdf" target="_blank">exposure identification (dater with LEDs)</a>
 <a href="**" target="_blank">**</a>
+<a href="**" target="_blank">**</a>
+<a href="**" target="_blank">**</a>
+<a href="https://patentimages.storage.googleapis.com/fc/b7/41/64835fd33e4637/US4176931.pdf" target="_blank">Microscope adapter</a>
 
-<a href="**" target="_blank">**</a>
+
 
 <a href="https://patentimages.storage.googleapis.com/bd/1d/9d/2edc5c626dd5fd/US3962711.pdf" target="_blank">accessory adapter, lenses</a>
 
@@ -98,6 +103,8 @@ https://patentimages.storage.googleapis.com/bd/1d/9d/2edc5c626dd5fd/US3962711.pd
 CURIOUS & ODD
 
 <a href="https://patentimages.storage.googleapis.com/57/62/46/3657c7512fe31b/US3976368.pdf" target="_blank">Microscope adapter</a>
+
+<a href="https://patentimages.storage.googleapis.com/fc/b7/41/64835fd33e4637/US4176931.pdf" target="_blank">Microscope adapter</a>
 
 <a href="https://patentimages.storage.googleapis.com/33/25/46/b79190d78a4053/US4021825.pdf" target="_blank">Another Microscope Adapter</a>
 
