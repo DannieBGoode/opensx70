@@ -25,14 +25,22 @@ feature_image: flexcable
 
 [https://www.flickr.com/groups/sx-70/](https://www.flickr.com/groups/sx-70/)
 
-[https://www.facebook.com/groups/739071666267626/](https://www.facebook.com/groups/739071666267626/)
+[openSX70 group on Facebook (closed)](https://www.facebook.com/groups/opensx70/)
 
-[http://www.technologizer.com/2011/06/08/polaroid/](http://www.technologizer.com/2011/06/08/polaroid/)
+[Great article from www.technologizer.com in 2011](http://www.technologizer.com/2011/06/08/polaroid/)
 
-[http://www.polaroidland.net/](http://www.polaroidland.net/)
+[Christopher Bonano's website (author of Instant)](http://www.polaroidland.net/)
 
 [Revival Studio London, in the Uk](https://revivalstudiolondon.com/)
 
+[Instant Legacy](https://www.instantlegacysx70.com/)
 
+[Shutter Plus Light](https://www.etsy.com/es/shop/ShutterPlusLight)
+
+[Instant Camera Guy](https://es-es.facebook.com/instantcameraguy/)
+
+[Paul Giambarba](https://giam.typepad.com/portfolio/2016/06/d-e-s-i-g-n-product-identity.html)
+
+[William T. Plummer](http://www.wtpoptics.com/Publications.html)
 
 If you have or know of an interesting web please contact us: opensx70@opensx70.com.
