@@ -46,10 +46,10 @@ void FlashBAR()
 
   mirrorUP();   //Motor Starts: MIRROR COMES UP!!!
 
-	while (DebouncedRead(S3) != HIGH)            //waiting for S3 to OPEN
+	while (DebouncedRead(S3) != HIGH) //waiting for S3 to OPEN
     ;
   analogWrite (Solenoid2, 130);
-  Ydelay ();                               //S3 is now open start Y-delay (40ms)
+  Ydelay ();   //S3 is now open start Y-delay (40ms)
 
   shutterOPEN ();
 
@@ -66,7 +66,7 @@ void FlashBAR()
   mirrorDOWN (); 
   delay (200); 
   
-  shutterOPEN();
+  shutterOPEN(); //back in viewfinder mode
  
   return;
 }
