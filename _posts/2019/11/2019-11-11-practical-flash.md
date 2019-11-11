@@ -26,7 +26,7 @@ OpenSX70 has been the first manual SX70 with a flash socket.
 
 Note 3: If you see different types of sockets for flash operation in my different uDongle designs, keep in mind that functionally they are all exactly the same, so it can be like the [original Prontor-Compur "PC" connector](https://en.wikipedia.org/wiki/Prontor-Compur), but those are both hard and expensive to find, and also hard to integrate into the PCB design, so nowdays it is usually replaced with a 3.5mm jack or a smaller 2.5mm jack. I have used all three of them in my designs. You just need the proper cable to make it work.
 
-There are two main ways to shoot flash: with an electronic SX70 flash, like the awesome MiNT flashbar or with a external flash. 
+There are two main ways to shoot flash: with an electronic SX70 flash, like the awesome [MiNT flashbar](https://mint-camera.com/en/shop/accessories/mint-flash-bar-2/) or with a external flash. 
 Of course you can also use the original flashbars, but keep in mind that those are too powerful for 600-type film. Also, keep in mind that with electronic flashbars you need the low power setting with 600. 
 Usually MiNT flashbar is not as bright as the flashbars, but it is good enough, and is definitely more convenient. There are vintage equivalents to the MiNT bar.
 
