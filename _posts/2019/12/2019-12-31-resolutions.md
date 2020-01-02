@@ -57,10 +57,10 @@ Being such a small part it is yet to be seen if its possible, but, if someone ca
 
 ## four
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/sonar-schematic_raw.jpg)
+
 The sonar schematic. Part of my effort is understanding the original camera how it worked. We understand that most of the chips are ASICs, that is, custom logic components design for the specific purpose. Initially there was a race between Fairchild camera (part of Fairchild Semiconductor) and Texas Instruments. In the end TI won as explained in “The battle for the SX-70 electronics”. In “Behind the lens of the sx-70” is explained the different modules, the flash control, the motor control, the light sensor and integration, and the main module. It would be nice to find replacement parts for say the MCC motor controller and maybe some day reverse engineer the actual chips, maybe, just maybe the plastic can be stripped and the silicone photographed... or do some hardware emulation with an FPGA. Long term stuff...
 I am intrigued by the interaction between the red button switches S1F and S1T with the FFA mysterious FT pad... maybe the FFA inhibits picture taking when it detects a flashbar and no “good” bulbs to prevent from wasting a film unit...
-
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/sonar-schematic_raw.jpg)
 
 ## five
 
