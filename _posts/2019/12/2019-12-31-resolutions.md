@@ -34,8 +34,6 @@ Teamwork.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-4.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-5.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-6.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-8.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-9.jpg)
 
 ## two
 
