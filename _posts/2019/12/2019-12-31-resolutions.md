@@ -24,7 +24,7 @@ An unexpected Xmas card has appeared in my mailbox from Poland! It is really nic
 
 ## one
 
-As I have [mentioned in a post](https://opensx70.com/posts/2019/01/jig) I love the original SX70-specific tools, and I am looking for a set, if you have one Iam willing to buy it from you. Please let me know.
+As I have [mentioned in a post](https://opensx70.com/posts/2019/01/jig) I love the original SX70-specific tools, and I am looking for a set, if you have one I am willing to buy it from you. Please let me know.
 But I also want to design my own custom tools. One of my favorite side projects is the “test jig” which is initially a breakout board to quickly test all kinds of sx70 pcbs.
 Now thanks to Hannes, aka Optoflow, I am closer to archiving this.He has designed this beauty that I hope to be able to test soon and that looks incredible on the renders.
 Teamwork.
