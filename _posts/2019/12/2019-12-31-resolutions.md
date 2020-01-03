@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: 2019 Roundup and new year’s resolutions
+title: 2019 Roundup and new year’s resolutions (updated)
 feature_image: SX70_images/openSX70-cameraporn-15
 permalink: /posts/2019/12/resolutions
 description: 2019 roundup and new year’s resolutions
@@ -34,6 +34,12 @@ Teamwork.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-4.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-5.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/optoflow-gig-6.jpg)
+
+We have now an actual 3D print!!!
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print1)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print2)
+
 
 ### two
 
