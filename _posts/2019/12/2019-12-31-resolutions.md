@@ -37,8 +37,8 @@ Teamwork.
 
 We have now an actual 3D print!!!
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print1)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print2)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print1.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2019/12/3d-print2.jpg)
 
 
 ### two
