@@ -30,7 +30,7 @@ Seeing these pictures reminds me of my own test setups!
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/IMG_6431.JPG)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/IMG_6432.JPG)
 
-I also want to thank [Jun Yasue](https://www.instagram.com/cryve/) from Japan. He has been kind enough to gift me ten prisms for my tests! Thank you.
+I also want to thank [Jun Yasue](https://www.instagram.com/cryve/) from Japan. He has been kind enough to gift me ten prisms for my tests! Thank you. He fixes cameras, so contact him if you are in Japan and need your camera fixed!
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/IMG_9805.JPG)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/jun_gift.jpg)
 
@@ -72,7 +72,7 @@ Also note that one of the switches is for multiple exposures and now the second 
 
 Even though these are renders, we hope to have soon a working prototype. All the electronics are ready!
 
-And one more thing, all manual speeds below 1/60 and B and T sync with the flash. Dongle flash operation is always full F.8 without any modification to the camera. Flashbar, of course, engages distance compensation.
+And one more thing, all manual speeds below 1/60 and B and T sync with the flash. Dongle flash operation is always full F.8 [without any modification to the camera](http://www.sx2pc.com/SX_f8conv.html). Flashbar, of course, engages distance compensation.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Analoguedongle render V4-0.JPG)
 
