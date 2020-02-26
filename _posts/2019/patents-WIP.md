@@ -137,7 +137,7 @@ ACCESSORIES
 [accessory mounting adaptor](https://patentimages.storage.googleapis.com/32/c9/fa/4a46c58236c0b3/US3961349.pdf)
 CURIOUS & ODD
 
-https://patentimages.storage.googleapis.com/57/62/46/3657c7512fe31b/US3976368.pdf
+https://patentimages.storage.googleapis.com/57/62/46/3657c7512fe31b/US397 6368.pdf
 https://patentimages.storage.googleapis.com/33/25/46/b79190d78a4053/US4021825.pdf
 [Frog tongue precedent?](https://patentimages.storage.googleapis.com/2e/8b/b2/d482751a3ee5ff/US4032937.pdf)
 [Frog tongue precedent?](https://patentimages.storage.googleapis.com/7f/22/4a/25264ddbc06681/US4034386.pdf)

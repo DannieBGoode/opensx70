@@ -46,7 +46,8 @@ I don't want to forget about [Yepu](https://www.facebook.com/yepu.cui.9) he has 
 
 I also want to thank [Hannes AKA OptoFlow](https://www.instagram.com/optoflw/) for taking the time to help with my PCB tester. It's a crazy and challenging project, due to the different types of PCBs. 
 But I have started to work with it!
-
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/optoflow.JPG)
+This is a picture of my working jig.
 
 A while back I met Ali and his lovely wife in Haarlem. He runs [polastand](https://www.polastand.com/). He was so kind as to send [one of the first polastand](https://opensx70.com/posts/2018/10/polastand) and now he has sent me his new product Polaglass. 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-1.JPG)
