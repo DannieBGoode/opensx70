@@ -49,9 +49,9 @@ But I have started to work with it!
 
 
 A while back I met Ali and his lovely wife in Haarlem. He runs [polastand](https://www.polastand.com/). He was so kind as to send [one of the first polastand](https://opensx70.com/posts/2018/10/polastand) and now he has sent me his new product Polaglass. 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-1.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-2.jpg)
-![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-3.jpg)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-1.JPG)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-2.JPG)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/Polastand-3.JPG)
 And it is awesome. I love it. I really think that the community should support this types of initiatives. Again Thank you!
 
 Finally I want to thank all of you following my adventures, I can say that the latest hardware seems to work ok. I am concentrating on a working solution at this time, based on the TSL237T sensor.
