@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Acknowledgements
+title: Acknowledgements (and some dongle porno)
 feature_image: SX70_images/openSX70-cameraporn-11
 permalink: /posts/2020/02/acknowledgements
 description: Acknowledgements
