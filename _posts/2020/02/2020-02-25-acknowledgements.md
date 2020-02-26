@@ -55,7 +55,7 @@ A while back I met Ali and his lovely wife in Haarlem. He runs [polastand](https
 And it is awesome. I love it. I really think that the community should support this types of initiatives. Again Thank you!
 
 Finally I want to thank all of you following my adventures, I can say that the latest hardware seems to work ok. I am concentrating on a working solution at this time, based on the TSL237T sensor.
-I am rewritting the software. It is still a crappy piece of code, but I keep trying and improving it.
+I am rewritting the software. It is still a crappy piece of code, but I keep trying and improving it. And of course [PCBWAY](https://www.pcbway.com/) for [sponsoring the project](https://opensx70.com/posts/2020/02/pcbway2)
 
 I have given much thought to the user interface trying to be as simple as possible, yet allowing that second level of functionality. [Santi from AnalogueWorks](https://www.instagram.com/analogueworks/) is working really hard on the dongle. Please [check out his amazing pinhole cameras](https://analogueworks.wixsite.com/analogueworks/cameras), they are amazing. Thank you for your support and enthusiasm.
 
