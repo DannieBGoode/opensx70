@@ -10,7 +10,7 @@ read_time: 5
 comments: 'true'
 published: true
 show_related_posts: 'true'
-title: Acknowledgements (and some dongle porno)
+title: Acknowledgements (and some dongle porn)
 feature_image: SX70_images/openSX70-cameraporn-11
 permalink: /posts/2020/02/acknowledgements
 description: Acknowledgements
@@ -18,6 +18,7 @@ description: Acknowledgements
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/IMG_3200.jpg)
 
 Take a good look at this picture. What you see is a [hand-etched openSX70 PCB!](https://www.sparkfun.com/news/2116). For me is mind-blowing, since it involves some crazy-toxic chemicals, and besides, the main PCB is really tight in tolerances. It probably can't be done by hand. But kudos, and admiration for effort! That is the work of [Pan](https://www.instagram.com/pan_dzwiedz/).
+
 I keep saying that I'm just a guy, and, this for me is really difficult. I really dislike to hand build these PCB and spend quite a while doing them. And then, if they don't work, you never know if it's the camera, your work or even the design... So all I can say to Pan is welcome to the club! (and thanks for supporting the project)
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/02/IMG_3190.jpg)
