@@ -5,7 +5,7 @@ permalink: /links
 feature_image: flexcable
 ---
 
-[Georg Holderied's Hacker's Guide to the SX70, the original SX70 page](http://www.chemie.unibas.ch/~holder/SX70.html)
+[Georg Holderied's Hacker's Guide to the SX70, the original SX70 page](http://www.sx2pc.com/SX70.html)
 
 [2ndShot](https://www.2ndshotsx70.com/)
 
