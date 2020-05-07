@@ -9,7 +9,7 @@ feature_image: flexcable
 
 [2ndShot](https://www.2ndshotsx70.com/)
 
-[2ndShot's blog, very interesting](http://2ndshotsx70.blogspot.com/)
+[2ndShot's blog, very interesting](http://2ndshotsx70.blogspot.com/) NOTE, this LINK is not working, we hope Matt returns soon!
 
 [http://www.brooklynfilmcamera.com](http://www.brooklynfilmcamera.com/)
 
