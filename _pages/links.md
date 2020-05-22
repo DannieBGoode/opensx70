@@ -13,17 +13,19 @@ NOTE, this LINK is not working, we hope Matt returns very soon!
 
 [2ndShot's blog, very interesting](http://2ndshotsx70.blogspot.com/) 
 
-[http://www.brooklynfilmcamera.com](http://www.brooklynfilmcamera.com/)
+[http://www.brooklynfilmcamera.com](http://www.brooklynfilmcamera.com/) Polaroid trained, NY
 
-[http://landcameras.com](http://landcameras.com/)
+[Retrospekt](https://retrospekt.com/collections/repairs/sx-70?sort_by=manual) Polaroid trained, US
 
-[https://mint-camera.com/](https://mint-camera.com/)
+[http://landcameras.com](http://landcameras.com/), US
+
+[https://mint-camera.com/](https://mint-camera.com/), HK
 
 [http://www.polaroid-passion.com](http://www.polaroid-passion.com/)
 
-[https://www.sx70store.com](https://www.sx70store.com/)
+[https://www.sx70store.com](https://www.sx70store.com/), Spain
 
-[http://www.polamad.com](http://www.polamad.com/)
+[http://www.polamad.com](http://www.polamad.com/), ROI
 
 [https://www.flickr.com/groups/sx-70/](https://www.flickr.com/groups/sx-70/)
 
@@ -33,11 +35,17 @@ NOTE, this LINK is not working, we hope Matt returns very soon!
 
 [Christopher Bonano's website (author of Instant)](http://www.polaroidland.net/)
 
+[Polanthropy](https://www.facebook.com/Polanthropy/), London-based repairs
+
 [Revival Studio London, in the Uk](https://revivalstudiolondon.com/)
 
-[Instant Legacy](https://www.instantlegacysx70.com/)
+[Instant Legacy](https://www.instantlegacysx70.com/), US based
 
 [Shutter Plus Light](https://www.etsy.com/es/shop/ShutterPlusLight)
+
+[Jun Yasue](https://www.instagram.com/cryve/), Japan
+
+[Mitsubado Camera](https://www.mitsubado.com/), Japan
 
 [Instant Camera Guy](https://es-es.facebook.com/instantcameraguy/)
 
