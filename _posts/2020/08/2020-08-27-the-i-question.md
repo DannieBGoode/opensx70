@@ -15,7 +15,7 @@ feature_image: SX70_images/openSX70-cameraporn-14
 permalink: /posts/2020/06/i-question
 description: My take about using i-type film in your SX70
 ---
-![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/sx70-batteries.JPG)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/sx70-batteries2.JPG)
 
 Are there reasons to use i-Type film in an SX70?
 
@@ -149,5 +149,7 @@ In [this Patent](https://l.facebook.com/l.php?u=https%3A%2F%2Fpatentimages.stora
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/patent-40007470-land3.JPG)
 
 If you have or know of other i-type to SX70 solutions, or have any other info please comment below or send me an email at opensx70 at openSX70 dot com.
+
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/sx70-batteries.JPG)
 
 Stay safe. Stay healthy.
