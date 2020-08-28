@@ -17,6 +17,9 @@ description: My take about using i-type film in your SX70
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/sx70-batteries.JPG)
 
+Are there reasons to use i-Type film in an SX70?
+
+How do we go about it?
 
 ## FILM
 [Polaroid film](https://eu.polaroid.com/collections/instant-film) has been getting better and better, with its three basic variants, [SX70 type](https://eu.polaroid.com/collections/instant-film) with an approximate ISO of 160, [type 600](https://eu.polaroid.com/collections/film-for-polaroid-600-cameras), with ISO 640, both with build in battery and finally [i-type film](https://eu.polaroid.com/collections/film-for-polaroid-600-cameras), without battery. All new film units are significantly thicker than the original ones, and thus only 8 photos fit in a pack.
