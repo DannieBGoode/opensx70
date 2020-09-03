@@ -70,6 +70,8 @@ Some people also strip the battery of a pack to the minimum, and stick it under 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/german-itype.jpg)
 In this picture you can see how the pulling tab is reinforced, and the battery hold also with tape, sorry only found it in german, will try to replace it with mine.
 
+[Here is a video in italian](https://www.facebook.com/watch/?v=179730779805392).
+
 But of course what I am talking here is about accessories that allow to use external batteries. And there are a few, both DIY and commercial.
 
 Hannes, AKA @optoflw has come up with this idea,
