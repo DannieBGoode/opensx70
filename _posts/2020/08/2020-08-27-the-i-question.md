@@ -25,11 +25,11 @@ How do we go about it?
 [Polaroid film](https://eu.polaroid.com/collections/instant-film) has been getting better and better, with its three basic variants, [SX70 type](https://eu.polaroid.com/collections/instant-film) with an approximate ISO of 160, [type 600](https://eu.polaroid.com/collections/film-for-polaroid-600-cameras), with ISO 640, both with build in battery and finally [i-type film](https://eu.polaroid.com/collections/film-for-polaroid-600-cameras), without battery. All new film units are significantly thicker than the original ones, and thus only 8 photos fit in a pack.
 
 ### SX70
-SX70 film is for the original SX70 and all foldable cameras up to the SLR680. Many people like earlier models, those cameras, simpler without flash or sonar are really compact and definitely fit Dr. Lands pocket. I myself prefer alphas, with the focus aid, tripod mount, and I like them chrome with tan leather. 
+SX70 film is for the original SX70 and all foldable cameras up to the SLR680. Many people like earlier models, those cameras, simpler without flash or sonar are really compact and definitely fit Dr. Lands pocket. I myself prefer Alphas, with the focus aid, tripod mount, and I like them chrome with tan leather. 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/INVENTS-SX70.jpg)
 
-Many people will tell you that this film is so much better that its ISO-600 counterpart, and prefer to shoot with it, even if it needs more light.
+Many people will tell you that this film is so much better that its ISO 600 counterpart, and prefer to shoot with it, even if it needs more light.
 At first I thought that this was utter nonsense, but I am beginning to think that this is the case. 
 
 Not only foldables, but some box cameras also use this film. 
@@ -43,10 +43,10 @@ And I still think this is the case in many situations, and for many reasons, mos
 
 There is also the possibility to shoot this film in an unmodified SX70 by means of a ND filter, either on the lens (that affects the viewfinder image) or on top of the pack (has to be placed in darkness). Electronic modification is much more suitable, and can have a switch for selecting the film type.
 
-Technically the fastest speed that the SX70 shutter can reach is about 1/178th of a second. Which isn't much, but by means of [the way the shutter works](https://opensx70.com/posts/2018/11/sx70-shutter) EV high as EV17 can be reach, of course at a much higher F-stop.
+Technically the fastest speed that the SX70 shutter can reach is about 1/178th of a second. Which isn't much, but by means of [the way the shutter works](https://opensx70.com/posts/2018/11/sx70-shutter) EV high as EV17 can be reached, of course at a much higher F-stop.
 
 ### i-Type
-When Dr. Lsnd set out to design the SX70, the ultimate instant photography format, one of his goals was to avoid the "batteries problem" for the user, so, when a new pack was inserted, new batteries were also in place.
+When Dr. Land set out to design the SX70, the ultimate instant photography format, one of his goals was to avoid the "batteries problem" for the user, so, when a new pack was inserted, new batteries were also in place.
 But that was by no means an easy endeavor in the late sixties. Initially subcontracted to Ray-o-Vac it had to finally be re-engineered in house.
 
 It was a big accomplishment, and a big success. 
@@ -68,9 +68,9 @@ Or do you???
 Well there's always the possibility of transferring the film to a regular used pack. Batteries on those, even used, last for many more than 8 pictures.
 Some people also strip the battery of a pack to the minimum, and stick it under the i-Type pack.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/german-itype.jpg)
-In this picture you can see how the pulling tab is reinforced, and the battery hold also with tape, sorry only found it in german, will try to replace it with mine.
+In this picture you can see how the pulling tab is reinforced, and the battery hold also with tape, sorry only found it in German, will try to replace it with mine.
 
-[Here is a video in italian](https://www.facebook.com/watch/?v=179730779805392).
+[Here is a video in Italian](https://www.facebook.com/watch/?v=179730779805392).
 
 But of course what I am talking here is about accessories that allow to use external batteries. And there are a few, both DIY and commercial.
 
@@ -79,11 +79,11 @@ Hannes, AKA @optoflw has come up with this idea,
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/optoflw-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/optoflw-2.jpg)
 
-The idea, is always more or less the same, some sort of pogo-ping, spring loaded connectors, make contact to the test points under the camera. Of course you need to remove the skin and make the holes in the proper location.
+The idea, is always more or less the same, some sort of pogo-pins, spring loaded connectors, make contact to the test points under the camera. Of course you need to remove the skin and make the holes in the proper location.
 
 This is similar to the design by the [legendary Matt Widmann](https://2ndshotsx70.blogspot.com/2017/11/batteries-not-included-not-movie-with.html?m=0)
 
-It is available for download [here](https://www.thingiverse.com/thing:3987977) in thingyverse.
+It is available for download [here](https://www.thingiverse.com/thing:3987977) in Thingiverse.
 
 PROS: snap on, user regular batteries, can use rechargeables, it is free.
 CONS: need to modify the skin, make some holes, connection to the test points might be fidgety?
@@ -108,7 +108,7 @@ This is another DIY solution by Joaquín Stable, don't know if he has made the f
 Then there's the really simple "get the batteries and stick them to the camera" bare bones solutions, because in the end all you need is 4 triple or double A batteries, here by Mato Peto
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/petto-battery.jpg)
 
-This are by me, the battery pack is really cheap and it's stuck with double sided tape:
+This is by me, the battery pack is really cheap and it's stuck with double sided tape:
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/batteryholder-1.jpg)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/batteryholder-2.jpg)
 
@@ -124,7 +124,7 @@ A solution has to use rechargeable batteries, and, it would be nice that it used
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/06/rezivot-jig.jpg)
 
-We haven't seen Rezivot adapter, it uses a non very common but quite easily available battery. We can only expect the high quality standards that Rezivot has in all its products. We are told pricing will be south of 100USD.
+We haven't seen Rezivot adapter, it uses an uncommond but quite easily available battery. We can only expect the high quality standards that Rezivot has in all its products. We are told pricing will be south of 100USD.
 
 We know of at least another product coming to the market in this category, any original innovative accessory for SX70 is certainly very welcome.
 
@@ -150,7 +150,7 @@ In [this Patent](https://l.facebook.com/l.php?u=https%3A%2F%2Fpatentimages.stora
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/patent-40007470-land2.JPG)
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/patent-40007470-land3.JPG)
 
-If you have or know of other i-type to SX70 solutions, or have any other info please comment below or send me an email at opensx70 at openSX70 dot com.
+If you have or know of other i-type to SX70 solutions, or have any other info please comment below or send an email to opensx70.com.
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/08/sx70-batteries.JPG)
 
