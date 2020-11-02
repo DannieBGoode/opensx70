@@ -27,7 +27,7 @@ I also got have been lucky to score the amazing “Polaroid advertising begins�
 There’s also the SX70 “lost” movie “Dolores and the SX70” a 16mm 14 minutes short. I hope to have it scanned as soon as possible. I am really intrigued.
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/10/Dolores-16mm-strip.jpg)
 
-![Fire image]({{site.url}}/{{site.baseurl}}img/2020/10/Dolores-can.JPG)
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/10/Dolores-can2.jpg)
 
 
 So, like three years into this, one has been following a path, that is in part what I though it would be, but it’s also a path of amazement, first about oneself, and what one can accomplish if you just do it, without thinking too much that is impossible and you definitely don’t know how to do it. 
