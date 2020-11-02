@@ -11,7 +11,7 @@ comments: 'true'
 published: true
 show_related_posts: 'true'
 title: Where no SX70 has gone before
-feature_image: SX70_images/openSX70-cameraporn-26
+feature_image: SX70_images/openSX70-cameraporn-27
 permalink: /posts/2020/10/wherenosx70
 description: Many updates on the project.
 ---
