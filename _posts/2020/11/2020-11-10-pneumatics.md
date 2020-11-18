@@ -6,7 +6,7 @@ author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin2
 categories: openSX70
-read_time: 14
+read_time: 19
 comments: 'true'
 published: true
 show_related_posts: 'true'
@@ -15,9 +15,10 @@ feature_image: SX70_images/openSX70-cameraporn-17
 permalink: /posts/2020/11/pneumatics
 description: Pneumatics in the SX70 shutter
 ---
+
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/11/solenoid-patent.jpg)
 
-This is sort of a technical question, no doubt, but also a philosophical one. Bear with me.
+This is sort of a technical question, no doubt, but also a philosophical one. But if you are curious or interested in the secrets of the SX-70 shutter, and how to "improve it" please bear with me.
 
 ## introduction
 
