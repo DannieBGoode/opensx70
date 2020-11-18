@@ -100,7 +100,8 @@ But WHY? Why 25ms to open and 9ms to close.
 
 Is it ISO related? Is there any other reason? Difficult to know.
 
-One plausible answer might be that they limited by the response and the characteristics of the electronics of the era. That in fact that (expensive) delay was needed for the integration of the time, or the flash.
+One plausible answer might be that they limited by the response and the characteristics of the electronics of the era. That in fact that (expensive) delay was needed for the integration of the time, or the flash. 
+This summer I was lucky enough to talk on the phone with Peter Carcia, he worked directly with Dr. Land, in the Y-delay of the camera. This delay, now being established as 40ms, was not that clear in the beginning, I he told me some of the earlier cameras had a much longer Y-delay up to 100ms. What I want to tell is that, electronics where limited at the time, specially with the kind of miniaturisation the had acomplished. They also needed to to be in a middle point so they had room to go up or down...
 
 The philosophical question, is just because we can thanks to the openSX70 control of the camera should we?
 
