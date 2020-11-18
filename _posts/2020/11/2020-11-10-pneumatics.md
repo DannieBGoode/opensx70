@@ -60,7 +60,7 @@ But then I found Patent [US 3868712](https://patents.google.com/patent/US3868712
 
 So think of a syringe, if you block the hole its almost impossible to pull it. Same here, the Polaroid engineers devised a system so that they could calibrate the opening (and also at the same time closing) so they could set it to the right sweetspot. So they had room to wiggle.
 
-Repair Information Bulletin #231A even specifies that they had a special cover to be able to access the needle. 
+Repair Information Bulletin #230A even specifies that they had a special cover to be able to access the needle. 
 
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/11/RIB231A.jpg)
 
@@ -84,7 +84,7 @@ My totally made-up red line.
 
 ## conclusions
 
-The main conclusion is simple. The shutter can go significantly much faster just by turning the needle counterclockwise. The RIB warns *NEVER MAX OUT THE NEEDLE* so lets keep that in mind.
+The main conclusion is simple. The shutter can go significantly much faster just by turning the needle counterclockwise. The RIB warns *DO NOT BOTTOM OUT THE VALVE* so lets keep that in mind.
 
 I contacted [Dr. Plummer](https://www.wtpoptics.com/about.html) to ask him about this. In the article "The photographic shutter as a *lens element*" in his ["Beyond Raytracing"](https://www.wtpoptics.com/BRdocB.html) paper he devises a formula and an experiment to the devise the merit of the inefficient shutter. In his own words:
 
