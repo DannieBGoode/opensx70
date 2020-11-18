@@ -128,7 +128,7 @@ Also keep in mind that prototype XXI that I set at (with my made up notation) P=
 
 Shooting with the camera, the shutter behavior feels odd, not bad or good, just different. It is easily noticeable.
 
-Don't forget that this are my shots, and are, at most, anecdotal, still I feel that the pictures look different, maybe sharper... 
+Don't forget that these are my shots, and are, at most, anecdotal, still I feel that the pictures look different, maybe sharper... 
 
 What do you think? Post your thoughts.
 
