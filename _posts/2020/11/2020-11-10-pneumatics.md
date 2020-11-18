@@ -70,7 +70,7 @@ So I devised a system turning (counterclockwise) in 180º steps the way a specif
 <p><a href="https://vimeo.com/479771662">66ms_Alpha_C0011_T</a> from <a href="https://vimeo.com/user2146483">Joaquin de Prada</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 First a sort of benchmark, an older video with an older prototype.
 
-Now my totally unscientific tests with prototype XXI. Keep in mind that I feel that at "normal" setting, I feel that is running a bit slow. But for comparison, I guess it illustrates what can be accomplished.
+Now my totally unscientific tests with prototype XXI at "normal" setting, I feel that is running a bit slow. But for comparison, I guess it illustrates what can be accomplished.
 
 <iframe src="https://player.vimeo.com/video/472039950" width="640" height="444" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> normal pneumatic
 <iframe src="https://player.vimeo.com/video/472040298" width="640" height="430" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> pneumatic set at P=-3
@@ -100,6 +100,8 @@ But WHY? Why 25ms to open and 9ms to close.
 
 Is it ISO related? Is there any other reason? Difficult to know.
 
+One plausible answer might be that they limited by the response and the characteristics of the electronics of the era. That in fact that (expensive) delay was needed for the integration of the time, or the flash.
+
 The philosophical question, is just because we can thanks to the openSX70 control of the camera should we?
 
 One would argue that the aesthetics have changed, and what was desirable for a mass-market instant camera in 1973 has changed. Back in the day the objective was to sort of go for the settings that would render the better results for the average non-photographer user. In that mindset, depth of field was premium factor, to render as many pictures as possible in focus.
@@ -110,15 +112,15 @@ Also faster speed makes more sense for higher 600 ISO.
 
 ## epilogue
 
-Please, keep in mind that this modification affects the way the picture is exposed, and, that integration in a regular SX70 will not work properly. In any case be careful not to max out the needle.
+Please, keep in mind that this modification affects the way the picture is exposed, and, that integration in a regular SX70 will not work properly. In any case be careful not to bottom out the needle.
 
 In the setting of the SX70 that is not a problem, although the magic numbers have to be adjusted. 
 
-Also keep in mind that prototype XXI that I set at P=-3, I feel has the blades dirty and drags, making for friction and probably affecting the results.
+Also keep in mind that prototype XXI that I set at (with my made up notation) P=-3, I feel has the blades dirty and drags, making for friction and probably affecting the results.
 
 Shooting with the camera, the shutter behavior feels odd, not bad or good, just different. It is easily noticeable.
 
-Keep also in mind that this are my shots, and are, at most, anecdotal, still I feel that the pictures look different, maybe sharper... 
+Don't forget that this are my shots, and are, at most, anecdotal, still I feel that the pictures look different, maybe sharper... 
 
 What do you think? Post your thoughts.
 
