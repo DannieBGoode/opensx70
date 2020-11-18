@@ -19,9 +19,11 @@ description: Pneumatics in the SX70 shutter
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/11/solenoid-patent.jpg)
 
 This openSX70 project has always been multifaceted, not only the hardware and the software, but the technology archaeology, the silicon dies, etc...
-But it means much more because I am longer observing the castle from outside, it feels that I have stolen the keys of the castle and see things from inside, some times almost understand what the engineer was thinking, well, I mean that within my technical ignorance.
-But sometimes is more that than, sometimes I can open the windows, whater the plant, and replace the metaphorical bulb. 
-Being in control inside, means that many things can be done and will be done, like adding fill in flash, as specified in the alpha supplement, wonderful work done by Zane and Hannes. Theirs is now the software to use.
+But it means much more because I am no longer observing the castle from outside, it feels that I have stolen the keys of the castle and see things from inside, some times almost understand what the engineer was thinking, well, I mean that within my technical ignorance.
+
+But sometimes is more that than, sometimes I can open the windows, water the plants, and replace the metaphorical bulb. 
+
+Being in control inside, means that many things can be done and will be done, like adding fill in flash, as specified in the alpha supplement, wonderful work done by [Zane](https://www.instagram.com/zanepollard/) and [Hannes](https://www.instagram.com/optoflw/). Theirs is now the software to use.
 
 This is sort of a technical question, no doubt, but also a philosophical one. But if you are curious or interested in the secrets of the SX-70 shutter, and how to "improve it" please follow me down the proverbial rabbit hole!
 
