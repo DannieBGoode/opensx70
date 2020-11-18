@@ -17,9 +17,9 @@ description: Pneumatics in the SX70 shutter
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2020/11/solenoid-patent.jpg)
 
-## introduction
-
 This is sort of a technical question, no doubt, but also a philosophical one. Bear with me.
+
+## introduction
 
 We have been discussing long about the [SX70 shutter](https://opensx70.com/posts/2018/11/sx70-shutter).
 But to do a quick recap, the SX70 has no aperture per se, the shutter IS the aperture, so there is only maximum aperture, specially at fast speeds.
