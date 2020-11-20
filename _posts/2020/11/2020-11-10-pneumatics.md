@@ -73,6 +73,9 @@ Repair Information Bulletin #230A even specifies that they had a special cover t
 
 So I devised a system turning (counterclockwise) in 180º steps the way a specify this is by incremental numbers, being negative in case of counterclockwise, and every half turn is a unit, so for example a full revolution counterclockwise would P=-2, I made different videos with the HFR 1000FPS mode in my RX100 V camera.
 
+![Fire image]({{site.url}}/{{site.baseurl}}img/2020/11/solenoid-comparison.jpg)
+comparison with one in it original position and the other "unleashed"
+
 <iframe src="https://player.vimeo.com/video/479771662" width="640" height="330" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/479771662">66ms_Alpha_C0011_T</a> from <a href="https://vimeo.com/user2146483">Joaquin de Prada</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 First a sort of benchmark, an older video with an older prototype.
