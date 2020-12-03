@@ -13,6 +13,7 @@ nav_list:
   #Home_Alt_2 : ['Home Alt 2', '/home-alt-2/', 'fa-home']
   About : ['About', '/about', 'fa-quote-left']
   FAQ : ['FAQ', '/FAQ', 'fa-question-circle']
+  wiki : ['WIKI', 'https://github.com/openSX70/openSX70-Arduino-main/wiki', 'fa-external-link', 'blank']
   Tutorials : ['Tutorials', '/tutorials', 'fa-wrench']
   #Home_Alt_2 : ['Tutorials', '/tutorials', 'fa-wrench']
   Links : ['Links', '/links', 'fa-external-link-square']
@@ -20,7 +21,7 @@ nav_list:
   Files : ['Files', '/files', 'fa-files-o']
   Gallery : ['Gallery', 'https://adobe.ly/2tofFOf', 'fa-photo', 'blank']
   Author : ['Author', '/author/joaquin', 'fa-user']
-  Donate : ['Donate', 'https://paypal.me/opensx70', 'fa-money', 'blank']
+  Donate : ['Donate', 'https://paypal.me/opensx70', 'fa-paypal', 'blank']
 
 single_footer: '<p>Welcome to the openSX70 community &copy; 2018 <a href="/">latest posts</a></p>'
 footer_links:
