@@ -28,7 +28,7 @@ build:
   preview_env:
   - JEKYLL_ENV=staging
   preview_output_directory: _site
-  install_dependencies_command: gem install jekyll
+  install_dependencies_command: gem install jekyll; bundle install;
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
