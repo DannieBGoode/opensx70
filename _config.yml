@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 disqus: opensx70-com
 enable_retina: false
-permalink: :title
+permalink: /:title
 nav_list:
   Home : ['Home', '/', 'fa-camera']
   #Home_Alt : ['Home Alt', '/home-alt', 'fa-home']
