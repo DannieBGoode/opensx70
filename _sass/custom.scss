@@ -73,14 +73,14 @@ p img {
   font-size: 16px;
   padding-top: 100px;
   display: flex;
-  // flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   label {
-    padding-right: 20px;
+    padding-bottom: 20px;
   }
   input {
-    margin-right: 10px;
+    margin-bottom: 10px;
   }
   input.error {
     border: 1px solid red;
