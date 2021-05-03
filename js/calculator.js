@@ -39,16 +39,16 @@ function calculateSerialNumber() {
 		"M": "December"
 	}
 	let YearBase = {
-		"2": "1972",	
-		"3": "1973",	
+		"2": "1972",
+		"3": "1973",
 		"4": "1974",
-		"5": "1975",	
-		"6": "1976",	
-		"7": "1977",	
-		"8": "1978",	
-		"9": "1979",	
-		"0": "1980",	
-		"1": "1981",	
+		"5": "1975",
+		"6": "1976",
+		"7": "1977",
+		"8": "1978",
+		"9": "1979",
+		"0": "1980",
+		"1": "1981",
 		"x2": "1982", // If configuration number > 4
 		"x3": "1983", // If configuration number > 4
 		"x4": "1984", // If configuration number > 4
@@ -58,12 +58,14 @@ function calculateSerialNumber() {
 	let ModelBase = {
 		"0": "Model 1 or Alpha 1 Plated",
 		"1": "Model 1 or Alpha 1",
-		"2": "Model 2, SE, Sears, Alpha 2 unPlated"
+		"2": "Model 2, SE, Sears, Alpha 2 unPlated",
+		"4": "Sonar",
+		"6": "SLR680"
 	}
 	let configuration = configurationBase[configNumber];
 	let Month = MonthBase[MonthNumber];
 	let YearNumber;
-	if ((parseInt(configNumber) <= 4) && (parseInt(configNumber) >= 0) || configNumber === "F" || configNumber === "") {
+	if ( ((parseInt(configNumber) <= 4) && (parseInt(configNumber) >= 0) || configNumber === "F" || configNumber === "") || (serialNumber[2] === "1") || ((serialNumber[2] <= "1") || (serialNumber[2] >= "7")) ) {
 		YearNumber = serialNumber[2]
 	} else {
 		YearNumber = "x" + serialNumber[2];
