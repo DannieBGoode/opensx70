@@ -79,16 +79,26 @@ function calculateSerialNumber() {
 		error = true;
 	}
 
+	let Day;
+	if (parseInt(ShiftNumber) % 3 === 0) {
+		Day = parseInt(ShiftNumber) / 3;
+	} else if ((parseInt(ShiftNumber) + 1) % 3 === 0) {
+		Day = (parseInt(ShiftNumber) + 1) / 3;
+	} else if ((parseInt(ShiftNumber) + 2) % 3 === 0) {
+		Day = (parseInt(ShiftNumber) + 2) / 3;
+	} else {
+		error = true;
+	}
 
 	document.querySelector(".serial-number-value").textContent = serialNumber;
 	document.querySelector(".config-value").textContent = configuration;
-	document.querySelector(".birthday-value").textContent = Month + ", " + Year;
+	document.querySelector(".birthday-value").textContent = Day + " " + Month + ", " + Year;
 	document.querySelector(".model-value").textContent = Model;
 	document.querySelector(".camera-number-value").textContent = CameraNumber;
-	document.querySelector(".shift-number-value").textContent = ShiftNumber
+	document.querySelector(".shift-number-value").textContent = ShiftNumber;
 
 	if (error === true) {
-		document.querySelector(".calculator input").classList.add("error")
+		document.querySelector(".calculator input").classList.add("error");
 	} else {
 		document.querySelector(".calculator-results").style.display = "block";
 	}
