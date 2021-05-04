@@ -14,7 +14,8 @@
     {% if enable_retina %}
     <script type='application/javascript' src='{{ "/js/vendor/retina.min.js" | prepend: site.baseurl }}'></script>
     {% endif %}
-    <script src=' {{ "/js/main.js" | prepend: site.baseurl }}'></script>
+    {% assign cache = {{site.time | date: '%s%N'}} %}
+    <script src=' {{ "/js/main.js" | prepend: site.baseurl | append: cache }}'></script>
 
     {% include analytics.html %}
     
