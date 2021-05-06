@@ -17,7 +17,11 @@ description: Matt Widmann's serial number article.
 ---
 ![Fire image]({{site.url}}/{{site.baseurl}}img/2021/05/serial.jpg)
 
-Note: this is a "reprint" of the blog entry posted by the legendary [Matt Widmann on November 11th 2017](http://2ndshotsx70.blogspot.com/2017/11/crack-that-manufacturing-code-math-time.html). I have Matts express permision to repost this.
+Note: this is a "reprint" of the blog entry posted by the legendary [Matt Widmann on November 11th 2017](http://2ndshotsx70.blogspot.com/2017/11/crack-that-manufacturing-code-math-time.html). 
+
+This to celebrate that we now have the most accurate [SX70 serial calculator](https://opensx70.com/calculator/) on the web.
+
+I have Matts express permision to repost this.
 
 But please keep in mind that we have already cracked the code for you. I have a [serial number calculator on my website](https://opensx70.com/calculator/). This is an ongoing project that will be continually improved. 
 If you have any information about this or, for that matter, anything concerning SX70, please contact me.
