@@ -5,6 +5,12 @@ function calculateSerialNumber() {
 	let error = false;
 
 	let serialNumber = document.querySelector("#calculator-input").value;
+
+	if (((serialNumber[9] > "A") && (serialNumber[9] < "Z")) && ((serialNumber[10] > "A") && (serialNumber[10] < "Z"))) {
+		let x = 4;
+		serialNumber = [serialNumber.slice(0,4), "00", serialNumber.slice(x)].join('');
+	}
+
 	let configNumber = serialNumber[0];
 	let MonthNumber = serialNumber[1];
 	let ModelNumber = serialNumber[3];
@@ -13,6 +19,7 @@ function calculateSerialNumber() {
 
 	let configurationBase =  {
 		"": "nothing - Non-Hybrid",
+		"X": "Unknown, probably a TI Ceramic",
 		"F": "Fairchild	",
 		"0": "hybrid	\"Q\" shutter",
 		"1": "delta hybrid",
@@ -59,6 +66,7 @@ function calculateSerialNumber() {
 		"0": "Model 1 or Alpha 1 Plated",
 		"1": "Model 1 or Alpha 1",
 		"2": "Model 2, SE, Sears, Alpha 2 unPlated",
+		"3": "Model 3",
 		"4": "Sonar",
 		"6": "SLR680"
 	}
@@ -94,7 +102,7 @@ function calculateSerialNumber() {
 		error = true;
 	}
 
-	document.querySelector(".serial-number-value").textContent = serialNumber;
+	document.querySelector(".serial-number-value").textContent = document.querySelector("#calculator-input").value;
 	document.querySelector(".config-value").textContent = configuration;
 	document.querySelector(".birthday-value").textContent = Month + " " + Day + ", " + Year;
 	document.querySelector(".model-value").textContent = Model;
