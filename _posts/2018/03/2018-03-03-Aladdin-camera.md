@@ -12,7 +12,7 @@ published: true
 show_related_posts: 'true'
 title: Aladdin ready to fly!
 feature_image: SX70_images/openSX70-cameraporn-2
-permalink: /posts/2018/02/aladdin-demo
+permalink: /posts/2018/02/aladdin-demo2
 description: 'ALADDIN CAMERA'
 ---
 {% include video id="K0BoFDWtoEE" provider="youtube" class="full"%}

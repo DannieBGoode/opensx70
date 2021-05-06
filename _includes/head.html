@@ -10,7 +10,9 @@
 
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    {% assign cache = {{site.time | date: '%s%N'}} %}
+
+    <link rel="stylesheet" href="{{ "/css/main.css?" | prepend: site.baseurl | append: cache }}">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -19,3 +21,4 @@
         <script src="{{ "/js/vendor/html5shiv.min.js" | prepend: site.baseurl }}"></script>
     <![endif]-->
 </head>
+

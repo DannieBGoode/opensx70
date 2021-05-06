@@ -17,6 +17,7 @@ nav_list:
   Tutorials : ['Tutorials', '/tutorials', 'fa-wrench']
   #Home_Alt_2 : ['Tutorials', '/tutorials', 'fa-wrench']
   Links : ['Links', '/links', 'fa-external-link-square']
+  Calculator : ['Serial Calculator', '/calculator', 'fa-calculator']
   Press : ['Press', '/press', 'fa-newspaper-o']
   Files : ['Files', '/files', 'fa-files-o']
   Gallery : ['Gallery', 'https://adobe.ly/2tofFOf', 'fa-photo', 'blank']
