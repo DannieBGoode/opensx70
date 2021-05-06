@@ -73,7 +73,7 @@ function calculateSerialNumber() {
 	let configuration = configurationBase[configNumber];
 	let Month = MonthBase[MonthNumber];
 	let YearNumber;
-	if ( ((parseInt(configNumber) <= 4) && (parseInt(configNumber) >= 0) || configNumber === "F" || configNumber === "") || (serialNumber[2] === "1") || ((serialNumber[2] <= "1") || (serialNumber[2] >= "7")) ) {
+	if ( ((parseInt(configNumber) <= 4) && (parseInt(configNumber) >= 0) || configNumber === "X" || configNumber === "F" || configNumber === "") || (serialNumber[2] === "1") || ((serialNumber[2] <= "1") || (serialNumber[2] >= "7")) ) {
 		YearNumber = serialNumber[2]
 	} else {
 		YearNumber = "x" + serialNumber[2];
