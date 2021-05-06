@@ -15,6 +15,8 @@ feature_image: SX70_images/openSX70-cameraporn-22
 permalink: /posts/2021/05/code
 description: Matt Widmann's serial number article.
 ---
+![Fire image]({{site.url}}/{{site.baseurl}}img/2021/05/serial.jpg)
+
 Note: this is a "reprint" of the blog entry posted by the legendary [Matt Widmann on November 11th 2017](http://2ndshotsx70.blogspot.com/2017/11/crack-that-manufacturing-code-math-time.html). I have Matts express permision to repost this.
 
 But please keep in mind that we have already cracked the code for you. I have a [serial number calculator on my website](https://opensx70.com/calculator/). This is an ongoing project that will be continually improved. 
@@ -22,7 +24,7 @@ If you have any information about this or, for that matter, anything concerning 
 
 Here's the post:
 
-Crack That Code - Math Time!
+# Crack That Code - Math Time!
 
 I suck at math so I went to art school... That wasn't the only reason but it was right up there on my top 10 list. With that said, I've found I do need to use simple arithmetic on a daily basis in most cases but my way of dealing with numbers is very primitive and sloppy. So this is a disclaimer for the math wizards that there is most likely an easier way of coming up with some of the numbers I'll be explaining below. Feel free to chime in with any comments but be ever so gentle.
 
