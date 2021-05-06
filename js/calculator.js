@@ -6,7 +6,7 @@ function calculateSerialNumber() {
 
 	let serialNumber = document.querySelector("#calculator-input").value;
 
-	if (((serialNumber[9] > "A") && (serialNumber[9] < "Z")) && ((serialNumber[10] > "A") && (serialNumber[10] < "Z"))) {
+	if (((serialNumber[9] >= "A") && (serialNumber[9] <= "Z")) && ((serialNumber[10] >= "A") && (serialNumber[10] <= "Z"))) {
 		let x = 4;
 		serialNumber = [serialNumber.slice(0,4), "00", serialNumber.slice(x)].join('');
 	}
