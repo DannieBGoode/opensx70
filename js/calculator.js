@@ -6,6 +6,10 @@ function calculateSerialNumber() {
 
 	let serialNumber = document.querySelector("#calculator-input").value;
 
+	if (serialNumber.length === 10) {
+		serialNumber = "Z" + serialNumber;
+	}
+
 	if (((serialNumber[9] >= "A") && (serialNumber[9] <= "Z")) && ((serialNumber[10] >= "A") && (serialNumber[10] <= "Z"))) {
 		let x = 4;
 		serialNumber = [serialNumber.slice(0,4), "00", serialNumber.slice(x)].join('');
@@ -20,8 +24,9 @@ function calculateSerialNumber() {
 	let configurationBase =  {
 		"": "nothing - Non-Hybrid",
 		"X": "Unknown, probably a TI Ceramic",
+		"Z": "Unknown",
 		"F": "Fairchild	",
-		"0": "hybrid	\"Q\" shutter",
+		"0": "hybrid \"Q\" shutter",
 		"1": "delta hybrid",
 		"2": "6th flash inhibit	",
 		"3": "Alpha 2 electronics - Alpha production focus wheel",
@@ -72,12 +77,14 @@ function calculateSerialNumber() {
 	}
 	let configuration = configurationBase[configNumber];
 	let Month = MonthBase[MonthNumber];
-	let YearNumber;
-	if ( ((parseInt(configNumber) <= 4) && (parseInt(configNumber) >= 0) || configNumber === "X" || configNumber === "F" || configNumber === "") || (serialNumber[2] === "1") || ((serialNumber[2] <= "1") || (serialNumber[2] >= "7")) ) {
-		YearNumber = serialNumber[2]
-	} else {
+	let YearNumber = serialNumber[2];
+
+	// if config > 4 then camera is from the 80s
+
+	if ((parseInt(configNumber) > 4) && (parseInt(configNumber) <= 99) && (parseInt(YearNumber) >= 2) && (parseInt(YearNumber) <= 6) ) {
 		YearNumber = "x" + serialNumber[2];
 	}
+
 	let Year = YearBase[YearNumber];
 	let Model = ModelBase[ModelNumber];
 
