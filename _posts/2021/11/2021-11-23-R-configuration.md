@@ -19,14 +19,14 @@ description: SX70 mystery the shutter R configuration
 
 
 You might remember it, it was the biggest story from April 2010, a kid, Brian Hogan had found an iPhone4 in a bar in Redwood City California. 
-Problem is iPhone4 didn't yet exist as such: it was a prototype.
+Problem is the iPhone4 didn't yet exist as such yet: it was a prototype.
 
 
 
-Brian says he called Apple trying to report the phone, true or not, the fact is that he sold the phone to [Gizmodo](https://www.gizmodo.com/) for 5000 dollars.
+Brian said he called Apple trying to report the phone, true or not, the fact is that he sold the phone to [Gizmodo](https://www.gizmodo.com/) for 5000 dollars.
 
 
-Now let's go back to September 8th 1975. (You can see the original bullentin at the end)
+Now let's look back to September 8th 1975. (You can see the original bullentin at the end)
 
 > **PRODUCT ALERT**
 > 
@@ -51,13 +51,13 @@ Now let's go back to September 8th 1975. (You can see the original bullentin at 
 > 
 > *Specifications for the R shutter differ from all other SX-70 shutters.*
 
-But we already know how the [shutter](https://opensx70.com/posts/2018/11/sx70-shutter) works. The inefficient shutter as was called had a changing aperture, and was the work of the late Dr.Baker and [Dr. Plummer](https://www.wtpoptics.com/about.html). It has the characteristics teardrop shape in one way or another...
+But I've already shown you how the [shutter](https://opensx70.com/posts/2018/11/sx70-shutter) works. The inefficient shutter, as was called, had a changing aperture, and was the work of the late Dr.Baker and [Dr. Plummer](https://www.wtpoptics.com/about.html). It has the characteristic teardrop shape in one way or another...
 
-So the question is: what is this "R configuration" why do they want the R configuration shutters so badly?
+So the question is: what is this "R configuration" and why do they want the R configuration shutters back so badly?
 
-Aside asking Ted Liszewski we can only speculate, but I think they are lost prototypes, probably given to employees.
+Aside from asking Ted Liszewski we can only speculate, but I think they must be lost prototypes, probably given to employees.
 
-So here's my plea, if you have any information about the R Configuration or have a camera with that configuration, please contact me. Also any documentation would be welcome.
+So here's my plea, if you have any information about the R Configuration or have a camera with that configuration, please contact me. Also, any related documentation would be very welcome.
 
 Here's the original document:
 ---------------------
