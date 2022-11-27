@@ -10,11 +10,12 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
+    media_folder: 'img/{{year}}'
+    path: '{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
     nested:
       depth: 100 # max depth to show in the collection tree
       summary: '{{title}}'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
