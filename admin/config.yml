@@ -9,7 +9,10 @@ media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: '_posts/*'
+    folder: '_posts/'
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
