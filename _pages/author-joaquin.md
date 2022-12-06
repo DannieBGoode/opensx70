@@ -1,6 +1,5 @@
 ---
 layout: author
-title: Author
 permalink: author/joaquin/
 feature_image: feature-sea
 author_avatar: joaquin2
