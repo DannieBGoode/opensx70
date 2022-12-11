@@ -44,13 +44,15 @@ A proper restoration of course fixes your camera, makes it whole, but also tries
 
 This is the question, you want to keep it “as original as possible” or you want a camera that LOOKS original but with some modern stuff inside so you know that works better and opens new creative options. I choose the second, but with a few caveats, in any case, if you choose the first option, let me give you a piece of advice: steer away from Fairchild ECMs.
 
-tools of the trade
+## tools of the trade
+
 Polaroid designed quite a few custom tools for the SX70. Some are ubiquitous like the 1mm square screwdriver, to the hard to find like the custom pliers to the legendary, such as comprehensive tester B. 
 Most folks with tools usually have a limited set. Those that have survived to present day are probably a combination of the most practical and the most resilient. 
 We could probably off the bat differentiate those shops that have original tools or replicas and those that don’t.
 Is it that important? My personal opinion is that these are nice to have but not essential. I can remember how Matt Widmann basically started a revolution in the art of refurbishment and customization without any of the original tools. He has created a trend, and SX70 repairs will never be the same.
 
-options
+## options
+
 There’s quite a few options these days, one could even say that the scene is a bit overcrowded. But that is good, and gives the public more options and styles.
 There’s the techs that we can call Polaroid trained, and those that have self taught the art of repairs.
 Also some are trying to “industrialize” the process to very high standards, and those that are just enthusiasts that love what they do. They work for the love of the game.
