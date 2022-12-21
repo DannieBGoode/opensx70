@@ -10,7 +10,7 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
-    media_folder: 'img/{{year}}'
+    media_folder: '/img/{{year}}'
     path: '{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
     nested:
       depth: 100 # max depth to show in the collection tree
@@ -20,6 +20,7 @@ collections:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
       - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: 'true' }
       - { label: 'Author Name', name: 'author_name', widget: 'hidden', default: 'Joaquín de Prada' }
       - { label: 'Author Image', name: 'author_url', widget: 'hidden', default: '/author/joaquin' }
