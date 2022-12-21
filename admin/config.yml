@@ -33,7 +33,7 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Header Image', name: 'feature_image', widget: 'image' }
-      - { label: 'Categories', name: 'categories', widget: 'list', required: false }
+      - { label: 'Categories', name: 'categories', widget: 'list', required: false, default: 'openSX70' }
       - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, hint: 'if empty this URL will be auto-generated.' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'tutorials'
