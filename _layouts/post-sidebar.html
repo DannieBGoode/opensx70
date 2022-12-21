@@ -32,7 +32,13 @@ layout: default
                 </div>
 
                 <div class="sidebar-readtime">
-                    <i class="fa fa-bookmark"></i> {{ page.read_time }} minute read
+                {% assign words = page.content | strip_html | number_of_words %}
+                {% if words < 360 %}
+                    {% assign readTime = '1 minute' %}
+                {% else %}
+                    {% assign readTime = words | divided_by:180 | append: 'minutes' %}
+                {% endif %}
+                    <i class="fa fa-bookmark"></i> {{ readTime }} read
                 </div>
 
             </div>

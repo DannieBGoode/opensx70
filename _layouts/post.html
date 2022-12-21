@@ -23,7 +23,13 @@ layout: default
     <div class="row">
         <div class="col-xs-12 single-content">
             <p class="meta">
-                <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ page.read_time }} minutes
+                {% assign words = page.content | strip_html | number_of_words %}
+                {% if words < 360 %}
+                    {% assign readTime = '1 minute' %}
+                {% else %}
+                    {% assign readTime = words | divided_by:180 | append: 'minutes' %}
+                {% endif %}
+                <a href="{{ page.author_url | prepend: site.baseurl }}">{{ page.author_name | capitalize}}</a> in <a href='{{ "/category/" | append: page.categories.first | prepend: site.baseurl }}'>{{ page.categories[0] | capitalize }}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ readTime }}
             </p>
 
             <h1>{{ page.title }}</h1>

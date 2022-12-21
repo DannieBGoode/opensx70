@@ -24,7 +24,13 @@ layout: with-sidebar
                 <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name }}</a> 
                 in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a> 
                 <i class="link-spacer"></i> 
-                <i class="fa fa-bookmark"></i> {{ post.read_time }} minutes
+                {% assign words = post.content | strip_html | number_of_words %}
+                {% if words < 360 %}
+                    {% assign readTime = '1 minute' %}
+                {% else %}
+                    {% assign readTime = words | divided_by:180 | append: 'minutes' %}
+                {% endif %}
+                <i class="fa fa-bookmark"></i> {{ readTime }}
             </p>
         </div>
 

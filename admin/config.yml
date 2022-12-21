@@ -28,7 +28,7 @@ collections:
       - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
       - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
       - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
-      - { label: 'Read Time', name: 'read_time', widget: 'number', value_type: "int", hint: 'Estimated time to read this article', default: '5' }
+      - { label: 'Read Time', name: 'read_time', widget: 'hidden', value_type: "int", hint: 'Estimated time to read this article', default: '5' }
       - { label: 'Date', name: 'date', widget: 'datetime' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string' }
