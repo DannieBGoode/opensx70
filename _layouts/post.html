@@ -2,7 +2,14 @@
 layout: default
 ---
 
-<header class="hero-image" style="background-image: url({{ site.baseurl }}/img/{{page.feature_image}}.jpg);">
+{% if page.netlifycms %}
+    {% assign displayImage = site.baseurl | append: page.feature_image %}
+    {{displayImage}}
+{% else %}
+    {% assign displayImage = site.baseurl | append: "/img/" | append: page.feature_image | append: ".jpg" %}
+{% endif %}
+
+<header class="hero-image" style="background-image: url('{{displayImage}}');">
     <span class="menu-trigger animated fadeInDown">
         <span class="bar"></span>
         <span class="bar"></span>

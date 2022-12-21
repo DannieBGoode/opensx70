@@ -10,7 +10,7 @@
 
     <link rel="shortcut icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
 
-    {% assign cache = {{site.time | date: '%s%N'}} %}
+    {% assign cache = site.time | date: '%s%N' %}
 
     <link rel="stylesheet" href="{{ "/css/main.css?" | prepend: site.baseurl | append: cache }}">
 
