@@ -25,6 +25,7 @@ collections:
       - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: true }
       - { label: 'Author Name', name: 'author_name', widget: 'hidden', default: 'Joaquín de Prada' }
       - { label: 'Author Image', name: 'author_url', widget: 'hidden', default: '/author/joaquin' }
+      - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
       - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
       - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
       - { label: 'Read Time', name: 'read_time', widget: 'number', value_type: "int", hint: 'Estimated time to read this article', default: '5' }

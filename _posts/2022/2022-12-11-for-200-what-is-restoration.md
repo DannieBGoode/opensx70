@@ -4,6 +4,7 @@ netlifycms: true
 show_avatar: true
 author_name: Joaquín de Prada
 author_url: /author/joaquin
+author_avatar: joaquin
 comments: "true"
 show_related_posts: "true"
 read_time: "5"
