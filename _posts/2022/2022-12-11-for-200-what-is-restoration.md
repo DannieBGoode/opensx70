@@ -1,7 +1,7 @@
 ---
 layout: post
 netlifycms: true
-show_avatar: "true"
+show_avatar: true
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 comments: "true"
