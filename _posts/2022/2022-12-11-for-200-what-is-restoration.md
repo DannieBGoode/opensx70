@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 netlifycms: true
 show_avatar: true
@@ -15,9 +15,11 @@ description: the camera restoration game
 feature_image: img/2022/opensx70-cameraporn-31.jpg
 permalink: refurb
 ---
+![](/img/2022/ecm-carpeta.jpg)
+
 I have been struggling with this one lately. You know, and it’s true, that I always say that I am terrible at repairs, and, I have to say because people assume I should be, but it’s like saying that a person that knows all the medical theory can perform an operation off the bat. Believe me: I have killed so many (metaphorical) patients.
 
-![](/img/2022/ecm-carpeta.jpg)
+![]()
 
 ![](img/2022/focus-wheels-4.jpg "SX70 focus wheel")
 
