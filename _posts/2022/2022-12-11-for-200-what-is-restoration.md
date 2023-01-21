@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 netlifycms: true
 show_avatar: true
