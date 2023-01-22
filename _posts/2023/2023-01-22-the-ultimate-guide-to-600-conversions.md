@@ -1,13 +1,14 @@
 ---
-published: false
+published: true
 layout: post
 netlifycms: true
 show_avatar: true
-author_name: Jake
-author_url: /author/guest
-author_avatar: guest
+author_name: Joaquín de Prada
+author_url: /author/joaquin
+author_avatar: joaquin
 comments: true
 show_related_posts: true
+read_time: "5"
 date: 2023-01-21T18:53:30.556Z
 title: The Ultimate Guide to 600 conversions.
 description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera guy.
@@ -155,20 +156,15 @@ Of the three types of TI PCB found in SX-70 cameras, many subtypes were made, us
 Early models with the clear-yellow insulation:\
 
 * blue and red = 600pf 
-
-\- blue and yellow = 700pf 
-
-\- blue and green = 800pf
-
-\- turquoise = 700 to 800pf
-
-\- large black chunky rectangular capacitors = 700pf
+* blue and yellow = 700pf 
+*  blue and green = 800pf
+*  turquoise = 700 to 800pf
+*  large black chunky rectangular capacitors = 700pf
 
 Later models with black acrylic insulation are:
 
-\- small black capacitors = 800pf (found on later gen cameras, model 2)
-
-\- small black tube-shaped = 1000pf (typically alpha/sonar)
+* small black capacitors = 800pf (found on later gen cameras, model 2)
+* small black tube-shaped = 1000pf (typically alpha/sonar)
 
 I’ve measured many SX-70 PCBs and so far they were all one of the 4 measurements above; 600pf, 700pf, 800pf or 1000pf (+/- 10%)
 
