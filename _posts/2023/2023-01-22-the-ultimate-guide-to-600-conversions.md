@@ -3,12 +3,11 @@ published: false
 layout: post
 netlifycms: true
 show_avatar: true
-author_name: Joaquín de Prada
-author_url: /author/joaquin
-author_avatar: joaquin
+author_name: Jake
+author_url: /author/guest
+author_avatar: guest
 comments: true
 show_related_posts: true
-read_time: "5"
 date: 2023-01-21T18:53:30.556Z
 title: The Ultimate Guide to 600 conversions.
 description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera guy.
