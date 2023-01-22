@@ -4,15 +4,15 @@ layout: post
 netlifycms: true
 show_avatar: true
 author_name: Joaquín de Prada
-author_url: /author/joaquin
 author_avatar: joaquin
+author_url: /author/guest
 comments: true
 show_related_posts: true
-read_time: "5"
 date: 2023-01-21T18:53:30.556Z
 title: The Ultimate Guide to 600 conversions.
 description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera guy.
 feature_image: /img/2023/41b5f255-f33d-4bbb-b2dd-99dd63b081f5_1_201_a.jpeg
+read_time: "5"
 categories: openSX70
 ---
 The Ultimate Guide to 600 conversions.
