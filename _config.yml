@@ -24,11 +24,11 @@ nav_list:
   Author : ['Author', '/author/joaquin', 'fa-user']
   Donate : ['Donate', 'https://paypal.me/opensx70', 'fa-paypal', 'blank']
 
-single_footer: '<p>Welcome to the openSX70 community &copy; 2018 <a href="/">latest posts</a></p>'
+single_footer: '<p>Welcome to the openSX70 community &copy; 2023 <a href="/">latest posts</a></p>'
 footer_links:
     About: ['About', '/about']
 #    Writer: ['Writer 2016', '/about']
-    Writer: ['openSX70 2018', '/about']
+    Writer: ['openSX70 2023', '/about']
 
 analytics:
   google                 : "UA-126751298-1"
