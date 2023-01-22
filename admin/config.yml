@@ -23,9 +23,10 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
       - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: true }
-      - { label: 'Author Name', name: 'author_name', widget: 'hidden', default: 'Joaquín de Prada' }
-      - { label: 'Author Image', name: 'author_url', widget: 'hidden', default: '/author/joaquin' }
-      - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
+      - { label: 'Author Name', name: 'author_name', widget: 'string', default: 'Joaquín de Prada' }
+      - { label: 'Author Image', name: 'author_url', widget: 'string', default: '/author/joaquin' }
+      - { label: 'Author Avatar', name: 'author_avatar', widget: 'image', default: 'joaquin' }
+      # - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
       - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
       - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
       - { label: 'Read Time', name: 'read_time', widget: 'hidden', value_type: "int", hint: 'Estimated time to read this article', default: '5' }
