@@ -24,8 +24,9 @@ collections:
       - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
       - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: true }
       - { label: 'Author Name', name: 'author_name', widget: 'string', default: 'Joaquín de Prada' }
-      - { label: 'Author Image', name: 'author_url', widget: 'string', default: '/author/joaquin' }
-      - { label: 'Author Avatar', name: 'author_avatar', widget: 'image', default: 'joaquin' }
+      # - { label: 'Author URL', name: 'author_url', widget: 'select', default: '/author/joaquin' }
+      - { label: 'Author Avatar', name: 'author_avatar', widget: 'select', options: ["joaquin", "guest"], default: 'joaquin' }
+      - { label: 'Author URL', name: 'author_url', widget: 'select', options: ["/author/joaquin", "/author/guest"], hint: 'Author URL inside OpenSX70.com' }
       # - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
       - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
       - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
