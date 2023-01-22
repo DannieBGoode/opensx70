@@ -55,7 +55,7 @@ I’ve spent the last few months experimenting, documenting and I want to share 
 
 If you want to understand how to convert a camera to 600 film it’s important to know how the shutter works. The shutter in an SX-70 is an incredibly unique design. In the official repair documentation, Polaroid stated the following:
 
-The shutter employed in the SX-70 camera is unique. No direct comparisons should be drawn between the manner in which it functions and the function of other Polaroid electronic shutters. No manually adjustable or fixed aperture is employed. When a picture is taken, two shutter blades, with specially shaped cutouts, open the lens from a totally closed position to a suitable aperture. The two blades then reverse direction and again shut off the optical path. These same two blades also contain a similar (although differently shaped) pair of cutouts that open and close the light path to the photocell in a similar manner.
+> *The shutter employed in the SX-70 camera is unique. No direct comparisons should be drawn between the manner in which it functions and the function of other Polaroid electronic shutters. No manually adjustable or fixed aperture is employed. When a picture is taken, two shutter blades, with specially shaped cutouts, open the lens from a totally closed position to a suitable aperture. The two blades then reverse direction and again shut off the optical path. These same two blades also contain a similar (although differently shaped) pair of cutouts that open and close the light path to the photocell in a similar manner.*
 
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
@@ -87,7 +87,7 @@ Higher value capacitor =  greater exposure value (ie shutter opens longer and m
 
 Smaller value capacitor = smaller exposure value (ie shutter opens for less time and less light is allowed in to film chamber)
 
-Thus, altering the value of the capacitor and/or resistor will affect the exposure value for the camera.
+**Thus, altering the value of the capacitor and/or resistor will affect the exposure value for the camera.**
 
 ## Chapter 2) General theory on conversion from SX-70 to 600 film. 
 
