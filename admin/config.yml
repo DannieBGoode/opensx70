@@ -26,7 +26,7 @@ collections:
       - { label: 'Author Name', name: 'author_name', widget: 'string', default: 'Joaquín de Prada' }
       # - { label: 'Author URL', name: 'author_url', widget: 'select', default: '/author/joaquin' }
       - { label: 'Author Avatar', name: 'author_avatar', widget: 'select', options: ["joaquin", "guest"], default: 'joaquin' }
-      - { label: 'Author URL', name: 'author_url', widget: 'select', options: ["/author/joaquin", "/author/guest"], hint: 'Author URL inside OpenSX70.com' }
+      - { label: 'Author URL', name: 'author_url', widget: 'select', options: ["/author/joaquin", "/author/guest"], hint: 'Author URL inside OpenSX70.com', default: '/author/joaquin' }
       # - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
       - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
       - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
