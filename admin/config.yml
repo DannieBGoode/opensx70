@@ -1,6 +1,6 @@
 # config.yml
 
-display_url: https://opensx70.netlify.app
+display_url: https://opensx70.com
 locale: 'en'
 backend:
   name: git-gateway
