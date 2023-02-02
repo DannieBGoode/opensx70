@@ -60,6 +60,10 @@ If you want to understand how to convert a camera to 600 film it’s important t
 
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
+![](/img/2023/sx70_aperture.jpg)
+
+![]()
+
 Unlike conventional cameras that have a separate aperture and shutter assembly, the aperture value and shutter speed in the SX-70 are COMBINED and continuously variable throughout any given exposure. Depending on how far the blades slide past each other, the opening for light to pass through may be very tiny (a small rectangular pinhole) or it may be very large (a circular opening with a maximum aperture of f8) or somewhere in between (a sort of diamond shape). Similarly, the opening for the electric eye varies too, depending on the distance of blade travel. It may form a tiny pinhole, a cross-shape or a rectangular slit. 
 
 The blades are able to move during an exposure through use of a solenoid. A solenoid is a type of electromagnet. This solenoid produces a plunging movement when electricity is passed through it. Simply provide power to the magnet and the plunger is pulled inwards into its housing. The solenoid plunger is spring loaded, so that when power to the magnet is cut, the plunger springs back into its original position. This plunger connects to a little arm which attaches to the blades and slides the blades past each other until. Power the magnet and the opening closes. Cut power and it opens up again.
@@ -175,6 +179,8 @@ I’ve measured many SX-70 PCBs and so far they were all one of the 5 values abo
 
 So if we use the previously described theory of replacing the capacitor with one a quarter of the value, we get values of roughly 150pf, 180pf, 200pf , 250pf and 300pf respectively. 
 
+![](/img/2023/ceramic-ecm-r-top.jpg "Early ceramic TI PCBs with laser-trimmed resistors.")
+
 \
 In THEORY this would mean that if your camera originally had an 800pf capacitor installed, a replacement of 200pf should allow the use of 600 film. 
 
@@ -214,8 +220,10 @@ Ultimately the only way to ensure your camera exposes things 100% correct is wit
 
 ## Chapter 4) Fairchild PCBs.
 
-Fairchild PCBs are found in early generation SX-70 cameras. The history behind the competition between Fairchild and Texas Instruments is a fascinating one, and one that Joaquin has documented well on this blog. Effectively, both manufacturers were tasked with the job of manufacturing the ‘brains’ for the SX-70, at the cheapest possible price point. To do this, Fairchild opted to forgo the use of silicon chips in favor of acrylic-blobs-on-tape instead.\
-![](https://lh5.googleusercontent.com/0hfdzqfzaZe2dRRO08stPOSsYfR7gj9tnV3_wCC9bemjvwwJnZIryVotPjLd-WQwxfdCL0gYC7BTk8wHo58XR5RxxkRErGMzliuH6Ynsd8IWDaYxqQmkbpRvvCnKgCe1jKjXH8AtQWBD)\
+Fairchild PCBs are found in early generation SX-70 cameras. The history behind the competition between Fairchild and Texas Instruments is a fascinating one, and one that Joaquin has documented well on this blog. Effectively, both manufacturers were tasked with the job of manufacturing the ‘brains’ for the SX-70, at the cheapest possible price point. To do this, Fairchild opted to forgo the use of silicon chips in favor of acrylic-blobs-on-tape instead.
+
+![](/img/2023/20210413_fvsti-edit-2.jpg "Fairchild ECM")
+
 Instead of silicon, the ‘chips’ are made up of a piece of brown plastic tape, with the components placed on top, with layer of epoxy holding them all together. This was certainly cost effective, but collective community experience over time shows that this process made Fairchild PCBs far less reliable than their competitor. Simply put, the ‘blobs on tape’ are nowhere near as robust as a silicon chip, making them prone to damaged internal and external traces due to flexing and/or oxidization. I’ve refurbished countless original SX-70 model 1s over the years and I would estimate that 98% of the Texas Instruments PCBs work totally fine (if not with a corroded electric eye). With Fairchild shutters, I’d estimate that only 85% of them that I come across are still working properly.
 
 With that said, when they work, they tend to work VERY well, and they do have the advantage of being far less prone to electric eye corrosion. 
@@ -226,6 +234,8 @@ The technique for Fairchild PCB modification has only just been discovered! I mu
 
 Arguably, this conversion is easier, because the component being replaced is surface mounted on the rear of the PCB, making it very easy to de-solder. There is no need to bend the PCB upwards to access the components.
 
+![](/img/2023/20210413_fvsti2.jpg)
+
 Effectively, to convert a Fairchild PCB, the resistor above the electric eye must be removed, and in its place installed one with around 1/4 the value. MOST Fairchild boards have a stock resistor value of roughly 2700ohms. This generally means a replacement value of around 680ohms. HOWEVER I have seen some rarer variants of these PCBs that use a 10k ohm resistor!\
 The original axial-legged resistors that Polaroid used are very small, and I actually had a hard time finding one that fit. For this reason I recommend not using an axial lead resistor, and using a surface-mount resistor instead. 
 
@@ -235,7 +245,7 @@ It would also theoretically possible to use a 1k ohm trim-pot or variable resist
 
 The procedure for testing the Fairchild 600 conversion is the same as the TI PCB. Test both indoors and outdoors to ensure exposure is perfect throughout different lighting scenarios. In theory you may need to trial several resistor values. Fortunately, re-soldering and changing resistors on these models is very simple!
 
-Chapter 5) Onestep SX-70s. 
+## Chapter 5) Onestep SX-70s. 
 
 If you have read this far into the article, you should now have a good idea of what it takes to convert an SLR model SX-70 to take 600 type film.
 
@@ -261,7 +271,7 @@ Remember that this 600 modification will NOT affect flash units such as the matc
 
 Alternatively, the Q-light can be modified by using some 2-stop ND filter material or ‘flash gel’ over the flash lens. I recently took apart and modified a Q-light flash-tube lens internally using this technique and it worked perfectly. 
 
-Chapter 6) Solenoid pneumatics
+## Chapter 6) Solenoid pneumatics
 
 Pneumatic adjustment of the solenoid was briefly mentioned in part 2 of this guide. Joaquin also has written a nice article going in-depth into the patent information of the pneumatic adjustment. 
 
