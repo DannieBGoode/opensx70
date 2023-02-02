@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 netlifycms: true
 show_avatar: true
@@ -60,7 +60,7 @@ If you want to understand how to convert a camera to 600 film it’s important t
 
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
-![](/img/2023/sx70_aperture.jpg)
+![]()
 
 ![]()
 
@@ -319,6 +319,8 @@ An EV of 13 would correspond to:
 * f22 at 1/15th
 
 What is the true answer? It is simultaneously ALL and NONE of the above. 
+
+![](/img/2023/sx70_aperture.jpg)
 
 When you see certain people brag that their modified SX-70 can do 1/2000th at f8… well… this isn’t really true. Aperture and shutter speed on the SX-70 are forever entangled. Two lovers destined to be together forever. Thus changing the effective ‘speed’ of an SX-70 must then affect the aperture in an equal way!
 
