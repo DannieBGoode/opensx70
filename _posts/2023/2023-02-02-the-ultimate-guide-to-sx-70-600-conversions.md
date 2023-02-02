@@ -83,7 +83,7 @@ Effectively the way the shutter cycle works as follows:
 
 The length of time that power is cut to the solenoid during the exposure/integration cycle is dictated by a capacitor/resistor (C/R) circuit. How exactly the C/R circuit works is a very complicated subject, so I will skip on the in-depth details here. 
 
-What you DO need to know though, is that should you remove a capacitor or resistor and replace it with one of a smaller value, the solenoid power will be cut for a shorter duration, effectively causing a shorter exposure time. A higher value replacement would have the opposite effect.
+What you **DO** need to know though, is that should you remove a capacitor or resistor and replace it with one of a smaller value, the solenoid power will be cut for a shorter duration, effectively causing a shorter exposure time. A higher value replacement would have the opposite effect.
 
 In a nutshell the effect of capacitors in this integration cycle circuit is:
 
@@ -104,38 +104,37 @@ Modification thus involves altering the electronics to produce a ‘faster’ ex
 
 BUT… it’s not that simple! 
 
-BEFORE we modify the electronics, we must ensure other aspects of the camera are working as optimally as possible. 
+**BEFORE** we modify the electronics, we must ensure other aspects of the camera are working as optimally as possible. 
 
 SX-70 cameras are pushing 50 years old already. That means there is potentially 50 years worth of dust, corrosion, oxidization, disuse and wear and tear. As a result, my experience has consistently shown me that SX-70 cameras tend to over-expose as a general rule. In addition to the capacitor/resistor circuit, there are MANY other factors affecting exposure that must be optimized if exposure is to be accurate. In no particular order some of these factors include:
 
 A)	Electric eye corrosion. Texas Instruments PCB electric eyes are notoriously prone to corrosion over time. What exactly causes this corrosion I am not 100% sure, but it causes a white crystalline substance to accumulate on top of and underneath the little blue infrared glass filter on the photocell. I find that photocell corrosion can affect the eye accuracy by around 1 stop if severe. 
-This build-up is easy to clean on the front but is much harder to clean on the rear. This is because to access the rear of the glass filter it must be removed from the eye. The glass is sealed in place into the silicon and is generally held in VERY tightly. 
+This build-up is easy to clean on the front but is much harder to clean on the rear. This is because to access the rear of the glass filter it must be removed from the eye. The glass is sealed in place into the silicon and is generally held in **VERY** tightly. 
+
+
 Occasionally, if the corrosion is bad enough, the filter glass may be pushed up and out the silicon entirely, making it easy to remove, clean and glue back in. However… if this hasn’t happened… you will need to cut or force the glass from the silicon. 
 Cutting the glass free of the silicon is risky, time consuming and requires additional cost and materials if the filter must be replaced. Ultimately one must decide for themselves if this effort and risk is worth it. Fortunately, you can compensate for severe corrosion by further reducing the required capacitor value.
 It should be noted that fortunately, Fairchild PCBs use a different kind of electric eye that seems much less subject to this corrosion. 
 
-
 B)	Oxidization of the anti-static layer on the shutter blades. This applies to early model cameras that have a matt-black 'painted' layer on the sides of the shutter blades that touch each other. Truly, I do not know what this painted layer really does. Polaroid technical documents refer to it as 'antistatic layer'. It seems this layer was initially created to reduce the possibility of friction from static electricity as the blades travel along each other. 
 Later cameras (Model 2 and onwards) tend not to use this painted layer at all, and Alpha and Sonar models use a white waxy dry-lube to reduce friction instead. 
 If left intact, the anti-static layer on early shutters can oxidize and scrape off over time. This causes the paint to accumulate and get sticky which will cause the blades to drag. Sticky blades can significantly affect exposure. Depending on when in the shutter cycle the blades stick, this could cause over OR under exposure
-C)	Corrosion/oxidization of the metal lens cell where the shutter blades enter. On earlier cameras with metal lens cells, the metal on the rear cell can oxidize over time, creating a rough surface for the blades to travel along, adding friction to the blade movement. If severe, the lens may need to be replaced, or the helicoid removed from the base cell and sanded back lightly. If not severe, I find that ‘coloring in’ the blade entrance with a pencil works incredibly well. The pencil adds a layer of graphite in the pitted metal that smoothes it out and acts like a dry lubricant. I refer to this as the ‘poor man’s Teflon’.
 
+
+C)	Corrosion/oxidization of the metal lens cell where the shutter blades enter. On earlier cameras with metal lens cells, the metal on the rear cell can oxidize over time, creating a rough surface for the blades to travel along, adding friction to the blade movement. If severe, the lens may need to be replaced, or the helicoid removed from the base cell and sanded back lightly. If not severe, I find that ‘coloring in’ the blade entrance with a pencil works incredibly well. The pencil adds a layer of graphite in the pitted metal that smoothes it out and acts like a dry lubricant. I refer to this as the ‘poor man’s Teflon’.
 
 D)	Bent shutter blades. Fortunately this is rare, but in the past I have seen blades that had a kink in them for some reason. Perhaps they were bent during a previous repair or it arrived that way from the factory. Bent and kinked blades cannot slide nicely past each other and will move more slowly. Broken guide posts can also cause blades to stick against the sides of the lens cell. Broken guide posts must be replaced. A 1mm screw will do the trick.
 
-
 E)	Non specific electrical gremlins caused by oxidization, corrosion and ‘silicon lottery’. General aging of the PCB can cause untold amounts of electrical gremlins. For example, oxidization of solder can cause formation of salts that add resistance to traces. Dry joints, cracked solder and damaged traces can all mess with the exposure times or cause other weird behaviors. Like wine, storage conditions can seriously affect how the board ‘ages’. Sometimes shutters can misbehave even if they appear to be in perfect condition. If you suspect a bad IC, try re-flow all the solder to its legs as a hail-Mary.
-
 
 F)	The tint of electric eye window. Earlier SX-70s have a frosted glass, clear translucent window that is generally paired with a Fairchild PCBs. Later models have a darker tinted plastic and are generally paired with Texas Instruments PCBs. The frosted one lets in around 1 stop more light than the later tinted ones according to my measurements. Be aware of this difference if you are swapping front shutter housings
 
-
 G)	The L/D wheel mechanism. The L/D wheel works by sliding a graduated filter over the electric eye entrance. This allows more or less light to the eye, altering exposure. Early model 1 cameras feature a different design to later models. This type of mechanism has a small hole in the graduated filter that lets slightly more light in than later versions. Be aware of this difference when swapping parts.
+
+
 H)	Dust/grime/oxidization of solenoid. The plunger can slow down over time with dust or grime and cause slowdown or sticking. Flush it with electrical cleaner if you suspect it is gummy
 
-
 I)	The pneumatic adjustment screw on the solenoid. The shutter solenoid has a calibration screw that allows for fine-tuning of the speed that the shutter blades travel. This screw is especially important for accurate exposures of brightly lit outdoor scenes. Adjusting this screw is a very complex topic and will get its own chapter later. Before changing any capacitors or resistors it is VERY important to make sure this solenoid screw is in its factory position. In all my testing, I’ve found that factory position of the screw on an SX-70 model is 2 and a half turns inwards from the screw head sitting flush with the body of the solenoid. It generally takes around 3.5 inwards to totally bottom out the screw. By 3 turns or more the blades will slow significantly. If you bottom it out, you have gone too far. 
-
 
 There are also outside factors that can affect exposure too, particularly due to the modern 'recipe' of developing chemicals used in the new batches of film. These have nothing to do with camera conversions, but are important to be aware of should you accidentally accuse your camera of having a fault! 
 
@@ -146,7 +145,7 @@ External factors affecting exposure include:
 
 So what does all this mean? Well, it means that although simple in theory, a proper 600 mod is not necessarily a simple job. 
 
-All of the above factors MUST be considered and/or rectified BEFORE conversion if the camera is going to stand a chance at functioning optimally. Even then, there is no guarantee the camera will work the same as when it came out of the factory floor. 
+All of the above factors **MUST** be considered and/or rectified BEFORE conversion if the camera is going to stand a chance at functioning optimally. Even then, there is no guarantee the camera will work the same as when it came out of the factory floor. 
 
 ## Chapter 3) Texas Instruments PCBs. 
 
@@ -229,7 +228,7 @@ Fairchild PCBs are found in early generation SX-70 cameras. The history behind t
 
 ![](/img/2023/20210413_fvsti-edit-2.jpg "Fairchild ECM")
 
-Instead of silicon, the ‘chips’ are made up of a piece of brown plastic tape, with the components placed on top, with layer of epoxy holding them all together. This was certainly cost effective, but collective community experience over time shows that this process made Fairchild PCBs far less reliable than their competitor. Simply put, the ‘blobs on tape’ are nowhere near as robust as a silicon chip, making them prone to damaged internal and external traces due to flexing and/or oxidization. I’ve refurbished countless original SX-70 model 1s over the years and I would estimate that 98% of the Texas Instruments PCBs work totally fine (if not with a corroded electric eye). With Fairchild shutters, I’d estimate that only 85% of them that I come across are still working properly.
+Instead of silicon, the ‘chips’ are made up of a piece of brown plastic tape, with the components placed on top, with layer of epoxy holding them all together. This was certainly cost effective, but collective community experience over time shows that this process made Fairchild PCBs far less reliable than their competitor. Simply put, the ‘blobs on tape’  are nowhere near as robust as a silicon chip, making them prone to damaged internal and external traces due to flexing and/or oxidization. I’ve refurbished countless original SX-70 model 1s over the years and I would estimate that 98% of the Texas Instruments PCBs work totally fine (if not with a corroded electric eye). With Fairchild shutters, I’d estimate that only 85% of them that I come across are still working properly.(COB, chip-on-board)
 
 With that said, when they work, they tend to work VERY well, and they do have the advantage of being far less prone to electric eye corrosion. 
 
