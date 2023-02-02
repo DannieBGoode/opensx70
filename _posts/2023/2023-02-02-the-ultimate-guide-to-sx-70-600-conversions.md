@@ -14,9 +14,9 @@ description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera g
 feature_image: /img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg
 categories: openSX70
 ---
-## Preface:
+## ![](https://lh6.googleusercontent.com/fRHt2GmZAGQbbVadp0qlq3pwSg9ql1NsX7GhCmq0X6A2VcPjDffDXSB0zmU1MqHVV-CvPSvVlUdWxjK6SEsJFp7e05UN2zaAGvwRLbh-FF5U28XoAfTT5K8wVlikOR5T_FrjgA4YM0QB)\
+Preface:
 
-![](https://lh6.googleusercontent.com/fRHt2GmZAGQbbVadp0qlq3pwSg9ql1NsX7GhCmq0X6A2VcPjDffDXSB0zmU1MqHVV-CvPSvVlUdWxjK6SEsJFp7e05UN2zaAGvwRLbh-FF5U28XoAfTT5K8wVlikOR5T_FrjgA4YM0QB)\
 Hello everyone. My name is Jake, but you likely know me better as[ “The Instant Camera Guy”](https://www.facebook.com/instantcameraguy). At the time of writing this article, I’ve been tinkering with Polaroid cameras for over 12 years. 
 
 ![](https://lh6.googleusercontent.com/ScVNbdZtcKBXiWevPPX7uEQXOzgqfvTQS4JN1kV7fxooJjzVrFx1RQVRshgGWYJKoAskQ-utR7gn_CbdB64QlkcP0D1Y7FzhdVJzsfm4rqY8ZAhocUKWGbTbvqhjkeQ8RxNRzigusGGr)
@@ -174,6 +174,8 @@ Of the three types of TI PCB found in SX-70 cameras, many subtypes were made, us
 *  blue and green = 800pf
 *  turquoise = 700 to 800pf
 *  large black chunky rectangular capacitors = 700pf
+
+  ![](/img/2023/2015_0606_002938_008.jpg "SX-70-era capacitor")
 
 Later models with black acrylic insulation are:
 
