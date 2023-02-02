@@ -113,15 +113,27 @@ This build-up is easy to clean on the front but is much harder to clean on the r
 Occasionally, if the corrosion is bad enough, the filter glass may be pushed up and out the silicon entirely, making it easy to remove, clean and glue back in. However… if this hasn’t happened… you will need to cut or force the glass from the silicon. 
 Cutting the glass free of the silicon is risky, time consuming and requires additional cost and materials if the filter must be replaced. Ultimately one must decide for themselves if this effort and risk is worth it. Fortunately, you can compensate for severe corrosion by further reducing the required capacitor value.
 It should be noted that fortunately, Fairchild PCBs use a different kind of electric eye that seems much less subject to this corrosion. 
+
+
 B)	Oxidization of the anti-static layer on the shutter blades. This applies to early model cameras that have a matt-black 'painted' layer on the sides of the shutter blades that touch each other. Truly, I do not know what this painted layer really does. Polaroid technical documents refer to it as 'antistatic layer'. It seems this layer was initially created to reduce the possibility of friction from static electricity as the blades travel along each other. 
 Later cameras (Model 2 and onwards) tend not to use this painted layer at all, and Alpha and Sonar models use a white waxy dry-lube to reduce friction instead. 
 If left intact, the anti-static layer on early shutters can oxidize and scrape off over time. This causes the paint to accumulate and get sticky which will cause the blades to drag. Sticky blades can significantly affect exposure. Depending on when in the shutter cycle the blades stick, this could cause over OR under exposure
 C)	Corrosion/oxidization of the metal lens cell where the shutter blades enter. On earlier cameras with metal lens cells, the metal on the rear cell can oxidize over time, creating a rough surface for the blades to travel along, adding friction to the blade movement. If severe, the lens may need to be replaced, or the helicoid removed from the base cell and sanded back lightly. If not severe, I find that ‘coloring in’ the blade entrance with a pencil works incredibly well. The pencil adds a layer of graphite in the pitted metal that smoothes it out and acts like a dry lubricant. I refer to this as the ‘poor man’s Teflon’.
+
+
 D)	Bent shutter blades. Fortunately this is rare, but in the past I have seen blades that had a kink in them for some reason. Perhaps they were bent during a previous repair or it arrived that way from the factory. Bent and kinked blades cannot slide nicely past each other and will move more slowly. Broken guide posts can also cause blades to stick against the sides of the lens cell. Broken guide posts must be replaced. A 1mm screw will do the trick.
+
+
 E)	Non specific electrical gremlins caused by oxidization, corrosion and ‘silicon lottery’. General aging of the PCB can cause untold amounts of electrical gremlins. For example, oxidization of solder can cause formation of salts that add resistance to traces. Dry joints, cracked solder and damaged traces can all mess with the exposure times or cause other weird behaviors. Like wine, storage conditions can seriously affect how the board ‘ages’. Sometimes shutters can misbehave even if they appear to be in perfect condition. If you suspect a bad IC, try re-flow all the solder to its legs as a hail-Mary.
+
+
 F)	The tint of electric eye window. Earlier SX-70s have a frosted glass, clear translucent window that is generally paired with a Fairchild PCBs. Later models have a darker tinted plastic and are generally paired with Texas Instruments PCBs. The frosted one lets in around 1 stop more light than the later tinted ones according to my measurements. Be aware of this difference if you are swapping front shutter housings
-G)	The L/D wheel mechanism. The L/D wheel works by sliding a gradiated filter over the electric eye entrance. This allows more or less light to the eye, altering exposure. Early model 1 cameras feature a different design to later models. This type of mechanism has a small hole in the gradiated filter that lets slightly more light in than later versions. Be aware of this difference when swapping parts.
+
+
+G)	The L/D wheel mechanism. The L/D wheel works by sliding a graduated filter over the electric eye entrance. This allows more or less light to the eye, altering exposure. Early model 1 cameras feature a different design to later models. This type of mechanism has a small hole in the graduated filter that lets slightly more light in than later versions. Be aware of this difference when swapping parts.
 H)	Dust/grime/oxidization of solenoid. The plunger can slow down over time with dust or grime and cause slowdown or sticking. Flush it with electrical cleaner if you suspect it is gummy
+
+
 I)	The pneumatic adjustment screw on the solenoid. The shutter solenoid has a calibration screw that allows for fine-tuning of the speed that the shutter blades travel. This screw is especially important for accurate exposures of brightly lit outdoor scenes. Adjusting this screw is a very complex topic and will get its own chapter later. Before changing any capacitors or resistors it is VERY important to make sure this solenoid screw is in its factory position. In all my testing, I’ve found that factory position of the screw on an SX-70 model is 2 and a half turns inwards from the screw head sitting flush with the body of the solenoid. It generally takes around 3.5 inwards to totally bottom out the screw. By 3 turns or more the blades will slow significantly. If you bottom it out, you have gone too far. 
 
 
