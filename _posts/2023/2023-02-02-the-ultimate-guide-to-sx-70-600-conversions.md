@@ -387,7 +387,7 @@ It only takes a quarter or 1/8th of a turn to quite drastically alter the exposu
 
 For example, let’s assume you have converted your camera and find the following:
 
-\- indoor photos are perfect, but bright sunny photos are over-exposed, you might want to tighten the screw slightly\
+\- indoor photos are perfect, but bright sunny photos are over-exposed, you might want to tighten the screw slightly.
 
 * indoor photos are fine, but outdoor photos tend to be slightly under-exposed. You might want to loosen the screw slightly.
 
@@ -395,6 +395,10 @@ When both bright and dim scenes are perfectly exposed, you can consider your cam
 
 Given the many variables at play here, it may take a bit of trial and error to find the perfect capacitor/resistor/solenoid adjustment screw combination for perfect results. 
 
-Bonus:
+## Bonus:
 
 What happens when you bottom-out the screw? As mentioned before, the repair guide ominously warns you NEVER to do this. So what happens? Does the camera explode? Sadly, it is nothing that dramatic. Bottoming out the screw results in the blades moving so slowly that they barely move at all during an exposure, resulting in a slow shutter speed and pin-hole sized aperture. Anything beyond 3 clockwise turns from flush and the camera will start to under-expose significantly because the blades cannot travel fast enough to reach wider aperture values.
+
+
+
+E﻿DITOR NOTE: this is a guest contribution to the openSX70 project. If you have a contribution that would like to share please contact me.
