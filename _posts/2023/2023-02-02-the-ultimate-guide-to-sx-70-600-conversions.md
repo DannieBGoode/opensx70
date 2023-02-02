@@ -15,6 +15,7 @@ feature_image: /img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg
 categories: openSX70
 ---
 ## ![](https://lh6.googleusercontent.com/fRHt2GmZAGQbbVadp0qlq3pwSg9ql1NsX7GhCmq0X6A2VcPjDffDXSB0zmU1MqHVV-CvPSvVlUdWxjK6SEsJFp7e05UN2zaAGvwRLbh-FF5U28XoAfTT5K8wVlikOR5T_FrjgA4YM0QB)\
+
 Preface:
 
 Hello everyone. My name is Jake, but you likely know me better as[ “The Instant Camera Guy”](https://www.facebook.com/instantcameraguy). At the time of writing this article, I’ve been tinkering with Polaroid cameras for over 12 years. 
@@ -111,7 +112,6 @@ SX-70 cameras are pushing 50 years old already. That means there is potentially 
 A)	Electric eye corrosion. Texas Instruments PCB electric eyes are notoriously prone to corrosion over time. What exactly causes this corrosion I am not 100% sure, but it causes a white crystalline substance to accumulate on top of and underneath the little blue infrared glass filter on the photocell. I find that photocell corrosion can affect the eye accuracy by around 1 stop if severe. 
 This build-up is easy to clean on the front but is much harder to clean on the rear. This is because to access the rear of the glass filter it must be removed from the eye. The glass is sealed in place into the silicon and is generally held in **VERY** tightly. 
 
-
 Occasionally, if the corrosion is bad enough, the filter glass may be pushed up and out the silicon entirely, making it easy to remove, clean and glue back in. However… if this hasn’t happened… you will need to cut or force the glass from the silicon. 
 Cutting the glass free of the silicon is risky, time consuming and requires additional cost and materials if the filter must be replaced. Ultimately one must decide for themselves if this effort and risk is worth it. Fortunately, you can compensate for severe corrosion by further reducing the required capacitor value.
 It should be noted that fortunately, Fairchild PCBs use a different kind of electric eye that seems much less subject to this corrosion. 
@@ -119,7 +119,6 @@ It should be noted that fortunately, Fairchild PCBs use a different kind of elec
 B)	Oxidization of the anti-static layer on the shutter blades. This applies to early model cameras that have a matt-black 'painted' layer on the sides of the shutter blades that touch each other. Truly, I do not know what this painted layer really does. Polaroid technical documents refer to it as 'antistatic layer'. It seems this layer was initially created to reduce the possibility of friction from static electricity as the blades travel along each other. 
 Later cameras (Model 2 and onwards) tend not to use this painted layer at all, and Alpha and Sonar models use a white waxy dry-lube to reduce friction instead. 
 If left intact, the anti-static layer on early shutters can oxidize and scrape off over time. This causes the paint to accumulate and get sticky which will cause the blades to drag. Sticky blades can significantly affect exposure. Depending on when in the shutter cycle the blades stick, this could cause over OR under exposure
-
 
 C)	Corrosion/oxidization of the metal lens cell where the shutter blades enter. On earlier cameras with metal lens cells, the metal on the rear cell can oxidize over time, creating a rough surface for the blades to travel along, adding friction to the blade movement. If severe, the lens may need to be replaced, or the helicoid removed from the base cell and sanded back lightly. If not severe, I find that ‘coloring in’ the blade entrance with a pencil works incredibly well. The pencil adds a layer of graphite in the pitted metal that smoothes it out and acts like a dry lubricant. I refer to this as the ‘poor man’s Teflon’.
 
@@ -130,7 +129,6 @@ E)	Non specific electrical gremlins caused by oxidization, corrosion and ‘sili
 F)	The tint of electric eye window. Earlier SX-70s have a frosted glass, clear translucent window that is generally paired with a Fairchild PCBs. Later models have a darker tinted plastic and are generally paired with Texas Instruments PCBs. The frosted one lets in around 1 stop more light than the later tinted ones according to my measurements. Be aware of this difference if you are swapping front shutter housings
 
 G)	The L/D wheel mechanism. The L/D wheel works by sliding a graduated filter over the electric eye entrance. This allows more or less light to the eye, altering exposure. Early model 1 cameras feature a different design to later models. This type of mechanism has a small hole in the graduated filter that lets slightly more light in than later versions. Be aware of this difference when swapping parts.
-
 
 H)	Dust/grime/oxidization of solenoid. The plunger can slow down over time with dust or grime and cause slowdown or sticking. Flush it with electrical cleaner if you suspect it is gummy
 
@@ -155,7 +153,7 @@ Texas Instruments PCBs (TI PCBs) are the most commonly found circuit boards on S
 
 To convert a Texas Instruments PCB from SX-70 to 600 film, the capacitor in the integration cycle circuitry must be replaced with one of a smaller value. This capacitor is located next to a resistor below the electric eye and the silicon chip that sits below it. These parts are easy to find since they are the only through-hole components on the entire PCB. It should be noted that this area of the PCB is generally coated in an insulating substance. Early cameras use a clear-yellow substance, while later models use a black acrylic. 
 
-![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \"ceramic\" PCB")
+![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\"ceramic\\" PCB")
 
 The insulation layer is easy to melt away with a soldering iron, or can be scraped off with a hobby knife. To remove the original capacitor, a solder braid or (preferably) a desoldering gun must be used to remove the factory solder, allowing the capacitor to be pushed free. Sometimes, if the insulation layer is thick, the capacitor must be carefully cut free from its insulation. After cleaning up the PCB traces with the soldering iron and some isopropyl alcohol, remove the 3 or 4 flash fire assembly legs and the PCB can then be carefully lifted upwards. The new, smaller value capacitor can now be inserted in place of the original. After trimming the legs of the new capacitor down, it can then be soldered in place. You must then cover the pads with some insulation tape to prevent short circuits against the metal chassis of the camera.  
 
@@ -346,7 +344,7 @@ The maximum DISTANCE that the blades can possibly travel is the point at which t
 
 Remember that the aperture opening in the shutter blades is tear-drop shaped. This means that if the blade does NOT travel the full DISTANCE past each other, the aperture opening will be smaller than f8. 
 
-So let’s consider three hypthothetical exposure scenarios. All of these exposures will be taken with the solenoid set to factory position. 
+So let’s consider three hypothetical exposure scenarios. All of these exposures will be taken with the solenoid set to factory position. 
 
 For our first exposure, consider a bright outdoor scene. In this exposure, the solenoid power is cut for a VERY short length of time, fractions of a second. During this hypothetical time the spring in the solenoid was able to move the blades A QUARTER of the possible maximum distance across the shutter assembly. This might correspond in a maximum aperture equivalent to f22 or so. Exposure is good.
 
@@ -354,7 +352,7 @@ For the second exposure, we will pretend some clouds have now rolled in overhead
 
 For the third exposure we go indoors. It’s very dim, only lit by a small table lamp. As a result, power is cut to the solenoid for 5 entire seconds. The spring loaded solenoid plunger now has plenty of time to move thus and the blades are able to travel easily to their maximum possible distance and will stay there for the majority of the exposure. As a result, throughout the majority of this 5 second exposure, the effective aperture has been wide open at f8. Exposure is good.
 
-Do you see how this works? 
+#### Do you see how this works? 
 
 Now let’s re-visit the above three scenarios. The lighting conditions will be identical, but this time, we will adjust the solenoid screw to give less pneumatic resistance. We will loosen the screw 2 and a half turns. This means the solenoid can now plunge faster and the shutter blades will now travel more quickly. 
 
@@ -368,7 +366,7 @@ What happens in the above scenario is that due to the tear-drop shape of the ape
 
 For dimly lit scenes, this has a negligible effect on exposure.  However, in bright daylight scenes, the difference between reaching an effective aperture of f22 or f11 can mean the difference between crisp blue skies, and a washed-out mess.
 
-“BUT HANG ON A MINUTE! That doesn’t make any sense!” you scream out loud!
+#### “BUT HANG ON A MINUTE! That doesn’t make any sense!” you scream out loud!
 
 The electric eye photocell meters the scene DURING the exposure! So why would speeding up the blades or slowing them down matter at all? If the blades travel faster, the lens and electric eye aperture opens faster too! 
 
@@ -411,4 +409,6 @@ Given the many variables at play here, it may take a bit of trial and error to f
 
 What happens when you bottom-out the screw? As mentioned before, the repair guide ominously warns you NEVER to do this. So what happens? Does the camera explode? Sadly, it is nothing that dramatic. Bottoming out the screw results in the blades moving so slowly that they barely move at all during an exposure, resulting in a slow shutter speed and pin-hole sized aperture. Anything beyond 3 clockwise turns from flush and the camera will start to under-expose significantly because the blades cannot travel fast enough to reach wider aperture values.
 
-E﻿DITOR NOTE: this is a guest contribution to the openSX70 project. If you have a contribution that would like to share please contact me.
+##### E﻿DITOR NOTE: 
+
+#### this is a guest contribution to the openSX70 project. If you have a contribution that would like to share please contact me.
