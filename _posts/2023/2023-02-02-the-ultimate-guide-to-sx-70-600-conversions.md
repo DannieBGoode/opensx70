@@ -11,7 +11,7 @@ show_related_posts: true
 date: 2023-02-02T08:51:13.297Z
 title: The ultimate guide to SX-70 600 conversions
 description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera guy.
-feature_image: img/2023/41b5f255-f33d-4bbb-b2dd-99dd63b081f5_1_201_a.jpeg
+feature_image: /img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg
 categories: openSX70
 ---
 ## Preface:
@@ -155,6 +155,8 @@ Texas Instruments PCBs (TI PCBs) are the most commonly found circuit boards on S
 
 To convert a Texas Instruments PCB from SX-70 to 600 film, the capacitor in the integration cycle circuitry must be replaced with one of a smaller value. This capacitor is located next to a resistor below the electric eye and the silicon chip that sits below it. These parts are easy to find since they are the only through-hole components on the entire PCB. It should be noted that this area of the PCB is generally coated in an insulating substance. Early cameras use a clear-yellow substance, while later models use a black acrylic. 
 
+![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \"ceramic\" PCB")
+
 The insulation layer is easy to melt away with a soldering iron, or can be scraped off with a hobby knife. To remove the original capacitor, a solder braid or (preferably) a desoldering gun must be used to remove the factory solder, allowing the capacitor to be pushed free. Sometimes, if the insulation layer is thick, the capacitor must be carefully cut free from its insulation. After cleaning up the PCB traces with the soldering iron and some isopropyl alcohol, remove the 3 or 4 flash fire assembly legs and the PCB can then be carefully lifted upwards. The new, smaller value capacitor can now be inserted in place of the original. After trimming the legs of the new capacitor down, it can then be soldered in place. You must then cover the pads with some insulation tape to prevent short circuits against the metal chassis of the camera.  
 
 So what capacitor do you need?\
@@ -229,6 +231,10 @@ Fairchild PCBs are found in early generation SX-70 cameras. The history behind t
 ![](/img/2023/20210413_fvsti-edit-2.jpg "Fairchild ECM")
 
 Instead of silicon, the ‘chips’ are made up of a piece of brown plastic tape, with the components placed on top, with layer of epoxy holding them all together. This was certainly cost effective, but collective community experience over time shows that this process made Fairchild PCBs far less reliable than their competitor. Simply put, the ‘blobs on tape’  are nowhere near as robust as a silicon chip, making them prone to damaged internal and external traces due to flexing and/or oxidization. I’ve refurbished countless original SX-70 model 1s over the years and I would estimate that 98% of the Texas Instruments PCBs work totally fine (if not with a corroded electric eye). With Fairchild shutters, I’d estimate that only 85% of them that I come across are still working properly.(COB, chip-on-board)
+
+![](/img/2023/20210413_fvsti.jpg "COB on a Fairchild PCB with the blob")
+
+![](/img/2023/life-sx70-new-pag-45b-2400.jpg "COB without the blob (c) LIFE magazine")
 
 With that said, when they work, they tend to work VERY well, and they do have the advantage of being far less prone to electric eye corrosion. 
 
