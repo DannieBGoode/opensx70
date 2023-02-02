@@ -72,21 +72,14 @@ There is an excellent promotional video from the early 1970’s on YouTube made 
 
 Effectively the way the shutter cycle works as follows:
 
-\-The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
-
-When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
-
-The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
-
-Once the mirror is up, the power to the solenoid is cut, allowing the blades to begin sliding into the open position once again
-
-As the blades slide open past each other, not only does light begin to pass through the lens opening and into the film chamber, but light also passes through the electric eye opening and onto the electric eye. The total amount of light (intensity and duration) reaching the eye is transformed by the eye into an electronic signal that regulates the length of time the film is exposed. This is known as the ‘integration cycle’
-
-The electric eye integration cycle works similarly to how your flushing toilet works. In a toilet, after you flush, water begins to fill the cistern, in preparation for the next flush. Once the water has filled the cistern up to a certain point, a valve is activated that stops the water so the cistern cannot overflow. Similarly, once the electric eye has received enough light, the logic circuits power the solenoid once again, causing the blades to cease any further travel and slam closed. So think about the electric eye like a bucket/cistern filling up with water. When this metaphorical bucket of light is full, the solenoid is powered on again. 
-
-With the lens opening once again completely closed, the motor then engages once more and the gear-train comes to life again, ejecting the film and lowering the mirror inside the camera. 
-
-\-Once the mirror assembly is re-set and the film completely ejected and the shutter button released, the solenoid power is cut once again and the shutter re-opens. The camera is now ready to take another photo. 
+1. The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
+2. When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
+3. The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
+4. Once the mirror is up, the power to the solenoid is cut, allowing the blades to begin sliding into the open position once again
+5. As the blades slide open past each other, not only does light begin to pass through the lens opening and into the film chamber, but light also passes through the electric eye opening and onto the electric eye. The total amount of light (intensity and duration) reaching the eye is transformed by the eye into an electronic signal that regulates the length of time the film is exposed. This is known as the ‘integration cycle’
+6. The electric eye integration cycle works similarly to how your flushing toilet works. In a toilet, after you flush, water begins to fill the cistern, in preparation for the next flush. Once the water has filled the cistern up to a certain point, a valve is activated that stops the water so the cistern cannot overflow. Similarly, once the electric eye has received enough light, the logic circuits power the solenoid once again, causing the blades to cease any further travel and slam closed. So think about the electric eye like a bucket/cistern filling up with water. When this metaphorical bucket of light is full, the solenoid is powered on again. 
+7. With the lens opening once again completely closed, the motor then engages once more and the gear-train comes to life again, ejecting the film and lowering the mirror inside the camera. 
+8. Once the mirror assembly is re-set and the film completely ejected and the shutter button released, the solenoid power is cut once again and the shutter re-opens. The camera is now ready to take another photo. 
 
 The length of time that power is cut to the solenoid during the exposure/integration cycle is dictated by a capacitor/resistor (C/R) circuit. How exactly the C/R circuit works is a very complicated subject, so I will skip on the in-depth details here. 
 
