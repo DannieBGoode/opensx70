@@ -110,19 +110,15 @@ SX-70 cameras are pushing 50 years old already. That means there is potentially 
 
 1. Electric eye corrosion. Texas Instruments PCB electric eyes are notoriously prone to corrosion over time. What exactly causes this corrosion I am not 100% sure, but it causes a white crystalline substance to accumulate on top of and underneath the little blue infrared glass filter on the photocell. I find that photocell corrosion can affect the eye accuracy by around 1 stop if severe. 
 
-This build-up is easy to clean on the front but is much harder to clean on the rear. This is because to access the rear of the glass filter it must be removed from the eye. The glass is sealed in place into the silicon and is generally held in VERY tightly. 
-
-Occasionally, if the corrosion is bad enough, the filter glass may be pushed up and out the silicon entirely, making it easy to remove, clean and glue back in. However… if this hasn’t happened… you will need to cut or force the glass from the silicon. 
-
-Cutting the glass free of the silicon is risky, time consuming and requires additional cost and materials if the filter must be replaced. Ultimately one must decide for themselves if this effort and risk is worth it. Fortunately, you can compensate for severe corrosion by further reducing the required capacitor value.
-
-It should be noted that fortunately, Fairchild PCBs use a different kind of electric eye that seems much less subject to this corrosion. 
+* This build-up is easy to clean on the front but is much harder to clean on the rear. This is because to access the rear of the glass filter it must be removed from the eye. The glass is sealed in place into the silicon and is generally held in VERY tightly. 
+* Occasionally, if the corrosion is bad enough, the filter glass may be pushed up and out the silicon entirely, making it easy to remove, clean and glue back in. However… if this hasn’t happened… you will need to cut or force the glass from the silicon. 
+* Cutting the glass free of the silicon is risky, time consuming and requires additional cost and materials if the filter must be replaced. Ultimately one must decide for themselves if this effort and risk is worth it. Fortunately, you can compensate for severe corrosion by further reducing the required capacitor value.
+* It should be noted that fortunately, Fairchild PCBs use a different kind of electric eye that seems much less subject to this corrosion. 
 
 2. Oxidation of the anti-static layer on the shutter blades. This applies to early model cameras that have a matt-black 'painted' layer on the sides of the shutter blades that touch each other. Truly, I do not know what this painted layer really does. Polaroid technical documents refer to it as 'antistatic layer'. It seems this layer was initially created to reduce the possibility of friction from static electricity as the blades travel along each other. 
 
-Later cameras (Model 2 and onwards) tend not to use this painted layer at all, and Alpha and Sonar models use a white waxy dry-lube to reduce friction instead. 
-
-If left intact, the anti-static layer on early shutters can oxidize and scrape off over time. This causes the paint to accumulate and get sticky which will cause the blades to drag. Sticky blades can significantly affect exposure. Depending on when in the shutter cycle the blades stick, this could cause over OR under exposure
+* Later cameras (Model 2 and onwards) tend not to use this painted layer at all, and Alpha and Sonar models use a white waxy dry-lube to reduce friction instead. 
+* If left intact, the anti-static layer on early shutters can oxidize and scrape off over time. This causes the paint to accumulate and get sticky which will cause the blades to drag. Sticky blades can significantly affect exposure. Depending on when in the shutter cycle the blades stick, this could cause over OR under exposure
 
 3. Corrosion/oxidation of the metal lens cell where the shutter blades enter. On earlier cameras with metal lens cells, the metal on the rear cell can oxidize over time, creating a rough surface for the blades to travel along, adding friction to the blade movement. If severe, the lens may need to be replaced, or the helicoid removed from the base cell and sanded back lightly. If not severe, I find that ‘coloring in’ the blade entrance with a pencil works incredibly well. The pencil adds a layer of graphite in the pitted metal that smoothes it out and acts like a dry lubricant. I refer to this as the ‘poor man’s Teflon’.
 4. Bent shutter blades. Fortunately this is rare, but in the past I have seen blades that had a kink in them for some reason. Perhaps they were bent during a previous repair or it arrived that way from the factory. Bent and kinked blades cannot slide nicely past each other and will move more slowly. Broken guide posts can also cause blades to stick against the sides of the lens cell. Broken guide posts must be replaced. A 1mm screw will do the trick.
