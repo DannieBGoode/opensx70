@@ -3,8 +3,8 @@ published: true
 layout: post
 netlifycms: true
 show_avatar: true
-author_name: Joaquín de Prada
-author_avatar: joaquin
+author_name: Jake Threepwood
+author_avatar: guest
 author_url: /author/guest
 comments: true
 show_related_posts: true
