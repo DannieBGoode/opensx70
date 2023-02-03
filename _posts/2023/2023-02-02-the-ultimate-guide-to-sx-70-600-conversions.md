@@ -14,8 +14,6 @@ description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera g
 feature_image: /img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg
 categories: openSX70
 ---
-## ![](https://lh6.googleusercontent.com/fRHt2GmZAGQbbVadp0qlq3pwSg9ql1NsX7GhCmq0X6A2VcPjDffDXSB0zmU1MqHVV-CvPSvVlUdWxjK6SEsJFp7e05UN2zaAGvwRLbh-FF5U28XoAfTT5K8wVlikOR5T_FrjgA4YM0QB)\
-
 Preface:
 
 Hello everyone. My name is Jake, but you likely know me better as[ “The Instant Camera Guy”](https://www.facebook.com/instantcameraguy). At the time of writing this article, I’ve been tinkering with Polaroid cameras for over 12 years. 
