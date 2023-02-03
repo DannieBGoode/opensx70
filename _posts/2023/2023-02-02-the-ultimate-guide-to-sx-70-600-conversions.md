@@ -61,9 +61,6 @@ If you want to understand how to convert a camera to 600 film it’s important t
 
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
-![]()
-
-![]()
 
 Unlike conventional cameras that have a separate aperture and shutter assembly, the aperture value and shutter speed in the SX-70 are COMBINED and continuously variable throughout any given exposure. Depending on how far the blades slide past each other, the opening for light to pass through may be very tiny (a small rectangular pinhole) or it may be very large (a circular opening with a maximum aperture of f8) or somewhere in between (a sort of diamond shape). Similarly, the opening for the electric eye varies too, depending on the distance of blade travel. It may form a tiny pinhole, a cross-shape or a rectangular slit. 
 
@@ -73,9 +70,9 @@ There is an excellent promotional video from the early 1970’s on YouTube made 
 
 Effectively the way the shutter cycle works as follows:
 
-1. The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
-2. When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
-3. The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
+##### 1. The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
+##### 2. When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
+##### 3. The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
 4. Once the mirror is up, the power to the solenoid is cut, allowing the blades to begin sliding into the open position once again
 5. As the blades slide open past each other, not only does light begin to pass through the lens opening and into the film chamber, but light also passes through the electric eye opening and onto the electric eye. The total amount of light (intensity and duration) reaching the eye is transformed by the eye into an electronic signal that regulates the length of time the film is exposed. This is known as the ‘integration cycle’
 6. The electric eye integration cycle works similarly to how your flushing toilet works. In a toilet, after you flush, water begins to fill the cistern, in preparation for the next flush. Once the water has filled the cistern up to a certain point, a valve is activated that stops the water so the cistern cannot overflow. Similarly, once the electric eye has received enough light, the logic circuits power the solenoid once again, causing the blades to cease any further travel and slam closed. So think about the electric eye like a bucket/cistern filling up with water. When this metaphorical bucket of light is full, the solenoid is powered on again. 
