@@ -67,7 +67,7 @@ Unlike conventional cameras that have a separate aperture and shutter assembly, 
 
 The blades are able to move during an exposure through use of a solenoid. A solenoid is a type of electromagnet. This solenoid produces a plunging movement when electricity is passed through it. Simply provide power to the magnet and the plunger is pulled inwards into its housing. The solenoid plunger is spring loaded, so that when power to the magnet is cut, the plunger springs back into its original position. This plunger connects to a little arm which attaches to the blades and slides the blades past each other until. Power the magnet and the opening closes. Cut power and it opens up again.
 
-There is an excellent promotional video from the [early 1970’s on YouTube made by the Eames foundation](https://youtu.be/zpv8J8e9gWI) that shows the exposure process in action. I highly suggest you watch it (or listen to my dance-remix version of it!).
+There is an excellent promotional video from the [early 1970’s on YouTube made by the Eames foundation](https://youtu.be/zpv8J8e9gWI) that shows the exposure process in action. I highly suggest you watch it (or [listen to my dance-remix version](https://thekosmonaut.bandcamp.com/track/sx-70-select-focus-shoot?fbclid=IwAR17-Kjx6yHpJtZtEGWtOtxc3lO344tQBrX_KC9IMODWJjGMGqKa_hzIizg) of it!).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zpv8J8e9gWI?start=337" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
