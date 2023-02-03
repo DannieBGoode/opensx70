@@ -61,15 +61,15 @@ If you want to understand how to convert a camera to 600 film it’s important t
 
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
-
-
 Unlike conventional cameras that have a separate aperture and shutter assembly, the aperture value and shutter speed in the SX-70 are COMBINED and continuously variable throughout any given exposure. Depending on how far the blades slide past each other, the opening for light to pass through may be very tiny (a small rectangular pinhole) or it may be very large (a circular opening with a maximum aperture of f8) or somewhere in between (a sort of diamond shape). Similarly, the opening for the electric eye varies too, depending on the distance of blade travel. It may form a tiny pinhole, a cross-shape or a rectangular slit. 
 
 <div style="padding:51.58% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/479771662?h=2226c769b7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="66ms_Alpha_C0011_T"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 The blades are able to move during an exposure through use of a solenoid. A solenoid is a type of electromagnet. This solenoid produces a plunging movement when electricity is passed through it. Simply provide power to the magnet and the plunger is pulled inwards into its housing. The solenoid plunger is spring loaded, so that when power to the magnet is cut, the plunger springs back into its original position. This plunger connects to a little arm which attaches to the blades and slides the blades past each other until. Power the magnet and the opening closes. Cut power and it opens up again.
 
-There is an excellent promotional video from the early 1970’s on YouTube made by the Eames foundation that shows the exposure process in action. I highly suggest you watch it (or listen to my dance-remix version of it!).
+There is an excellent promotional video from the [early 1970’s on YouTube made by the Eames foundation](https://youtu.be/zpv8J8e9gWI) that shows the exposure process in action. I highly suggest you watch it (or listen to my dance-remix version of it!).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zpv8J8e9gWI?start=337" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Effectively the way the shutter cycle works as follows:
 
@@ -153,7 +153,7 @@ Texas Instruments PCBs (TI PCBs) are the most commonly found circuit boards on S
 
 To convert a Texas Instruments PCB from SX-70 to 600 film, the capacitor in the integration cycle circuitry must be replaced with one of a smaller value. This capacitor is located next to a resistor below the electric eye and the silicon chip that sits below it. These parts are easy to find since they are the only through-hole components on the entire PCB. It should be noted that this area of the PCB is generally coated in an insulating substance. Early cameras use a clear-yellow substance, while later models use a black acrylic. 
 
-![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\\"ceramic\\\" PCB")
+![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\\\"ceramic\\\\" PCB")
 
 The insulation layer is easy to melt away with a soldering iron, or can be scraped off with a hobby knife. To remove the original capacitor, a solder braid or (preferably) a desoldering gun must be used to remove the factory solder, allowing the capacitor to be pushed free. Sometimes, if the insulation layer is thick, the capacitor must be carefully cut free from its insulation. After cleaning up the PCB traces with the soldering iron and some isopropyl alcohol, remove the 3 or 4 flash fire assembly legs and the PCB can then be carefully lifted upwards. The new, smaller value capacitor can now be inserted in place of the original. After trimming the legs of the new capacitor down, it can then be soldered in place. You must then cover the pads with some insulation tape to prevent short circuits against the metal chassis of the camera.  
 
