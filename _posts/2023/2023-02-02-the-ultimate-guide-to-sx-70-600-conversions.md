@@ -22,7 +22,7 @@ Hello everyone. My name is Jake, but you likely know me better as[ “The Instan
 
 ![](https://lh6.googleusercontent.com/ScVNbdZtcKBXiWevPPX7uEQXOzgqfvTQS4JN1kV7fxooJjzVrFx1RQVRshgGWYJKoAskQ-utR7gn_CbdB64QlkcP0D1Y7FzhdVJzsfm4rqY8ZAhocUKWGbTbvqhjkeQ8RxNRzigusGGr)
 
-If you follow my live-stream repairs on my Facebook page, you might have seen a video I posted titled "the dark art of 600 mods" where I discussed the murky world of converting Polaroid SX-70 cameras to take 600 and i-Type film. 
+If you follow my [live-stream repairs on my Facebook page](https://www.facebook.com/instantcameraguy/videos), you might have seen a video I posted titled ["the dark art of 600 mods"](https://www.facebook.com/instantcameraguy/videos/331263522258656) where I discussed the murky world of converting Polaroid SX-70 cameras to take 600 and i-Type film. 
 
 The current online consensus seems based around the following method:\
 “Replace the original capacitor on the PCB with a 150pf unit and the camera will then expose correctly for 600 film”. 
@@ -62,7 +62,10 @@ If you want to understand how to convert a camera to 600 film it’s important t
 An SX-70 shutter consists of two sliding blades that travel in opposing directions through the middle of the rear lens cell. These blades feature two openings that allow light to pass through the lens and into the film chamber, as well as through the front housing window and onto a light sensitive photo-cell called the ‘electric eye’. The lens opening is a tear-drop shape while the electric eye opening has a stepped triangle-shape. 
 
 
+
 Unlike conventional cameras that have a separate aperture and shutter assembly, the aperture value and shutter speed in the SX-70 are COMBINED and continuously variable throughout any given exposure. Depending on how far the blades slide past each other, the opening for light to pass through may be very tiny (a small rectangular pinhole) or it may be very large (a circular opening with a maximum aperture of f8) or somewhere in between (a sort of diamond shape). Similarly, the opening for the electric eye varies too, depending on the distance of blade travel. It may form a tiny pinhole, a cross-shape or a rectangular slit. 
+
+<div style="padding:51.58% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/479771662?h=2226c769b7&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="66ms_Alpha_C0011_T"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 The blades are able to move during an exposure through use of a solenoid. A solenoid is a type of electromagnet. This solenoid produces a plunging movement when electricity is passed through it. Simply provide power to the magnet and the plunger is pulled inwards into its housing. The solenoid plunger is spring loaded, so that when power to the magnet is cut, the plunger springs back into its original position. This plunger connects to a little arm which attaches to the blades and slides the blades past each other until. Power the magnet and the opening closes. Cut power and it opens up again.
 
@@ -70,9 +73,9 @@ There is an excellent promotional video from the early 1970’s on YouTube made 
 
 Effectively the way the shutter cycle works as follows:
 
-##### 1. The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
-##### 2. When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
-##### 3. The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
+1. The shutter’s default position is wide open. This is because the camera has an SLR viewfinder system, and the lens needs to be unobstructed for you to focus and compose
+2. When the shutter button is pressed, the first step is for the solenoid to engage, causing the blades/lens opening completely close
+3. The motor turns gears in the gear-train which cause the internal viewfinder Fresnel/mirror assembly to rise inside the camera. This will allow light coming through the lens to bounce off a mirror and down onto the film
 4. Once the mirror is up, the power to the solenoid is cut, allowing the blades to begin sliding into the open position once again
 5. As the blades slide open past each other, not only does light begin to pass through the lens opening and into the film chamber, but light also passes through the electric eye opening and onto the electric eye. The total amount of light (intensity and duration) reaching the eye is transformed by the eye into an electronic signal that regulates the length of time the film is exposed. This is known as the ‘integration cycle’
 6. The electric eye integration cycle works similarly to how your flushing toilet works. In a toilet, after you flush, water begins to fill the cistern, in preparation for the next flush. Once the water has filled the cistern up to a certain point, a valve is activated that stops the water so the cistern cannot overflow. Similarly, once the electric eye has received enough light, the logic circuits power the solenoid once again, causing the blades to cease any further travel and slam closed. So think about the electric eye like a bucket/cistern filling up with water. When this metaphorical bucket of light is full, the solenoid is powered on again. 
@@ -150,7 +153,7 @@ Texas Instruments PCBs (TI PCBs) are the most commonly found circuit boards on S
 
 To convert a Texas Instruments PCB from SX-70 to 600 film, the capacitor in the integration cycle circuitry must be replaced with one of a smaller value. This capacitor is located next to a resistor below the electric eye and the silicon chip that sits below it. These parts are easy to find since they are the only through-hole components on the entire PCB. It should be noted that this area of the PCB is generally coated in an insulating substance. Early cameras use a clear-yellow substance, while later models use a black acrylic. 
 
-![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\"ceramic\\" PCB")
+![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\\"ceramic\\\" PCB")
 
 The insulation layer is easy to melt away with a soldering iron, or can be scraped off with a hobby knife. To remove the original capacitor, a solder braid or (preferably) a desoldering gun must be used to remove the factory solder, allowing the capacitor to be pushed free. Sometimes, if the insulation layer is thick, the capacitor must be carefully cut free from its insulation. After cleaning up the PCB traces with the soldering iron and some isopropyl alcohol, remove the 3 or 4 flash fire assembly legs and the PCB can then be carefully lifted upwards. The new, smaller value capacitor can now be inserted in place of the original. After trimming the legs of the new capacitor down, it can then be soldered in place. You must then cover the pads with some insulation tape to prevent short circuits against the metal chassis of the camera.  
 
@@ -223,7 +226,7 @@ Ultimately the only way to ensure your camera exposes things 100% correct is wit
 
 ## Chapter 4) Fairchild PCBs.
 
-Fairchild PCBs are found in early generation SX-70 cameras. The history behind the competition between Fairchild and Texas Instruments is a fascinating one, and one that Joaquin has documented well on this blog. Effectively, both manufacturers were tasked with the job of manufacturing the ‘brains’ for the SX-70, at the cheapest possible price point. To do this, Fairchild opted to forgo the use of silicon chips in favor of acrylic-blobs-on-tape instead.
+Fairchild PCBs are found in early generation SX-70 cameras. The history behind the competition between Fairchild and Texas Instruments is a fascinating one, and one that [Joaquin has documented well on this blog](https://opensx70.com/posts/2021/04/battle). Effectively, both manufacturers were tasked with the job of manufacturing the ‘brains’ for the SX-70, at the cheapest possible price point. To do this, Fairchild opted to forgo the use of silicon chips in favor of acrylic-blobs-on-tape instead.
 
 ![](/img/2023/20210413_fvsti-edit-2.jpg "Fairchild ECM")
 
@@ -243,7 +246,7 @@ Arguably, this conversion is easier, because the component being replaced is sur
 
 ![](/img/2023/20210413_fvsti2.jpg)
 
-Effectively, to convert a Fairchild PCB, the resistor above the electric eye must be removed, and in its place installed one with around 1/4 the value. MOST Fairchild boards have a stock resistor value of roughly 2700ohms. This generally means a replacement value of around 680ohms. HOWEVER I have seen some rarer variants of these PCBs that use a 10k ohm resistor!\
+Effectively, to convert a Fairchild PCB, the resistor above the electric eye must be removed, and in its place installed one with around 1/4 the value. MOST Fairchild boards have a stock resistor value of roughly 2700ohms. This generally means a replacement value of around 680ohms. **HOWEVER** I have seen some rarer variants of these PCBs that use a 10k ohm resistor!\
 The original axial-legged resistors that Polaroid used are very small, and I actually had a hard time finding one that fit. For this reason I recommend not using an axial lead resistor, and using a surface-mount resistor instead. 
 
 Nick’s testing of this modification on a 2700ohm camera using a 680 ohm resistor revealed a slight tendency to over-expose in bright sunlight. I have converted several of these cameras now using this method and personally have found a reliably consistent value replacement to be 550ohms. Like all aging electronics, mileage may vary and you may need to adjust values slightly +/-10%. 
@@ -280,7 +283,7 @@ Alternatively, the Q-light can be modified by using some 2-stop ND filter materi
 
 ## Chapter 6) Solenoid pneumatics
 
-Pneumatic adjustment of the solenoid was briefly mentioned in part 2 of this guide. Joaquin also has written a nice article going in-depth into the patent information of the pneumatic adjustment. 
+Pneumatic adjustment of the solenoid was briefly mentioned in part 2 of this guide.[ Joaquin also has written a nice article going in-depth into the patent information of the pneumatic adjustment](https://opensx70.com/posts/2020/11/pneumatics). 
 
 However, much of what Joaquin wrote about was specific only to the OpenSX-70 project, and is not so relevant to a standard SX-70 (whether converted to 600 or not). Because of this, I actually mis-understood the solenoid pneumatics at first, and spent a very long time telling people the wrong information!\
 \
@@ -406,6 +409,6 @@ Given the many variables at play here, it may take a bit of trial and error to f
 
 What happens when you bottom-out the screw? As mentioned before, the repair guide ominously warns you NEVER to do this. So what happens? Does the camera explode? Sadly, it is nothing that dramatic. Bottoming out the screw results in the blades moving so slowly that they barely move at all during an exposure, resulting in a slow shutter speed and pin-hole sized aperture. Anything beyond 3 clockwise turns from flush and the camera will start to under-expose significantly because the blades cannot travel fast enough to reach wider aperture values.
 
-##### E﻿DITOR NOTE: 
+##### E﻿DITOR NOTE:
 
 #### this is a guest contribution to the openSX70 project. If you have a contribution that would like to share please contact me.
