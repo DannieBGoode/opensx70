@@ -3,7 +3,7 @@ published: true
 layout: post
 netlifycms: true
 show_avatar: true
-author_name: Jake Threepwood
+author_name: Jake Bright
 author_avatar: guest
 author_url: /author/guest
 comments: true
