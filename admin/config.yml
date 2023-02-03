@@ -10,6 +10,14 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
+    sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
+    view_filters:
+      - label: Drafts
+        field: published
+        pattern: false
+      - label: Published
+        field: published
+        pattern: true
     media_folder: '/img/{{year}}'
     path: '{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
     nested:
