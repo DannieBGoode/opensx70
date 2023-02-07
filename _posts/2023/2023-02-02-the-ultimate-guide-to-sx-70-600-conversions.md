@@ -16,6 +16,8 @@ categories: openSX70
 ---
 Preface:
 
+![](https://lh6.googleusercontent.com/iyfnKHOMMIsey8Fr9a-q-F4L-sMfXUg0FTz2uSl-GegbiEK5S-Bzv_hDHfs5PGw2i0yJsOqgzMP2FD2UARUdY9Ty8_oqru1FCYlT-lmEPcy5CD4Qecw6BEkX4KTSahEr1NdbaBS3Rk0LDOtvYS8qCQGkUAQwckm62MKqtpHMSR3j71TfTU629iTKq1JAKP4)
+
 Hello everyone. My name is Jake, but you likely know me better as[ “The Instant Camera Guy”](https://www.facebook.com/instantcameraguy). At the time of writing this article, I’ve been tinkering with Polaroid cameras for over 12 years. 
 
 ![](https://lh6.googleusercontent.com/ScVNbdZtcKBXiWevPPX7uEQXOzgqfvTQS4JN1kV7fxooJjzVrFx1RQVRshgGWYJKoAskQ-utR7gn_CbdB64QlkcP0D1Y7FzhdVJzsfm4rqY8ZAhocUKWGbTbvqhjkeQ8RxNRzigusGGr)
@@ -151,7 +153,7 @@ Texas Instruments PCBs (TI PCBs) are the most commonly found circuit boards on S
 
 To convert a Texas Instruments PCB from SX-70 to 600 film, the capacitor in the integration cycle circuitry must be replaced with one of a smaller value. This capacitor is located next to a resistor below the electric eye and the silicon chip that sits below it. These parts are easy to find since they are the only through-hole components on the entire PCB. It should be noted that this area of the PCB is generally coated in an insulating substance. Early cameras use a clear-yellow substance, while later models use a black acrylic. 
 
-![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\\\"ceramic\\\\" PCB")
+![](/img/2023/ceramic-ecm-r-2.jpg "Early TI \\\\\"ceramic\\\\\" PCB")
 
 The insulation layer is easy to melt away with a soldering iron, or can be scraped off with a hobby knife. To remove the original capacitor, a solder braid or (preferably) a desoldering gun must be used to remove the factory solder, allowing the capacitor to be pushed free. Sometimes, if the insulation layer is thick, the capacitor must be carefully cut free from its insulation. After cleaning up the PCB traces with the soldering iron and some isopropyl alcohol, remove the 3 or 4 flash fire assembly legs and the PCB can then be carefully lifted upwards. The new, smaller value capacitor can now be inserted in place of the original. After trimming the legs of the new capacitor down, it can then be soldered in place. You must then cover the pads with some insulation tape to prevent short circuits against the metal chassis of the camera.  
 
