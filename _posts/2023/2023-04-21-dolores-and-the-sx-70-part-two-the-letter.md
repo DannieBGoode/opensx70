@@ -11,7 +11,7 @@ show_related_posts: true
 date: 2017-08-03T14:36:42.958Z
 title: "Dolores and the SX-70 part two: the letter"
 description: I send a letter to Dolores
-feature_image: /img/2017/vlcsnap-2022-03-14-18h06m34s269.jpg
+feature_image: /img/2017/vlcsnap-2022-03-14-18h07m41s871.jpg
 categories: openSX70
 ---
 <!--StartFragment-->
@@ -40,3 +40,17 @@ Making a rather long story short, I planned to write a letter to Dolores, but th
 Here’s my letter to Dolores (with Dolores permission)
 
 ![page 1](/img/2017/dolores-handwritte-1-2.jpg)
+
+![](/img/2017/dolores-handwritte-2.jpg)
+
+![](/img/2017/dolores-handwritte-3.jpg)
+
+![](/img/2017/dolores-handwritte-4.jpg)
+
+![](/img/2017/dolores-handwritte-5.jpg)
+
+![](/img/2017/dolores-handwritte-6-edit.jpg)
+
+![](/img/2017/dolores-handwritte-9.jpg)
+
+![](/img/2017/dolores-handwritte-11.jpg)
