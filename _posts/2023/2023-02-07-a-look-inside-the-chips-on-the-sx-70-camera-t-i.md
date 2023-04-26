@@ -20,11 +20,11 @@ I﻿t has always been to take a look the dies of the electronics that run inside
 
 T﻿here are 3 chips in the main PCB of the SX-70 (ECM or Electronic Control Module in Polaroid lingo) the opto chip that controls the exposure called integration, the "brains" logic chip which is the one in control of all the cool stuff the SX-70 does, and finally the power chip, this is in charge of turning on and off the solenoids and the motor.
 
+![](/img/2023/sin-título-1.jpg)
+
 P﻿lease note that there were two companies that manufactured ECMs, TI (Texas Instruments) and Fairchild Camera.
 
 I﻿f you want to know more about the competition between these company please [read this post](https://opensx70.com/posts/2021/04/battle).
-
-![](/img/2023/sin-título-1.jpg)
 
 ## The optical chip
 
@@ -42,13 +42,9 @@ That is accomplished by the optical chip, this is not just a photodiode, but als
 
 ###### The optical chip contains a photodiode and a silicon die in one package.
 
-
-
 [![The optical chip. Photo from siliconPr0n, (CC BY 4.0).](https://static.righto.com/images/sx70/sx-70-opto-w500.jpg "The optical chip. Photo from siliconPr0n, (CC BY 4.0).")](https://static.righto.com/images/sx70/sx-70-opto.jpg)
 
 The optical chip. Photo from [siliconPr0n](https://siliconpr0n.org/archive/doku.php?id=mcmaster:polaroid:sx-70-opto), ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.en)).
-
-
 
 # The  "brain" logic chip
 
