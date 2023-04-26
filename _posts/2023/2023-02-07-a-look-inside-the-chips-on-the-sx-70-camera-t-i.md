@@ -86,4 +86,4 @@ The power driver chip. Photo from [siliconPr0n](https://siliconpr0n.org/archive
 
 *While the electronics of the SX-70 camera aren't impressive by modern standards, they were cutting edge at the time. They made the SX-70 easy to operate by handling the exposure and timing automatically. Texas Instruments split the electronics across three chips: a precision JFET op-amp with a photodiode, a high-current power driver chip, and a complex logic chip using dense, low-power I2L logic.*
 
-Follow Ken on Twitter [@kenshirriff](https://twitter.com/kenshirriff) for more posts. Thanks to Joaquín De Prada and Peter Kooiman of [openSX70](https://opensx70.com/) for providing the chips and [John McMaster](https://siliconpr0n.org/) for decapping them.
+Follow Ken on Twitter [@kenshirriff](https://twitter.com/kenshirriff) for more posts. Thanks to  [John McMaster](https://siliconpr0n.org/) for decapping the chips.
