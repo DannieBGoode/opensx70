@@ -14,11 +14,13 @@ description: a collaboration with the amazing Ken Shirriff and John McMaster
 feature_image: https://siliconpr0n.org/archive/lib/exe/fetch.php?cache=&media=mcmaster:polaroid:sx-70-chip2:logo_mit20x.jpg
 categories: openSX70
 ---
-I﻿t has always been to take a look the dies of the electronics that run inside the SX-70. We were very lucky when the talented Ken Shirriff partnered with the project and helped us do just that. Hey wrote a [blog post on his website](https://www.righto.com/2022/02/a-look-inside-chips-that-powered.html) that I highly recommend.
+
 
 ![](/img/2023/sin-título-1.jpg)
 
- I am going to concentrate in the beautiful pictures taken by [John McMaster](https://siliconpr0n.org/archive/doku.php?id=tag:vendor_polaroid&do=backlink)
+ I﻿t has always been to take a look the dies of the electronics that run inside the SX-70. We were very lucky when the talented Ken Shirriff partnered with the project and helped us do just that. Hey wrote a [blog post on his website](https://www.righto.com/2022/02/a-look-inside-chips-that-powered.html) that I highly recommend.
+
+I am going to concentrate in the beautiful pictures taken by [John McMaster](https://siliconpr0n.org/archive/doku.php?id=tag:vendor_polaroid&do=backlink)
 
 T﻿here are 3 chips in the main PCB of the SX-70 (ECM or Electronic Control Module in Polaroid lingo) the opto chip that controls the exposure called integration, the "brains" logic chip which is the one in control of all the cool stuff the SX-70 does, and finally the power chip, this is in charge of turning on and off the solenoids and the motor.
 
