@@ -8,7 +8,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2023-04-29T15:01:12.273Z
+date: 2023-04-26T16:19:55.406Z
 title: a look inside the chips on the SX-70 camera (T.I.)
 description: a collaboration with the amazing Ken Shirriff and John McMaster
 feature_image: https://siliconpr0n.org/archive/lib/exe/fetch.php?cache=&media=mcmaster:polaroid:sx-70-chip2:logo_mit20x.jpg
