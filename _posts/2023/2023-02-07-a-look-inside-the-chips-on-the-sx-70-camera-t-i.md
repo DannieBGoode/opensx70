@@ -16,7 +16,7 @@ categories: openSX70
 ---
 
 
-![](/img/2023/sin-título-1.jpg)
+![](/img/2023/chips-graphic.jpg)
 
  I﻿t has always been to take a look the dies of the electronics that run inside the SX-70. We were very lucky when the talented Ken Shirriff partnered with the project and helped us do just that. Hey wrote a [blog post on his website](https://www.righto.com/2022/02/a-look-inside-chips-that-powered.html) that I highly recommend.
 
