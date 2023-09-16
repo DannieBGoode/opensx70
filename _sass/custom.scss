@@ -99,3 +99,33 @@ p img {
     }
   }
 }
+.calculator-footer {
+  color: #333337;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  a {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+.embed-code {
+    margin-top: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#iframe-code {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.embed-code button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; // Smooth transition for color change
+}

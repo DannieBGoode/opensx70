@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: default
 published: true
-title: Serial Number Calculator
-permalink: /calculator/
+title: Serial Number Calculator2
+permalink: /calculator-iframe/
 feature_image: serial
 ---
 
@@ -12,6 +12,7 @@ feature_image: serial
 	<input type="text" id="calculator-input" placeholder="0E504057143" value="0E504057143" />
 	<button onclick="calculateSerialNumber()">Calculate</button>
 </div>
+<div class="calculator-footer">Powered by <a href="{{ site.url }}">OpenSX70</a></div>
 
 <div class="calculator-results">
 	<div class="calculator-row serial-number">
@@ -38,12 +39,6 @@ feature_image: serial
 		<label>Shift Number : </label>
 		<div class="shift-number-value">0E504057143</div>
 	</div>
-</div>
-
-<div class="embed-code">
-    <label for="iframe-code">Embed this calculator on your website:</label>
-    <input type="text" id="iframe-code" readonly value='<iframe src="{{ site.url }}/calculator-iframe/" width="600" height="400"></iframe>'>
-    <button onclick="copyToClipboard()">Copy</button>
 </div>
 
 

@@ -125,3 +125,21 @@ function calculateSerialNumber() {
 	
 
 }
+
+function copyToClipboard() {
+    const iframeInput = document.getElementById('iframe-code');
+    const copyButton = document.querySelector('.embed-code button');
+
+    iframeInput.select();
+    document.execCommand('copy');
+
+    // Change button text and color
+    copyButton.textContent = "Copied";
+    copyButton.style.backgroundColor = "#4CAF50"; // Change to any color you prefer
+
+    // Revert button text and color after 3 seconds
+    setTimeout(function() {
+        copyButton.textContent = "Copy";
+        copyButton.style.backgroundColor = "#333"; // Initial color
+    }, 3000);
+}
