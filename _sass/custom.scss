@@ -113,6 +113,10 @@ p img {
     margin-top: 40px;
     font-size: 12px;
     text-align: center;
+    label {
+      display: block;  // This makes them stack vertically
+      margin-bottom: 10px;  // Adds some space below each element
+    }
 }
 
 #iframe-code {
