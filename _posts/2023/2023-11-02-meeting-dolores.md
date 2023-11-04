@@ -8,10 +8,10 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2023-11-02T09:29:53.713Z
+date: 2023-11-04T09:16:07.681Z
 title: Meeting Dolores
 description: I met Dolores and her family
-feature_image: /img/2023/flat-nose-parallel-pliers-2.1-.jpg
+feature_image: /img/2023/vlcsnap-2022-03-14-18h06m34s269.jpg
 categories: openSX70
 ---
 I﻿ met Dolores.
