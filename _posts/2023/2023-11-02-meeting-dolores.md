@@ -72,4 +72,10 @@ T﻿hen we spent the evening in Dolores fabulous apartment with her family, shar
 
 I﻿ find her vitality, a lesson to all of us, she told me that she would probably be travelling the world if not for her eyesight impediment.
 
+I﻿ want to give a heartfelt thanks to Jeremy and Zane for been so graceful to coming along with me in my crazy endevours, they are the best mariachis.
+
+I﻿ want to thank with all my heart Dolores, Sarah and Kaycee and all the wonderful people we met in Conneticut.
+
+I﻿ also want to apologize for taking so much in making this post.
+
 <iframe src="https://player.vimeo.com/video/833240136?h=986fdb73c5" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
