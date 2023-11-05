@@ -52,7 +52,9 @@ D﻿olores was very graceful with us, and let me take a good look at his albums 
 
 F﻿rom there, it is possible to have a very good idea of her role in the rollout of the SX-70. Indeed, she was the face of the camera, and had a mission to spread the news about the product. To create news, and newspaper articles, to basically generate awareness about the camera. The 16mm film was part of that effort, indeed, as we all know, the camera was so new, so innovative that didn't fit any of the existing categories. Dolores mission, that she took, and carried to the end with grace, was to create awareness on SX-70 camera and the new, as revolutionary as the camera, new film: absolute instant photography.
 
-![](/img/2023/img_4388.jpeg)
+![](/img/2023/img_4388.jpg)
+
+![](/img/2023/img_4364.jpg)
 
 ![](/img/2023/img_4413.jpeg)
 
