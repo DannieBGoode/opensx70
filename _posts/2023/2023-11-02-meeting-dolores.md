@@ -66,8 +66,8 @@ S﻿he was the prototype of the "Polaroid Camera girl"
 
 T﻿hen we spent the evening in Dolores fabulous apartment with her family, sharing memories and stories, a lifetime full of mementos in that house.
 
+<iframe src="https://player.vimeo.com/video/833241751?h=b76f44095f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 I﻿ find her vitality, a lesson to all of us, she told me that she would probably be travelling the world if not for her eyesight impediment.
 
 <iframe src="https://player.vimeo.com/video/833240136?h=986fdb73c5" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-<iframe src="https://player.vimeo.com/video/833241751?h=b76f44095f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
