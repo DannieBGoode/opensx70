@@ -16,6 +16,8 @@ categories: openSX70
 ---
 <!--StartFragment-->
 
+![](/img/2023/d65cf0b2-06ed-44d5-9de0-9b71c0b2e7d4_1_201_a.jpeg)
+
 In 2021 I made a [post](https://opensx70.com/posts/2021/02/loli) about a [16mm reel I have found on Ebay](https://vimeo.com/477548753/97e0340cfb).
 
 If you have not seen that film you should first see it in all its glory.
@@ -24,7 +26,7 @@ If you have not seen that film you should first see it in all its glory.
 
 Immediately we were all asking ourselves who is that girl on the film?
 
-W﻿ell in Saturday May 13th Doc SX70, Zane and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.
+W﻿ell in Saturday May 13th [Doc SX70](https://www.instagram.com/drsx70/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==), [Zane](https://www.instagram.com/zanepollard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==) and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.
 
 <iframe src="https://player.vimeo.com/video/833249670?h=51cee8585e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
