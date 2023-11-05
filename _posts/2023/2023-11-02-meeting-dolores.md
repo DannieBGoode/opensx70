@@ -36,14 +36,22 @@ W﻿e even had personalized names on the table.
 
 ![](/img/2023/dolores-cartel-joaquin.jpg)
 
-M﻿eeting Dolores, was both an honor and a privilege. She is a kind educated person always with a smile on her face, beatiful and sharp as a tack, at 90 plus years old she still remembers everything.
+M﻿eeting Dolores, was both an honor and a privilege. She is a kind educated person always with a smile on her face, smart and sharp as a tack, at 90 plus years old she still remembers everything.
 
 ![](/img/2023/img_4217.jpeg)
+
+S﻿he is both, beautiful and elegant. We also me with Sarah, Dolores daughter and her grandaughter. It was an absolut delight to meet these lady and feel tremendously grateful for all the effort they made to make this possible.
+
+![](/img/2023/img_4338_jpg.jpg)
+
+![](/img/2023/img_4311.jpg)
+
+![](/img/2023/img_4315.jpg)
+
+
 
 <iframe src="https://player.vimeo.com/video/833240136?h=986fdb73c5" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 
-
-<iframe src="https://player.vimeo.com/video/833241751?h=b76f44095f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 <iframe src="https://player.vimeo.com/video/833241751?h=b76f44095f" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
