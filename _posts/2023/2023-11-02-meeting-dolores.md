@@ -11,7 +11,7 @@ show_related_posts: true
 date: 2023-11-05T12:06:46.596Z
 title: "Dolores and the SX-70 part three: meeting Dolores!"
 description: I finally met Dolores and her family
-feature_image: /img/2023/img_4335.jpg
+feature_image: /img/2023/img_4335-2.jpg
 categories: openSX70
 ---
 <!--StartFragment-->
