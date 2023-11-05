@@ -8,15 +8,31 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2019-11-24T09:16:07.681Z
+date: 2023-11-05T12:06:46.596Z
 title: "Dolores and the SX-70 part three: meeting Dolores!"
 description: I finally met Dolores and her family
 feature_image: /img/2023/img_4335.jpg
 categories: openSX70
 ---
-I﻿ met Dolores.
+<!--StartFragment-->
+
+In 2021 I made a [post](https://opensx70.com/posts/2021/02/loli) about a [16mm reel I have found on Ebay](https://vimeo.com/477548753/97e0340cfb).
+
+If you have not seen that film you should first see it in all its glory.
+
+<iframe src="https://player.vimeo.com/video/477548753?h=97e0340cfb" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+Immediately we were all asking ourselves who is that girl on the film?
+
+W﻿ell in Saturday May 13th Doc SX70, Zane and me rented a convertible BMW and drove all the way upstate to meet Dolores.
+
+
 
 ![]()
+
+
+
+
 
 <iframe src="https://player.vimeo.com/video/833240136?h=986fdb73c5" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
