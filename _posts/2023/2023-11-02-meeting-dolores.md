@@ -20,19 +20,11 @@ categories: openSX70
 
 In 2021 I made a [post](https://opensx70.com/posts/2021/02/loli) about a [16mm reel I have found on Ebay](https://vimeo.com/477548753/97e0340cfb).
 
-If you have not seen that film you should first see it in all its glory.
-
-<iframe src="https://player.vimeo.com/video/477548753?h=97e0340cfb" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-Immediately we were all asking ourselves who is that girl on the film?
+If you have not seen that film you should first see it in all its glory.<iframe src="https://player.vimeo.com/video/477548753?h=97e0340cfb" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>Immediately we were all asking ourselves who is that girl on the film?
 
 We finally located her and I send her a handwritten letter, it [all on part two of the post](https://opensx70.com/dolores-and-the-sx-70-part-two-the-letter).
 
-And it finally happened, on Saturday May 13th [Doc SX70](https://www.instagram.com/drsx70/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==), [Zane](https://www.instagram.com/zanepollard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==) and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.
-
-<iframe src="https://player.vimeo.com/video/833249670?h=51cee8585e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-
-T﻿he trip took us longer than expected and we arrived a bit late, but all was good. Dolores and her daughter Sara had arranged a nice meal at the place she lives now.
+And it finally happened, on Saturday May 13th [Doc SX70](https://www.instagram.com/drsx70/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==), [Zane](https://www.instagram.com/zanepollard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==) and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.<iframe src="https://player.vimeo.com/video/833249670?h=51cee8585e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>T﻿he trip took us longer than expected and we arrived a bit late, but all was good. Dolores and her daughter Sara had arranged a nice meal at the place she lives now.
 
 ![](/img/2023/dolores-cartel-dolores.jpg)
 
