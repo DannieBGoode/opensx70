@@ -26,7 +26,9 @@ If you have not seen that film you should first see it in all its glory.
 
 Immediately we were all asking ourselves who is that girl on the film?
 
-W﻿ell in Saturday May 13th [Doc SX70](https://www.instagram.com/drsx70/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==), [Zane](https://www.instagram.com/zanepollard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==) and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.
+We finally located her and I send her a handwritten letter, it [all on part two of the post](https://opensx70.com/dolores-and-the-sx-70-part-two-the-letter).
+
+And it finally happened, on Saturday May 13th [Doc SX70](https://www.instagram.com/drsx70/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==), [Zane](https://www.instagram.com/zanepollard/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==) and me rented a convertible BMW and drove all the way to Conneticut to meet Dolores.
 
 <iframe src="https://player.vimeo.com/video/833249670?h=51cee8585e" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
@@ -40,7 +42,7 @@ W﻿e even had personalized names on the table.
 
 M﻿eeting Dolores, was both an honor and a privilege. She is a kind educated person always with a smile on her face, smart and sharp as a tack, at 90 plus years old she still remembers everything.
 
-![](/img/2023/img_4217.jpeg)
+![](/img/2023/img_4217.jpeg "Dolores reunited with the SX70!")
 
 S﻿he is both, beautiful and elegant. We also me with Sarah, Dolores daughter and her grandaughter. It was an absolut delight to meet these lady and feel tremendously grateful for all the effort they made to make this possible.
 
@@ -58,9 +60,9 @@ F﻿rom there, it is possible to have a very good idea of her role in the rollou
 
 ![](/img/2023/img_4364.jpg "Dolores work showed in the press, in articles promoting the camera, in education on how to use the camera.")
 
-![](/img/2023/img_4413.jpeg "SX-70 picture of Dolores while on the set of \"Dolores and the SX-70\"")
+![](/img/2023/img_4413.jpeg "SX-70 picture of Dolores while on the set of \\"Dolores and the SX-70\\"")
 
-![](/img/2023/img_4411.jpeg "SX-70 picture of Dolores while on the set of \"Dolores and the SX-70\"")
+![](/img/2023/img_4411.jpeg "SX-70 picture of Dolores while on the set of \\"Dolores and the SX-70\\"")
 
 S﻿he was the prototype of the "Polaroid Camera girl"
 
@@ -72,7 +74,7 @@ T﻿hen we spent the evening in Dolores fabulous apartment with her family, shar
 
 I﻿ find her vitality, a lesson to all of us, she told me that she would probably be travelling the world if not for her eyesight impediment.
 
-I﻿ want to give a heartfelt thanks to Jeremy and Zane for been so graceful to coming along with me in my crazy endevours, they are the best mariachis.
+A heartfelt thanks to Jeremy and Zane for been so graceful to coming along with me in my crazy endevours, they are the best mariachis.
 
 I﻿ want to thank with all my heart Dolores, Sarah and Kaycee and all the wonderful people we met in Conneticut.
 
