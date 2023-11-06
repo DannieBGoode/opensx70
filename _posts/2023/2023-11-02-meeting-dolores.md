@@ -44,7 +44,7 @@ M﻿eeting Dolores, was both an honor and a privilege. She is a kind educated pe
 
 ![](/img/2023/img_4217.jpeg "Dolores reunited with the SX70!")
 
-S﻿he is both, beautiful and elegant. We also me with Sarah, Dolores daughter and her grandaughter. It was an absolut delight to meet these lady and feel tremendously grateful for all the effort they made to make this possible.
+S﻿he is both, beautiful and elegant. We also met with Sarah, Dolores daughter and her grandaughter Kaycee. It was an absolut delight to meet these lady and feel tremendously grateful for all the effort they made to make this possible.
 
 ![](/img/2023/img_4338_jpg.jpg "Dolores with daughter Sarah and grandaughter.")
 
