@@ -11,7 +11,7 @@ show_related_posts: true
 date: 2024-04-11T14:32:44.053Z
 title: "Dolores and the SX-70: the sad epilog"
 description: Remembering the amazing Dolores Harrower, the original Polaroid SX-70 girl
-feature_image: /img/2024/dolores-sample.jpg
+feature_image: /img/2024/img_3374.jpg
 categories: openSX70
 ---
 ![](/img/2024/mom-in-fur-coat.jpg)
