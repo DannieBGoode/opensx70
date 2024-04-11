@@ -54,6 +54,10 @@ Dolores
 
 W﻿e all hoped it would never happen, but unfortunately it has, on January 19th 2024 Dolores passed after a long illness that finally won the battle.
 
+W﻿e were blessed to have [met her.](https://opensx70.com/meeting-dolores) She was the deal deal, a living symbol of the true Polaroid. We will miss her so much.
+
+![](/img/2024/img_4316.jpeg)
+
 T﻿his is her obituary:
 
 *Dolores Konetchy Harrower Mironchik, 96, of Evergreen Woods Retirement Community, North Branford died peacefully on Friday January 19th surrounded by her family.*
