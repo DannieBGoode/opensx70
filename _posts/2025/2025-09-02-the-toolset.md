@@ -11,7 +11,7 @@ show_related_posts: true
 date: 2025-09-02T17:57:35.109Z
 title: The toolset
 description: the tools of the trade
-feature_image: /img/2025/cover.jpg
+feature_image: /img/2025/flash.jpg
 categories: openSX70
 ---
 The toolset\
