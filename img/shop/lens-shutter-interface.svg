@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title>Lens Shutter Interface PCB placeholder</title><desc>Placeholder image for Lens Shutter Interface PCB product.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1e274e"/><stop offset="1" stop-color="#394d8e"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <circle cx="600" cy="390" r="190" fill="#d7dcf8"/><circle cx="600" cy="390" r="120" fill="#8d99d8"/>
+  <rect x="280" y="340" width="180" height="100" rx="12" fill="#d7dcf8"/><rect x="740" y="340" width="180" height="100" rx="12" fill="#d7dcf8"/>
+  <text x="600" y="705" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="50" font-weight="700">LENS SHUTTER INTERFACE PCB</text>
+</svg>

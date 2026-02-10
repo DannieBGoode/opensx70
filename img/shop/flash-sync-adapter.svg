@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title>Flash Sync Adapter placeholder</title><desc>Placeholder image for Flash Sync Adapter product.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#4a2f26"/><stop offset="1" stop-color="#7e4a35"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect x="340" y="260" width="520" height="260" rx="26" fill="#1c1c1c"/>
+  <circle cx="450" cy="390" r="48" fill="#f5f5f5"/><circle cx="600" cy="390" r="48" fill="#f5f5f5"/><circle cx="750" cy="390" r="48" fill="#f5f5f5"/>
+  <text x="600" y="705" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="56" font-weight="700">FLASH SYNC ADAPTER</text>
+</svg>
