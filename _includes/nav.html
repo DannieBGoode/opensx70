@@ -1,8 +1,7 @@
 <div id="menu-target">
     <ul>
         {% for page in site.nav_list %}
-            {% assign is_shop_item = page[1][1] == '/shop' %}
-            {% unless is_shop_item and site.data.shop.enabled == false %}
+            {% unless page[1][1] == '/shop' and site.data.shop.enabled == false %}
             <li>
             	<i class="fa {{ page[1][2] }}"></i>
             	<a href="{{ page[1][1] | prepend: site.baseurl }}" 
