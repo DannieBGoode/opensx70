@@ -1,14 +1,15 @@
 ---
 layout: product
-title: Battery Regulator Board
-price: 22
+title: ECM main PCB
+price: 25
 currency: EUR
-short_description: Stable power regulation board for modern battery integrations.
-description: High-efficiency regulator board designed to smooth power delivery and protect sensitive control electronics during startup spikes and heavy load cycles.
-image: /img/shop/battery-regulator-board.svg
+short_description: Main PCB to control the SX70.
+description: Main PCB to control the SX70 and make it CommandModule compatible.
+  Design by Zane Pollard.
+image: /img/shop/img_0969.jpeg
 images:
-  - image: /img/shop/battery-regulator-board.svg
-  - image: /img/shop/battery-regulator-board-2.svg
+  - /img/shop/img_0972-1-.jpeg
+  - /img/shop/img_1018.jpeg
   - image: /img/shop/battery-regulator-board-3.svg
 variants:
   - SX70 Alpha 1
