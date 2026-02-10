@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Shop
+title: Parts
 permalink: /shop
 feature_image: SX70_images/openSX70-cameraporn-6
 ---
 
 {% if site.data.shop.enabled == false %}
 <div class="shop-disabled-state">
-  <h2>Shop is currently disabled</h2>
+  <h2>Parts are currently disabled</h2>
   <p>The catalog is currently hidden. Re-enable it from Netlify CMS settings when you want to sell products again.</p>
 </div>
 {% else %}
@@ -41,7 +41,7 @@ feature_image: SX70_images/openSX70-cameraporn-6
   {% else %}
   <div class="shop-empty-state">
     <h2>No products yet</h2>
-    <p>Add products from Netlify CMS → Products. The storefront will update automatically.</p>
+    <p>Add products from Netlify CMS → Products. The parts catalog will update automatically.</p>
   </div>
   {% endif %}
 </div>

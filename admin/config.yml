@@ -14,10 +14,10 @@ collections:
       preview: false
     files:
       - name: 'shop'
-        label: 'Shop Settings'
+        label: 'Parts Settings'
         file: '_data/shop.yml'
         fields:
-          - { label: 'Enable Shop', name: 'enabled', widget: 'boolean', default: true, hint: 'Turn OFF to hide Shop from navigation and storefront pages.' }
+          - { label: 'Enable Parts', name: 'enabled', widget: 'boolean', default: true, hint: 'Turn OFF to hide Parts from navigation and parts pages.' }
 
   - name: 'blog'
     label: 'Blog'
@@ -114,13 +114,13 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Price', name: 'price', widget: 'number', value_type: 'float', min: 0 }
       - { label: 'Currency', name: 'currency', widget: 'select', options: ['EUR', 'USD', 'GBP'], default: 'EUR' }
-      - { label: 'Short Description', name: 'short_description', widget: 'text', hint: 'Shown in the Shop grid card.' }
+      - { label: 'Short Description', name: 'short_description', widget: 'text', hint: 'Shown in the Parts grid card.' }
       - { label: 'Description', name: 'description', widget: 'text', hint: 'Shown in the product details page.' }
       - { label: 'Main Image', name: 'image', widget: 'image', hint: 'Primary image used as fallback.' }
       - label: 'Gallery Images'
         name: 'images'
         widget: 'list'
-        hint: 'Add as many images as needed (1 to many). First image is used as the main shop/product image.'
+        hint: 'Add as many images as needed (1 to many). First image is used as the main parts/product image.'
         field:
           label: 'Image'
           name: 'image'
