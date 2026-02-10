@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title>Command Module Flex Cable placeholder</title><desc>Placeholder image for Command Module Flex Cable product.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#2d2f3a"/><stop offset="1" stop-color="#51596d"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/><path d="M220 400 C420 220, 780 580, 980 400" stroke="#f7c948" stroke-width="70" fill="none" stroke-linecap="round"/>
+  <rect x="195" y="360" width="120" height="80" rx="8" fill="#d0d3d8"/><rect x="885" y="360" width="120" height="80" rx="8" fill="#d0d3d8"/>
+  <text x="600" y="705" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="50" font-weight="700">COMMAND MODULE FLEX CABLE</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title>Battery Regulator Board placeholder</title><desc>Placeholder image for Battery Regulator Board product.</desc>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#1b3f2f"/><stop offset="1" stop-color="#2b7a57"/></linearGradient></defs>
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <rect x="260" y="190" width="680" height="420" rx="18" fill="#40c486"/>
+  <rect x="340" y="280" width="140" height="140" rx="10" fill="#1a5f43"/><rect x="530" y="280" width="140" height="140" rx="10" fill="#1a5f43"/><rect x="720" y="280" width="140" height="140" rx="10" fill="#1a5f43"/>
+  <text x="600" y="705" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="52" font-weight="700">BATTERY REGULATOR BOARD</text>
+</svg>
