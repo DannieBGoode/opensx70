@@ -17,9 +17,27 @@ layout: default
         <div class="col-xs-12 single-content product-page">
             <p><a href="{{ '/shop' | relative_url }}">&larr; Back to Shop</a></p>
 
-            <article class="product-panel">
+            {% assign gallery_images = page.images %}
+            {% if gallery_images == nil or gallery_images.size == 0 %}
+            {% assign gallery_images = page.image | split: '|' %}
+            {% endif %}
+            <article class="product-panel" data-product-gallery>
                 <div class="product-media">
-                    <img src="{{ page.image | relative_url }}" alt="{{ page.title }} placeholder image">
+                    <img id="product-main-image" src="{{ gallery_images[0] | strip | relative_url }}" alt="{{ page.title }} main product image">
+
+                    {% if gallery_images.size > 1 %}
+                    <div class="product-gallery-controls">
+                        <button class="gallery-btn" type="button" data-gallery-prev aria-label="Previous image">&#10094;</button>
+                        <button class="gallery-btn" type="button" data-gallery-next aria-label="Next image">&#10095;</button>
+                    </div>
+                    <div class="product-thumbs">
+                        {% for image in gallery_images %}
+                        <button class="thumb-btn{% if forloop.first %} active{% endif %}" type="button" data-gallery-thumb data-image-src="{{ image | strip | relative_url }}" aria-label="View image {{ forloop.index }}">
+                            <img src="{{ image | strip | relative_url }}" alt="{{ page.title }} thumbnail {{ forloop.index }}">
+                        </button>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
                 </div>
 
                 <div class="product-details">
@@ -28,12 +46,12 @@ layout: default
                     <p class="product-description">{{ page.description }}</p>
 
                     {% if page.variants and page.variants.size > 0 %}
-                    <h2>Compatible variants</h2>
-                    <ul>
+                    <label class="variant-label" for="variant-select"><strong>Compatible variants</strong></label>
+                    <select id="variant-select" class="variant-select" name="variant">
                         {% for variant in page.variants %}
-                        <li>{{ variant }}</li>
+                        <option value="{{ variant }}">{{ variant }}</option>
                         {% endfor %}
-                    </ul>
+                    </select>
                     {% endif %}
 
                     <button class="shop-cta" disabled>Coming Soon</button>
@@ -42,5 +60,52 @@ layout: default
         </div>
     </div>
 </main>
+
+<script>
+(function () {
+  var gallery = document.querySelector('[data-product-gallery]');
+  if (!gallery) return;
+
+  var mainImage = gallery.querySelector('#product-main-image');
+  var thumbs = gallery.querySelectorAll('[data-gallery-thumb]');
+  var prevBtn = gallery.querySelector('[data-gallery-prev]');
+  var nextBtn = gallery.querySelector('[data-gallery-next]');
+
+  if (!thumbs.length || !mainImage) return;
+
+  var currentIndex = 0;
+
+  function setActive(index) {
+    currentIndex = (index + thumbs.length) % thumbs.length;
+    var activeThumb = thumbs[currentIndex];
+    mainImage.src = activeThumb.getAttribute('data-image-src');
+
+    for (var i = 0; i < thumbs.length; i += 1) {
+      thumbs[i].classList.remove('active');
+    }
+    activeThumb.classList.add('active');
+  }
+
+  for (var t = 0; t < thumbs.length; t += 1) {
+    (function (index) {
+      thumbs[index].addEventListener('click', function () {
+        setActive(index);
+      });
+    })(t);
+  }
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function () {
+      setActive(currentIndex - 1);
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function () {
+      setActive(currentIndex + 1);
+    });
+  }
+})();
+</script>
 
 {% include footer-page.html %}

@@ -10,9 +10,10 @@ Browse the current openSX70 hardware catalog. Each product page includes pricing
 <div class="shop-grid">
   {% assign sorted_products = site.products | sort: "title" %}
   {% for product in sorted_products %}
+  {% assign product_main_image = product.images | first | default: product.image %}
   <article class="shop-card">
     <a class="shop-card-media" href="{{ product.url | relative_url }}" aria-label="View {{ product.title }}">
-      <img src="{{ product.image | relative_url }}" alt="{{ product.title }} placeholder image">
+      <img src="{{ product_main_image | relative_url }}" alt="{{ product.title }} main product image">
     </a>
     <div class="shop-card-content">
       <h2><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h2>
