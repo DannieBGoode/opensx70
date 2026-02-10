@@ -5,7 +5,10 @@ permalink: /shop
 feature_image: SX70_images/openSX70-cameraporn-6
 ---
 
-Browse the current openSX70 hardware catalog. Each product page includes pricing, compatibility variants, and technical context for your build planning.
+<div class="shop-intro">
+  <p class="shop-kicker">openSX70 Hardware Catalog</p>
+  <p class="shop-lead">Browse replacement boards and modules for your camera build. Each product page includes pricing, compatibility variants, and visual references.</p>
+</div>
 
 <div class="shop-grid">
   {% assign sorted_products = site.products | sort: "title" %}
@@ -19,7 +22,7 @@ Browse the current openSX70 hardware catalog. Each product page includes pricing
       <h2><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h2>
       <p class="shop-card-price">{{ product.currency }} {{ product.price }}</p>
       <p class="shop-card-description">{{ product.short_description | default: product.description }}</p>
-      <a class="shop-card-link" href="{{ product.url | relative_url }}">View product details</a>
+      <a class="shop-card-link" href="{{ product.url | relative_url }}">View details</a>
     </div>
   </article>
   {% endfor %}
