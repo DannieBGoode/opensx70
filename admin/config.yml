@@ -7,6 +7,18 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
+  - name: 'settings'
+    label: 'Settings'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: 'shop'
+        label: 'Shop Settings'
+        file: '_data/shop.yml'
+        fields:
+          - { label: 'Enable Shop', name: 'enabled', widget: 'boolean', default: true, hint: 'Turn OFF to hide Shop from navigation and storefront pages.' }
+
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
