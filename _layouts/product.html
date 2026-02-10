@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<header class="hero-image" style='background-image: url({{"/img/SX70_images/openSX70-cameraporn-6.jpg" | prepend: site.baseurl }});'>
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    {% include nav.html %}
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 single-content product-page">
+            <p><a href="{{ '/shop' | relative_url }}">&larr; Back to Shop</a></p>
+
+            <h1>{{ page.title }}</h1>
+
+            <p class="product-price">{{ page.price }} {{ page.currency }}</p>
+
+            <p>{{ page.description }}</p>
+
+            {% if page.variants and page.variants.size > 0 %}
+            <h2>Variants</h2>
+            <ul>
+                {% for variant in page.variants %}
+                <li>{{ variant }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <button class="shop-cta" disabled>Coming Soon</button>
+        </div>
+    </div>
+</main>
+
+{% include footer-page.html %}
