@@ -84,3 +84,33 @@ collections:
       - { label: 'Permalink', name: 'permalink', widget: 'text', required: false, hint: 'if empty this URL will be auto-generated.' }
       - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'products'
+    label: 'Products'
+    folder: '_products/'
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    media_folder: 'img/shop'
+    public_folder: '/img/shop'
+    sortable_fields: ['title', 'price', 'commit_date', 'filename']
+    summary: '{{title}} — {{currency}} {{price}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'product' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Price', name: 'price', widget: 'number', value_type: 'float', min: 0 }
+      - { label: 'Currency', name: 'currency', widget: 'select', options: ['EUR', 'USD', 'GBP'], default: 'EUR' }
+      - { label: 'Short Description', name: 'short_description', widget: 'text', hint: 'Shown in the Shop grid card.' }
+      - { label: 'Description', name: 'description', widget: 'text', hint: 'Shown in the product details page.' }
+      - { label: 'Main Image', name: 'image', widget: 'image', hint: 'Primary image used as fallback.' }
+      - label: 'Gallery Images'
+        name: 'images'
+        widget: 'list'
+        hint: 'Add as many images as needed (1 to many). First image is used as the main shop/product image.'
+        field:
+          label: 'Image'
+          name: 'image'
+          widget: 'image'
+      - { label: 'Variants', name: 'variants', widget: 'list', allow_add: true, collapsed: false, hint: 'These options appear in the variant dropdown on the product page.' }

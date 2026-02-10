@@ -25,7 +25,13 @@ layout: default
             <article class="product-panel" data-product-gallery>
                 <div class="product-media">
                     <div class="product-main-visual">
-                        <img id="product-main-image" src="{{ gallery_images[0] | strip | relative_url }}" alt="{{ page.title }} main product image">
+                        {% assign first_image = gallery_images[0] %}
+                        {% if first_image.image %}
+                        {% assign first_image_url = first_image.image %}
+                        {% else %}
+                        {% assign first_image_url = first_image | strip %}
+                        {% endif %}
+                        <img id="product-main-image" src="{{ first_image_url | relative_url }}" alt="{{ page.title }} main product image">
 
                         {% if gallery_images.size > 1 %}
                         <button class="gallery-btn gallery-btn-prev" type="button" data-gallery-prev aria-label="Previous image">&#10094;</button>
@@ -37,8 +43,13 @@ layout: default
                     {% if gallery_images.size > 1 %}
                     <div class="product-thumbs" role="tablist" aria-label="Product images">
                         {% for image in gallery_images %}
-                        <button class="thumb-btn{% if forloop.first %} active{% endif %}" type="button" data-gallery-thumb data-image-src="{{ image | strip | relative_url }}" aria-label="View image {{ forloop.index }}">
-                            <img src="{{ image | strip | relative_url }}" alt="{{ page.title }} thumbnail {{ forloop.index }}">
+                        {% if image.image %}
+                        {% assign image_url = image.image %}
+                        {% else %}
+                        {% assign image_url = image | strip %}
+                        {% endif %}
+                        <button class="thumb-btn{% if forloop.first %} active{% endif %}" type="button" data-gallery-thumb data-image-src="{{ image_url | relative_url }}" aria-label="View image {{ forloop.index }}">
+                            <img src="{{ image_url | relative_url }}" alt="{{ page.title }} thumbnail {{ forloop.index }}">
                         </button>
                         {% endfor %}
                     </div>
