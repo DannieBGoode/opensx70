@@ -12,10 +12,76 @@
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
     <script>
-      import CMS from 'netlify-cms-app';
-      import { es } from 'netlify-cms-locales';
+      (function () {
+        const SHOP_SETTINGS_URL = '/_data/shop.yml';
+        const PARTS_LABEL_PATTERN = /(parts|products)/i;
 
-      CMS.registerLocale('es', es);
+        function parsePartsEnabled(yamlText) {
+          const match = yamlText.match(/^\s*enabled\s*:\s*(true|false)\s*$/im);
+          return match ? match[1].toLowerCase() === 'true' : true;
+        }
+
+        function showAllNonPartsNavigation() {
+          document.querySelectorAll('[aria-disabled="true"]').forEach((element) => {
+            const label = (element.textContent || '').trim();
+            if (!PARTS_LABEL_PATTERN.test(label)) {
+              element.setAttribute('aria-disabled', 'false');
+              element.removeAttribute('disabled');
+              element.style.pointerEvents = '';
+              element.style.opacity = '';
+            }
+          });
+        }
+
+        function hidePartsNavigationItems() {
+          document.querySelectorAll('a, button, [role="menuitem"]').forEach((element) => {
+            const label = (element.textContent || '').trim();
+            if (!PARTS_LABEL_PATTERN.test(label)) {
+              return;
+            }
+
+            const navItem = element.closest('li, [role="listitem"], [class*="Collection"], [class*="Sidebar"]') || element;
+            navItem.style.display = 'none';
+          });
+        }
+
+        function applyPartsNavigationVisibility(partsEnabled) {
+          if (partsEnabled) {
+            return;
+          }
+
+          showAllNonPartsNavigation();
+          hidePartsNavigationItems();
+
+          const observer = new MutationObserver(() => {
+            showAllNonPartsNavigation();
+            hidePartsNavigationItems();
+          });
+
+          observer.observe(document.body, { childList: true, subtree: true });
+        }
+
+        async function setupPartsNavigationVisibility() {
+          try {
+            const response = await fetch(SHOP_SETTINGS_URL, { cache: 'no-store' });
+            if (!response.ok) {
+              return;
+            }
+
+            const yamlText = await response.text();
+            const partsEnabled = parsePartsEnabled(yamlText);
+            applyPartsNavigationVisibility(partsEnabled);
+          } catch (error) {
+            console.warn('Unable to load Parts settings for CMS navigation.', error);
+          }
+        }
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', setupPartsNavigationVisibility);
+        } else {
+          setupPartsNavigationVisibility();
+        }
+      })();
     </script>
   </body>
 </html>

@@ -99,6 +99,7 @@ collections:
 
   - name: 'products'
     label: 'Products'
+    icon: 'build'
     folder: '_products/'
     create: true
     delete: true
