@@ -1,16 +1,17 @@
 ---
 layout: product
-title: Command Module Flex Cable
-price: 15
+title: Flex Cable Black
+price: 5
 currency: EUR
-short_description: Precision replacement flex cable for command module integrations.
-description: Precision-made flex cable for connecting internal control boards while keeping the SX70 wiring clean, serviceable, and durable over repeated disassembly.
-image: /img/shop/command-module-flex.svg
+short_description: Precision replacement flex cable black double sided
+description: Precision-made flex cable for connecting internal control boards
+  while keeping the SX70 wiring clean, serviceable, and durable over repeated
+  disassembly.
+image: /img/shop/img_1025.jpeg
 images:
-  - image: /img/shop/command-module-flex.svg
-  - image: /img/shop/command-module-flex-2.svg
+  - /img/shop/img_1025.jpeg
+  - /img/shop/img_1026.jpeg
   - image: /img/shop/command-module-flex-3.svg
 variants:
-  - SX70 Sonar
-  - SX70 Alpha 1
+  - Black
 ---
