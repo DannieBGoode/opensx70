@@ -9,8 +9,8 @@ description: Main PCB to control the SX70 and make it CommandModule compatible.
   builds.
 image: /img/shop/img_1081.jpeg
 images:
-  - /img/shop/img_1081.jpeg
-  - /img/shop/img_1122.jpeg
+  - image: /img/shop/img_1081.jpeg
+  - image: /img/shop/img_1122.jpeg
   - image: /img/shop/ecm-main-pcb-3.svg
 variants:
   - Sonar / Alpha
