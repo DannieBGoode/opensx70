@@ -105,7 +105,7 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
-    media_folder: 'img/shop'
+    media_folder: '/img/shop'
     public_folder: '/img/shop'
     sortable_fields: ['title', 'price', 'commit_date', 'filename']
     summary: '{{title}} — {{currency}} {{price}}'
