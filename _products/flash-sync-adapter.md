@@ -1,16 +1,17 @@
 ---
 layout: product
-title: Flash Sync Adapter
+title: Bodyflex black & extras
 price: 19
 currency: EUR
-short_description: Compact sync adapter for modern flash trigger compatibility.
-description: Low-profile adapter that enables dependable flash synchronization with external trigger systems while preserving the original camera footprint.
-image: /img/shop/flash-sync-adapter.svg
+short_description: Replacement bodyflex replacement.  Compatible with standard DIL MCC
+description: This is a replacement bodyflex flex PCB for the standard DIL chip
+  motor controller (not included). And some extra flex circuits for FFA flex
+  replacement, and for Solenoid 1.
+image: /img/shop/img_1043.jpeg
 images:
-  - image: /img/shop/flash-sync-adapter.svg
-  - image: /img/shop/flash-sync-adapter-2.svg
-  - image: /img/shop/flash-sync-adapter-3.svg
+  - /img/shop/img_1044.jpeg
+  - /img/shop/img_1046.jpeg
+  - /img/shop/img_1048.jpeg
 variants:
-  - SX70 Sonar
-  - SX70 Model 2
+  - black
 ---
