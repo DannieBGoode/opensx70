@@ -7,7 +7,7 @@ short_description: Main control PCB that makes SX70 cameras CommandModule compat
 description: Main PCB to control the SX70 and make it CommandModule compatible.
   Designed by Zane Pollard and adapted for reliable daily use with openSX70
   builds.
-image: /img/shop/img_1081.jpeg
+image: /img/shop/img_1122.jpeg
 images:
   - image: /img/shop/img_1081.jpeg
   - image: /img/shop/img_1122.jpeg
