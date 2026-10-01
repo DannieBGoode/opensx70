@@ -9,7 +9,9 @@ layout: default
     {% assign displayImage = site.baseurl | append: "/img/" | append: page.feature_image | append: ".jpg" %}
 {% endif %}
 
-<header class="hero-image" style="background-image: url('{{ displayImage | netlify_image_url: 2400 }}');">
+{% assign hero_image_url = displayImage | netlify_image_url: 2400 %}
+{% include hero-preload.html url=hero_image_url %}
+<header class="hero-image" style="background-image: url('{{ hero_image_url }}');">
     <span class="menu-trigger animated fadeInDown">
         <span class="bar"></span>
         <span class="bar"></span>

@@ -1,0 +1,6 @@
+{% comment %}
+  The hero/sidebar photo is a CSS background, so browsers only discover it
+  after main.css loads. Preloading the exact same URL lets it start downloading
+  immediately; it is usually the page's largest contentful paint.
+{% endcomment %}
+<link rel="preload" as="image" href="{{ include.url }}" fetchpriority="high">
