@@ -14,6 +14,8 @@ All notable changes to openSX70 are documented here.
 - The "read another" cards at the bottom of posts show each post's photo again, instead of collapsing and letting their titles overlap the author details.
 - Related-post thumbnails stay sharp on tablets and phones.
 - Posts created in the CMS no longer print their header image path as stray text at the bottom of the page.
+- Homepage post cards are one working link again; links inside a post no longer break the card into an empty, unclickable link.
+- Posts without a category no longer show an empty category link.
 
 ### Removed
 
