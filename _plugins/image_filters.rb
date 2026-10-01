@@ -3,6 +3,7 @@ require "uri"
 
 module OpenSX70ImageFilters
   IMAGE_TAG = /<img\b[^>]*>/i
+  LAZY_MEDIA_TAG = /<(?:img|iframe)\b[^>]*>/i
   SRC_ATTRIBUTE = /\bsrc\s*=\s*(["'])(.*?)\1/im
   RESPONSIVE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
   PUBLIC_MEDIA_PREFIXES = %w[/img/ /assets/uploads/].freeze
@@ -160,26 +161,34 @@ module OpenSX70ImageFilters
       transformed_format(input)
     end
 
-    def add_lazy_attributes(input)
-      first_image = true
+    # Embeds (iframes) are always deferred; only the first image may stay
+    # eager. Loading attributes never change which image variant is fetched.
+    def add_lazy_attributes(input, eager_first = true)
+      first_image = eager_first
 
-      input.to_s.gsub(IMAGE_TAG) do |tag|
-        if first_image
+      input.to_s.gsub(LAZY_MEDIA_TAG) do |tag|
+        image = tag.match?(/\A<img\b/i)
+        # `decoding` only applies to images.
+        attributes = image ? ' loading="lazy" decoding="async"' : ' loading="lazy"'
+
+        if first_image && image
           first_image = false
           tag
         elsif tag.match?(/\bloading\s*=/i)
           tag
         elsif tag.match?(%r{\s*/>\z})
-          tag.sub(%r{\s*/>\z}, ' loading="lazy" decoding="async" />')
+          tag.sub(%r{\s*/>\z}, "#{attributes} />")
         else
-          tag.sub(/>\z/, ' loading="lazy" decoding="async">')
+          tag.sub(/>\z/, "#{attributes}>")
         end
       end
     end
   end
 
-  def lazy_images(input)
-    OpenSX70ImageFilters.add_lazy_attributes(input)
+  # Leaves the first image eager (the likely LCP image) unless `eager_first`
+  # is false, e.g. for listing previews below the first post.
+  def lazy_images(input, eager_first = true)
+    OpenSX70ImageFilters.add_lazy_attributes(input, eager_first)
   end
 
   def netlify_image_url(input, width = 2400)

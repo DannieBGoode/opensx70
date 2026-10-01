@@ -16,13 +16,17 @@ layout: with-sidebar
 
 <div class="posts-block animated fadeIn ">
 
+    {% comment %}Only the first preview that has an image loads it eagerly.{% endcomment %}
+    {% assign eager_preview = true %}
     {% for post in author_posts %}
         <article class="post">
           <div class="post-preview">
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
 
-            {{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}
+            {% assign preview = post.excerpt | truncate_html_words: 28 | lazy_images: eager_preview %}
+            {{ preview }}
+            {% if preview contains "<img" %}{% assign eager_preview = false %}{% endif %}
 
             <p class="meta">
                 <span>{{ post.author_name }}</span>
