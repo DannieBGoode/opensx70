@@ -4,6 +4,7 @@ require "find"
 
 CONTENT_ROOTS = %w[_posts _pages _tutorials _products _layouts _includes].freeze
 CONTENT_FILES = %w[feed.xml].freeze
+PUBLIC_MEDIA_ROOTS = %w[img assets/uploads].freeze
 IMAGE_EXTENSIONS = %w[.avif .gif .jpeg .jpg .png .webp].freeze
 MAX_IMAGE_BYTES = Integer(ENV.fetch("MAX_PUBLIC_IMAGE_BYTES", "25000000"), 10)
 LARGE_IMAGE_BYTES = Integer(ENV.fetch("REPORT_LARGE_IMAGE_BYTES", "5000000"), 10)
@@ -29,8 +30,10 @@ CONTENT_FILES.each do |path|
   inline_images << path if File.file?(path) && File.binread(path).include?("data:image/")
 end
 
-if Dir.exist?("img")
-  Find.find("img") do |path|
+PUBLIC_MEDIA_ROOTS.each do |root|
+  next unless Dir.exist?(root)
+
+  Find.find(root) do |path|
     next unless File.file?(path)
     next unless IMAGE_EXTENSIONS.include?(File.extname(path).downcase)
 
