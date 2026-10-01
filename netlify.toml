@@ -17,3 +17,20 @@
   for = "/assets/uploads/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, must-revalidate"
+
+# Vendor scripts and fonts never change in place; main.css is cache-busted per
+# build. main.js and calculator.js keep Netlify's revalidate-every-time default.
+[[headers]]
+  for = "/js/vendor/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"

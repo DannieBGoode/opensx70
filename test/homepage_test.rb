@@ -1,4 +1,5 @@
 require "test_helper"
+require File.join(ROOT, "_plugins/image_filters")
 
 class HomepageTest < Minitest::Test
   def previews(path = "index.html")
@@ -48,6 +49,23 @@ class HomepageTest < Minitest::Test
     refute_empty images
     refute_includes images.first, "loading=", "first preview image should load eagerly"
     images.drop(1).each { |tag| assert_includes tag, 'loading="lazy"' }
+  end
+
+  # Value: protects=preview downloads match the 217-493px preview column (PageSpeed flagged 800w files in 513-device-pixel slots); fails_when=home.html drops `image_sizes: "post-preview"` and previews fall back to the 100vw/1200px hint; why_new=no test checked preview sizes; seam=none
+  def test_preview_images_hint_the_preview_column_width
+    sources = previews.scan(%r{<source [^>]*>(?!<img [^>]*user-icon)})
+
+    refute_empty sources
+    sizes = CGI.escapeHTML(OpenSX70ImageFilters::SIZES_PRESETS.fetch("post-preview"))
+    sources.each { |tag| assert_includes tag, %(sizes="#{sizes}") }
+  end
+
+  # Value: protects=rendered homepage avatars go through the image CDN (PageSpeed flagged guest.jpg 576x720 at 50px); fails_when=home.html avatars bypass the CDN again; why_new=avatars were excluded from responsive markup; seam=none
+  def test_avatars_are_served_through_the_image_cdn
+    avatars = previews.scan(%r{<picture><source [^>]*>(?=<img [^>]*user-icon)})
+
+    refute_empty avatars, "homepage avatars are not responsive"
+    assert avatars.any? { |tag| tag.include?("/img/guest.jpg&amp;w=320&amp;") }
   end
 
   # Value: protects=each homepage card is a single link with text (Lighthouse "links must have discernible text"); fails_when=a post's own links nest inside the card link again; why_new=string tests above don't model nesting; seam=none

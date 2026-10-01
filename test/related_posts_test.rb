@@ -19,12 +19,12 @@ class RelatedPostsTest < Minitest::Test
     end
   end
 
-  # Value: protects=thumbnail sharpness; fails_when=the related-thumbnail sizes hint shrinks back to a fixed 200px and tablet/mobile cards (50-100vw) get a blurry 320w variant; why_new=sizes_for had no test; seam=none
+  # Value: protects=thumbnail sharpness; fails_when=the hint shrinks below the measured square cards (18vw desktop, 50vw+20px tablet, 100vw+30px mobile) or ignores that object-fit: cover shows landscape photos (band.jpg is 2.6:1) wider than the card; why_new=sizes_for had no test; seam=none
   def test_thumbnails_request_variants_for_their_real_width
     html = File.read(File.join(built_site, "the-toolset.html"))
     related = html[/<div class="row read-another-section">.*?<\/div>\s*<\/a>\s*<\/div>/m] || flunk("related posts section not found")
 
-    assert_includes related, 'sizes="(min-width: 992px) 17vw, (min-width: 768px) 50vw, 100vw"'
+    assert_includes related, 'sizes="(min-width: 992px) 46.73vw, (min-width: 768px) calc(129.8vw + 51.92px), calc(259.6vw + 77.88px)"'
   end
 
   # Value: protects=external feature images used as thumbnails keep a valid URL; fails_when=site.baseurl is prepended to a full URL ("/subpathhttps://..."); why_new=the production baseurl is empty, so only an explicit check catches it; seam=none

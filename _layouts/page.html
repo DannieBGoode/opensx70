@@ -21,7 +21,7 @@ layout: default
 
             <h1>{{ page.title }}</h1>
 
-            {{ content | lazy_images }}
+            {{ content | lazy_images | image_sizes: "content" }}
 
         </div><!-- main-content/col -->
     </div> <!--/row -->
