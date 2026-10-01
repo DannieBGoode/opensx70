@@ -5,6 +5,8 @@
 [build.environment]
   JEKYLL_ENV = "production"
   OPENSX70_USE_NETLIFY_IMAGE_CDN = "true"
+  # The :test group (minitest, rake) is only needed in CI.
+  BUNDLE_WITHOUT = "test"
 
 [[headers]]
   for = "/img/*"
