@@ -13,7 +13,7 @@ layout: with-sidebar
 
         <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-        {{ post.excerpt | truncatewords: 28 }}
+        {{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}
 
         <p class="meta">
                 {% assign words = post.content | strip_html | number_of_words %}
@@ -29,7 +29,7 @@ layout: with-sidebar
 
         {% if post.show_avatar == true %}
         <div class=" col-xs-2  no-gutter">
-            <img src='{{ "/img/" | append: post.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon user-1" alt="user-image">
+            <img src='{{ "/img/" | append: post.author_avatar | prepend: site.baseurl }}.jpg' class="user-icon user-1" alt="user-image" loading="lazy" decoding="async">
         </div>
         {% endif %}
 

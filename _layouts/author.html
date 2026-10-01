@@ -5,7 +5,7 @@ layout: with-sidebar
 
 <div class="author-bio">
 
-    <img src='{{ "/img/" | append : page.author_avatar | prepend: site.baseurl }}.jpg'>
+    <img class="user-icon" src='{{ "/img/" | append : page.author_avatar | prepend: site.baseurl }}.jpg'>
 
     <div class="author-bio__info">
         {{ content }}
@@ -22,7 +22,7 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
 
-            {{ post.excerpt }}
+            {{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}
 
             <p class="meta">
                 <span>{{ post.author_name }}</span>
