@@ -397,3 +397,10 @@ p img {
     line-height: 1.55;
   }
 }
+
+// Embeds restored in listing previews keep their source, but never overflow
+// the preview column.
+.post-preview iframe,
+.post-favorite iframe {
+  max-width: 100%;
+}

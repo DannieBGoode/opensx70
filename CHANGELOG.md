@@ -2,6 +2,23 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.3.0] - 2026-10-01
+
+### Fixed
+
+- Post previews on the homepage, category, author and alternate home pages show their photos and paragraph formatting again, instead of a run of plain text.
+- Long image captions no longer cut a preview image in half, and previews stop cleanly at the word limit instead of pulling in the images that follow it.
+- Video embeds in previews fit the column on small screens.
+
+### Changed
+
+- Only the first preview image on a listing page loads right away; later preview images load as you scroll, at full quality.
+- Video and document embeds load as you scroll on every page, including full posts.
+
+### Added
+
+- An automated test suite (`bundle exec rake test`) that runs on every pull request, covering the preview filter and the rendered listing pages.
+
 ## [0.0.2.0] - 2026-10-01
 
 ### Fixed

@@ -9,6 +9,8 @@ layout: with-sidebar
 
 <div class="home-page-posts animated fadeIn ">
 
+    {% comment %}Only the first preview that has an image loads it eagerly.{% endcomment %}
+    {% assign eager_preview = true %}
     {% for post in paginator.posts %}
 
     <article class="post">
@@ -16,7 +18,9 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <span style="font-size:13px">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}
+                {% assign preview = post.content | truncate_html_words: 28 | lazy_images: eager_preview %}
+                {{ preview }}
+                {% if preview contains "<img" %}{% assign eager_preview = false %}{% endif %}
             </a>
             <p class="read-more"><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn">Read More</button></a></p>
 

@@ -40,6 +40,12 @@ analytics:
 include:
   - _pages
   - _tutorials
+
+exclude:
+  - Rakefile
+  - test/
+  - CLAUDE.md
+  - TESTING.md
  
 collections:
   tutorials:
