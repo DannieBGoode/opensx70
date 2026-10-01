@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<header class="hero-image" style='background-image: url({{"/img/SX70_images/openSX70-cameraporn-6.jpg" | prepend: site.baseurl }});'>
+{% assign product_feature_image = "/img/SX70_images/openSX70-cameraporn-6.jpg" | prepend: site.baseurl %}
+<header class="hero-image" style="background-image: url('{{ product_feature_image | netlify_image_url: 2400 }}');">
     <span class="menu-trigger animated fadeInDown">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -58,8 +59,8 @@ layout: default
                         {% else %}
                         {% assign image_url = image | strip %}
                         {% endif %}
-                        <button class="thumb-btn{% if forloop.first %} active{% endif %}" type="button" data-gallery-thumb data-image-src="{{ image_url | relative_url }}" aria-label="View image {{ forloop.index }}">
-                            <img src="{{ image_url | relative_url }}" alt="{{ page.title }} thumbnail {{ forloop.index }}">
+                        <button class="thumb-btn{% if forloop.first %} active{% endif %}" type="button" data-gallery-thumb data-image-src="{{ image_url | netlify_image_url: 2400 | relative_url | escape }}" data-image-srcset="{{ image_url | netlify_image_srcset | escape }}" data-image-format="{{ image_url | netlify_image_format }}" aria-label="View image {{ forloop.index }}">
+                            <img class="product-thumb" src="{{ image_url | relative_url }}" alt="{{ page.title }} thumbnail {{ forloop.index }}" loading="lazy" decoding="async">
                         </button>
                         {% endfor %}
                     </div>
@@ -94,18 +95,46 @@ layout: default
   if (!gallery) return;
 
   var mainImage = gallery.querySelector('#product-main-image');
+  if (!mainImage) return;
+
+  var mainPicture = mainImage.parentNode && mainImage.parentNode.tagName.toLowerCase() === 'picture' ? mainImage.parentNode : null;
+  var webpSource = mainPicture ? mainPicture.querySelector('source[type="image/webp"]') : null;
   var thumbs = gallery.querySelectorAll('[data-gallery-thumb]');
   var prevBtn = gallery.querySelector('[data-gallery-prev]');
   var nextBtn = gallery.querySelector('[data-gallery-next]');
   var indexLabel = gallery.querySelector('[data-gallery-index]');
 
-  if (!thumbs.length || !mainImage) return;
+  if (!thumbs.length) return;
 
   var currentIndex = 0;
 
   function setActive(index) {
     currentIndex = (index + thumbs.length) % thumbs.length;
     var activeThumb = thumbs[currentIndex];
+    var imageSrcset = activeThumb.getAttribute('data-image-srcset');
+    var imageFormat = activeThumb.getAttribute('data-image-format');
+
+    // Keep the gallery on the same CDN derivatives used by the initial image.
+    // The fallback src is a CDN-sized JPEG for local photos and the original
+    // URL for unsupported formats or external product images. Normal local
+    // JPEG/PNG navigation stays responsive and avoids the source file.
+    if (webpSource) {
+      if (imageFormat === 'webp' && imageSrcset) {
+        webpSource.setAttribute('srcset', imageSrcset);
+        webpSource.removeAttribute('media');
+      } else {
+        webpSource.setAttribute('media', 'not all');
+      }
+    }
+
+    if (imageFormat === 'webp' && webpSource) {
+      mainImage.removeAttribute('srcset');
+    } else if (imageSrcset) {
+      mainImage.setAttribute('srcset', imageSrcset);
+    } else {
+      mainImage.removeAttribute('srcset');
+    }
+
     mainImage.src = activeThumb.getAttribute('data-image-src');
 
     for (var i = 0; i < thumbs.length; i += 1) {

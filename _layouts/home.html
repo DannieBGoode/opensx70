@@ -16,7 +16,7 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <span style="font-size:13px">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                {{ post.content | truncatewords: 28 }}
+                {{ post.excerpt | strip_html | strip_newlines | truncatewords: 28 }}
             </a>
             <p class="read-more"><a href="{{ post.url | prepend: site.baseurl }}"><button class="btn">Read More</button></a></p>
 
@@ -37,7 +37,7 @@ layout: with-sidebar
 
         {% if post.show_avatar == true %}
         <div class=" col-xs-2  no-gutter">
-            <img src="{{ site.baseurl}}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image">
+            <img src="{{ site.baseurl}}/img/{{ post.author_avatar }}.jpg" class="user-icon user-1" alt="user-image" loading="lazy" decoding="async">
         </div>
         {% endif %}
     </article>
@@ -78,7 +78,7 @@ layout: with-sidebar
                     <h2>{{ tutorial.title | first | capitalize }}</h2>
                     <a href="{{ tutorial.url | prepend: site.baseurl }}">
                         <h2>{{ tutorial.title }}</h2>
-                        <img src='{{ site.baseurl }}/img/{{tutorial.feature_image}}.jpg' alt="category-image">
+                        <img class="category-image" src='{{ site.baseurl }}/img/{{tutorial.feature_image}}.jpg' alt="category-image" loading="lazy" decoding="async">
                     </a>
                 </div>
             {% endfor %}

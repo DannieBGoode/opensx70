@@ -48,10 +48,14 @@ Then open:
 Netlify uses the following build command:
 
 ```bash
-bundle exec jekyll build
+ruby scripts/check_media_budget.rb && bundle exec jekyll build
 ```
 
 This generates the static site into the `_site/` folder, which is the deploy output published by Netlify.
+
+The media check rejects inline image data and public image files larger than 25 MB. It reports larger photographic assets over 5 MB for review without changing their pixels.
+
+In Netlify production builds, `_plugins/image_filters.rb` adds responsive `srcset` variants for raster images under `/img/`. JPEGs use Netlify Image CDN WebP transformations at quality 95, with a 2400px quality-95 JPEG fallback for older clients; PNGs remain lossless PNG transformations. Variants are requested at 320, 800, 1600, 2400, and 3200 pixels, allowing cards and product thumbnails to avoid downloading a desktop-sized image. Unsupported formats and external images retain their original URL. Product-gallery navigation updates the same CDN derivatives instead of fetching the source JPEG again. Blog and product images uploaded through Netlify CMS use this policy automatically after deployment. Image responses are browser-cached for seven days; filenames should be changed when replacing an image so visitors do not retain an old version during that window.
 
 ## CMS and authentication
 

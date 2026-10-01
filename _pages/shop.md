@@ -28,7 +28,7 @@ feature_image: SX70_images/openSX70-cameraporn-6
   {% endif %}
   <article class="shop-card">
     <a class="shop-card-media" href="{{ product.url | relative_url }}" aria-label="View {{ product.title }}">
-      <img src="{{ product_main_image | relative_url }}" alt="{{ product.title }} main product image">
+      <img class="shop-card-image" src="{{ product_main_image | relative_url }}" alt="{{ product.title }} main product image" loading="lazy" decoding="async">
     </a>
     <div class="shop-card-content">
       <h2><a href="{{ product.url | relative_url }}">{{ product.title }}</a></h2>
