@@ -26,7 +26,7 @@ layout: with-sidebar
                 {% else %}
                     {% assign readTime = words | divided_by:180 | append: 'minutes' %}
                 {% endif %}
-            <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a> <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ readTime }}
+            <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name | capitalize }}</a> {% if post.categories.first %}in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize}}</a>{% endif %} <i class="link-spacer"></i> <i class="fa fa-bookmark"></i> {{ readTime }}
         </p>
 
         </div>
