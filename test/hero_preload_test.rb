@@ -28,4 +28,23 @@ class HeroPreloadTest < Minitest::Test
     refute_nil font_face
     assert_match(/font-display:\s*swap/, font_face)
   end
+
+  # Value: protects=avatar proportions; fails_when=.user-icon loses object-fit and non-square avatars (guest.jpg is 576x720) are squashed into the 50px circle; why_new=no test covered avatar styling; seam=none
+  def test_avatars_are_cropped_not_squashed
+    css = File.read(File.join(built_site, "css/main.css"))
+
+    assert_match(/\.user-icon\s*\{[^}]*object-fit:\s*cover/m, css)
+  end
+
+  # Value: protects=the author page bio avatar is a circle while bio photos keep their shape; fails_when=the avatar inherits .user-icon's 50px height (a 150x50 strip once cropped), or the square height leaks onto every .author-bio img and squashes bio photos; why_new=design review (both passes); seam=none
+  def test_author_bio_avatar_is_square
+    css = File.read(File.join(built_site, "css/main.css"))
+    avatar = css.scan(/\.author-bio \.author-avatar\s*\{([^}]*)\}/m).flatten
+    photos = css.scan(/\.author-bio img\s*\{([^}]*)\}/m).flatten
+
+    assert_includes avatar.join, "height: 150px"
+    assert_includes avatar.join, "height: 220px"
+    refute_empty photos
+    photos.each { |rule| refute_match(/height:/, rule) }
+  end
 end

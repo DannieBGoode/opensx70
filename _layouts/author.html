@@ -5,10 +5,10 @@ layout: with-sidebar
 
 <div class="author-bio">
 
-    <img class="user-icon" src='{{ "/img/" | append : page.author_avatar | prepend: site.baseurl }}.jpg'>
+    <img class="user-icon author-avatar" src='{{ "/img/" | append : page.author_avatar | prepend: site.baseurl }}.jpg'>
 
     <div class="author-bio__info">
-        {{ content }}
+        {{ content | image_sizes: "author-bio" }}
     </div>
 </div>
 
@@ -24,7 +24,7 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
 
-            {% assign preview = post.excerpt | truncate_html_words: 28 | lazy_images: eager_preview %}
+            {% assign preview = post.excerpt | truncate_html_words: 28 | lazy_images: eager_preview | image_sizes: "author-preview" %}
             {{ preview }}
             {% if preview contains "<img" %}{% assign eager_preview = false %}{% endif %}
 
