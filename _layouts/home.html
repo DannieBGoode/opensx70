@@ -18,7 +18,7 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <span style="font-size:13px">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                {% assign preview = post.content | truncate_html_words: 28 | lazy_images: eager_preview %}
+                {% assign preview = post.content | strip_links | truncate_html_words: 28 | lazy_images: eager_preview %}
                 {{ preview }}
                 {% if preview contains "<img" %}{% assign eager_preview = false %}{% endif %}
             </a>
@@ -26,7 +26,7 @@ layout: with-sidebar
 
             <p class="meta">
                 <a href="{{ post.author_url | prepend: site.baseurl }}">{{ post.author_name }}</a> 
-                in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a> 
+                {% if post.categories.first %}in <a href='{{ "/category/" | append: post.categories.first | prepend: site.baseurl }}'>{{ post.categories.first | capitalize }}</a>{% endif %} 
                 <i class="link-spacer"></i> 
                 {% assign words = post.content | strip_html | number_of_words %}
                 {% if words < 360 %}

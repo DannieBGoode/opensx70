@@ -3,7 +3,9 @@ layout: default
 ---
 
 {% assign product_feature_image = "/img/SX70_images/openSX70-cameraporn-6.jpg" | prepend: site.baseurl %}
-<header class="hero-image" style="background-image: url('{{ product_feature_image | netlify_image_url: 2400 }}');">
+{% assign hero_image_url = product_feature_image | netlify_image_url: 2400 %}
+{% include hero-preload.html url=hero_image_url %}
+<header class="hero-image" style="background-image: url('{{ hero_image_url }}');">
     <span class="menu-trigger animated fadeInDown">
         <span class="bar"></span>
         <span class="bar"></span>

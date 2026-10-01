@@ -1,9 +1,24 @@
 <div class="row read-another-section">
     {% for post in site.related_posts %}
         {% if forloop.index <= 6 %}
+        {% comment %}Prefer the square thumbnail; most posts only have a feature image (a "/img/..." path or full URL for CMS posts, a bare name otherwise).{% endcomment %}
+        {% if post.square_related %}
+            {% assign related_image = "/img/" | append: post.square_related | append: ".jpg" | prepend: site.baseurl %}
+        {% elsif post.feature_image contains "://" %}
+            {% assign related_image = post.feature_image %}
+        {% elsif post.feature_image %}
+            {% assign feature_first_char = post.feature_image | slice: 0 %}
+            {% if feature_first_char == "/" %}
+                {% assign related_image = post.feature_image | prepend: site.baseurl %}
+            {% else %}
+                {% assign related_image = "/img/" | append: post.feature_image | append: ".jpg" | prepend: site.baseurl %}
+            {% endif %}
+        {% else %}
+            {% assign related_image = "/img/recommend-wolf.jpg" | prepend: site.baseurl %}
+        {% endif %}
         <a href="{{ post.url | prepend: site.baseurl }}"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
             <div class="overlay"></div>
-            <img class="related-thumbnail" src='{{ "/img/" | append: post.square_related | prepend: site.baseurl }}.jpg' loading="lazy" decoding="async" alt="">
+            <img class="related-thumbnail" src='{{ related_image }}' loading="lazy" decoding="async" alt="">
             <h3 class="read-another">{{ post.title }}</h3>
         </div></a>
         {% endif %}

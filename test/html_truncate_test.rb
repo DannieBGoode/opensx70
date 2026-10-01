@@ -81,4 +81,11 @@ class HtmlTruncateTest < Minitest::Test
     assert_equal "<p>a < b...</p>", truncate_html_words("<p>a < b c</p>", 3)
     assert_equal "<p>\u00A0a b...</p>", truncate_html_words("<p>\u00A0a b c</p>", 2)
   end
+
+  # Value: protects=homepage preview links stay one link per card; fails_when=links inside a post survive into the preview and nest inside the card link (browser closes it early: empty link, unclickable text); why_new=no case covers anchors; seam=none
+  def test_strip_links_keeps_link_text
+    input = %(<p>Meet <a href="https://opensx70.com/x" title="a > b">Loli</a> and <A HREF='/y'>Dolores</A></p>)
+
+    assert_equal "<p>Meet Loli and Dolores</p>", strip_links(input)
+  end
 end

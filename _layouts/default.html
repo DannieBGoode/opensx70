@@ -17,7 +17,6 @@
     {% assign cache = site.time | date: '%s%N' %}
     <script src=' {{ "/js/main.js?" | prepend: site.baseurl | append: cache }}'></script>
 
-    {% include analytics.html %}
     
   </body>
 

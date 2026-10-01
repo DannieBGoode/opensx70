@@ -89,7 +89,8 @@ module OpenSX70ImageFilters
       when /\bclass\s*=\s*["'][^"']*(?:category-image|shop-card-image)/i
         "(max-width: 768px) 50vw, 320px"
       when /\bclass\s*=\s*["'][^"']*related-thumbnail/i
-        "200px"
+        # col-md-2 / col-sm-6 / full width below 768px (see footer-related-posts.html).
+        "(min-width: 992px) 17vw, (min-width: 768px) 50vw, 100vw"
       else
         "(max-width: 768px) 100vw, 1200px"
       end

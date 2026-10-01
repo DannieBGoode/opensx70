@@ -1,5 +1,7 @@
 {% assign sidebar_feature_image = "/img/" | append: page.feature_image | prepend: site.baseurl | append: ".jpg" %}
-<section class="sidebar col-md-5 col-sm-12" style="background-image: url('{{ sidebar_feature_image | netlify_image_url: 2400 }}');">
+{% assign hero_image_url = sidebar_feature_image | netlify_image_url: 2400 %}
+{% include hero-preload.html url=hero_image_url %}
+<section class="sidebar col-md-5 col-sm-12" style="background-image: url('{{ hero_image_url }}');">
 
     <span class="menu-trigger animated fadeInDown">
         <span class="bar"></span>
