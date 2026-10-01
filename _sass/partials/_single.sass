@@ -211,8 +211,13 @@ footer
         position: relative
         text-align: center
         img
-            width: auto
+            display: block
+            width: 100%
             height: auto
+            // Feature images used as fallbacks are not square; crop the
+            // display (not the file) so every card matches.
+            aspect-ratio: 1 / 1
+            object-fit: cover
             z-index: 1
 
         .overlay
