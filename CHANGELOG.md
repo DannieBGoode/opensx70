@@ -2,6 +2,13 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.2.0] - 2026-10-01
+
+### Fixed
+
+- Keep direct JPEG image URLs and gallery fallbacks compatible with browsers that do not negotiate WebP.
+- Apply the media budget, responsive transformations, and cache policy to future CMS uploads under `assets/uploads`.
+
 ## [0.0.1.0] - 2026-10-01
 
 ### Added
