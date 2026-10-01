@@ -24,7 +24,7 @@ class RelatedPostsTest < Minitest::Test
     html = File.read(File.join(built_site, "the-toolset.html"))
     related = html[/<div class="row read-another-section">.*?<\/div>\s*<\/a>\s*<\/div>/m] || flunk("related posts section not found")
 
-    assert_includes related, 'sizes="(min-width: 992px) calc(18vw * 2.596), (min-width: 768px) calc(calc(50vw + 20px) * 2.596), calc(calc(100vw + 30px) * 2.596)"'
+    assert_includes related, 'sizes="(min-width: 992px) 46.73vw, (min-width: 768px) calc(129.8vw + 51.92px), calc(259.6vw + 77.88px)"'
   end
 
   # Value: protects=external feature images used as thumbnails keep a valid URL; fails_when=site.baseurl is prepended to a full URL ("/subpathhttps://..."); why_new=the production baseurl is empty, so only an explicit check catches it; seam=none

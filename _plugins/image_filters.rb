@@ -304,7 +304,7 @@ module OpenSX70ImageFilters
       sizes.split(/,\s*(?![^()]*\))/).map do |entry|
         condition, length = entry.match(/\A(\([^()]*\))\s+(.+)\z/)&.captures || [nil, entry]
         length = if cover == :square
-                   aspect > 1 ? "calc(#{length} * #{(aspect * 1000).ceil / 1000.0})" : length
+                   aspect > 1 ? scale_length(length, (aspect * 1000).ceil / 1000.0) : length
                  else
                    needed = (cover * aspect).ceil
                    fixed = length[/\A(\d+)px\z/, 1]&.to_i
@@ -312,6 +312,30 @@ module OpenSX70ImageFilters
                  end
         [condition, length].compact.join(" ")
       end.join(", ")
+    end
+
+    # Multiplies a sizes length by `factor` as plain vw/px terms, rounded up so
+    # the hint never shrinks, e.g. calc(50vw + 20px) * 2.6 -> calc(130vw + 52px).
+    # Avoids nested calc() and multiplication, which some older WebViews reject.
+    def scale_length(length, factor)
+      case length
+      when /\A(\d+(?:\.\d+)?)(vw|px)\z/
+        value, unit = Regexp.last_match.captures
+        "#{round_hint(value.to_f * factor, :ceil)}#{unit}"
+      when /\Acalc\((\d+(?:\.\d+)?)vw ([+-]) (\d+(?:\.\d+)?)px\)\z/
+        vw, sign, px = Regexp.last_match.captures
+        # Adding more, or subtracting less, keeps the result an upper bound.
+        px = round_hint(px.to_f * factor, sign == "+" ? :ceil : :floor)
+        "calc(#{round_hint(vw.to_f * factor, :ceil)}vw #{sign} #{px}px)"
+      else
+        "calc(#{length} * #{factor})"
+      end
+    end
+
+    # Two decimals, rounded in the safe direction (ignoring float noise).
+    def round_hint(value, direction)
+      hundredths = (value * 100).round(6).public_send(direction)
+      format("%.2f", hundredths / 100.0).sub(/\.?0+\z/, "")
     end
 
     def responsive_tag(tag)

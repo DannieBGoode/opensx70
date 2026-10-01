@@ -243,7 +243,7 @@ class ImageFiltersTest < Minitest::Test
 
   # Value: protects=sharpness of cover-cropped thumbnails; fails_when=landscape photos in square cover boxes keep the box-width hint (a 2.6:1 photo displays 2.6x wider than its card) or portrait ones get inflated; why_new=pass-2 performance review measured 0.45 source px per CSS px; seam=none
   def test_cover_boxes_widen_the_hint_for_cropped_photos
-    assert_equal "(min-width: 768px) calc(50vw * 2.5), calc(100vw * 2.5)",
+    assert_equal "(min-width: 768px) 125vw, 250vw",
                  OpenSX70ImageFilters.cover_sizes("(min-width: 768px) 50vw, 100vw", :square, [2500, 1000])
     assert_equal "60px", OpenSX70ImageFilters.cover_sizes("60px", :square, [576, 720])
     assert_equal "(min-width: 992px) 168px, max(calc(28vw - 25px), 168px)",
@@ -468,5 +468,17 @@ class ImageFiltersTest < Minitest::Test
     assert_includes messages.first, "never-there-#{object_id}.jpg"
   ensure
     logger.singleton_class.send(:remove_method, :warn) if logger&.singleton_methods&.include?(:warn)
+  end
+
+  # Value: protects=cover hints parse in every browser and never shrink; fails_when=hints emit nested calc() or calc(length * number) (rejected by some older WebViews, which then fall back to 100vw), or rounding makes a scaled term smaller than the exact product; why_new=PR #15 review comment; seam=none
+  def test_scaled_hints_use_plain_rounded_up_terms
+    assert_equal "46.73vw", OpenSX70ImageFilters.scale_length("18vw", 2.596)
+    assert_equal "calc(129.8vw + 51.92px)", OpenSX70ImageFilters.scale_length("calc(50vw + 20px)", 2.596)
+    assert_equal "calc(235.2vw - 117.6px)", OpenSX70ImageFilters.scale_length("calc(84vw - 42px)", 2.8)
+    assert_equal "150.6px", OpenSX70ImageFilters.scale_length("60px", 2.51)
+    assert_equal "129.8vw", OpenSX70ImageFilters.scale_length("50vw", 2.596)
+
+    markup = OpenSX70ImageFilters.cover_sizes("(min-width: 992px) 18vw, (min-width: 768px) calc(50vw + 20px), calc(100vw + 30px)", :square, [5519, 2126])
+    refute_match(/calc\([^)]*calc\(|\*/, markup)
   end
 end
