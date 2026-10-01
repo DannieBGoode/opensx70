@@ -26,4 +26,14 @@ class RelatedPostsTest < Minitest::Test
 
     assert_includes related, 'sizes="(min-width: 992px) 17vw, (min-width: 768px) 50vw, 100vw"'
   end
+
+  # Value: protects=external feature images used as thumbnails keep a valid URL; fails_when=site.baseurl is prepended to a full URL ("/subpathhttps://..."); why_new=the production baseurl is empty, so only an explicit check catches it; seam=none
+  def test_external_thumbnails_are_not_prefixed
+    sources = Dir[File.join(built_site, "**", "*.html")].flat_map do |page|
+      File.read(page).scan(/class="related-thumbnail" src='([^']+)'/).flatten
+    end
+
+    refute_empty sources.grep(/\Ahttps?:/), "expected at least one external thumbnail in the build"
+    assert_empty sources.grep(%r{\A/[^'"]*https?://})
+  end
 end
