@@ -66,6 +66,13 @@ module OpenSX70HtmlTruncate
     output
   end
 
+  # Removes <a> tags but keeps their content. The homepage wraps each preview
+  # in a link to the post; links inside the post would nest, and browsers then
+  # close the outer link early, leaving an empty link and unclickable text.
+  def strip_links(input)
+    input.to_s.gsub(%r{<a\b(?:[^>"']|"[^"]*"|'[^']*')*>|</a\s*>}i, "")
+  end
+
   private
 
   def word?(text)

@@ -49,4 +49,15 @@ class HomepageTest < Minitest::Test
     refute_includes images.first, "loading=", "first preview image should load eagerly"
     images.drop(1).each { |tag| assert_includes tag, 'loading="lazy"' }
   end
+
+  # Value: protects=each homepage card is a single link with text (Lighthouse "links must have discernible text"); fails_when=a post's own links nest inside the card link again; why_new=string tests above don't model nesting; seam=none
+  def test_preview_links_do_not_nest
+    bodies = all_previews.split('<article class="post">').drop(1).map do |article|
+      article[%r{<span style="font-size:13px">.*?</span>(.*)<p class="read-more">}m, 1] || flunk("preview body not found")
+    end
+
+    refute_empty bodies
+    bodies.each { |body| assert_equal 1, body.scan(/<a\b/i).size, "nested link in preview: #{body[0, 120]}" }
+    assert_includes all_previews, '<a href="/meeting-dolores">', "the post whose links nested should be covered"
+  end
 end

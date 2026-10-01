@@ -18,7 +18,7 @@ layout: with-sidebar
             <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
             <span style="font-size:13px">{{ post.date | date: "%b %-d, %Y" }}</span>
             <a href="{{ post.url | prepend: site.baseurl }}">
-                {% assign preview = post.content | truncate_html_words: 28 | lazy_images: eager_preview %}
+                {% assign preview = post.content | strip_links | truncate_html_words: 28 | lazy_images: eager_preview %}
                 {{ preview }}
                 {% if preview contains "<img" %}{% assign eager_preview = false %}{% endif %}
             </a>
