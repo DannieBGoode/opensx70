@@ -5,6 +5,7 @@ module OpenSX70ImageFilters
   IMAGE_TAG = /<img\b[^>]*>/i
   SRC_ATTRIBUTE = /\bsrc\s*=\s*(["'])(.*?)\1/im
   RESPONSIVE_EXTENSIONS = %w[.jpg .jpeg .png].freeze
+  PUBLIC_MEDIA_PREFIXES = %w[/img/ /assets/uploads/].freeze
   RESPONSIVE_WIDTHS = [320, 800, 1600, 2400, 3200].freeze
   JPEG_QUALITY = 95
 
@@ -29,7 +30,7 @@ module OpenSX70ImageFilters
       path = path.to_s
       path = "/#{path}" unless path.start_with?("/")
       path = path.sub(%r{\A/+}, "/")
-      return nil unless path.start_with?("/img/")
+      return nil unless PUBLIC_MEDIA_PREFIXES.any? { |prefix| path.start_with?(prefix) }
       return nil unless RESPONSIVE_EXTENSIONS.include?(File.extname(path).downcase)
 
       path
@@ -141,7 +142,14 @@ module OpenSX70ImageFilters
       return source unless enabled?
 
       path = source_path(source)
-      path ? (transformed_url(path, width.to_i) || source) : source
+      return source unless path
+
+      # This helper is used where the browser cannot negotiate a <picture>
+      # source, such as CSS backgrounds and the gallery's fallback `src`.
+      # Keep those URLs universally decodable; responsive <img> markup still
+      # offers WebP through its separate source element.
+      format = transformation_format(path).first == "webp" ? "jpg" : nil
+      transformed_url(path, width.to_i, format) || source
     end
 
     def netlify_image_srcset(input)

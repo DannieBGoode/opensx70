@@ -10,3 +10,8 @@
   for = "/img/*"
   [headers.values]
     Cache-Control = "public, max-age=604800, must-revalidate"
+
+[[headers]]
+  for = "/assets/uploads/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800, must-revalidate"
