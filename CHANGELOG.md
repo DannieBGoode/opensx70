@@ -2,6 +2,18 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.7.0] - 2026-10-30
+
+### Changed
+
+- Blog posts in the CMS default to publish date, newest first, matching the public website. Dates use a consistent UTC format that also survives future edits.
+- Blog grid cards show poster images. The Poster image field also updates article headers and related-post fallback images, with support for older image fields.
+
+### Fixed
+
+- Older post metadata now supplies sortable dates and full poster paths without changing article text, public URLs, or the dates and photos shown on the website.
+- Plain research notes no longer appear as blank articles in the blog editor. The files are retained.
+
 ## [0.0.6.0] - 2026-10-30
 
 ### Changed
