@@ -1,3 +1,5 @@
+@use "../mixins"
+
 .hero-image-404
     position: fixed
     top: 0
@@ -13,11 +15,11 @@
     margin-top: 250px
     color: #fff
     text-align: center
-    +font-size(22)
+    +mixins.font-size(22)
     text-transform: uppercase
     letter-spacing: 0pt
 
 .p-404
     color: #fff
     text-align: center
-    +font-size(18)
+    +mixins.font-size(18)

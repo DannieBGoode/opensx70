@@ -1,17 +1,20 @@
+@use "sass:color"
+@use "../type"
+
 .btn-primary,
 .label-primary,
 .progress-bar-primary
     background: #4761e2
-    border-color: darken(#4761e2, 5%)
+    border-color: color.adjust(#4761e2, $lightness: -5%)
 
     &:hover
-        background: darken(#4761e2, 10%)
-        border-color: darken(#4761e2, 11%)
+        background: color.adjust(#4761e2, $lightness: -10%)
+        border-color: color.adjust(#4761e2, $lightness: -11%)
 
 .btn-primary
     background: #4761e2
     color: #fff
-    font-family: $sans
+    font-family: type.$sans
 
     &:hover
         background-color: #2F49CA
@@ -24,61 +27,61 @@
 .label-success,
 .progress-bar-success
     background: #1abc9c
-    border-color: darken(#1abc9c, 5%)
+    border-color: color.adjust(#1abc9c, $lightness: -5%)
 
     &:hover
-        background: darken(#1abc9c, 10%)
-        border-color: darken(#1abc9c, 11%)
+        background: color.adjust(#1abc9c, $lightness: -10%)
+        border-color: color.adjust(#1abc9c, $lightness: -11%)
 
 .btn-warning,
 .label-warning,
 .progress-bar-warning
     background: #f39c12
-    border-color: darken(#f39c12, 5%)
+    border-color: color.adjust(#f39c12, $lightness: -5%)
 
     &:hover
-        background: darken(#f39c12, 10%)
-        border-color: darken(#f39c12, 11%)
+        background: color.adjust(#f39c12, $lightness: -10%)
+        border-color: color.adjust(#f39c12, $lightness: -11%)
 
 .btn-danger,
 .label-danger,
 .progress-bar-danger
     background: #e24747
-    border-color: darken(#e24747, 3%)
+    border-color: color.adjust(#e24747, $lightness: -3%)
 
     &:hover
-        background: darken(#e24747, 7%)
-        border-color: darken(#e24747, 8%)
+        background: color.adjust(#e24747, $lightness: -7%)
+        border-color: color.adjust(#e24747, $lightness: -8%)
 
 .btn-info,
 .label-info,
 .progress-bar-info
     background: #9b59b6
-    border-color: darken(#9b59b6, 5%)
+    border-color: color.adjust(#9b59b6, $lightness: -5%)
 
     &:hover
-        background: darken(#9b59b6, 10%)
-        border-color: darken(#9b59b6, 11%)
+        background: color.adjust(#9b59b6, $lightness: -10%)
+        border-color: color.adjust(#9b59b6, $lightness: -11%)
 
 .alert-success
-    background: lighten(#1abc9c, 50%)
-    border-color: lighten(#1abc9c, 40%)
-    color: darken(#1abc9c, 15%)
+    background: color.adjust(#1abc9c, $lightness: 50%)
+    border-color: color.adjust(#1abc9c, $lightness: 40%)
+    color: color.adjust(#1abc9c, $lightness: -15%)
 
 .alert-warning
-    background: lighten(#f39c12, 45%)
-    border-color: lighten(#f39c12, 35%)
-    color: darken(#f39c12, 15%)
+    background: color.adjust(#f39c12, $lightness: 45%)
+    border-color: color.adjust(#f39c12, $lightness: 35%)
+    color: color.adjust(#f39c12, $lightness: -15%)
 
 .alert-danger
-    background: lighten(#e24747, 40%)
-    border-color: lighten(#e24747, 35%)
-    color: darken(#e24747, 15%)
+    background: color.adjust(#e24747, $lightness: 40%)
+    border-color: color.adjust(#e24747, $lightness: 35%)
+    color: color.adjust(#e24747, $lightness: -15%)
 
 .alert-info
-    background: lighten(#9b59b6, 40%)
-    border-color: lighten(#9b59b6, 35%)
-    color: darken(#9b59b6, 15%)
+    background: color.adjust(#9b59b6, $lightness: 40%)
+    border-color: color.adjust(#9b59b6, $lightness: 35%)
+    color: color.adjust(#9b59b6, $lightness: -15%)
 
 
 .progress,

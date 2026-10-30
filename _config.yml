@@ -36,7 +36,8 @@ footer_links:
 
 include:
   - _pages
-  - _tutorials
+# Tutorials are read by their output collection below; including the directory
+# here as well would render every tutorial twice to the same destination.
 
 exclude:
   - Rakefile

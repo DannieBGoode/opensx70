@@ -19,6 +19,7 @@ GitHub Actions runs the same command, plus `ruby scripts/check_media_budget.rb`,
 
 - **Unit tests** cover Liquid filters and helpers in `_plugins/` by including the module and calling the filter directly (see `test/html_truncate_test.rb`).
 - **Rendered-site tests** build the whole site once per run with `built_site` from `test/test_helper.rb`, using the production image CDN setting, and assert on the generated HTML (see `test/homepage_test.rb`). Use these for layout and template regressions.
+- **Build diagnostics** run a production CLI build in `test/site_build_test.rb` to reject Sass deprecations and duplicate output destinations, and verify that all seven tutorial URLs are preserved.
 
 ## Conventions
 

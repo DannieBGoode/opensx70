@@ -1,9 +1,12 @@
+@use "../mixins"
+@use "../type"
+
 
 form
-    +clearfix
+    +mixins.clearfix
     label
-        font-family: $sans
-        +font-size(20)
+        font-family: type.$sans
+        +mixins.font-size(20)
         margin: 15px 0 0
 
     input.form-control,
@@ -15,7 +18,7 @@ form
         padding: 5px 0
         background-color: #fff
         resize: vertical
-        +placeholder
+        +mixins.placeholder
             color: #ccc
 
         &:focus
@@ -33,9 +36,9 @@ form
         border-radius: 0
         padding: 10px 25px
         float: right
-        font-family: $sans
+        font-family: type.$sans
         transition: all 0.3s
-        +up-bold
+        +mixins.up-bold
 
         &:hover
             border: solid 2px #222

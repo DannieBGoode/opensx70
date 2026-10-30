@@ -1,3 +1,5 @@
+@use "../mixins"
+
 .alt-home
     // overide all of the styles on the normal homepage
 
@@ -8,7 +10,7 @@
         border-right: solid 2px #D8D8D8
         padding: 15px 15px  5px 50px
 
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             height: 100%
             overflow-y: scroll
 
@@ -22,7 +24,7 @@
     .sub-nav
         text-align: right
 
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             margin: 70px 0 0 0
 
 
@@ -38,6 +40,6 @@
                 line-height: 1
 
             h2 a
-                +font-size(22)
+                +mixins.font-size(22)
             a
-                +font-size(16)
+                +mixins.font-size(16)

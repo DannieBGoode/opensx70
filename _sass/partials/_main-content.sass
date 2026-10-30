@@ -1,10 +1,13 @@
+@use "../mixins"
+@use "../type"
+
 .main-content
 	padding: 30px
 
-	+breakpoint(sm)
+	+mixins.breakpoint(sm)
 		padding: 60px 120px
 
-	+breakpoint(md)
+	+mixins.breakpoint(md)
 		padding: 50px
 
 .sub-nav
@@ -15,32 +18,32 @@
 		display: inline-block
 		margin-right: 10px
 		line-height: 30px
-		font-family: $sans
+		font-family: type.$sans
 		letter-spacing: 2pt
 		text-decoration: none
-		color: $light-grey
-		+up-bold
-		+font-size(12)
+		color: type.$light-grey
+		+mixins.up-bold
+		+mixins.font-size(12)
 
 		&:hover,
 		&:active,
 		&.active
 			border-bottom: solid 2px #000
-			color: $text-color
+			color: type.$text-color
 
 .post
 	padding: 30px 0
 	border-bottom: solid 1px #f5f5f5
-	+clearfix
+	+mixins.clearfix
 
 	.post-preview
 
 		h2
 			margin-top: 0
-			+font-size(24)
+			+mixins.font-size(24)
 
-			+breakpoint(md)
-				+font-size(32)
+			+mixins.breakpoint(md)
+				+mixins.font-size(32)
 
 			a
 				text-decoration: none
@@ -48,13 +51,13 @@
 				border: none
 
 				&:hover
-					color: $light-grey
+					color: type.$light-grey
 		p
-			font-family: $serif
-			+font-size(16)
+			font-family: type.$serif
+			+mixins.font-size(16)
 
-			+breakpoint(md)
-				+font-size(18)
+			+mixins.breakpoint(md)
+				+mixins.font-size(18)
 	&.author-page
 
 		.post-preview p
@@ -75,17 +78,17 @@
 		padding: 10px
 		position: absolute
 		bottom: 0
-		+font-size(20)
+		+mixins.font-size(20)
 		color: #fff
 		background: rgba(0, 0, 0, 0.7)
 		width: 88%
 
 .split-footer
 	padding: 10px 0
-	+font-size(11)
+	+mixins.font-size(11)
 	letter-spacing: 1px
-	font-family: $sans
-	+up-bold
+	font-family: type.$sans
+	+mixins.up-bold
 
 	a
 		color: #999
