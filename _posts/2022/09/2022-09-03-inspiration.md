@@ -1,7 +1,8 @@
 ---
+image: "/img/SX70_images/eye-of-god.jpg"
 show_avatar: true
 layout: post
-date: '2022-09-03 00:01 +0100'
+date: "2022-09-02T23:01:00.000+00:00"
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin2

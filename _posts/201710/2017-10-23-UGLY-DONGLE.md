@@ -1,7 +1,8 @@
 ---
+image: "/img/SX70_images/openSX70-cameraporn-2.jpg"
 title: The Ugly Dongle Prototype
 description: Status report of the OpenSX70 November 25th 2017
-date: 2017-10-23T00:00:00.000Z
+date: "2017-10-23T00:00:00.000+00:00"
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin

@@ -1,7 +1,8 @@
 ---
+image: "/img/SX70_images/openSX70-cameraporn-9.jpg"
 title: Schematic finalized
 description: Status report of the OpenSX70 project as of November 2017
-date: 2017-11-10T00:00:00.000Z
+date: "2017-11-10T00:00:00.000+00:00"
 layout: post
 author_name: Joaquín de Prada
 author_url: /author/joaquin

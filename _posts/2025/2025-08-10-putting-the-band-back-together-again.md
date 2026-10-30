@@ -1,4 +1,5 @@
 ---
+image: "/img/2025/band.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2025-08-10T14:27:12.004Z
+date: "2025-08-10T14:27:12.000+00:00"
 title: Putting the band back together again
 description: Yes, you heard right!! After a “long cold lonely winter” the song
   says we are back, and this time we mean business!

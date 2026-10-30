@@ -1,7 +1,8 @@
 ---
+image: "/img/SX70_images/openSX70-cameraporn-1.jpg"
 show_avatar: true
 layout: post
-date: '2018-03-01 21:33 +0100'
+date: "2018-03-01T20:33:00.000+00:00"
 author_name: Joaquín de Prada
 author_url: /author/joaquin
 author_avatar: joaquin

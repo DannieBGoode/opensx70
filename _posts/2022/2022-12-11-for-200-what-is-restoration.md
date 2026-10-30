@@ -1,4 +1,5 @@
 ---
+image: "/img/2022/opensx70-cameraporn-31.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -9,7 +10,7 @@ author_avatar: joaquin
 comments: "true"
 show_related_posts: "true"
 read_time: "5"
-date: 2022-12-16T15:32:00.000Z
+date: "2022-12-16T15:32:00.000+00:00"
 title: "For $200: what is restoration"
 description: the camera restoration game
 feature_image: /img/2022/opensx70-cameraporn-31.jpg

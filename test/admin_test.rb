@@ -38,8 +38,8 @@ class AdminTest < Minitest::Test
                       "#{relative} would disappear from the CMS listing"
     end
     sort = blog.fetch("sortable_fields").find { |field| field.is_a?(Hash) && field["default_sort"] }
-    assert_equal "title", sort["field"]
-    assert_equal "asc", sort["default_sort"]
+    assert_equal "date", sort["field"]
+    assert_equal "desc", sort["default_sort"]
   end
 
   def test_curated_pages_keep_authors_and_code_out_of_routine_editing
@@ -89,5 +89,41 @@ class AdminTest < Minitest::Test
       frontmatter = YAML.safe_load(File.read(path).split(/^---\s*$\n?/, 3)[1], permitted_classes: [Date, Time])
       refute_empty frontmatter.fetch("feature_image"), "#{path} must remain editable"
     end
+  end
+
+  def test_blog_dates_sort_chronologically_and_grid_has_a_recognized_image_field
+    blog = cms_collections.find { |collection| collection["name"] == "blog" }
+    poster = blog.fetch("fields").find { |field| field["name"] == "image" }
+    assert_equal "image", poster.fetch("widget"), "Decap infers grid thumbnails from its recognized image field names"
+    assert_equal({"field" => "layout", "value" => "post"}, blog.fetch("filter"))
+    date_field = blog.fetch("fields").find { |field| field["name"] == "date" }
+    assert_equal true, date_field.fetch("picker_utc")
+    assert_equal "YYYY-MM-DDTHH:mm:ss.SSS[+00:00]", date_field.fetch("format")
+
+    posts = Dir.glob(File.join(ROOT, "_posts/**/*.md")).filter_map do |path|
+      content = File.read(path)
+      next unless content.start_with?("---")
+      data = YAML.safe_load(content.split(/^---\s*$\n?/, 3)[1], permitted_classes: [Date, Time])
+      next unless data["layout"] == "post"
+
+      date = content[/^date: ["']?([^"'\r\n]+)["']?\r?$/, 1]
+      assert_match(/\A\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}\+00:00\z/, date,
+                   "#{path}: CMS dates need the same UTC format, including after a save")
+      if data["image"]
+        assert_match(%r{\A(?:/img/|/assets/uploads/|https?://)}, data["image"], "#{path}: poster must be a public image URL")
+      end
+      data.merge("date" => date)
+    end
+    refute_empty posts
+    assert_equal posts.map { |post| Time.iso8601(post["date"]) }.sort,
+                 posts.map { |post| post["date"] }.sort.map { |date| Time.iso8601(date) }
+  end
+
+  def test_filename_derived_archive_date_keeps_its_original_utc_day
+    path = File.join(ROOT, "_posts/2018/01/2018-01-31-aladdin-is-here.md")
+    data = YAML.safe_load(File.read(path).split(/^---\s*$\n?/, 3)[1], permitted_classes: [Date, Time])
+    # This post originally omitted date. Netlify/Jekyll used midnight UTC from
+    # its filename; migrating local midnight would incorrectly show January 30.
+    assert_equal Time.utc(2018, 1, 31), Time.iso8601(data.fetch("date"))
   end
 end

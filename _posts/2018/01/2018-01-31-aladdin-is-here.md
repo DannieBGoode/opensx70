@@ -1,4 +1,6 @@
 ---
+image: "/img/SX70_images/openSX70-cameraporn-1.jpg"
+date: "2018-01-31T00:00:00.000+00:00"
 show_avatar: true
 layout: post
 author_name: Joaquín de Prada

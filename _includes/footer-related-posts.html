@@ -4,6 +4,9 @@
         {% comment %}Prefer the square thumbnail; most posts only have a feature image (a "/img/..." path or full URL for CMS posts, a bare name otherwise).{% endcomment %}
         {% if post.square_related %}
             {% assign related_image = "/img/" | append: post.square_related | append: ".jpg" | prepend: site.baseurl %}
+        {% elsif post.image %}
+            {% assign related_image = post.image %}
+            {% unless related_image contains "://" %}{% assign related_image = related_image | prepend: site.baseurl %}{% endunless %}
         {% elsif post.feature_image contains "://" %}
             {% assign related_image = post.feature_image %}
         {% elsif post.feature_image %}

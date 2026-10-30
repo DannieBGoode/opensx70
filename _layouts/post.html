@@ -2,7 +2,10 @@
 layout: default
 ---
 
-{% if page.netlifycms %}
+{% if page.image %}
+    {% assign displayImage = page.image %}
+    {% unless displayImage contains "://" %}{% assign displayImage = displayImage | prepend: site.baseurl %}{% endunless %}
+{% elsif page.netlifycms %}
     {% assign displayImage = site.baseurl | append: page.feature_image %}
 {% else %}
     {% assign displayImage = site.baseurl | append: "/img/" | append: page.feature_image | append: ".jpg" %}

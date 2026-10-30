@@ -1,4 +1,5 @@
 ---
+image: "/img/2023/img_4335-2.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2023-11-05T12:06:46.596Z
+date: "2023-11-05T12:06:46.000+00:00"
 title: "Dolores and the SX-70 part three: meeting Dolores!"
 description: I finally met Dolores and her family
 feature_image: /img/2023/img_4335-2.jpg

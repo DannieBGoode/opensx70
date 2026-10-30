@@ -1,4 +1,5 @@
 ---
+image: "/img/2024/dolores-header.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2024-04-11T14:32:44.053Z
+date: "2024-04-11T14:32:44.000+00:00"
 title: "Dolores and the SX-70: the epilog"
 description: Remembering the amazing Dolores Harrower, the original Polaroid SX-70 girl
 feature_image: /img/2024/dolores-header.jpg

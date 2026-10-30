@@ -1,4 +1,5 @@
 ---
+image: "/img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: guest
 author_url: /author/guest
 comments: true
 show_related_posts: true
-date: 2023-02-02T08:51:13.297Z
+date: "2023-02-02T08:51:13.000+00:00"
 title: The ultimate guide to SX-70 600 conversions
 description: The Ultimate Guide to 600 conversions by Jake, the Instant Camera guy.
 feature_image: /img/2023/2020_polaroid_invents_the_sx-70-brochure-9.jpg

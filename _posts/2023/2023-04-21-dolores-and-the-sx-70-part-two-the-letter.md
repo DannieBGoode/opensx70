@@ -1,4 +1,5 @@
 ---
+image: "/img/2017/vlcsnap-2022-03-14-18h07m41s871.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2023-04-24T10:17:25.998Z
+date: "2023-04-24T10:17:25.000+00:00"
 title: "Dolores and the SX-70 part two: the letter"
 description: I send a letter to Dolores
 feature_image: /img/2017/vlcsnap-2022-03-14-18h07m41s871.jpg

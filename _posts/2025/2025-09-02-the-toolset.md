@@ -1,4 +1,5 @@
 ---
+image: "/img/2025/flash.jpg"
 published: true
 layout: post
 netlifycms: true
@@ -8,7 +9,7 @@ author_avatar: joaquin
 author_url: /author/joaquin
 comments: true
 show_related_posts: true
-date: 2025-09-02T17:57:35.109Z
+date: "2025-09-02T17:57:35.000+00:00"
 title: The toolset
 description: the tools of the trade
 feature_image: /img/2025/flash.jpg

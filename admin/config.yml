@@ -17,9 +17,11 @@ collections:
     # Existing files keep their locations; only new posts use this template.
     path: '{{year}}/{{month}}/{{year}}-{{month}}-{{day}}-{{slug}}'
     summary: '{{title}}'
+    # Notes without post front matter are not blog articles.
+    filter: { field: layout, value: post }
     sortable_fields:
-      - { field: title, default_sort: asc }
-      - { field: date, label: Publish date }
+      - { field: date, label: Publish date, default_sort: desc }
+      - title
       - commit_date
     view_filters:
       - { label: Drafts, field: published, pattern: false }
@@ -33,17 +35,20 @@ collections:
     fields:
       - { label: Title, name: title, widget: string }
       - { label: Description, name: description, widget: text, required: false, hint: 'A short introduction for readers and search results.' }
-      - { label: Header image, name: feature_image, widget: image }
+      - { label: Poster image, name: image, widget: image, hint: 'Shown on the article and on its CMS grid card.' }
       - { label: Article, name: body, widget: markdown }
       - { label: Categories, name: categories, widget: list, required: false, default: openSX70 }
       - { label: Published, name: published, widget: boolean, default: true, hint: 'Turn off to keep this post off the public website.' }
-      - { label: Publish date, name: date, widget: datetime }
+      # Keep dates as comparable UTC strings, including after CMS edits.
+      # Decap's YAML loader treats bare ...Z timestamps as Date objects.
+      - { label: Publish date (UTC), name: date, widget: datetime, picker_utc: true, format: 'YYYY-MM-DDTHH:mm:ss.SSS[+00:00]' }
       - { label: Author name, name: author_name, widget: string, default: 'Joaquín de Prada' }
       - { label: Author profile, name: author_avatar, widget: select, options: [joaquin, joaquin2, guest], default: joaquin, hint: 'This selects both the author photo and the profile post list. Keep the existing value when retaining the same author.' }
       - { label: Author profile URL, name: author_url, widget: string, default: /author/joaquin, hint: 'Usually /author/joaquin or /author/guest. Keep an existing URL unless intentionally changing the author.' }
       - { label: Custom URL, name: permalink, widget: string, required: false, hint: 'Leave empty for an automatic URL. Changing an existing URL can break links.' }
       - { name: layout, widget: hidden, default: post }
       - { name: netlifycms, widget: hidden, default: true }
+      - { name: feature_image, widget: hidden, required: false }
       - { name: show_avatar, widget: hidden, default: true }
       - { name: comments, widget: hidden, default: true }
       - { name: show_related_posts, widget: hidden, default: true }
