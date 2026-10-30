@@ -1,3 +1,6 @@
+@use "../mixins"
+@use "../type"
+
 .sidebar
     padding: 15px
     width: 100%
@@ -8,45 +11,45 @@
     background-size: cover
     transition: all 450ms
 
-    +breakpoint(sm)
+    +mixins.breakpoint(sm)
         height: 450px
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         width: 400px
         height: 100%
         position: fixed
         background-color: #f5f5f5
 
-    +breakpoint(lg)
+    +mixins.breakpoint(lg)
         width: 464px
 
     .site-info
         padding: 90px 15px 0 15px
         color: #fafafa
 
-        +breakpoint(sm)
+        +mixins.breakpoint(sm)
             padding: 180px 100px 0 100px
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             padding: 0 20px
             position: absolute
             bottom: 40px
-        +breakpoint(lg)
+        +mixins.breakpoint(lg)
             padding: 0 30px
 
         h1
             text-shadow: 0 1px 3px rgba(0,0,0,0.3)
             letter-spacing: -2pt
             margin-bottom: 0
-            +breakpoint(sm)
+            +mixins.breakpoint(sm)
                 letter-spacing: 0pt
                 margin-bottom: 10px
-                +font-size(34)
+                +mixins.font-size(34)
 
         p
             margin-bottom: 10px
             text-shadow: 0 1px 3px rgba(0,0,0,0.3)
-            +line-height(24)
-            +font-size(16)
+            +mixins.line-height(24)
+            +mixins.font-size(16)
 
         i
             font-style: normal
@@ -65,5 +68,5 @@
 
             p
                 margin: 20px 0 0
-                font-family: $sans
-                +font-size(14)
+                font-family: type.$sans
+                +mixins.font-size(14)

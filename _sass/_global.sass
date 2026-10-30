@@ -1,36 +1,36 @@
 // vendor
-@import "vendor/bootstrap.min"
-@import "vendor/font-awesome.min"
+@use "vendor/bootstrap.min"
+@use "vendor/font-awesome.min"
 
-@import "custom"
+@use "custom"
 
-@import "mixins"
-@import "type"
-@import "animate"
-@import "partials/bootstrap-components"
+@use "mixins"
+@use "type"
+@use "animate"
+@use "partials/bootstrap-components"
 
 // includes
-@import "partials/shared"
-@import "partials/menu"
-@import "partials/sidebar"
+@use "partials/shared"
+@use "partials/menu"
+@use "partials/sidebar"
 
 // pages
-@import "partials/main-content"
-@import "partials/single"
-@import "partials/favorites"
-@import "partials/category"
-@import "partials/contact"
-@import "partials/author"
-@import "partials/alt-home"
-@import "partials/page-404"
+@use "partials/main-content"
+@use "partials/single"
+@use "partials/favorites"
+@use "partials/category"
+@use "partials/contact"
+@use "partials/author"
+@use "partials/alt-home"
+@use "partials/page-404"
 
-@import "nojs"
+@use "nojs"
 
 .left-container
     margin-left: 15px
     padding-left: 0
 
-    +breakpoint(only-sm)
+    +mixins.breakpoint(only-sm)
         max-width: 100%
         width: 100%
 
@@ -49,7 +49,7 @@ html,
 body
     font-size: 62.5%
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         height: 100%
 
 .hide

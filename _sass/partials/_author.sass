@@ -1,11 +1,14 @@
+@use "../mixins"
+@use "../type"
+
 .author-bio
-    +clearfix
+    +mixins.clearfix
     img
         border-radius: 50%
         width: 150px
         float: left
 
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             float: right
             width: 220px
 
@@ -13,7 +16,7 @@
     .author-avatar
         height: 150px
 
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             height: 220px
 
 
@@ -27,12 +30,12 @@
     text-align: right
     margin: 20px 0
     a
-        +font-size(13)
-        +up-bold
-        font-family: $sans
+        +mixins.font-size(13)
+        +mixins.up-bold
+        font-family: type.$sans
 
 
     i
         margin-left: 5px
-        +font-size(9)
+        +mixins.font-size(9)
         transform: translateY(-1px)

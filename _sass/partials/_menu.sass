@@ -1,3 +1,6 @@
+@use "../mixins"
+@use "../type"
+
 #menu-target
     position: absolute !important
     top: -9999px !important
@@ -26,13 +29,13 @@
             padding: 0 20px
             color: #DADADA
             font-style: normal
-            +font-size(14)
+            +mixins.font-size(14)
         a
             color: #DADADA
-            font-family: $sans
+            font-family: type.$sans
             font-weight: 700
             border-bottom: 0 transparent
-            +font-size(12)
+            +mixins.font-size(12)
 
             &:hover
                 border-bottom: none

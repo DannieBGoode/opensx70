@@ -3,5 +3,5 @@
 ---
 @charset "utf-8";
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "global";
+// Load the theme once from `sass_dir` (defaults to `_sass`).
+@use "global";

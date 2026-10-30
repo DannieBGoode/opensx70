@@ -1,3 +1,6 @@
+@use "../mixins"
+@use "../type"
+
 .hero-image
     height: 150px
     width: 100%
@@ -6,40 +9,40 @@
     background-repeat: no-repeat
     background-size: cover
 
-    +breakpoint(sm)
+    +mixins.breakpoint(sm)
         height: 300px
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         height: 390px
-    +breakpoint(lg)
+    +mixins.breakpoint(lg)
         height: 460px
 
 .meta
-    +clearfix
-    +font-size(12)
+    +mixins.clearfix
+    +mixins.font-size(12)
     margin-bottom: 0
 
-    +breakpoint(sm)
-        +font-size(16)
+    +mixins.breakpoint(sm)
+        +mixins.font-size(16)
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         margin-bottom: 20px
 
     // used on the author page
     .time
-        +font-size(23)
+        +mixins.font-size(23)
         float: right
     .min
-        +font-size(13)
+        +mixins.font-size(13)
         float: right
 
 
 .subtitle
     margin: 5px 0 20px 0
     font-style: italic
-    +font-size(20)
+    +mixins.font-size(20)
 
-    +breakpoint(sm)
-        +font-size(24)
+    +mixins.breakpoint(sm)
+        +mixins.font-size(24)
 
 hr
     display: block
@@ -48,53 +51,53 @@ hr
     border: 1px solid #dededc
 
 blockquote
-    +font-size(24)
+    +mixins.font-size(24)
     padding: 0 20px
 
 .pullquote
     text-align: center
-    +line-height(48)
-    +font-size(38)
+    +mixins.line-height(48)
+    +mixins.font-size(38)
     margin: 50px -5%
 
 .single-content,
 .single-content-sidebar
     padding: 30px 8%
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         padding: 30px 14% 70px
-    +breakpoint(lg)
+    +mixins.breakpoint(lg)
         padding: 30px 18% 100px
 
     h1
         letter-spacing: -1pt
 
-        +breakpoint(sm)
-            +font-size(44)
+        +mixins.breakpoint(sm)
+            +mixins.font-size(44)
     h2
-        +font-size(28)
+        +mixins.font-size(28)
 
 .single-content-sidebar
 
     padding: 30px 8%
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         padding: 30px 0 70px
-    +breakpoint(lg)
+    +mixins.breakpoint(lg)
         padding: 30px 0 170px
 
 .single-content-sidebar-area
 
     padding: 30px 15px
 
-    +breakpoint(md)
+    +mixins.breakpoint(md)
         padding: 70px 0 0 25px
 
     .meta
-        +clearfix
+        +mixins.clearfix
         width: 80%
 
-        +breakpoint(md)
+        +mixins.breakpoint(md)
             margin-bottom: 200px
     .user-img
         width: 20%
@@ -108,10 +111,10 @@ blockquote
 
         a,
         h3
-            font-family: $sans
+            font-family: type.$sans
             font-weight: 700
             color: #333
-            +font-size(20)
+            +mixins.font-size(20)
 
 
     .similar-cat
@@ -121,10 +124,10 @@ blockquote
         img
             width: 100%
         h3
-            font-family: $sans
+            font-family: type.$sans
             font-weight: 700
             color: #fff
-            +font-size(20)
+            +mixins.font-size(20)
             position: absolute
             bottom: 15px
             right: 15px
@@ -139,7 +142,7 @@ footer.single
     &.without-readmore
         padding: 40px 0 40px 0
 
-    +breakpoint(sm)
+    +mixins.breakpoint(sm)
         text-align: left
     .social
         text-align: center
@@ -148,7 +151,7 @@ footer.single
         margin: 20px 10px
         display: inline-block
         color: #ccc
-        +font-size(24)
+        +mixins.font-size(24)
         border: none
 
         i
@@ -161,7 +164,7 @@ footer.single
     .category-list
         padding: 30px 0
 
-        +breakpoint(sm)
+        +mixins.breakpoint(sm)
             border-right: solid 4px #E9E9E9
             padding: 0
     img
@@ -171,14 +174,14 @@ footer.single
     .user-icon
         float: none
 
-        +breakpoint(sm)
+        +mixins.breakpoint(sm)
             float: right
     p,
     h3
         text-transform: uppercase
         letter-spacing: 2px
-        font-family: $sans
-        +font-size(14)
+        font-family: type.$sans
+        +mixins.font-size(14)
         line-height: 30px
         margin: 0
 

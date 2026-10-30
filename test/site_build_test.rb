@@ -1,6 +1,25 @@
 require "test_helper"
+require "open3"
 
 class SiteBuildTest < Minitest::Test
+  def test_build_has_no_sass_deprecations_or_destination_conflicts
+    Dir.mktmpdir("opensx70-build-check") do |destination|
+      output, status = Open3.capture2e(
+        { "JEKYLL_ENV" => "production", "OPENSX70_USE_NETLIFY_IMAGE_CDN" => "true" },
+        "bundle", "exec", "jekyll", "build", "--destination", destination,
+        chdir: ROOT
+      )
+
+      assert status.success?, output
+      refute_match(/DEPRECATION WARNING|Conflict:|repetitive deprecation warnings/, output)
+      %w[100-600-conversion S6-repair openSX70-for-dummies-1 instructions-hardware
+         instructions openSX70-for-dummies-2 instructions-software].each do |slug|
+        assert File.exist?(File.join(destination, "tutorials", slug, "index.html")),
+               "Tutorial URL should be preserved: #{slug}"
+      end
+    end
+  end
+
   def test_development_files_are_not_published
     %w[Rakefile test CLAUDE.md TESTING.md].each do |path|
       refute File.exist?(File.join(built_site, path)), "#{path} should be excluded from the site"

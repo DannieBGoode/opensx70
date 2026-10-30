@@ -1,18 +1,21 @@
-.meta
-    color: $light-grey
-    +font-size(14)
+@use "../mixins"
+@use "../type"
 
-    +breakpoint(md)
-        +font-size(16)
+.meta
+    color: type.$light-grey
+    +mixins.font-size(14)
+
+    +mixins.breakpoint(md)
+        +mixins.font-size(16)
 
     a
-        color: $light-grey
+        color: type.$light-grey
 
         &:hover,
         &:active
             text-decoration: none
-            color: $text-color
-            border-bottom: 1px solid $light-grey
+            color: type.$text-color
+            border-bottom: 1px solid type.$light-grey
 
     i
         font-style: normal
@@ -29,7 +32,7 @@
     display: inline-block
     height: 2px
     width: 2px
-    background-color: $light-grey
+    background-color: type.$light-grey
     border-radius: 100%
 
 .user-icon
