@@ -2,6 +2,16 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.5.1] - 2026-10-30
+
+### Changed
+
+- Content editing now uses Decap CMS 3.17.3, the maintained successor to Netlify CMS, with the existing collections and Netlify Identity login.
+
+### Fixed
+
+- The admin page no longer runs invalid JavaScript imports for an unused locale.
+
 ## [0.0.5.0] - 2026-10-02
 
 ### Changed
