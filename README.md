@@ -84,9 +84,19 @@ This project uses **Decap CMS** for content editing. Its CDN script is pinned to
 ### Typical CMS workflow
 
 1. Sign in at `/admin` using Netlify Identity.
-2. Create or edit content in configured collections (Settings, Blog, Tutorials, Pages, Products).
+2. Create or edit content under Blog posts, Tutorials, Parts, Site pages, Authors, or Settings.
 3. Save and publish changes through Decap CMS.
 4. Netlify rebuilds and deploys the updated `_site` output.
+
+### Finding content in the CMS
+
+The sidebar follows the editing workflow: **Blog posts**, **Tutorials**, **Parts**, **Site pages**, **Authors**, then **Settings**.
+
+- **Blog posts** is a flat list with an alphabetical default sort, Drafts/Published filters, and optional Year/Category grouping. Publish-date sorting is also available, but the archive contains mixed date formats and a post with no explicit date, so it is not the default. Existing posts stay in their original folders; new posts use `_posts/YYYY/MM/YYYY-MM-DD-title.md`. The three-segment path also lets Decap discover older year/month entries. Keep that discovery depth when changing the path template. Decap remembers each editor's previous sort, so choose Title ascending once if an older sort is still active.
+- **Site pages** contains About, FAQ, Links, Press, Project files, and Contact. **Authors** contains the Joaquín and Guest profiles. These are fixed files with protected layouts and URLs. Site-page publication flags are also protected: older pages without an explicit flag are already public and should not show an unchecked publication switch. Header fields take an existing image name under `img/`, without `.jpg`, matching the templates; new tutorials still require a header. Author profile photo values are protected because they also determine which posts appear on that profile. Some tutorials embed Google Docs; edit the source document to change the embedded instructions.
+- Calculator code, alternate homepage templates, the Tutorials landing template, and the Parts catalog template remain managed in source. They are excluded from routine page editing. Parts entries and the catalog visibility switch remain editable under Parts and Settings respectively.
+
+Existing media destinations are preserved: general uploads use `assets/uploads`, blog images use `img/YYYY`, and Parts images use `img/shop`. No content or media files were moved. Historical draft templates and work-in-progress files have not been deleted or archived.
 
 The CMS upgrade retains the existing Netlify Identity and Git Gateway connection. A Git Gateway token or repository permission error must be repaired in Netlify's Identity → Services → Git Gateway settings; upgrading the CMS does not repair those credentials. Git Gateway is deprecated by Netlify, so replacing this authentication backend should be planned separately.
 

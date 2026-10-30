@@ -1,128 +1,189 @@
-# config.yml
-
 display_url: https://opensx70.com
-locale: 'en'
+locale: en
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: 'assets/uploads'
+  branch: master
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
 collections:
-  - name: 'settings'
-    label: 'Settings'
-    delete: false
-    editor:
-      preview: false
-    files:
-      - name: 'shop'
-        label: 'Parts Settings'
-        file: '_data/shop.yml'
-        fields:
-          - { label: 'Enable Parts', name: 'enabled', widget: 'boolean', default: true, hint: 'Turn OFF to hide Parts from navigation and parts pages.' }
-
-  - name: 'blog'
-    label: 'Blog'
-    folder: '_posts/'
-    sortable_fields: ['commit_date', 'filename', 'title', 'published', 'date']
+  - name: blog
+    label: Blog posts
+    label_singular: Blog post
+    description: 'News and project updates. Use Group by for years and categories, or Filter by for drafts.'
+    folder: _posts/
+    create: true
+    # Flat browsing needs three path segments to discover legacy year/month posts.
+    # Existing files keep their locations; only new posts use this template.
+    path: '{{year}}/{{month}}/{{year}}-{{month}}-{{day}}-{{slug}}'
+    summary: '{{title}}'
+    sortable_fields:
+      - { field: title, default_sort: asc }
+      - { field: date, label: Publish date }
+      - commit_date
     view_filters:
-      - label: Drafts
-        field: published
-        pattern: false
-      - label: Published
-        field: published
-        pattern: true
+      - { label: Drafts, field: published, pattern: false }
+      - { label: Published, field: published, pattern: true }
+    view_groups:
+      - { label: Year, field: date, pattern: '\d{4}' }
+      - { label: Category, field: categories }
     media_folder: '/img/{{year}}'
-    path: '{{year}}/{{year}}-{{month}}-{{day}}-{{slug}}'
-    nested:
-      depth: 100 # max depth to show in the collection tree
-      summary: '{{title}}'
-    create: true
     editor:
       preview: false
     fields:
-      - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true }
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'NetlifyCMS', name: 'netlifycms', hint: 'In order to load the images correctly', widget: 'hidden', default: true }
-      - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: true }
-      - { label: 'Author Name', name: 'author_name', widget: 'string', default: 'Joaquín de Prada' }
-      # - { label: 'Author URL', name: 'author_url', widget: 'select', default: '/author/joaquin' }
-      - { label: 'Author Avatar', name: 'author_avatar', widget: 'select', options: ["joaquin", "guest"], default: 'joaquin' }
-      - { label: 'Author URL', name: 'author_url', widget: 'select', options: ["/author/joaquin", "/author/guest"], hint: 'Author URL inside OpenSX70.com', default: '/author/joaquin' }
-      # - { label: 'Author Avatar', name: 'author_avatar', widget: 'hidden', default: 'joaquin' }
-      - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
-      - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'hidden', default: true }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Header Image', name: 'feature_image', widget: 'image' }
-      - { label: 'Categories', name: 'categories', widget: 'list', required: false, default: 'openSX70' }
-      - { label: 'Permalink', name: 'permalink', widget: 'string', required: false, hint: 'if empty this URL will be auto-generated.' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'tutorials'
-    label: 'Tutorials'
-    folder: '_tutorials/'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Show Avatar', name: 'show_avatar', widget: 'hidden', default: true }
-      - { label: 'Author Name', name: 'author_name', widget: 'hidden', default: 'Joaquín de Prada' }
-      - { label: 'Author Image', name: 'author_url', widget: 'hidden', default: '/author/joaquin' }
-      - { label: 'square_related', name: 'square_related', widget: 'hidden', default: 'recommend-wolf' }
-      - { label: 'Comments Enabled', name: 'comments', widget: 'hidden', default: true }
-      - { label: 'Show Related Posts', name: 'show_related_posts', widget: 'boolean', default: true }
-      - { label: 'Read Time', name: 'read_time', widget: 'number', value_type: "int", hint: 'Estimated time to read this article', default: '5' }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Header Image', name: 'feature_image', widget: 'image' }
-      - { label: 'Categories', name: 'categories', widget: 'list' }
-      - { label: 'Permalink', name: 'permalink', widget: 'text', required: false, hint: 'if empty this URL will be auto-generated.' }
-      - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'pages'
-    label: 'Pages'
-    folder: '_pages/'
-    create: true
-    slug: '{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: select, options: ["page", "author", "contact", "home-alt-2", "home-alt"], default: 'page' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Header Image', name: 'feature_image', widget: 'image' }
-      - { label: 'Permalink', name: 'permalink', widget: 'text', required: false, hint: 'if empty this URL will be auto-generated.' }
-      - { label: 'Published', name: 'published', widget: 'boolean', hint: 'Enable this checkbox to publish the project so that it is visible', default: true}
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text, required: false, hint: 'A short introduction for readers and search results.' }
+      - { label: Header image, name: feature_image, widget: image }
+      - { label: Article, name: body, widget: markdown }
+      - { label: Categories, name: categories, widget: list, required: false, default: openSX70 }
+      - { label: Published, name: published, widget: boolean, default: true, hint: 'Turn off to keep this post off the public website.' }
+      - { label: Publish date, name: date, widget: datetime }
+      - { label: Author name, name: author_name, widget: string, default: 'Joaquín de Prada' }
+      - { label: Author profile, name: author_avatar, widget: select, options: [joaquin, joaquin2, guest], default: joaquin, hint: 'This selects both the author photo and the profile post list. Keep the existing value when retaining the same author.' }
+      - { label: Author profile URL, name: author_url, widget: string, default: /author/joaquin, hint: 'Usually /author/joaquin or /author/guest. Keep an existing URL unless intentionally changing the author.' }
+      - { label: Custom URL, name: permalink, widget: string, required: false, hint: 'Leave empty for an automatic URL. Changing an existing URL can break links.' }
+      - { name: layout, widget: hidden, default: post }
+      - { name: netlifycms, widget: hidden, default: true }
+      - { name: show_avatar, widget: hidden, default: true }
+      - { name: comments, widget: hidden, default: true }
+      - { name: show_related_posts, widget: hidden, default: true }
 
-  - name: 'products'
-    label: 'Products'
-    folder: '_products/'
+  - name: tutorials
+    label: Tutorials
+    label_singular: Tutorial
+    description: 'Installation guides, operating instructions, and camera conversions.'
+    folder: _tutorials/
+    create: true
+    slug: '{{slug}}'
+    summary: '{{title}}'
+    sortable_fields:
+      - { field: title, default_sort: asc }
+      - date
+    view_filters:
+      - { label: Drafts, field: published, pattern: false }
+      - { label: Published, field: published, pattern: true }
+    editor:
+      preview: false
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text, required: false }
+      - &legacy_header
+        label: Header image name
+        name: feature_image
+        widget: string
+        required: true
+        hint: 'Image name inside img/, without .jpg; for example feature-sea. These templates use image names, not uploaded URLs.'
+      - { label: Instructions, name: body, widget: markdown, hint: 'Some existing tutorials embed a Google Doc. Edit that document to change its instructions.' }
+      - { label: Published, name: published, widget: boolean, default: true, hint: 'Turn off to hide this tutorial from the public website.' }
+      - { label: Publish date, name: date, widget: datetime }
+      - { label: Categories, name: categories, widget: list, required: false }
+      - { label: Reading time (minutes), name: read_time, widget: number, value_type: int, default: 5, required: false }
+      - { label: Show related articles, name: show_related_posts, widget: boolean, default: true }
+      - { label: Custom URL, name: permalink, widget: string, required: false, hint: 'Keep an existing URL to preserve links to this guide.' }
+      - { name: layout, widget: hidden, default: post }
+      - { name: show_avatar, widget: hidden, default: true }
+      - { name: author_name, widget: hidden, default: 'Joaquín de Prada' }
+      - { name: author_url, widget: hidden, default: /author/joaquin }
+      - { name: square_related, widget: hidden, default: recommend-wolf }
+      - { name: comments, widget: hidden, default: true }
+
+  - name: products
+    label: Parts
+    label_singular: Part
+    description: 'Catalog items, prices, photos, and variants. Catalog visibility is under Settings.'
+    folder: _products/
     create: true
     delete: true
     slug: '{{slug}}'
     editor:
       preview: false
-    media_folder: '/img/shop'
-    public_folder: '/img/shop'
-    sortable_fields: ['title', 'price', 'commit_date', 'filename']
-    summary: '{{title}} — {{currency}} {{price}}'
+    media_folder: /img/shop
+    public_folder: /img/shop
+    sortable_fields:
+      - { field: title, default_sort: asc }
+      - price
+    summary: '{{title}} · {{currency}} {{price}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'product' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Price', name: 'price', widget: 'number', value_type: 'float', min: 0 }
-      - { label: 'Currency', name: 'currency', widget: 'select', options: ['EUR', 'USD', 'GBP'], default: 'EUR' }
-      - { label: 'Short Description', name: 'short_description', widget: 'text', hint: 'Shown in the Parts grid card.' }
-      - { label: 'Description', name: 'description', widget: 'text', hint: 'Shown in the product details page.' }
-      - { label: 'Main Image', name: 'image', widget: 'image', hint: 'Primary image used as fallback.' }
-      - label: 'Gallery Images'
-        name: 'images'
-        widget: 'list'
-        hint: 'Add as many images as needed (1 to many). First image is used as the main parts/product image.'
-        field:
-          label: 'Image'
-          name: 'image'
-          widget: 'image'
-      - { label: 'Variants', name: 'variants', widget: 'list', allow_add: true, collapsed: false, hint: 'These options appear in the variant dropdown on the product page.' }
+      - { label: Part name, name: title, widget: string }
+      - { label: Short description, name: short_description, widget: text, hint: 'Shown in the Parts catalog.' }
+      - { label: Description, name: description, widget: text, hint: 'Shown on the part details page.' }
+      - { label: Main image, name: image, widget: image, hint: 'Used when the gallery is empty.' }
+      - label: Gallery images
+        name: images
+        widget: list
+        required: false
+        hint: 'The first gallery image is shown in the catalog. Drag images to reorder them.'
+        field: { label: Image, name: image, widget: image }
+      - { label: Price, name: price, widget: number, value_type: float, min: 0 }
+      - { label: Currency, name: currency, widget: select, options: [EUR, USD, GBP], default: EUR }
+      - { label: Variants, name: variants, widget: list, required: false, allow_add: true, collapsed: false, hint: 'Choices shown in the variant dropdown on the part page.' }
+      - { name: layout, widget: hidden, default: product }
+
+  - name: pages
+    label: Site pages
+    description: 'Edit the existing information pages. Their addresses and layouts are managed automatically.'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: about
+        label: About
+        file: _pages/about.md
+        fields: &page_fields
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text, required: false }
+          - { <<: *legacy_header, required: false }
+          - { label: Page content, name: body, widget: markdown, required: false }
+          - { name: published, widget: hidden, required: false }
+          - { name: layout, widget: hidden }
+          - { name: permalink, widget: hidden }
+      - { name: faq, label: FAQ, file: _pages/faq.md, fields: *page_fields }
+      - { name: links, label: Links, file: _pages/links.md, fields: *page_fields }
+      - { name: press, label: Press, file: _pages/press.md, fields: *page_fields }
+      - { name: files, label: Project files, file: files.md, fields: *page_fields }
+      - name: contact
+        label: Contact
+        file: _pages/contact.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: text, required: false }
+          - { <<: *legacy_header, required: false }
+          - { label: Page content, name: body, widget: markdown, required: false }
+          - { label: Form heading, name: form_heading, widget: string, required: false }
+          - { name: form_action, widget: hidden, required: false }
+          - { name: published, widget: hidden, required: false }
+          - { name: layout, widget: hidden }
+          - { name: permalink, widget: hidden }
+
+  - name: authors
+    label: Authors
+    description: 'Author biographies and display names. Choose the author separately when editing a blog post.'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: joaquin
+        label: Joaquín de Prada
+        file: _pages/author-joaquin.md
+        fields: &author_fields
+          - { label: Page title, name: title, widget: string }
+          - { label: Display name, name: author_name, widget: string }
+          - { label: Biography, name: body, widget: markdown, required: false }
+          - { name: author_avatar, widget: hidden }
+          - { <<: *legacy_header, required: false }
+          - { name: layout, widget: hidden }
+          - { name: permalink, widget: hidden }
+      - { name: guest, label: Guest authors, file: _pages/author-guest.md, fields: *author_fields }
+
+  - name: settings
+    label: Settings
+    description: 'Site controls that affect what visitors can see.'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: shop
+        label: Parts visibility
+        file: _data/shop.yml
+        fields:
+          - { label: Show Parts catalog, name: enabled, widget: boolean, default: true, hint: 'Turn off to hide Parts from the navigation and catalog pages.' }
