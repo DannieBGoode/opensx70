@@ -6,7 +6,7 @@ A photography-focused website for the openSX70 project, built with **Jekyll** on
 
 - **Static site generator:** Jekyll
 - **Templating/layouts:** Jekyll layouts/includes and Sass assets
-- **CMS:** Netlify CMS (`/admin`)
+- **CMS:** Decap CMS 3.17.3 (`/admin`), the successor to Netlify CMS
 - **Authentication for CMS:** Netlify Identity + Netlify Git Gateway
 - **Hosting/builds:** Netlify
 - **Tests/CI:** Minitest, run by GitHub Actions (`.github/workflows/test.yml`)
@@ -19,7 +19,7 @@ A photography-focused website for the openSX70 project, built with **Jekyll** on
 - `_layouts/`, `_includes/`, `_sass/` – template/theme structure
 - `_plugins/` – custom Liquid filters and build hooks (image delivery, preview truncation)
 - `test/` – Minitest suite (see `TESTING.md`)
-- `admin/` – Netlify CMS app and CMS configuration
+- `admin/` – Decap CMS app and CMS configuration
 - `_site/` – generated output (build artifact)
 
 ## Prerequisites
@@ -74,7 +74,7 @@ The `lazy_images` filter keeps the first image on a page eager and adds `loading
 
 ## CMS and authentication
 
-This project uses **Netlify CMS** for content editing.
+This project uses **Decap CMS** for content editing. Its CDN script is pinned to **3.17.3** in `admin/index.html` so updates can be tested before deployment. When upgrading, update the version in `test/admin_test.rb` too, run `bundle exec rake test`, then verify login, editing, and image uploads on a deploy preview.
 
 - CMS entrypoint: `admin/index.html`
 - CMS configuration: `admin/config.yml`
@@ -84,9 +84,11 @@ This project uses **Netlify CMS** for content editing.
 ### Typical CMS workflow
 
 1. Sign in at `/admin` using Netlify Identity.
-2. Create or edit content in configured collections (Blog, Tutorials, Pages).
-3. Save and publish changes through Netlify CMS.
+2. Create or edit content in configured collections (Settings, Blog, Tutorials, Pages, Products).
+3. Save and publish changes through Decap CMS.
 4. Netlify rebuilds and deploys the updated `_site` output.
+
+The CMS upgrade retains the existing Netlify Identity and Git Gateway connection. A Git Gateway token or repository permission error must be repaired in Netlify's Identity → Services → Git Gateway settings; upgrading the CMS does not repair those credentials. Git Gateway is deprecated by Netlify, so replacing this authentication backend should be planned separately.
 
 ## Notes
 

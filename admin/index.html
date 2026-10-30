@@ -9,13 +9,7 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/javascript"></script>
   </head>
   <body>
-    <!-- Include the script that builds the page and powers Netlify CMS -->
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script>
-      import CMS from 'netlify-cms-app';
-      import { es } from 'netlify-cms-locales';
-
-      CMS.registerLocale('es', es);
-    </script>
+    <!-- Pin Decap CMS so upgrades can be tested before deployment. -->
+    <script src="https://unpkg.com/decap-cms@3.17.3/dist/decap-cms.js"></script>
   </body>
 </html>
