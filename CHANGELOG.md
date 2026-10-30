@@ -2,6 +2,19 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.6.0] - 2026-10-30
+
+### Changed
+
+- The CMS sidebar now organizes editing into Blog posts, Tutorials, Parts, Site pages, Authors, and Settings.
+- Blog posts appear in one alphabetical list, with optional year/category grouping and publication filters. Older posts remain accessible in their existing folders.
+- Site pages and author profiles have dedicated forms, while calculator code and alternate homepage templates stay outside routine editing.
+
+### Fixed
+
+- Editing fixed pages preserves their URLs, layouts, and existing publication settings. Author profiles also retain the identity used to list their posts.
+- Header image fields now match the image-name format used by page and tutorial templates, and new tutorials still require a header image.
+
 ## [0.0.5.1] - 2026-10-30
 
 ### Changed
