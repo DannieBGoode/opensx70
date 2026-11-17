@@ -103,6 +103,7 @@ The CMS upgrade retains the existing Netlify Identity and Git Gateway connection
 
 ## Notes
 
+- Release history is documented in [CHANGELOG.md](CHANGELOG.md).
 - Site-wide configuration lives in `_config.yml`.
 - Pagination is enabled via `jekyll-paginate`.
 - Uploaded media for CMS is configured under `assets/uploads` (with collection-specific media settings for blog images).
