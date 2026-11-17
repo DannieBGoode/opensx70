@@ -2,6 +2,12 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.7.1] - 2026-11-17
+
+### Fixed
+
+- The site build now uses the patched `addressable` 2.9.1 release.
+
 ## [0.0.7.0] - 2026-10-30
 
 ### Changed
