@@ -2,6 +2,16 @@
 
 All notable changes to openSX70 are documented here.
 
+## [0.0.8.0] - 2026-11-20
+
+### Changed
+
+- **Shop links to the OpenSX70 storefront.** Old catalog and product URLs redirect there too.
+
+### Removed
+
+- The built-in Parts catalog and its editing controls in the admin.
+
 ## [0.0.7.1] - 2026-11-17
 
 ### Fixed
