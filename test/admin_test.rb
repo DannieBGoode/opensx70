@@ -43,7 +43,7 @@ class AdminTest < Minitest::Test
   end
 
   def test_curated_pages_keep_authors_and_code_out_of_routine_editing
-    assert_equal ["Blog posts", "Tutorials", "Parts", "Site pages", "Authors", "Settings"],
+    assert_equal ["Blog posts", "Tutorials", "Site pages", "Authors"],
                  cms_collections.map { |collection| collection["label"] }
     pages = cms_collections.find { |collection| collection["name"] == "pages" }
     authors = cms_collections.find { |collection| collection["name"] == "authors" }

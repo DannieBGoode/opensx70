@@ -6,7 +6,6 @@ class HeroPreloadTest < Minitest::Test
     "homepage sidebar" => "index.html",
     "post hero" => "the-toolset.html",
     "page hero" => "about/index.html",
-    "product hero" => "shop/ecm-main-pcb/index.html",
   }.freeze
 
   PAGES.each do |name, path|

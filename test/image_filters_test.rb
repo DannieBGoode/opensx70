@@ -134,25 +134,6 @@ class ImageFiltersTest < Minitest::Test
     end
   end
 
-  # Value: protects=the product gallery's thumbnail swap (data-image-srcset in product.html); fails_when=netlify_image_srcset keeps the uncapped ladder while <img> markup is capped, so swapping thumbnails claims 3200w for a 518px file and the photo renders shrunk; why_new=only responsive_markup was tested; seam=none
-  def test_gallery_srcset_stops_at_the_source_width
-    with_cdn do
-      srcset = netlify_image_srcset("/img/2024/mom-in-fur-coat.jpg")
-
-      assert_equal [320, 400, 480, 518], srcset.scan(/ (\d+)w/).flatten.map(&:to_i)
-    end
-  end
-
-  # Value: protects=the product gallery's full-resolution variant after a thumbnail swap; fails_when=netlify_image_srcset (a separate code path from responsive_tag) passes the source width as `w` again, asking the CDN to resize a 5519px photo to itself; why_new=the no-resize test only covers responsive_markup; seam=none
-  def test_gallery_full_width_candidate_is_not_resized
-    with_cdn do
-      srcset = netlify_image_srcset("/img/2025/band.jpg")
-
-      assert_includes srcset, "/.netlify/images?url=/img/2025/band.jpg&fm=webp&q=95 5519w"
-      refute_includes srcset, "w=5519"
-    end
-  end
-
   # Value: protects=tutorial/category card sharpness; fails_when=the hint drops back to 320px on desktop while cards display up to 591px (blurry 320w pick); why_new=sizes_for category-image had no test; seam=none
   def test_category_cards_hint_their_full_column_width
     with_cdn do
@@ -195,16 +176,15 @@ class ImageFiltersTest < Minitest::Test
   # Value: protects=valid markup for images the CDN skips; fails_when=image_sizes adds sizes to external or SVG images that never get a srcset; why_new=red-team found 16 such tags in the build; seam=none
   def test_image_sizes_skips_images_without_cdn_variants
     with_cdn do
-      [%(<img src="https://static.righto.com/a.jpg">), %(<img src="/img/shop/a.svg">)].each do |tag|
+      [%(<img src="https://static.righto.com/a.jpg">), %(<img src="/img/a.svg">)].each do |tag|
         assert_equal tag, image_sizes(tag, "content")
       end
     end
   end
 
-  # Value: protects=class-specific hints (shop cards, category cards) inside page content; fails_when=the page preset overrides them and /shop cards download 750px variants for 360px cards; why_new=red-team found the override on /shop; seam=none
   def test_class_specific_hints_win_over_the_layout_preset
     with_cdn do
-      tag = %(<img class="shop-card-image" src="/img/2025/zane.jpg">)
+      tag = %(<img class="category-image" src="/img/2025/zane.jpg">)
 
       assert_equal tag, image_sizes(tag, "content")
     end
@@ -246,8 +226,6 @@ class ImageFiltersTest < Minitest::Test
     assert_equal "(min-width: 768px) 125vw, 250vw",
                  OpenSX70ImageFilters.cover_sizes("(min-width: 768px) 50vw, 100vw", :square, [2500, 1000])
     assert_equal "60px", OpenSX70ImageFilters.cover_sizes("60px", :square, [576, 720])
-    assert_equal "(min-width: 992px) 168px, max(calc(28vw - 25px), 168px)",
-                 OpenSX70ImageFilters.cover_sizes("(min-width: 992px) 145px, calc(28vw - 25px)", 84, [2000, 1000])
   end
 
   # Value: protects=layout typos are caught in local builds too; fails_when=image_sizes only looks the preset up when the CDN is on, so a typo passes locally and breaks Netlify; why_new=pass-2 maintainability review; seam=none
@@ -297,15 +275,6 @@ class ImageFiltersTest < Minitest::Test
 
       assert_equal tag, OpenSX70ImageFilters.responsive_markup(tag)
       assert_equal tag, image_sizes(tag, "content")
-    end
-  end
-
-  # Value: protects=a lone product card that stretches across the auto-fit grid; fails_when=the solo card keeps the 370px multi-column hint (a ~747px card on desktop); why_new=Codex adversarial review; seam=none
-  def test_a_lone_shop_card_hints_the_full_content_width
-    with_cdn do
-      markup = OpenSX70ImageFilters.responsive_markup(%(<img class="shop-card-image shop-card-image-solo" src="/img/shop/img_1044.jpeg">))
-
-      assert_includes markup, %(sizes="(min-width: 1200px) 750px, (min-width: 992px) 700px, (min-width: 768px) 640px, max(85vw, 235px)")
     end
   end
 

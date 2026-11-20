@@ -1,14 +1,10 @@
 <div id="menu-target">
     <ul>
         {% for page in site.nav_list %}
-            {% unless page[1][1] == '/shop' and site.data.shop.enabled == false %}
             <li>
-            	<i class="fa {{ page[1][2] }}"></i>
-            	<a href="{{ page[1][1] | prepend: site.baseurl }}" 
-            	{% if page[1][3] == 'blank' %} 
-            	target="_blank"
-            	{% endif %}>{{ page[1][0] }}</a></li>
-            {% endunless %}
+                <i class="fa {{ page[1][2] }}"></i>
+                <a href="{{ page[1][1] | relative_url }}"{% if page[1][3] == 'blank' %} target="_blank"{% endif %}>{{ page[1][0] }}</a>
+            </li>
         {% endfor %}
     </ul>
 </div>

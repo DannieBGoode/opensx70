@@ -240,58 +240,27 @@ module OpenSX70ImageFilters
       url
     end
 
-    def transformed_srcset(input)
-      path = source_path(input)
-      return "" unless enabled? && path
-
-      natural = natural_width(path)
-      candidate_widths(path).filter_map do |width|
-        url = transformed_url(path, width == natural ? nil : width)
-        "#{url} #{width}w" if url
-      end.join(", ")
-    end
-
-    def transformed_format(input)
-      path = source_path(input)
-      return "" unless enabled? && path
-
-      transformation_format(path).first.to_s
-    end
-
-    # Images whose class or id fixes their display width. The third value
-    # describes an object-fit: cover box (:square, or its fixed height in px):
-    # wider photos are cropped, so they display wider than the box.
-    CLASS_SIZES = [
-      [:id, "product-main-image",
-       "(min-width: 992px) 465px, (min-width: 768px) 580px, calc(84vw - 45px)", nil],
-      [:class, "product-thumb",
-       "(min-width: 992px) 145px, (min-width: 768px) 185px, calc(28vw - 25px)", 84],
-      # A lone product card stretches across the whole auto-fit grid.
-      [:class, "shop-card-image-solo", SIZES_PRESETS.fetch("content"), 235],
-      # auto-fit minmax(280px, 1fr) grid on /shop.
-      [:class, "shop-card-image",
-       "(min-width: 1200px) 370px, (min-width: 992px) 340px, (min-width: 768px) 310px, calc(84vw + 12px)", 235],
-      [:class, "category-image", MAIN_COLUMN_SIZES, nil],
+    # Images whose class fixes their display width. A square object-fit: cover
+    # box crops wider photos, so the hint needs to account for their aspect ratio.
+    CLASS_SIZES = {
+      "category-image" => [MAIN_COLUMN_SIZES],
       # col-md-2 / col-sm-6 / full width below 768px (see footer-related-posts.html);
       # the row's negative margins make cards slightly wider than those columns.
-      [:class, "related-thumbnail",
-       "(min-width: 992px) 18vw, (min-width: 768px) calc(50vw + 20px), calc(100vw + 30px)", :square],
+      "related-thumbnail" => ["(min-width: 992px) 18vw, (min-width: 768px) calc(50vw + 20px), calc(100vw + 30px)", :square],
       # The author page bio (see _author.sass).
-      [:class, "author-avatar", AUTHOR_BIO_SIZES, :square],
-      [:class, "user-icon", "60px", :square],
-    ].freeze
+      "author-avatar" => [AUTHOR_BIO_SIZES, :square],
+      "user-icon" => ["60px", :square],
+    }.freeze
 
-    # Matches exact class tokens / id of the real attributes.
     def class_sizes(tag)
-      attrs = attributes(tag)
-      classes = CGI.unescapeHTML(attrs["class"].to_s).split
-      id = CGI.unescapeHTML(attrs["id"].to_s).strip
-      CLASS_SIZES.find { |kind, name, _sizes, _cover| kind == :id ? id == name : classes.include?(name) }
+      classes = CGI.unescapeHTML(attributes(tag)["class"].to_s).split
+      match = CLASS_SIZES.keys.find { |name| classes.include?(name) }
+      CLASS_SIZES[match]
     end
 
     # `size` is the source's [width, height], used to widen cover-cropped hints.
     def sizes_for(tag, size = nil)
-      _kind, _name, sizes, cover = class_sizes(tag)
+      sizes, cover = class_sizes(tag)
       return DEFAULT_SIZES unless sizes
 
       cover_sizes(sizes, cover, size)
@@ -301,16 +270,12 @@ module OpenSX70ImageFilters
       return sizes unless cover && size && size[1].to_i.positive?
 
       aspect = size[0].to_f / size[1]
+      return sizes if aspect <= 1
+
+      factor = (aspect * 1000).ceil / 1000.0
       sizes.split(/,\s*(?![^()]*\))/).map do |entry|
         condition, length = entry.match(/\A(\([^()]*\))\s+(.+)\z/)&.captures || [nil, entry]
-        length = if cover == :square
-                   aspect > 1 ? scale_length(length, (aspect * 1000).ceil / 1000.0) : length
-                 else
-                   needed = (cover * aspect).ceil
-                   fixed = length[/\A(\d+)px\z/, 1]&.to_i
-                   fixed ? "#{[fixed, needed].max}px" : "max(#{length}, #{needed}px)"
-                 end
-        [condition, length].compact.join(" ")
+        [condition, scale_length(length, factor)].compact.join(" ")
       end.join(", ")
     end
 
@@ -398,19 +363,11 @@ module OpenSX70ImageFilters
       return source unless path
 
       # This helper is used where the browser cannot negotiate a <picture>
-      # source, such as CSS backgrounds and the gallery's fallback `src`.
+      # source, such as CSS backgrounds.
       # Keep those URLs universally decodable; responsive <img> markup still
       # offers WebP through its separate source element.
       format = transformation_format(path).first == "webp" ? "jpg" : nil
       transformed_url(path, width.to_i, format) || source
-    end
-
-    def netlify_image_srcset(input)
-      transformed_srcset(input)
-    end
-
-    def netlify_image_format(input)
-      transformed_format(input)
     end
 
     # Only images that get CDN variants and have no class-specific hint.
@@ -466,14 +423,6 @@ module OpenSX70ImageFilters
 
   def netlify_image_url(input, width = 2400)
     OpenSX70ImageFilters.netlify_image_url(input, width)
-  end
-
-  def netlify_image_srcset(input)
-    OpenSX70ImageFilters.netlify_image_srcset(input)
-  end
-
-  def netlify_image_format(input)
-    OpenSX70ImageFilters.netlify_image_format(input)
   end
 
   # Tells the image CDN markup how wide these images display, using a named

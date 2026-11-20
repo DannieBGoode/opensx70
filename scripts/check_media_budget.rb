@@ -2,7 +2,7 @@
 
 require "find"
 
-CONTENT_ROOTS = %w[_posts _pages _tutorials _products _layouts _includes].freeze
+CONTENT_ROOTS = %w[_posts _pages _tutorials _layouts _includes].freeze
 CONTENT_FILES = %w[feed.xml].freeze
 PUBLIC_MEDIA_ROOTS = %w[img assets/uploads].freeze
 IMAGE_EXTENSIONS = %w[.avif .gif .jpeg .jpg .png .webp].freeze
