@@ -8,6 +8,21 @@
   # The :test group (minitest, rake) is only needed in CI.
   BUNDLE_WITHOUT = "test"
 
+[[redirects]]
+  from = "/shop"
+  to = "https://shop.opensx70.com/"
+  status = 301
+
+[[redirects]]
+  from = "/shop.html"
+  to = "https://shop.opensx70.com/"
+  status = 301
+
+[[redirects]]
+  from = "/shop/*"
+  to = "https://shop.opensx70.com/"
+  status = 301
+
 [[headers]]
   for = "/img/*"
   [headers.values]
